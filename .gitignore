@@ -1,5 +1,8 @@
-# Regenerable build artifact: rebuild with `python3 scripts/parse_wxr.py`
+# Regenerable build artifacts (rebuild with the scripts noted below)
+# data/episodes/     -> python3 scripts/parse_wxr.py
+# data/search_index.pkl -> python3 scripts/build_index.py
 data/episodes/
+data/search_index.pkl
 __pycache__/
 *.pyc
 .venv/

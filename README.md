@@ -24,11 +24,23 @@ Transcripts are speaker-attributed and each episode carries the producers' own
 4. **Consolidate** (planned) — cluster candidates by headword across episodes into
    canonical A–Z entries with multiple citations.
 
+3.5. **Explore** (`scripts/build_index.py` + `scripts/explore.py`) — a dependency-free
+   BM25 search over 143k speaker-labeled passages. Query the whole archive from the
+   command line:
+   ```bash
+   python3 scripts/build_index.py                      # one-time, ~17s
+   python3 scripts/explore.py "prediction markets"
+   python3 scripts/explore.py "dopamine" --show "No Stupid Questions" --top 8
+   python3 scripts/explore.py "minimum wage" --speaker LEVITT --json
+   ```
+   This is also the retrieval layer for a future LLM-backed Q&A ("ask the archive").
+
 ## Status
 Prototype: `data/prototype/entries.json` — 11 grounded entries from 2 episodes.
 
 ## Regenerate
 ```bash
 python3 scripts/parse_wxr.py      # rebuild data/episodes/ + index.json
+python3 scripts/build_index.py    # rebuild the BM25 search index
 python3 scripts/verify_entries.py # re-check grounding
 ```
