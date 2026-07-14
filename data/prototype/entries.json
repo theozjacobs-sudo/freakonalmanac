@@ -1,0 +1,211 @@
+[
+  {
+    "headword": "Podcasts, number of",
+    "entry_type": "figure",
+    "category": "Media economics",
+    "claim": "As of 2025 there were more than 6.5 million podcasts, reaching nearly 600 million listeners worldwide.",
+    "quote": "There are more than 6.5 million of them, and they reach nearly 600 million listeners worldwide.",
+    "speaker": "Zachary Crockett (narration)",
+    "episode": {
+      "title": "Podcasts",
+      "show": "The Economics of Everyday Things",
+      "id": "142263",
+      "date": "2025-07-20",
+      "season": "1",
+      "episode": "100",
+      "url": "https://freakonomics.com/podcast/podcasts/"
+    },
+    "note": "Episode-cited resource: 'Podcast Statistics You Need To Know' (Backlinko).",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "CPM (cost per mille)",
+    "entry_type": "concept",
+    "category": "Advertising",
+    "claim": "Podcast (and TV/digital) ads are priced by CPM — cost per thousand impressions; the 'M' is the Roman numeral for 1,000. At a $25 CPM, an episode with 100,000 downloads earns $2,500 per ad.",
+    "quote": "CPM stands for \"cost per thousand,\" and Roman numeral M of thousand, so that's where it came from.",
+    "speaker": "Gabe Tartaglia, VP of podcast & satellite monetization, SiriusXM",
+    "episode": {
+      "title": "Podcasts",
+      "show": "The Economics of Everyday Things",
+      "id": "142263",
+      "date": "2025-07-20",
+      "season": "1",
+      "episode": "100",
+      "url": "https://freakonomics.com/podcast/podcasts/"
+    },
+    "note": "Tartaglia says observed CPMs range from $5 to $100 per 1,000 downloads.",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Podcast ad revenue growth",
+    "entry_type": "figure",
+    "category": "Media economics",
+    "claim": "Podcast ad revenue rose 26% in the prior year — more than three times the growth rate of the digital-audio industry overall.",
+    "quote": "Podcast ad revenue was up 26 percent last year — more than 3 times the growth for the digital audio industry at large.",
+    "speaker": "Zachary Crockett (narration)",
+    "episode": {
+      "title": "Podcasts",
+      "show": "The Economics of Everyday Things",
+      "id": "142263",
+      "date": "2025-07-20",
+      "season": "1",
+      "episode": "100",
+      "url": "https://freakonomics.com/podcast/podcasts/"
+    },
+    "note": "Episode-cited resource: IAB 'Digital Ad Revenue Surges 15% YoY in 2024' (2025).",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Pre-roll / mid-roll / post-roll",
+    "entry_type": "concept",
+    "category": "Advertising",
+    "claim": "Podcast ad slots are named by position: pre-roll (start), mid-roll (middle), post-roll (end). Pre-roll runs ~20% cheaper than mid-roll; post-roll is nominal because few listeners reach the end.",
+    "quote": "Pre-roll is typically about 20 percent cheaper than mid-roll, and then post-roll is, you know, very nominal.",
+    "speaker": "Gabe Tartaglia, SiriusXM",
+    "episode": {
+      "title": "Podcasts",
+      "show": "The Economics of Everyday Things",
+      "id": "142263",
+      "date": "2025-07-20",
+      "season": "1",
+      "episode": "100",
+      "url": "https://freakonomics.com/podcast/podcasts/"
+    },
+    "note": "",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Production ratio, interview tape",
+    "entry_type": "figure",
+    "category": "Media production",
+    "claim": "A typical 20-minute episode distills roughly 4 hours of recorded interview tape (2–3 guests, 60–90 min each) into a ~3,500-word script.",
+    "quote": "we're collecting 4 hours of guest tape that we're going to boil down into an episode that's roughly 20 minutes.",
+    "speaker": "Sarah Lilley, senior producer",
+    "episode": {
+      "title": "Podcasts",
+      "show": "The Economics of Everyday Things",
+      "id": "142263",
+      "date": "2025-07-20",
+      "season": "1",
+      "episode": "100",
+      "url": "https://freakonomics.com/podcast/podcasts/"
+    },
+    "note": "Related figure from same episode: a 20-minute episode is ~3,500 words / ~10 pages.",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Tape sync",
+    "entry_type": "concept",
+    "category": "Media production",
+    "claim": "A 'tape sync' is when a local audio engineer travels to a remote guest with gear to capture studio-quality audio; it typically costs $300–$400, versus ~$150/hour for a booked studio.",
+    "quote": "That is an audio engineer that will travel to the guest and they'll bring all the gear needed in order to connect to us for the interview.",
+    "speaker": "Jeremy Johnston, audio engineer",
+    "episode": {
+      "title": "Podcasts",
+      "show": "The Economics of Everyday Things",
+      "id": "142263",
+      "date": "2025-07-20",
+      "season": "1",
+      "episode": "100",
+      "url": "https://freakonomics.com/podcast/podcasts/"
+    },
+    "note": "",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Healthcare spending concentration",
+    "entry_type": "figure",
+    "category": "Health economics",
+    "claim": "In the U.S., just 5% of the population accounts for 50% of annual healthcare spending.",
+    "quote": "in the U.S., just five percent of the population accounts for 50 percent of annual healthcare spending.",
+    "speaker": "Bapu Jena (host)",
+    "episode": {
+      "title": "What Can We Do About the Hardest Patients? (Replay)",
+      "show": "Freakonomics, M.D.",
+      "id": "133173",
+      "date": "2023-01-05",
+      "season": "1",
+      "episode": "51",
+      "url": "https://freakonomics.com/podcast/what-can-we-do-about-the-hardest-patients-replay/"
+    },
+    "note": "Episode-cited resource: KFF Health System Tracker (2021).",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Super-utilizers",
+    "entry_type": "concept",
+    "category": "Health economics",
+    "claim": "'Super-utilizers' are patients with multiple chronic conditions (often plus mental-health, housing, and addiction challenges) who use hospitals repeatedly. In Camden NJ, the single leading utilizer averaged 113 hospital visits per year.",
+    "quote": "The leading utilizer averaged 113 visits annually.",
+    "speaker": "Bapu Jena (narration)",
+    "episode": {
+      "title": "What Can We Do About the Hardest Patients? (Replay)",
+      "show": "Freakonomics, M.D.",
+      "id": "133173",
+      "date": "2023-01-05",
+      "season": "1",
+      "episode": "51",
+      "url": "https://freakonomics.com/podcast/what-can-we-do-about-the-hardest-patients-replay/"
+    },
+    "note": "Same episode: 2002–2007, 50% of Camden residents used an ER/hospital in a year — twice the national rate.",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Healthcare hot-spotting",
+    "entry_type": "concept",
+    "category": "Health policy",
+    "claim": "'Hot-spotting' borrows from policing — using data to find geographic/individual concentrations (of crime, or of costly patients) and target intervention there. The Camden Coalition applied it to super-utilizers.",
+    "quote": "The term borrows from a policing strategy, where data is used to identify geographic locations that are hotspots for crime.",
+    "speaker": "Bapu Jena (narration)",
+    "episode": {
+      "title": "What Can We Do About the Hardest Patients? (Replay)",
+      "show": "Freakonomics, M.D.",
+      "id": "133173",
+      "date": "2023-01-05",
+      "season": "1",
+      "episode": "51",
+      "url": "https://freakonomics.com/podcast/what-can-we-do-about-the-hardest-patients-replay/"
+    },
+    "note": "Popularized by Atul Gawande, 'The Hot Spotters,' The New Yorker (2011).",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Regression to the mean",
+    "entry_type": "concept",
+    "category": "Statistics",
+    "claim": "When you select people at an extreme (e.g. peak illness), they tend to improve on their own afterward — so a program can look effective in before/after data even if it does nothing. The Camden RCT found ~62% of BOTH treatment and control patients were readmitted within 6 months, with no difference between them.",
+    "quote": "about 62 percent of both the treatment and the control group reentered the hospital.",
+    "speaker": "Joseph Doyle, MIT economist",
+    "episode": {
+      "title": "What Can We Do About the Hardest Patients? (Replay)",
+      "show": "Freakonomics, M.D.",
+      "id": "133173",
+      "date": "2023-01-05",
+      "season": "1",
+      "episode": "51",
+      "url": "https://freakonomics.com/podcast/what-can-we-do-about-the-hardest-patients-replay/"
+    },
+    "note": "Study: 'Health Care Hotspotting — A Randomized, Controlled Trial,' NEJM (2020).",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "PACE (Program of All-Inclusive Care for the Elderly)",
+    "entry_type": "concept",
+    "category": "Health policy",
+    "claim": "PACE is a ~30-year-old, fully risk-capitated care model (originating in San Francisco) for nursing-home-eligible seniors, providing on-site primary care, therapy, transport, and full financial responsibility for the patient's care.",
+    "quote": "PACE is a 30-year-old model — spread all over the country now — it started in San Francisco.",
+    "speaker": "Jeffrey Brenner, founder of the Camden Coalition",
+    "episode": {
+      "title": "What Can We Do About the Hardest Patients? (Replay)",
+      "show": "Freakonomics, M.D.",
+      "id": "133173",
+      "date": "2023-01-05",
+      "season": "1",
+      "episode": "51",
+      "url": "https://freakonomics.com/podcast/what-can-we-do-about-the-hardest-patients-replay/"
+    },
+    "note": "",
+    "verified_quote_in_transcript": true
+  }
+]

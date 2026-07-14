@@ -1,0 +1,5 @@
+# Regenerable build artifact: rebuild with `python3 scripts/parse_wxr.py`
+data/episodes/
+__pycache__/
+*.pyc
+.venv/
