@@ -35,12 +35,23 @@ Transcripts are speaker-attributed and each episode carries the producers' own
    ```
    This is also the retrieval layer for a future LLM-backed Q&A ("ask the archive").
 
-## Status
-Prototype: `data/prototype/entries.json` — 11 grounded entries from 2 episodes.
+## Status: "Fact Finder" prototype
+`data/prototype/fact_finder_entries.json` — 41 grounded entries (concept / figure / fact),
+each an encyclopedia headword tied to a verbatim quote, speaker, episode citation, and an
+**age/freshness flag** so time-sensitive figures can be refreshed before publishing.
+Drawn from 8 Freakonomics Radio episodes (2011–2025) plus 2 others. All 41 quote-verified.
+
+Rendered as a browsable, filterable page: `site/fact-finder.html`
+(build with `python3 scripts/build_site.py`).
+
+Helper: `scripts/fact_candidates.py <episode.json>` surfaces the number/figure-bearing
+lines from an episode to pre-filter extraction.
 
 ## Regenerate
 ```bash
 python3 scripts/parse_wxr.py      # rebuild data/episodes/ + index.json
 python3 scripts/build_index.py    # rebuild the BM25 search index
+python3 scripts/build_fact_finder.py  # rebuild + verify the entry dataset
+python3 scripts/build_site.py      # render site/fact-finder.html
 python3 scripts/verify_entries.py # re-check grounding
 ```

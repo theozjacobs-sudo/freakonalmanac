@@ -1,0 +1,781 @@
+[
+  {
+    "headword": "Access to air travel",
+    "entry_type": "figure",
+    "category": "Economics",
+    "claim": "Before deregulation only about half of Americans had ever flown; today roughly 90% have.",
+    "quote": "Before deregulation, only about half of all Americans had ever been on an airplane.",
+    "speaker": "Jon Ryerson, Delta",
+    "episode": {
+      "title": "Is Your Plane Ticket Too Expensive — or Too Cheap?",
+      "show": "Freakonomics Radio",
+      "id": "133824",
+      "date": "2023-03-08",
+      "url": "https://freakonomics.com/podcast/is-your-plane-ticket-too-expensive-or-too-cheap/"
+    },
+    "age_years": 3,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~3 yrs old — likely still ok",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Administrative burden in healthcare",
+    "entry_type": "figure",
+    "category": "Health policy",
+    "claim": "Paperwork friction is overwhelming providers: in one survey, 94% of physicians called administrative issues a huge burden.",
+    "quote": "94 percent of physicians say these administrative issues are a huge burden.",
+    "speaker": "Ben Handel, economist",
+    "episode": {
+      "title": "Sludge, Part 1: The World Is Drowning in It",
+      "show": "Freakonomics Radio",
+      "id": "141658",
+      "date": "2025-03-28",
+      "url": "https://freakonomics.com/podcast/sludge-part-1-the-world-is-drowning-in-it/"
+    },
+    "age_years": 1,
+    "freshness": "current",
+    "freshness_note": "Recent (~1 yrs) — likely current",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Adult adoption (Japan)",
+    "entry_type": "fact",
+    "category": "Business & culture",
+    "claim": "Japanese family firms often adopt an adult man (typically 25–30) as heir/CEO; over 98% of Japan's adoptees are grown men, and these adopted-heir firms account for nearly all the outperformance of family successions.",
+    "quote": "more than ninety-eight percent of the adoptees are males around twenty-five or thirty years old",
+    "speaker": "Vikas Mehrotra",
+    "episode": {
+      "title": "The Church of “Scionology”",
+      "show": "Freakonomics Radio",
+      "id": "128037",
+      "date": "2011-08-03",
+      "url": "https://freakonomics.com/podcast/the-church-of-scionology-2/"
+    },
+    "age_years": 15,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Airline ancillary revenue",
+    "entry_type": "figure",
+    "category": "Business models",
+    "claim": "Selling seats is no longer the main event: American Express pays Delta over $5 billion a year for SkyMiles, and the main cabin is only ~40% of revenue.",
+    "quote": "American Express this year will pay us over $5 billion for access to the SkyMiles that they reward their customers on the card.",
+    "speaker": "Ed Bastian, Delta CEO",
+    "episode": {
+      "title": "Is Your Plane Ticket Too Expensive — or Too Cheap?",
+      "show": "Freakonomics Radio",
+      "id": "133824",
+      "date": "2023-03-08",
+      "url": "https://freakonomics.com/podcast/is-your-plane-ticket-too-expensive-or-too-cheap/"
+    },
+    "age_years": 3,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~3 yrs old — likely still ok",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Airline Deregulation Act",
+    "entry_type": "fact",
+    "category": "Economic policy",
+    "claim": "The 1978 law, signed by Jimmy Carter, that let airlines set their own routes and fares — unleashing competition that drove ticket prices down.",
+    "quote": "The Airline Deregulation Act was signed into law in 1978 by President Jimmy Carter.",
+    "speaker": "Stephen Dubner (narration)",
+    "episode": {
+      "title": "Is Your Plane Ticket Too Expensive — or Too Cheap?",
+      "show": "Freakonomics Radio",
+      "id": "133824",
+      "date": "2023-03-08",
+      "url": "https://freakonomics.com/podcast/is-your-plane-ticket-too-expensive-or-too-cheap/"
+    },
+    "age_years": 3,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Airline profitability",
+    "entry_type": "fact",
+    "category": "Business",
+    "claim": "Warren Buffett's quip on how brutal airline economics are: 'The best way to make $1 million in the airline business is to start with $1 billion.'",
+    "quote": "The best way to make $1 million in the airline business is to start with $1 billion.",
+    "speaker": "David Neeleman, airline founder (quoting Warren Buffett)",
+    "episode": {
+      "title": "Is Your Plane Ticket Too Expensive — or Too Cheap?",
+      "show": "Freakonomics Radio",
+      "id": "133824",
+      "date": "2023-03-08",
+      "url": "https://freakonomics.com/podcast/is-your-plane-ticket-too-expensive-or-too-cheap/"
+    },
+    "age_years": 3,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Average price of glasses",
+    "entry_type": "figure",
+    "category": "Consumer economics",
+    "claim": "In the U.S., a pair of simple prescription glasses costs around $350 on average; the global eyewear industry is worth ~$150 billion a year.",
+    "quote": "a pair of simple prescription glasses costs, on average, around $350",
+    "speaker": "Stephen Dubner (narration)",
+    "episode": {
+      "title": "Why Do Your Eyeglasses Cost $1,000?",
+      "show": "Freakonomics Radio",
+      "id": "140408",
+      "date": "2024-07-17",
+      "url": "https://freakonomics.com/podcast/why-do-your-eyeglasses-cost-1000/"
+    },
+    "age_years": 2,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~2 yrs old — likely still ok",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Belyaev fox experiment",
+    "entry_type": "concept",
+    "category": "Genetics & domestication",
+    "claim": "A Soviet experiment (begun 1959) that, by breeding only the tamest of an initial 130 foxes, reshaped the animals' genome and appearance within a half-century — a model for how domestication may have worked.",
+    "quote": "Beginning with 130 foxes, he selectively chose and bred those that were the most “tame,” as he described it",
+    "speaker": "Alexandra Horowitz",
+    "episode": {
+      "title": "Forget Everything You Know About Your Dog",
+      "show": "Freakonomics Radio",
+      "id": "112069",
+      "date": "2020-10-21",
+      "url": "https://freakonomics.com/podcast/forget-everything-you-know-about-your-dog-ep-436/"
+    },
+    "age_years": 6,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Canine olfaction",
+    "entry_type": "figure",
+    "category": "Animal science",
+    "claim": "A dog's nose has on the order of 300 million olfactory cells, versus about 5 million in humans.",
+    "quote": "that area has hundreds of millions of cells in the dog, 300 million",
+    "speaker": "Alexandra Horowitz, dog-cognition researcher",
+    "episode": {
+      "title": "Forget Everything You Know About Your Dog",
+      "show": "Freakonomics Radio",
+      "id": "112069",
+      "date": "2020-10-21",
+      "url": "https://freakonomics.com/podcast/forget-everything-you-know-about-your-dog-ep-436/"
+    },
+    "age_years": 6,
+    "freshness": "check",
+    "freshness_note": "Figure is ~6 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Carnegie Conjecture",
+    "entry_type": "concept",
+    "category": "Business & management",
+    "claim": "Andrew Carnegie's argument that inheriting a fortune deadens the heir's drive and talent, so tycoons should give wealth away before death.",
+    "quote": "the inheritance of a fortune for the second generation, the heirs who inherited fortunes in his opinion it deadened their talents",
+    "speaker": "Vikas Mehrotra, University of Alberta finance professor",
+    "episode": {
+      "title": "The Church of “Scionology”",
+      "show": "Freakonomics Radio",
+      "id": "128037",
+      "date": "2011-08-03",
+      "url": "https://freakonomics.com/podcast/the-church-of-scionology-2/"
+    },
+    "age_years": 15,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "CPM (cost per mille)",
+    "entry_type": "concept",
+    "category": "Advertising",
+    "claim": "Ad pricing per thousand impressions ('M' = Roman numeral 1,000). At a $25 CPM, a 100,000-download episode earns $2,500 per ad; observed podcast CPMs run $5–$100.",
+    "quote": "CPM stands for \"cost per thousand,\" and Roman numeral M of thousand, so that's where it came from.",
+    "speaker": "Gabe Tartaglia, SiriusXM VP of monetization",
+    "episode": {
+      "title": "Podcasts",
+      "show": "The Economics of Everyday Things",
+      "id": "142263",
+      "date": "2025-07-20",
+      "url": "https://freakonomics.com/podcast/podcasts/"
+    },
+    "age_years": 1,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Division of labor",
+    "entry_type": "concept",
+    "category": "Economics",
+    "claim": "Adam Smith's pin-factory illustration: ten workers each specializing in one step could make 48,000 pins a day — far more than the ~20 each could make alone.",
+    "quote": "a group of 10 workers in a factory in one day could make 48,000 pins",
+    "speaker": "Stephen Dubner (narration), citing Adam Smith",
+    "episode": {
+      "title": "Why Does the Most Monotonous Job in the World Pay $1 Million?",
+      "show": "Freakonomics Radio",
+      "id": "131458",
+      "date": "2022-02-09",
+      "url": "https://freakonomics.com/podcast/why-does-the-most-monotonous-job-in-the-world-pay-1-million/"
+    },
+    "age_years": 4,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Dogs in the U.S.",
+    "entry_type": "figure",
+    "category": "Animal science",
+    "claim": "Estimates put the U.S. dog population at 77–90 million, with roughly 40–50% of households owning at least one.",
+    "quote": "there are between 77 and 90 million dogs in the U.S., with roughly 40 to 50 percent of households having at least one",
+    "speaker": "Stephen Dubner (narration)",
+    "episode": {
+      "title": "Forget Everything You Know About Your Dog",
+      "show": "Freakonomics Radio",
+      "id": "112069",
+      "date": "2020-10-21",
+      "url": "https://freakonomics.com/podcast/forget-everything-you-know-about-your-dog-ep-436/"
+    },
+    "age_years": 6,
+    "freshness": "check",
+    "freshness_note": "Figure is ~6 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Drip pricing",
+    "entry_type": "fact",
+    "category": "Consumer economics",
+    "claim": "Hidden back-end fees (the concert ticket that jumps from $70 to $110 at checkout) cost U.S. households on the order of $90 billion, ~$650 per household.",
+    "quote": "I think it’s something like $650 per household.",
+    "speaker": "Neale Mahoney, economist",
+    "episode": {
+      "title": "Sludge, Part 1: The World Is Drowning in It",
+      "show": "Freakonomics Radio",
+      "id": "141658",
+      "date": "2025-03-28",
+      "url": "https://freakonomics.com/podcast/sludge-part-1-the-world-is-drowning-in-it/"
+    },
+    "age_years": 1,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Enshittification",
+    "entry_type": "fact",
+    "category": "Technology & culture",
+    "claim": "Cory Doctorow's coinage for the decay of digital platforms; the American Dialect Society named it 2023 word of the year.",
+    "quote": "In 2023, the American Dialect Society named as its word of the year “enshittification,”",
+    "speaker": "Stephen Dubner (narration)",
+    "episode": {
+      "title": "Sludge, Part 1: The World Is Drowning in It",
+      "show": "Freakonomics Radio",
+      "id": "141658",
+      "date": "2025-03-28",
+      "url": "https://freakonomics.com/podcast/sludge-part-1-the-world-is-drowning-in-it/"
+    },
+    "age_years": 1,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "EssilorLuxottica",
+    "entry_type": "fact",
+    "category": "Market structure",
+    "claim": "The eyewear giant (from the 2018 Essilor–Luxottica merger) that owns roughly a quarter of the global prescription-eyeglasses market and more than half the lens market.",
+    "quote": "EssilorLuxottica owns roughly a quarter of the global market in prescription eyeglasses, and more than half the market in lenses.",
+    "speaker": "Cédric Rossi, equity analyst (via narration)",
+    "episode": {
+      "title": "Why Do Your Eyeglasses Cost $1,000?",
+      "show": "Freakonomics Radio",
+      "id": "140408",
+      "date": "2024-07-17",
+      "url": "https://freakonomics.com/podcast/why-do-your-eyeglasses-cost-1000/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Eyewear markup",
+    "entry_type": "figure",
+    "category": "Consumer economics",
+    "claim": "Frames reportedly cost about $20 to make at the top end, yet retail for hundreds of dollars.",
+    "quote": "it tops out at about $20 for the best versions of them, and then you're able to sell them for hundreds of dollars",
+    "speaker": "Tim Wu, legal scholar",
+    "episode": {
+      "title": "Why Do Your Eyeglasses Cost $1,000?",
+      "show": "Freakonomics Radio",
+      "id": "140408",
+      "date": "2024-07-17",
+      "url": "https://freakonomics.com/podcast/why-do-your-eyeglasses-cost-1000/"
+    },
+    "age_years": 2,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~2 yrs old — likely still ok",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Family firm",
+    "entry_type": "concept",
+    "category": "Business & management",
+    "claim": "Company profitability typically falls 10–20% after a founder hands the business to an heir.",
+    "quote": "We see drops between ten and twenty-percent of profitability.",
+    "speaker": "Antoinette Schoar, MIT finance professor",
+    "episode": {
+      "title": "The Church of “Scionology”",
+      "show": "Freakonomics Radio",
+      "id": "128037",
+      "date": "2011-08-03",
+      "url": "https://freakonomics.com/podcast/the-church-of-scionology-2/"
+    },
+    "age_years": 15,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Family-controlled companies",
+    "entry_type": "fact",
+    "category": "Business & economics",
+    "claim": "About one-third of Fortune 500 companies are family-controlled.",
+    "quote": "About one-third of the companies in the Fortune 500 are family-controlled.",
+    "speaker": "Stephen Dubner (narration)",
+    "episode": {
+      "title": "The Church of “Scionology”",
+      "show": "Freakonomics Radio",
+      "id": "128037",
+      "date": "2011-08-03",
+      "url": "https://freakonomics.com/podcast/the-church-of-scionology-2/"
+    },
+    "age_years": 15,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Healthcare spending concentration",
+    "entry_type": "figure",
+    "category": "Health economics",
+    "claim": "In the U.S., just 5% of the population accounts for 50% of annual healthcare spending.",
+    "quote": "in the U.S., just five percent of the population accounts for 50 percent of annual healthcare spending.",
+    "speaker": "Bapu Jena (host)",
+    "episode": {
+      "title": "What Can We Do About the Hardest Patients? (Replay)",
+      "show": "Freakonomics, M.D.",
+      "id": "133173",
+      "date": "2023-01-05",
+      "url": "https://freakonomics.com/podcast/what-can-we-do-about-the-hardest-patients-replay/"
+    },
+    "age_years": 3,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~3 yrs old — likely still ok",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Heritability",
+    "entry_type": "concept",
+    "category": "Genetics & behavior",
+    "claim": "The share of variation in a trait attributable to genes: height is ~80–90% heritable, but personality only ~40–50% and IQ ~50–70% — so 'CEO ability' passes down weakly.",
+    "quote": "the heritability of height is on the order of eighty to ninety-percent",
+    "speaker": "Matt McGue, behavioral geneticist, University of Minnesota",
+    "episode": {
+      "title": "The Church of “Scionology”",
+      "show": "Freakonomics Radio",
+      "id": "128037",
+      "date": "2011-08-03",
+      "url": "https://freakonomics.com/podcast/the-church-of-scionology-2/"
+    },
+    "age_years": 15,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Inattention and subscriptions",
+    "entry_type": "figure",
+    "category": "Behavioral economics",
+    "claim": "Cancellations quadruple in the month a card expires — implying consumers pay attention to a recurring charge only about a quarter of the time.",
+    "quote": "We see two percent of people on average canceling per month, in a steady state, and then during the months of expiration, suddenly four times as many people are canceling their product.",
+    "speaker": "Neale Mahoney, economist",
+    "episode": {
+      "title": "Sludge, Part 1: The World Is Drowning in It",
+      "show": "Freakonomics Radio",
+      "id": "141658",
+      "date": "2025-03-28",
+      "url": "https://freakonomics.com/podcast/sludge-part-1-the-world-is-drowning-in-it/"
+    },
+    "age_years": 1,
+    "freshness": "current",
+    "freshness_note": "Recent (~1 yrs) — likely current",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Long snapper",
+    "entry_type": "fact",
+    "category": "Sports economics",
+    "claim": "The NFL's most specialized job: veteran long snappers earn about $1.2–1.3 million a year despite being on the field for only a handful of plays.",
+    "quote": "Most of the veteran snappers, they make around 1.2 or 1.3 million a year.",
+    "speaker": "Kevin Gold, agent",
+    "episode": {
+      "title": "Why Does the Most Monotonous Job in the World Pay $1 Million?",
+      "show": "Freakonomics Radio",
+      "id": "131458",
+      "date": "2022-02-09",
+      "url": "https://freakonomics.com/podcast/why-does-the-most-monotonous-job-in-the-world-pay-1-million/"
+    },
+    "age_years": 4,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Margins in football",
+    "entry_type": "figure",
+    "category": "Sports",
+    "claim": "More than a third of NFL regular-season games are decided by three points or fewer — which is why teams pay for reliability in specialists.",
+    "quote": "More than one third of N.F.L. regular-season games are decided by three points or less.",
+    "speaker": "Stephen Dubner (narration)",
+    "episode": {
+      "title": "Why Does the Most Monotonous Job in the World Pay $1 Million?",
+      "show": "Freakonomics Radio",
+      "id": "131458",
+      "date": "2022-02-09",
+      "url": "https://freakonomics.com/podcast/why-does-the-most-monotonous-job-in-the-world-pay-1-million/"
+    },
+    "age_years": 4,
+    "freshness": "check",
+    "freshness_note": "Figure is ~4 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Market concentration",
+    "entry_type": "figure",
+    "category": "Economics",
+    "claim": "In over 75% of U.S. industries, a smaller number of large firms control more of the business than they did 20 years ago.",
+    "quote": "a smaller number of large companies now control more of the business than they did 20 years ago",
+    "speaker": "Stephen Dubner (narration), citing the White House",
+    "episode": {
+      "title": "Why Do Your Eyeglasses Cost $1,000?",
+      "show": "Freakonomics Radio",
+      "id": "140408",
+      "date": "2024-07-17",
+      "url": "https://freakonomics.com/podcast/why-do-your-eyeglasses-cost-1000/"
+    },
+    "age_years": 2,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~2 yrs old — likely still ok",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Papageno effect",
+    "entry_type": "concept",
+    "category": "Psychology & media",
+    "claim": "The inverse of the Werther effect: responsible, careful reporting can reduce suicides. After media guidelines, suicides/attempts on the Viennese subway fell nearly 80%.",
+    "quote": "the number of suicides and suicide attempts on the Viennese subway decreased by nearly 80%",
+    "speaker": "Thomas Niederkrotenthaler, suicide researcher, Austria",
+    "episode": {
+      "title": "The Suicide Paradox",
+      "show": "Freakonomics Radio",
+      "id": "128029",
+      "date": "2011-08-31",
+      "url": "https://freakonomics.com/podcast/the-suicide-paradox/"
+    },
+    "age_years": 15,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Podcasts (number of)",
+    "entry_type": "figure",
+    "category": "Media economics",
+    "claim": "As of 2025 there were more than 6.5 million podcasts, reaching nearly 600 million listeners worldwide.",
+    "quote": "There are more than 6.5 million of them, and they reach nearly 600 million listeners worldwide.",
+    "speaker": "Zachary Crockett (narration)",
+    "episode": {
+      "title": "Podcasts",
+      "show": "The Economics of Everyday Things",
+      "id": "142263",
+      "date": "2025-07-20",
+      "url": "https://freakonomics.com/podcast/podcasts/"
+    },
+    "age_years": 1,
+    "freshness": "current",
+    "freshness_note": "Recent (~1 yrs) — likely current",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Pre-roll / mid-roll / post-roll",
+    "entry_type": "concept",
+    "category": "Advertising",
+    "claim": "Podcast ad slots by position; pre-roll runs ~20% cheaper than mid-roll, and post-roll is nominal because few listeners reach the end.",
+    "quote": "Pre-roll is typically about 20 percent cheaper than mid-roll, and then post-roll is, you know, very nominal.",
+    "speaker": "Gabe Tartaglia, SiriusXM",
+    "episode": {
+      "title": "Podcasts",
+      "show": "The Economics of Everyday Things",
+      "id": "142263",
+      "date": "2025-07-20",
+      "url": "https://freakonomics.com/podcast/podcasts/"
+    },
+    "age_years": 1,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Professional musicians (U.S.)",
+    "entry_type": "figure",
+    "category": "Music economics",
+    "claim": "There are roughly 200,000 professional musicians in the U.S., about 0.13% of all workers — a share roughly unchanged since 1970.",
+    "quote": "there are roughly 200,000 professional musicians in the U.S. today, accounting for 0.13 percent of all U.S. workers",
+    "speaker": "Stephen Dubner (narration), citing Alan Krueger",
+    "episode": {
+      "title": "How Spotify Saved the Music Industry (But Not Necessarily Musicians)",
+      "show": "Freakonomics Radio",
+      "id": "112332",
+      "date": "2019-04-10",
+      "url": "https://freakonomics.com/podcast/how-spotify-saved-the-music-industry-but-not-necessarily-musicians-ep-374/"
+    },
+    "age_years": 7,
+    "freshness": "check",
+    "freshness_note": "Figure is ~7 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Real airfare decline",
+    "entry_type": "figure",
+    "category": "Economics",
+    "claim": "Adjusted for inflation, the average U.S. domestic round-trip ticket now costs less than half what it once did.",
+    "quote": "The average price today for a domestic round-trip ticket is less than half of what it used to be, once you adjust for inflation.",
+    "speaker": "Ed Bastian, Delta CEO",
+    "episode": {
+      "title": "Is Your Plane Ticket Too Expensive — or Too Cheap?",
+      "show": "Freakonomics Radio",
+      "id": "133824",
+      "date": "2023-03-08",
+      "url": "https://freakonomics.com/podcast/is-your-plane-ticket-too-expensive-or-too-cheap/"
+    },
+    "age_years": 3,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~3 yrs old — likely still ok",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Record labels' Spotify equity",
+    "entry_type": "fact",
+    "category": "Music business",
+    "claim": "To license their catalogs, the three major labels (Sony, Universal, Warner) were each reportedly given 4–6% of Spotify's shares — worth billions at its 2018 IPO.",
+    "quote": "were reportedly each given between 4 and 6 percent of Spotify’s shares",
+    "speaker": "Stephen Dubner (narration)",
+    "episode": {
+      "title": "How Spotify Saved the Music Industry (But Not Necessarily Musicians)",
+      "show": "Freakonomics Radio",
+      "id": "112332",
+      "date": "2019-04-10",
+      "url": "https://freakonomics.com/podcast/how-spotify-saved-the-music-industry-but-not-necessarily-musicians-ep-374/"
+    },
+    "age_years": 7,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Regression to the mean",
+    "entry_type": "concept",
+    "category": "Statistics",
+    "claim": "People selected at an extreme tend to improve on their own — so a program can look effective in before/after data even when a trial shows no effect (as with the Camden hot-spotting RCT).",
+    "quote": "about 62 percent of both the treatment and the control group reentered the hospital.",
+    "speaker": "Joseph Doyle, MIT economist",
+    "episode": {
+      "title": "What Can We Do About the Hardest Patients? (Replay)",
+      "show": "Freakonomics, M.D.",
+      "id": "133173",
+      "date": "2023-01-05",
+      "url": "https://freakonomics.com/podcast/what-can-we-do-about-the-hardest-patients-replay/"
+    },
+    "age_years": 3,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Roster specialization",
+    "entry_type": "figure",
+    "category": "Sports economics",
+    "claim": "A long snapper is on the field for maybe 8 plays a game out of nearly 80 — teams spend a roster spot purely to buy reliability.",
+    "quote": "the long snapper will be on the field for maybe just eight plays a game, out of an average of nearly 80 total plays",
+    "speaker": "Stephen Dubner (narration)",
+    "episode": {
+      "title": "Why Does the Most Monotonous Job in the World Pay $1 Million?",
+      "show": "Freakonomics Radio",
+      "id": "131458",
+      "date": "2022-02-09",
+      "url": "https://freakonomics.com/podcast/why-does-the-most-monotonous-job-in-the-world-pay-1-million/"
+    },
+    "age_years": 4,
+    "freshness": "check",
+    "freshness_note": "Figure is ~4 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Sludge",
+    "entry_type": "concept",
+    "category": "Behavioral economics",
+    "claim": "Richard Thaler's term for friction that impedes good decisions — e.g., 30 seconds to subscribe but forever to cancel. The opposite of a helpful 'nudge.'",
+    "quote": "when it takes 30 seconds to sign up for some subscription service, and then  forever to cancel it",
+    "speaker": "Stephen Dubner (narration), on Richard Thaler's concept",
+    "episode": {
+      "title": "Sludge, Part 1: The World Is Drowning in It",
+      "show": "Freakonomics Radio",
+      "id": "141658",
+      "date": "2025-03-28",
+      "url": "https://freakonomics.com/podcast/sludge-part-1-the-world-is-drowning-in-it/"
+    },
+    "age_years": 1,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Streaming income inequality",
+    "entry_type": "figure",
+    "category": "Music economics",
+    "claim": "Streaming income is highly skewed: an industry survey found just 28% of artists earned any money from streaming in 2018, with a median of $100.",
+    "quote": "just 28 percent of artists earned money from streaming in 2018, with the median amount just $100",
+    "speaker": "Stephen Dubner (narration), citing Alan Krueger",
+    "episode": {
+      "title": "How Spotify Saved the Music Industry (But Not Necessarily Musicians)",
+      "show": "Freakonomics Radio",
+      "id": "112332",
+      "date": "2019-04-10",
+      "url": "https://freakonomics.com/podcast/how-spotify-saved-the-music-industry-but-not-necessarily-musicians-ep-374/"
+    },
+    "age_years": 7,
+    "freshness": "check",
+    "freshness_note": "Figure is ~7 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Streaming royalty rate",
+    "entry_type": "figure",
+    "category": "Music economics",
+    "claim": "A single stream pays rights-holders roughly 0.4 cents; Spotify's top 2018 artist Drake earned nearly $33M on 8.2 billion streams.",
+    "quote": "Assuming a typical streaming royalty rate of 0.4 cents per play, that’s nearly $33 million going to Drake’s camp.",
+    "speaker": "Stephen Dubner (narration)",
+    "episode": {
+      "title": "How Spotify Saved the Music Industry (But Not Necessarily Musicians)",
+      "show": "Freakonomics Radio",
+      "id": "112332",
+      "date": "2019-04-10",
+      "url": "https://freakonomics.com/podcast/how-spotify-saved-the-music-industry-but-not-necessarily-musicians-ep-374/"
+    },
+    "age_years": 7,
+    "freshness": "check",
+    "freshness_note": "Figure is ~7 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Suicide and impulsivity",
+    "entry_type": "figure",
+    "category": "Public health",
+    "claim": "Suicide is often impulsive: in one Houston study of attempts, 70% of people acted within an hour of deciding.",
+    "quote": "in 70 percent of the cases, the time between deciding to commit suicide and taking action was under an hour",
+    "speaker": "David Lester, suicide-studies psychologist",
+    "episode": {
+      "title": "The Suicide Paradox",
+      "show": "Freakonomics Radio",
+      "id": "128029",
+      "date": "2011-08-31",
+      "url": "https://freakonomics.com/podcast/the-suicide-paradox/"
+    },
+    "age_years": 15,
+    "freshness": "check",
+    "freshness_note": "Figure is ~15 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Suicide vs. homicide (U.S.)",
+    "entry_type": "figure",
+    "category": "Public health",
+    "claim": "Americans die by suicide far more often than by homicide — roughly 36,500 suicides vs. 16,500 homicides in 2009.",
+    "quote": "there were roughly 36,500 suicides in the U.S. and roughly 16,500 homicides",
+    "speaker": "Steve Levitt, economist",
+    "episode": {
+      "title": "The Suicide Paradox",
+      "show": "Freakonomics Radio",
+      "id": "128029",
+      "date": "2011-08-31",
+      "url": "https://freakonomics.com/podcast/the-suicide-paradox/"
+    },
+    "age_years": 15,
+    "freshness": "check",
+    "freshness_note": "Figure is ~15 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Super-utilizers",
+    "entry_type": "concept",
+    "category": "Health economics",
+    "claim": "Patients with multiple chronic conditions who use hospitals repeatedly; in Camden NJ the single leading utilizer averaged 113 hospital visits a year.",
+    "quote": "The leading utilizer averaged 113 visits annually.",
+    "speaker": "Bapu Jena (narration)",
+    "episode": {
+      "title": "What Can We Do About the Hardest Patients? (Replay)",
+      "show": "Freakonomics, M.D.",
+      "id": "133173",
+      "date": "2023-01-05",
+      "url": "https://freakonomics.com/podcast/what-can-we-do-about-the-hardest-patients-replay/"
+    },
+    "age_years": 3,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Vertical integration",
+    "entry_type": "concept",
+    "category": "Market structure",
+    "claim": "Controlling every stage — manufacturing, supply chain, distribution, retail — which lets a firm shape how an entire industry evolves (and prices).",
+    "quote": "When you are 100 percent vertically integrated player, you control manufacturing, supply chain, distribution, customer experience",
+    "speaker": "Cédric Rossi (via narration)",
+    "episode": {
+      "title": "Why Do Your Eyeglasses Cost $1,000?",
+      "show": "Freakonomics Radio",
+      "id": "140408",
+      "date": "2024-07-17",
+      "url": "https://freakonomics.com/podcast/why-do-your-eyeglasses-cost-1000/"
+    },
+    "age_years": 2,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Werther effect",
+    "entry_type": "concept",
+    "category": "Psychology & media",
+    "claim": "A rise in copycat suicides following prominent media coverage of a suicide; after Marilyn Monroe's death, U.S. suicides ran ~10% above normal.",
+    "quote": "Suicide rates were 10 percent higher than normal.",
+    "speaker": "Sean Cole (narration)",
+    "episode": {
+      "title": "The Suicide Paradox",
+      "show": "Freakonomics Radio",
+      "id": "128029",
+      "date": "2011-08-31",
+      "url": "https://freakonomics.com/podcast/the-suicide-paradox/"
+    },
+    "age_years": 15,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  }
+]

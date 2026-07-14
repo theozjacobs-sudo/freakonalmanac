@@ -1,0 +1,231 @@
+<title>Fact Finder — Freakonomics Radio</title>
+<style>
+:root{
+  --ground:#f7f6f1; --surface:#ffffff; --surface-2:#fbfaf6;
+  --ink:#191d23; --muted:#5c6672; --faint:#8b93a0;
+  --hair:#e6e4db; --hair-2:#efeee7;
+  --accent:#22457e; --accent-soft:#e8eef7; --accent-ink:#1b365f;
+  --good:#3a7a4e; --good-bg:#e7f1e8;
+  --warn:#9a6a12; --warn-bg:#f6edd7;
+  --alert:#b34a37; --alert-bg:#f7e6e1;
+  --shadow:0 1px 2px rgba(20,30,50,.04),0 8px 24px rgba(20,30,50,.05);
+  --serif:Georgia,"Iowan Old Style","Times New Roman",serif;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root{
+  --ground:#131619; --surface:#1a1e24; --surface-2:#171b20;
+  --ink:#edf0f3; --muted:#a4adb9; --faint:#727c8a;
+  --hair:#2b3138; --hair-2:#242a31;
+  --accent:#7ea6dd; --accent-soft:#1e2a3d; --accent-ink:#a9c4e8;
+  --good:#78b98a; --good-bg:#1c2a20;
+  --warn:#d6a44e; --warn-bg:#2c2517;
+  --alert:#e08a76; --alert-bg:#2e1f1b;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
+}}
+:root[data-theme="light"]{
+  --ground:#f7f6f1; --surface:#ffffff; --surface-2:#fbfaf6;
+  --ink:#191d23; --muted:#5c6672; --faint:#8b93a0; --hair:#e6e4db; --hair-2:#efeee7;
+  --accent:#22457e; --accent-soft:#e8eef7; --accent-ink:#1b365f;
+  --good:#3a7a4e; --good-bg:#e7f1e8; --warn:#9a6a12; --warn-bg:#f6edd7;
+  --alert:#b34a37; --alert-bg:#f7e6e1; --shadow:0 1px 2px rgba(20,30,50,.04),0 8px 24px rgba(20,30,50,.05);
+}
+:root[data-theme="dark"]{
+  --ground:#131619; --surface:#1a1e24; --surface-2:#171b20;
+  --ink:#edf0f3; --muted:#a4adb9; --faint:#727c8a; --hair:#2b3138; --hair-2:#242a31;
+  --accent:#7ea6dd; --accent-soft:#1e2a3d; --accent-ink:#a9c4e8;
+  --good:#78b98a; --good-bg:#1c2a20; --warn:#d6a44e; --warn-bg:#2c2517;
+  --alert:#e08a76; --alert-bg:#2e1f1b; --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);
+  line-height:1.55;-webkit-font-smoothing:antialiased;font-size:16px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+a{color:var(--accent);text-decoration:none}
+h1,h2,h3{text-wrap:balance;margin:0}
+
+/* masthead */
+.mast{border-bottom:1px solid var(--hair);padding:52px 0 30px;background:
+  linear-gradient(180deg,var(--surface-2),var(--ground))}
+.eyebrow{font-family:var(--mono);font-size:.72rem;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--accent);font-weight:600}
+.mast h1{font-family:var(--serif);font-size:clamp(2.6rem,6vw,4.1rem);font-weight:700;
+  letter-spacing:-.02em;line-height:1;margin:.28em 0 .18em}
+.mast .lede{font-size:1.12rem;color:var(--muted);max-width:60ch}
+.mast .lede b{color:var(--ink);font-weight:600}
+.stats{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.stat{background:var(--surface);border:1px solid var(--hair);border-radius:10px;
+  padding:11px 15px;box-shadow:var(--shadow)}
+.stat .n{font-family:var(--mono);font-size:1.32rem;font-weight:600;letter-spacing:-.02em;
+  font-variant-numeric:tabular-nums;display:block}
+.stat .l{font-size:.74rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+
+/* toolbar */
+.toolbar{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--ground) 86%,transparent);
+  backdrop-filter:blur(10px);border-bottom:1px solid var(--hair);padding:14px 0}
+.tools{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.search{flex:1 1 260px;position:relative}
+.search input{width:100%;padding:10px 14px 10px 38px;border:1px solid var(--hair);
+  border-radius:9px;background:var(--surface);color:var(--ink);font:inherit;font-size:.95rem}
+.search input:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:var(--accent)}
+.search svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);width:16px;height:16px;
+  stroke:var(--faint);fill:none}
+.segs{display:flex;gap:4px;background:var(--surface-2);border:1px solid var(--hair);
+  border-radius:9px;padding:3px}
+.seg{border:0;background:transparent;color:var(--muted);font:inherit;font-size:.86rem;
+  padding:6px 12px;border-radius:6px;cursor:pointer;white-space:nowrap}
+.seg[aria-pressed="true"]{background:var(--accent);color:#fff}
+@media (prefers-color-scheme:dark){.seg[aria-pressed="true"]{color:#0c1220}}
+:root[data-theme="dark"] .seg[aria-pressed="true"]{color:#0c1220}
+:root[data-theme="light"] .seg[aria-pressed="true"]{color:#fff}
+select.filter{border:1px solid var(--hair);border-radius:9px;background:var(--surface);
+  color:var(--ink);font:inherit;font-size:.88rem;padding:9px 12px;cursor:pointer}
+.count{font-family:var(--mono);font-size:.8rem;color:var(--muted);margin-left:auto;
+  font-variant-numeric:tabular-nums}
+
+/* entries */
+main{padding:30px 0 8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px}
+.entry{background:var(--surface);border:1px solid var(--hair);border-radius:14px;
+  padding:20px 20px 16px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:11px;
+  transition:transform .16s ease,box-shadow .16s ease,border-color .16s ease}
+.entry:hover{transform:translateY(-2px);border-color:color-mix(in srgb,var(--accent) 40%,var(--hair));
+  box-shadow:0 3px 6px rgba(20,30,50,.06),0 14px 34px rgba(20,30,50,.09)}
+.entry__head{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
+.entry__word{font-family:var(--serif);font-size:1.42rem;font-weight:700;letter-spacing:-.015em;
+  line-height:1.12}
+.tag{font-family:var(--mono);font-size:.63rem;letter-spacing:.12em;text-transform:uppercase;
+  padding:4px 8px;border-radius:6px;font-weight:600;white-space:nowrap;border:1px solid transparent}
+.tag--concept{background:var(--accent-soft);color:var(--accent-ink)}
+.tag--figure{background:var(--good-bg);color:var(--good)}
+.tag--fact{background:var(--warn-bg);color:var(--warn)}
+.entry__cat{font-size:.76rem;color:var(--faint);text-transform:uppercase;letter-spacing:.06em;
+  margin-top:-6px}
+.entry__claim{font-size:1.01rem;color:var(--ink);margin:0}
+.entry__quote{margin:0;padding:11px 14px;background:var(--surface-2);border-left:2.5px solid var(--accent);
+  border-radius:0 8px 8px 0;font-size:.9rem;color:var(--muted)}
+.entry__quote cite{display:block;margin-top:6px;font-style:normal;font-size:.78rem;color:var(--faint);
+  font-family:var(--mono)}
+.entry__foot{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin-top:2px;
+  padding-top:12px;border-top:1px solid var(--hair-2)}
+.cite-src{font-size:.8rem;color:var(--muted);flex:1 1 100%}
+.cite-src b{color:var(--ink);font-weight:600}
+.cite-date{font-family:var(--mono);font-size:.74rem;color:var(--faint);font-variant-numeric:tabular-nums}
+.pill{font-family:var(--mono);font-size:.68rem;letter-spacing:.04em;padding:3px 9px;border-radius:20px;
+  font-weight:600;display:inline-flex;align-items:center;gap:5px}
+.pill::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
+.pill--current{background:var(--good-bg);color:var(--good)}
+.pill--aging{background:var(--warn-bg);color:var(--warn)}
+.pill--check{background:var(--alert-bg);color:var(--alert)}
+.pill--evergreen,.pill--durable{background:var(--surface-2);color:var(--faint)}
+.grounded{margin-left:auto;font-family:var(--mono);font-size:.72rem;color:var(--good);
+  display:inline-flex;align-items:center;gap:4px}
+.empty{text-align:center;color:var(--muted);padding:60px 0;font-size:1.02rem}
+
+/* how it works */
+.how{border-top:1px solid var(--hair);margin-top:44px;padding:46px 0 10px;background:var(--surface-2)}
+.how h2{font-family:var(--serif);font-size:1.9rem;font-weight:700;letter-spacing:-.01em;margin-bottom:6px}
+.how .sub{color:var(--muted);max-width:64ch;margin-bottom:30px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}
+.step{background:var(--surface);border:1px solid var(--hair);border-radius:12px;padding:18px}
+.step .k{font-family:var(--mono);font-size:.74rem;color:var(--accent);font-weight:600;letter-spacing:.04em}
+.step h3{font-size:1.02rem;margin:8px 0 6px}
+.step p{font-size:.88rem;color:var(--muted);margin:0}
+.note{margin-top:22px;padding:16px 18px;border:1px solid var(--hair);border-radius:12px;
+  background:var(--surface);font-size:.9rem;color:var(--muted)}
+.note b{color:var(--ink)}
+footer{padding:34px 0 60px;color:var(--faint);font-size:.82rem;text-align:center}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+@media (max-width:560px){.mast{padding:38px 0 24px}.count{margin-left:0;width:100%}}
+</style>
+<header class="mast"><div class="wrap">
+  <div class="eyebrow">A Freakonomics Radio reference &middot; prototype</div>
+  <h1>Fact Finder</h1>
+  <p class="lede">Facts, figures, and concepts mined <b>only</b> from the show’s own transcripts —
+     every entry filed under an encyclopedia term and tied to a <b>verbatim quote</b>, the speaker,
+     and the episode it came from. This is a 41-entry taste of what a full A–Z almanac
+     of ten years of Freakonomics Radio could hold.</p>
+  <div class="stats"><div class="stat"><span class="n">1,604</span><span class="l">episodes indexed</span></div><div class="stat"><span class="n">41</span><span class="l">sample entries</span></div><div class="stat"><span class="n">10</span><span class="l">episodes mined</span></div><div class="stat"><span class="n">100%</span><span class="l">quote-verified</span></div></div>
+</div></header>
+
+<div class="toolbar"><div class="wrap tools">
+  <div class="search">
+    <svg viewBox="0 0 24 24" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+    <input id="q" type="search" placeholder="Search headwords, claims, quotes, speakers…" aria-label="Search entries">
+  </div>
+  <div class="segs" id="typeSeg" role="group" aria-label="Filter by type">
+    <button class="seg" data-type="all" aria-pressed="true">All</button>
+    <button class="seg" data-type="concept" aria-pressed="false">Concepts</button>
+    <button class="seg" data-type="figure" aria-pressed="false">Figures</button>
+    <button class="seg" data-type="fact" aria-pressed="false">Facts</button>
+  </div>
+  <select class="filter" id="showSel" aria-label="Filter by show"></select>
+  <span class="count" id="count"></span>
+</div></div>
+
+<main><div class="wrap"><div class="grid" id="grid"></div>
+  <div class="empty" id="empty" hidden>No entries match — try clearing the filters.</div>
+</div></main>
+
+<section class="how"><div class="wrap">
+  <h2>How the Fact Finder is built</h2>
+  <p class="sub">A repeatable pipeline turns raw transcripts into sourced, checkable entries.
+     The same passage index also powers a keyword/speaker search across all ten years of the archive.</p>
+  <div class="steps"><div class="step"><div class="k">01 &middot; Split</div><h3>One clean transcript per episode</h3><p>An 85&nbsp;MB WordPress export becomes 1,604 speaker-labeled transcripts — who said what, in which episode, when.</p></div><div class="step"><div class="k">02 &middot; Surface</div><h3>Find the fact-bearing lines</h3><p>A pre-filter pulls the sentences carrying numbers, percentages, and dollar figures, with the speaker attached — the raw material for entries.</p></div><div class="step"><div class="k">03 &middot; Extract</div><h3>Write the encyclopedia entry</h3><p>Each becomes a filed entry: a headword, a type (concept / figure / fact), the claim in plain language, a verbatim quote + speaker, and the full episode citation.</p></div><div class="step"><div class="k">04 &middot; Verify</div><h3>Prove it was really said</h3><p>Every quote is checked character-for-character against its source transcript. Anything that doesn’t match is flagged, never published. Here: all 41 pass.</p></div><div class="step"><div class="k">05 &middot; Flag age</div><h3>Know what may be stale</h3><p>Figures get an age flag so a number from 2011 can be refreshed before it goes in the almanac; concepts and historical facts are marked evergreen.</p></div></div>
+  <div class="note"><b>Grounded by design.</b> Nothing here is drawn from the open web or from the model’s
+     memory — only from what was actually said on the podcast. The verbatim quote under each entry is the
+     receipt, and the age flag tells an editor which numbers to double-check before publishing.</div>
+</div></section>
+
+<footer><div class="wrap">Fact Finder — prototype built from the Freakonomics Radio transcript archive.
+  41 entries · 10 episodes · oldest source ~15 years old · 100% quote-verified.</div></footer>
+
+<script id="data" type="application/json">[{"headword": "Access to air travel", "entry_type": "figure", "category": "Economics", "claim": "Before deregulation only about half of Americans had ever flown; today roughly 90% have.", "quote": "Before deregulation, only about half of all Americans had ever been on an airplane.", "speaker": "Jon Ryerson, Delta", "episode": {"title": "Is Your Plane Ticket Too Expensive — or Too Cheap?", "show": "Freakonomics Radio", "id": "133824", "date": "2023-03-08", "url": "https://freakonomics.com/podcast/is-your-plane-ticket-too-expensive-or-too-cheap/"}, "age_years": 3, "freshness": "aging", "freshness_note": "Figure is ~3 yrs old — likely still ok", "verified_quote_in_transcript": true}, {"headword": "Administrative burden in healthcare", "entry_type": "figure", "category": "Health policy", "claim": "Paperwork friction is overwhelming providers: in one survey, 94% of physicians called administrative issues a huge burden.", "quote": "94 percent of physicians say these administrative issues are a huge burden.", "speaker": "Ben Handel, economist", "episode": {"title": "Sludge, Part 1: The World Is Drowning in It", "show": "Freakonomics Radio", "id": "141658", "date": "2025-03-28", "url": "https://freakonomics.com/podcast/sludge-part-1-the-world-is-drowning-in-it/"}, "age_years": 1, "freshness": "current", "freshness_note": "Recent (~1 yrs) — likely current", "verified_quote_in_transcript": true}, {"headword": "Adult adoption (Japan)", "entry_type": "fact", "category": "Business & culture", "claim": "Japanese family firms often adopt an adult man (typically 25–30) as heir/CEO; over 98% of Japan's adoptees are grown men, and these adopted-heir firms account for nearly all the outperformance of family successions.", "quote": "more than ninety-eight percent of the adoptees are males around twenty-five or thirty years old", "speaker": "Vikas Mehrotra", "episode": {"title": "The Church of “Scionology”", "show": "Freakonomics Radio", "id": "128037", "date": "2011-08-03", "url": "https://freakonomics.com/podcast/the-church-of-scionology-2/"}, "age_years": 15, "freshness": "durable", "freshness_note": "Historical fact — stable over time", "verified_quote_in_transcript": true}, {"headword": "Airline ancillary revenue", "entry_type": "figure", "category": "Business models", "claim": "Selling seats is no longer the main event: American Express pays Delta over $5 billion a year for SkyMiles, and the main cabin is only ~40% of revenue.", "quote": "American Express this year will pay us over $5 billion for access to the SkyMiles that they reward their customers on the card.", "speaker": "Ed Bastian, Delta CEO", "episode": {"title": "Is Your Plane Ticket Too Expensive — or Too Cheap?", "show": "Freakonomics Radio", "id": "133824", "date": "2023-03-08", "url": "https://freakonomics.com/podcast/is-your-plane-ticket-too-expensive-or-too-cheap/"}, "age_years": 3, "freshness": "aging", "freshness_note": "Figure is ~3 yrs old — likely still ok", "verified_quote_in_transcript": true}, {"headword": "Airline Deregulation Act", "entry_type": "fact", "category": "Economic policy", "claim": "The 1978 law, signed by Jimmy Carter, that let airlines set their own routes and fares — unleashing competition that drove ticket prices down.", "quote": "The Airline Deregulation Act was signed into law in 1978 by President Jimmy Carter.", "speaker": "Stephen Dubner (narration)", "episode": {"title": "Is Your Plane Ticket Too Expensive — or Too Cheap?", "show": "Freakonomics Radio", "id": "133824", "date": "2023-03-08", "url": "https://freakonomics.com/podcast/is-your-plane-ticket-too-expensive-or-too-cheap/"}, "age_years": 3, "freshness": "durable", "freshness_note": "Historical fact — stable over time", "verified_quote_in_transcript": true}, {"headword": "Airline profitability", "entry_type": "fact", "category": "Business", "claim": "Warren Buffett's quip on how brutal airline economics are: 'The best way to make $1 million in the airline business is to start with $1 billion.'", "quote": "The best way to make $1 million in the airline business is to start with $1 billion.", "speaker": "David Neeleman, airline founder (quoting Warren Buffett)", "episode": {"title": "Is Your Plane Ticket Too Expensive — or Too Cheap?", "show": "Freakonomics Radio", "id": "133824", "date": "2023-03-08", "url": "https://freakonomics.com/podcast/is-your-plane-ticket-too-expensive-or-too-cheap/"}, "age_years": 3, "freshness": "durable", "freshness_note": "Historical fact — stable over time", "verified_quote_in_transcript": true}, {"headword": "Average price of glasses", "entry_type": "figure", "category": "Consumer economics", "claim": "In the U.S., a pair of simple prescription glasses costs around $350 on average; the global eyewear industry is worth ~$150 billion a year.", "quote": "a pair of simple prescription glasses costs, on average, around $350", "speaker": "Stephen Dubner (narration)", "episode": {"title": "Why Do Your Eyeglasses Cost $1,000?", "show": "Freakonomics Radio", "id": "140408", "date": "2024-07-17", "url": "https://freakonomics.com/podcast/why-do-your-eyeglasses-cost-1000/"}, "age_years": 2, "freshness": "aging", "freshness_note": "Figure is ~2 yrs old — likely still ok", "verified_quote_in_transcript": true}, {"headword": "Belyaev fox experiment", "entry_type": "concept", "category": "Genetics & domestication", "claim": "A Soviet experiment (begun 1959) that, by breeding only the tamest of an initial 130 foxes, reshaped the animals' genome and appearance within a half-century — a model for how domestication may have worked.", "quote": "Beginning with 130 foxes, he selectively chose and bred those that were the most “tame,” as he described it", "speaker": "Alexandra Horowitz", "episode": {"title": "Forget Everything You Know About Your Dog", "show": "Freakonomics Radio", "id": "112069", "date": "2020-10-21", "url": "https://freakonomics.com/podcast/forget-everything-you-know-about-your-dog-ep-436/"}, "age_years": 6, "freshness": "evergreen", "freshness_note": "Concept — not time-sensitive", "verified_quote_in_transcript": true}, {"headword": "Canine olfaction", "entry_type": "figure", "category": "Animal science", "claim": "A dog's nose has on the order of 300 million olfactory cells, versus about 5 million in humans.", "quote": "that area has hundreds of millions of cells in the dog, 300 million", "speaker": "Alexandra Horowitz, dog-cognition researcher", "episode": {"title": "Forget Everything You Know About Your Dog", "show": "Freakonomics Radio", "id": "112069", "date": "2020-10-21", "url": "https://freakonomics.com/podcast/forget-everything-you-know-about-your-dog-ep-436/"}, "age_years": 6, "freshness": "check", "freshness_note": "Figure is ~6 yrs old — verify before publishing", "verified_quote_in_transcript": true}, {"headword": "Carnegie Conjecture", "entry_type": "concept", "category": "Business & management", "claim": "Andrew Carnegie's argument that inheriting a fortune deadens the heir's drive and talent, so tycoons should give wealth away before death.", "quote": "the inheritance of a fortune for the second generation, the heirs who inherited fortunes in his opinion it deadened their talents", "speaker": "Vikas Mehrotra, University of Alberta finance professor", "episode": {"title": "The Church of “Scionology”", "show": "Freakonomics Radio", "id": "128037", "date": "2011-08-03", "url": "https://freakonomics.com/podcast/the-church-of-scionology-2/"}, "age_years": 15, "freshness": "evergreen", "freshness_note": "Concept — not time-sensitive", "verified_quote_in_transcript": true}, {"headword": "CPM (cost per mille)", "entry_type": "concept", "category": "Advertising", "claim": "Ad pricing per thousand impressions ('M' = Roman numeral 1,000). At a $25 CPM, a 100,000-download episode earns $2,500 per ad; observed podcast CPMs run $5–$100.", "quote": "CPM stands for \"cost per thousand,\" and Roman numeral M of thousand, so that's where it came from.", "speaker": "Gabe Tartaglia, SiriusXM VP of monetization", "episode": {"title": "Podcasts", "show": "The Economics of Everyday Things", "id": "142263", "date": "2025-07-20", "url": "https://freakonomics.com/podcast/podcasts/"}, "age_years": 1, "freshness": "evergreen", "freshness_note": "Concept — not time-sensitive", "verified_quote_in_transcript": true}, {"headword": "Division of labor", "entry_type": "concept", "category": "Economics", "claim": "Adam Smith's pin-factory illustration: ten workers each specializing in one step could make 48,000 pins a day — far more than the ~20 each could make alone.", "quote": "a group of 10 workers in a factory in one day could make 48,000 pins", "speaker": "Stephen Dubner (narration), citing Adam Smith", "episode": {"title": "Why Does the Most Monotonous Job in the World Pay $1 Million?", "show": "Freakonomics Radio", "id": "131458", "date": "2022-02-09", "url": "https://freakonomics.com/podcast/why-does-the-most-monotonous-job-in-the-world-pay-1-million/"}, "age_years": 4, "freshness": "evergreen", "freshness_note": "Concept — not time-sensitive", "verified_quote_in_transcript": true}, {"headword": "Dogs in the U.S.", "entry_type": "figure", "category": "Animal science", "claim": "Estimates put the U.S. dog population at 77–90 million, with roughly 40–50% of households owning at least one.", "quote": "there are between 77 and 90 million dogs in the U.S., with roughly 40 to 50 percent of households having at least one", "speaker": "Stephen Dubner (narration)", "episode": {"title": "Forget Everything You Know About Your Dog", "show": "Freakonomics Radio", "id": "112069", "date": "2020-10-21", "url": "https://freakonomics.com/podcast/forget-everything-you-know-about-your-dog-ep-436/"}, "age_years": 6, "freshness": "check", "freshness_note": "Figure is ~6 yrs old — verify before publishing", "verified_quote_in_transcript": true}, {"headword": "Drip pricing", "entry_type": "fact", "category": "Consumer economics", "claim": "Hidden back-end fees (the concert ticket that jumps from $70 to $110 at checkout) cost U.S. households on the order of $90 billion, ~$650 per household.", "quote": "I think it’s something like $650 per household.", "speaker": "Neale Mahoney, economist", "episode": {"title": "Sludge, Part 1: The World Is Drowning in It", "show": "Freakonomics Radio", "id": "141658", "date": "2025-03-28", "url": "https://freakonomics.com/podcast/sludge-part-1-the-world-is-drowning-in-it/"}, "age_years": 1, "freshness": "durable", "freshness_note": "Historical fact — stable over time", "verified_quote_in_transcript": true}, {"headword": "Enshittification", "entry_type": "fact", "category": "Technology & culture", "claim": "Cory Doctorow's coinage for the decay of digital platforms; the American Dialect Society named it 2023 word of the year.", "quote": "In 2023, the American Dialect Society named as its word of the year “enshittification,”", "speaker": "Stephen Dubner (narration)", "episode": {"title": "Sludge, Part 1: The World Is Drowning in It", "show": "Freakonomics Radio", "id": "141658", "date": "2025-03-28", "url": "https://freakonomics.com/podcast/sludge-part-1-the-world-is-drowning-in-it/"}, "age_years": 1, "freshness": "durable", "freshness_note": "Historical fact — stable over time", "verified_quote_in_transcript": true}, {"headword": "EssilorLuxottica", "entry_type": "fact", "category": "Market structure", "claim": "The eyewear giant (from the 2018 Essilor–Luxottica merger) that owns roughly a quarter of the global prescription-eyeglasses market and more than half the lens market.", "quote": "EssilorLuxottica owns roughly a quarter of the global market in prescription eyeglasses, and more than half the market in lenses.", "speaker": "Cédric Rossi, equity analyst (via narration)", "episode": {"title": "Why Do Your Eyeglasses Cost $1,000?", "show": "Freakonomics Radio", "id": "140408", "date": "2024-07-17", "url": "https://freakonomics.com/podcast/why-do-your-eyeglasses-cost-1000/"}, "age_years": 2, "freshness": "durable", "freshness_note": "Historical fact — stable over time", "verified_quote_in_transcript": true}, {"headword": "Eyewear markup", "entry_type": "figure", "category": "Consumer economics", "claim": "Frames reportedly cost about $20 to make at the top end, yet retail for hundreds of dollars.", "quote": "it tops out at about $20 for the best versions of them, and then you're able to sell them for hundreds of dollars", "speaker": "Tim Wu, legal scholar", "episode": {"title": "Why Do Your Eyeglasses Cost $1,000?", "show": "Freakonomics Radio", "id": "140408", "date": "2024-07-17", "url": "https://freakonomics.com/podcast/why-do-your-eyeglasses-cost-1000/"}, "age_years": 2, "freshness": "aging", "freshness_note": "Figure is ~2 yrs old — likely still ok", "verified_quote_in_transcript": true}, {"headword": "Family firm", "entry_type": "concept", "category": "Business & management", "claim": "Company profitability typically falls 10–20% after a founder hands the business to an heir.", "quote": "We see drops between ten and twenty-percent of profitability.", "speaker": "Antoinette Schoar, MIT finance professor", "episode": {"title": "The Church of “Scionology”", "show": "Freakonomics Radio", "id": "128037", "date": "2011-08-03", "url": "https://freakonomics.com/podcast/the-church-of-scionology-2/"}, "age_years": 15, "freshness": "evergreen", "freshness_note": "Concept — not time-sensitive", "verified_quote_in_transcript": true}, {"headword": "Family-controlled companies", "entry_type": "fact", "category": "Business & economics", "claim": "About one-third of Fortune 500 companies are family-controlled.", "quote": "About one-third of the companies in the Fortune 500 are family-controlled.", "speaker": "Stephen Dubner (narration)", "episode": {"title": "The Church of “Scionology”", "show": "Freakonomics Radio", "id": "128037", "date": "2011-08-03", "url": "https://freakonomics.com/podcast/the-church-of-scionology-2/"}, "age_years": 15, "freshness": "durable", "freshness_note": "Historical fact — stable over time", "verified_quote_in_transcript": true}, {"headword": "Healthcare spending concentration", "entry_type": "figure", "category": "Health economics", "claim": "In the U.S., just 5% of the population accounts for 50% of annual healthcare spending.", "quote": "in the U.S., just five percent of the population accounts for 50 percent of annual healthcare spending.", "speaker": "Bapu Jena (host)", "episode": {"title": "What Can We Do About the Hardest Patients? (Replay)", "show": "Freakonomics, M.D.", "id": "133173", "date": "2023-01-05", "url": "https://freakonomics.com/podcast/what-can-we-do-about-the-hardest-patients-replay/"}, "age_years": 3, "freshness": "aging", "freshness_note": "Figure is ~3 yrs old — likely still ok", "verified_quote_in_transcript": true}, {"headword": "Heritability", "entry_type": "concept", "category": "Genetics & behavior", "claim": "The share of variation in a trait attributable to genes: height is ~80–90% heritable, but personality only ~40–50% and IQ ~50–70% — so 'CEO ability' passes down weakly.", "quote": "the heritability of height is on the order of eighty to ninety-percent", "speaker": "Matt McGue, behavioral geneticist, University of Minnesota", "episode": {"title": "The Church of “Scionology”", "show": "Freakonomics Radio", "id": "128037", "date": "2011-08-03", "url": "https://freakonomics.com/podcast/the-church-of-scionology-2/"}, "age_years": 15, "freshness": "evergreen", "freshness_note": "Concept — not time-sensitive", "verified_quote_in_transcript": true}, {"headword": "Inattention and subscriptions", "entry_type": "figure", "category": "Behavioral economics", "claim": "Cancellations quadruple in the month a card expires — implying consumers pay attention to a recurring charge only about a quarter of the time.", "quote": "We see two percent of people on average canceling per month, in a steady state, and then during the months of expiration, suddenly four times as many people are canceling their product.", "speaker": "Neale Mahoney, economist", "episode": {"title": "Sludge, Part 1: The World Is Drowning in It", "show": "Freakonomics Radio", "id": "141658", "date": "2025-03-28", "url": "https://freakonomics.com/podcast/sludge-part-1-the-world-is-drowning-in-it/"}, "age_years": 1, "freshness": "current", "freshness_note": "Recent (~1 yrs) — likely current", "verified_quote_in_transcript": true}, {"headword": "Long snapper", "entry_type": "fact", "category": "Sports economics", "claim": "The NFL's most specialized job: veteran long snappers earn about $1.2–1.3 million a year despite being on the field for only a handful of plays.", "quote": "Most of the veteran snappers, they make around 1.2 or 1.3 million a year.", "speaker": "Kevin Gold, agent", "episode": {"title": "Why Does the Most Monotonous Job in the World Pay $1 Million?", "show": "Freakonomics Radio", "id": "131458", "date": "2022-02-09", "url": "https://freakonomics.com/podcast/why-does-the-most-monotonous-job-in-the-world-pay-1-million/"}, "age_years": 4, "freshness": "durable", "freshness_note": "Historical fact — stable over time", "verified_quote_in_transcript": true}, {"headword": "Margins in football", "entry_type": "figure", "category": "Sports", "claim": "More than a third of NFL regular-season games are decided by three points or fewer — which is why teams pay for reliability in specialists.", "quote": "More than one third of N.F.L. regular-season games are decided by three points or less.", "speaker": "Stephen Dubner (narration)", "episode": {"title": "Why Does the Most Monotonous Job in the World Pay $1 Million?", "show": "Freakonomics Radio", "id": "131458", "date": "2022-02-09", "url": "https://freakonomics.com/podcast/why-does-the-most-monotonous-job-in-the-world-pay-1-million/"}, "age_years": 4, "freshness": "check", "freshness_note": "Figure is ~4 yrs old — verify before publishing", "verified_quote_in_transcript": true}, {"headword": "Market concentration", "entry_type": "figure", "category": "Economics", "claim": "In over 75% of U.S. industries, a smaller number of large firms control more of the business than they did 20 years ago.", "quote": "a smaller number of large companies now control more of the business than they did 20 years ago", "speaker": "Stephen Dubner (narration), citing the White House", "episode": {"title": "Why Do Your Eyeglasses Cost $1,000?", "show": "Freakonomics Radio", "id": "140408", "date": "2024-07-17", "url": "https://freakonomics.com/podcast/why-do-your-eyeglasses-cost-1000/"}, "age_years": 2, "freshness": "aging", "freshness_note": "Figure is ~2 yrs old — likely still ok", "verified_quote_in_transcript": true}, {"headword": "Papageno effect", "entry_type": "concept", "category": "Psychology & media", "claim": "The inverse of the Werther effect: responsible, careful reporting can reduce suicides. After media guidelines, suicides/attempts on the Viennese subway fell nearly 80%.", "quote": "the number of suicides and suicide attempts on the Viennese subway decreased by nearly 80%", "speaker": "Thomas Niederkrotenthaler, suicide researcher, Austria", "episode": {"title": "The Suicide Paradox", "show": "Freakonomics Radio", "id": "128029", "date": "2011-08-31", "url": "https://freakonomics.com/podcast/the-suicide-paradox/"}, "age_years": 15, "freshness": "evergreen", "freshness_note": "Concept — not time-sensitive", "verified_quote_in_transcript": true}, {"headword": "Podcasts (number of)", "entry_type": "figure", "category": "Media economics", "claim": "As of 2025 there were more than 6.5 million podcasts, reaching nearly 600 million listeners worldwide.", "quote": "There are more than 6.5 million of them, and they reach nearly 600 million listeners worldwide.", "speaker": "Zachary Crockett (narration)", "episode": {"title": "Podcasts", "show": "The Economics of Everyday Things", "id": "142263", "date": "2025-07-20", "url": "https://freakonomics.com/podcast/podcasts/"}, "age_years": 1, "freshness": "current", "freshness_note": "Recent (~1 yrs) — likely current", "verified_quote_in_transcript": true}, {"headword": "Pre-roll / mid-roll / post-roll", "entry_type": "concept", "category": "Advertising", "claim": "Podcast ad slots by position; pre-roll runs ~20% cheaper than mid-roll, and post-roll is nominal because few listeners reach the end.", "quote": "Pre-roll is typically about 20 percent cheaper than mid-roll, and then post-roll is, you know, very nominal.", "speaker": "Gabe Tartaglia, SiriusXM", "episode": {"title": "Podcasts", "show": "The Economics of Everyday Things", "id": "142263", "date": "2025-07-20", "url": "https://freakonomics.com/podcast/podcasts/"}, "age_years": 1, "freshness": "evergreen", "freshness_note": "Concept — not time-sensitive", "verified_quote_in_transcript": true}, {"headword": "Professional musicians (U.S.)", "entry_type": "figure", "category": "Music economics", "claim": "There are roughly 200,000 professional musicians in the U.S., about 0.13% of all workers — a share roughly unchanged since 1970.", "quote": "there are roughly 200,000 professional musicians in the U.S. today, accounting for 0.13 percent of all U.S. workers", "speaker": "Stephen Dubner (narration), citing Alan Krueger", "episode": {"title": "How Spotify Saved the Music Industry (But Not Necessarily Musicians)", "show": "Freakonomics Radio", "id": "112332", "date": "2019-04-10", "url": "https://freakonomics.com/podcast/how-spotify-saved-the-music-industry-but-not-necessarily-musicians-ep-374/"}, "age_years": 7, "freshness": "check", "freshness_note": "Figure is ~7 yrs old — verify before publishing", "verified_quote_in_transcript": true}, {"headword": "Real airfare decline", "entry_type": "figure", "category": "Economics", "claim": "Adjusted for inflation, the average U.S. domestic round-trip ticket now costs less than half what it once did.", "quote": "The average price today for a domestic round-trip ticket is less than half of what it used to be, once you adjust for inflation.", "speaker": "Ed Bastian, Delta CEO", "episode": {"title": "Is Your Plane Ticket Too Expensive — or Too Cheap?", "show": "Freakonomics Radio", "id": "133824", "date": "2023-03-08", "url": "https://freakonomics.com/podcast/is-your-plane-ticket-too-expensive-or-too-cheap/"}, "age_years": 3, "freshness": "aging", "freshness_note": "Figure is ~3 yrs old — likely still ok", "verified_quote_in_transcript": true}, {"headword": "Record labels' Spotify equity", "entry_type": "fact", "category": "Music business", "claim": "To license their catalogs, the three major labels (Sony, Universal, Warner) were each reportedly given 4–6% of Spotify's shares — worth billions at its 2018 IPO.", "quote": "were reportedly each given between 4 and 6 percent of Spotify’s shares", "speaker": "Stephen Dubner (narration)", "episode": {"title": "How Spotify Saved the Music Industry (But Not Necessarily Musicians)", "show": "Freakonomics Radio", "id": "112332", "date": "2019-04-10", "url": "https://freakonomics.com/podcast/how-spotify-saved-the-music-industry-but-not-necessarily-musicians-ep-374/"}, "age_years": 7, "freshness": "durable", "freshness_note": "Historical fact — stable over time", "verified_quote_in_transcript": true}, {"headword": "Regression to the mean", "entry_type": "concept", "category": "Statistics", "claim": "People selected at an extreme tend to improve on their own — so a program can look effective in before/after data even when a trial shows no effect (as with the Camden hot-spotting RCT).", "quote": "about 62 percent of both the treatment and the control group reentered the hospital.", "speaker": "Joseph Doyle, MIT economist", "episode": {"title": "What Can We Do About the Hardest Patients? (Replay)", "show": "Freakonomics, M.D.", "id": "133173", "date": "2023-01-05", "url": "https://freakonomics.com/podcast/what-can-we-do-about-the-hardest-patients-replay/"}, "age_years": 3, "freshness": "evergreen", "freshness_note": "Concept — not time-sensitive", "verified_quote_in_transcript": true}, {"headword": "Roster specialization", "entry_type": "figure", "category": "Sports economics", "claim": "A long snapper is on the field for maybe 8 plays a game out of nearly 80 — teams spend a roster spot purely to buy reliability.", "quote": "the long snapper will be on the field for maybe just eight plays a game, out of an average of nearly 80 total plays", "speaker": "Stephen Dubner (narration)", "episode": {"title": "Why Does the Most Monotonous Job in the World Pay $1 Million?", "show": "Freakonomics Radio", "id": "131458", "date": "2022-02-09", "url": "https://freakonomics.com/podcast/why-does-the-most-monotonous-job-in-the-world-pay-1-million/"}, "age_years": 4, "freshness": "check", "freshness_note": "Figure is ~4 yrs old — verify before publishing", "verified_quote_in_transcript": true}, {"headword": "Sludge", "entry_type": "concept", "category": "Behavioral economics", "claim": "Richard Thaler's term for friction that impedes good decisions — e.g., 30 seconds to subscribe but forever to cancel. The opposite of a helpful 'nudge.'", "quote": "when it takes 30 seconds to sign up for some subscription service, and then  forever to cancel it", "speaker": "Stephen Dubner (narration), on Richard Thaler's concept", "episode": {"title": "Sludge, Part 1: The World Is Drowning in It", "show": "Freakonomics Radio", "id": "141658", "date": "2025-03-28", "url": "https://freakonomics.com/podcast/sludge-part-1-the-world-is-drowning-in-it/"}, "age_years": 1, "freshness": "evergreen", "freshness_note": "Concept — not time-sensitive", "verified_quote_in_transcript": true}, {"headword": "Streaming income inequality", "entry_type": "figure", "category": "Music economics", "claim": "Streaming income is highly skewed: an industry survey found just 28% of artists earned any money from streaming in 2018, with a median of $100.", "quote": "just 28 percent of artists earned money from streaming in 2018, with the median amount just $100", "speaker": "Stephen Dubner (narration), citing Alan Krueger", "episode": {"title": "How Spotify Saved the Music Industry (But Not Necessarily Musicians)", "show": "Freakonomics Radio", "id": "112332", "date": "2019-04-10", "url": "https://freakonomics.com/podcast/how-spotify-saved-the-music-industry-but-not-necessarily-musicians-ep-374/"}, "age_years": 7, "freshness": "check", "freshness_note": "Figure is ~7 yrs old — verify before publishing", "verified_quote_in_transcript": true}, {"headword": "Streaming royalty rate", "entry_type": "figure", "category": "Music economics", "claim": "A single stream pays rights-holders roughly 0.4 cents; Spotify's top 2018 artist Drake earned nearly $33M on 8.2 billion streams.", "quote": "Assuming a typical streaming royalty rate of 0.4 cents per play, that’s nearly $33 million going to Drake’s camp.", "speaker": "Stephen Dubner (narration)", "episode": {"title": "How Spotify Saved the Music Industry (But Not Necessarily Musicians)", "show": "Freakonomics Radio", "id": "112332", "date": "2019-04-10", "url": "https://freakonomics.com/podcast/how-spotify-saved-the-music-industry-but-not-necessarily-musicians-ep-374/"}, "age_years": 7, "freshness": "check", "freshness_note": "Figure is ~7 yrs old — verify before publishing", "verified_quote_in_transcript": true}, {"headword": "Suicide and impulsivity", "entry_type": "figure", "category": "Public health", "claim": "Suicide is often impulsive: in one Houston study of attempts, 70% of people acted within an hour of deciding.", "quote": "in 70 percent of the cases, the time between deciding to commit suicide and taking action was under an hour", "speaker": "David Lester, suicide-studies psychologist", "episode": {"title": "The Suicide Paradox", "show": "Freakonomics Radio", "id": "128029", "date": "2011-08-31", "url": "https://freakonomics.com/podcast/the-suicide-paradox/"}, "age_years": 15, "freshness": "check", "freshness_note": "Figure is ~15 yrs old — verify before publishing", "verified_quote_in_transcript": true}, {"headword": "Suicide vs. homicide (U.S.)", "entry_type": "figure", "category": "Public health", "claim": "Americans die by suicide far more often than by homicide — roughly 36,500 suicides vs. 16,500 homicides in 2009.", "quote": "there were roughly 36,500 suicides in the U.S. and roughly 16,500 homicides", "speaker": "Steve Levitt, economist", "episode": {"title": "The Suicide Paradox", "show": "Freakonomics Radio", "id": "128029", "date": "2011-08-31", "url": "https://freakonomics.com/podcast/the-suicide-paradox/"}, "age_years": 15, "freshness": "check", "freshness_note": "Figure is ~15 yrs old — verify before publishing", "verified_quote_in_transcript": true}, {"headword": "Super-utilizers", "entry_type": "concept", "category": "Health economics", "claim": "Patients with multiple chronic conditions who use hospitals repeatedly; in Camden NJ the single leading utilizer averaged 113 hospital visits a year.", "quote": "The leading utilizer averaged 113 visits annually.", "speaker": "Bapu Jena (narration)", "episode": {"title": "What Can We Do About the Hardest Patients? (Replay)", "show": "Freakonomics, M.D.", "id": "133173", "date": "2023-01-05", "url": "https://freakonomics.com/podcast/what-can-we-do-about-the-hardest-patients-replay/"}, "age_years": 3, "freshness": "evergreen", "freshness_note": "Concept — not time-sensitive", "verified_quote_in_transcript": true}, {"headword": "Vertical integration", "entry_type": "concept", "category": "Market structure", "claim": "Controlling every stage — manufacturing, supply chain, distribution, retail — which lets a firm shape how an entire industry evolves (and prices).", "quote": "When you are 100 percent vertically integrated player, you control manufacturing, supply chain, distribution, customer experience", "speaker": "Cédric Rossi (via narration)", "episode": {"title": "Why Do Your Eyeglasses Cost $1,000?", "show": "Freakonomics Radio", "id": "140408", "date": "2024-07-17", "url": "https://freakonomics.com/podcast/why-do-your-eyeglasses-cost-1000/"}, "age_years": 2, "freshness": "evergreen", "freshness_note": "Concept — not time-sensitive", "verified_quote_in_transcript": true}, {"headword": "Werther effect", "entry_type": "concept", "category": "Psychology & media", "claim": "A rise in copycat suicides following prominent media coverage of a suicide; after Marilyn Monroe's death, U.S. suicides ran ~10% above normal.", "quote": "Suicide rates were 10 percent higher than normal.", "speaker": "Sean Cole (narration)", "episode": {"title": "The Suicide Paradox", "show": "Freakonomics Radio", "id": "128029", "date": "2011-08-31", "url": "https://freakonomics.com/podcast/the-suicide-paradox/"}, "age_years": 15, "freshness": "evergreen", "freshness_note": "Concept — not time-sensitive", "verified_quote_in_transcript": true}]</script>
+<script>
+const ENTRIES=JSON.parse(document.getElementById('data').textContent);
+const grid=document.getElementById('grid'),countEl=document.getElementById('count'),
+      emptyEl=document.getElementById('empty'),q=document.getElementById('q'),
+      showSel=document.getElementById('showSel');
+let type='all';
+const shows=[...new Set(ENTRIES.map(e=>e.episode.show))].sort();
+showSel.innerHTML='<option value="all">All shows</option>'+shows.map(s=>`<option value="${s.replace(/"/g,'&quot;')}">${s}</option>`).join('');
+const fresh={current:'current',aging:'aging',check:'check',evergreen:'evergreen',durable:'durable'};
+const freshLabel={current:'current',aging:'aging',check:'verify',evergreen:'evergreen',durable:'durable'};
+const esc=s=>s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function card(e){
+  const yr=e.episode.date.slice(0,4);
+  return `<article class="entry">
+    <div class="entry__head"><h3 class="entry__word">${esc(e.headword)}</h3>
+      <span class="tag tag--${e.entry_type}">${e.entry_type}</span></div>
+    <div class="entry__cat">${esc(e.category)}</div>
+    <p class="entry__claim">${esc(e.claim)}</p>
+    <blockquote class="entry__quote">“${esc(e.quote)}”<cite>— ${esc(e.speaker)}</cite></blockquote>
+    <div class="entry__foot">
+      <span class="cite-src"><b>${esc(e.episode.show)}</b> — “${esc(e.episode.title)}”</span>
+      <span class="cite-date">${yr} · ${e.age_years} yr${e.age_years===1?'':'s'} old</span>
+      <span class="pill pill--${fresh[e.freshness]}" title="${esc(e.freshness_note)}">${freshLabel[e.freshness]}</span>
+      <span class="grounded" title="Quote verified against the source transcript">✓ grounded</span>
+    </div></article>`;
+}
+function render(){
+  const term=q.value.trim().toLowerCase(), show=showSel.value;
+  const rows=ENTRIES.filter(e=>{
+    if(type!=='all'&&e.entry_type!==type)return false;
+    if(show!=='all'&&e.episode.show!==show)return false;
+    if(term){const hay=(e.headword+' '+e.claim+' '+e.quote+' '+e.speaker+' '+e.category+' '+e.episode.title).toLowerCase();
+      if(!hay.includes(term))return false;}
+    return true;
+  });
+  grid.innerHTML=rows.map(card).join('');
+  emptyEl.hidden=rows.length>0;
+  countEl.textContent=rows.length+' / '+ENTRIES.length+' entries';
+}
+document.getElementById('typeSeg').addEventListener('click',ev=>{
+  const b=ev.target.closest('.seg'); if(!b)return;
+  type=b.dataset.type;
+  [...ev.currentTarget.children].forEach(x=>x.setAttribute('aria-pressed',x===b));
+  render();
+});
+q.addEventListener('input',render); showSel.addEventListener('change',render);
+render();
+</script>
