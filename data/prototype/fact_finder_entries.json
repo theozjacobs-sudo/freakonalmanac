@@ -1,5 +1,24 @@
 [
   {
+    "headword": "168 hours",
+    "entry_type": "concept",
+    "category": "Time management",
+    "claim": "A leveling fact everyone shares: the week holds the same 168 hours for the accomplished and the ordinary alike.",
+    "quote": "this life that we lead with 168 hours a week, whether you're a mere mortal or somebody who's really accomplished, you get the same 168 hours.",
+    "speaker": "Angela Duckworth, psychologist",
+    "episode": {
+      "title": "How to Manage Your Goal Hierarchy",
+      "show": "Freakonomics Radio",
+      "id": "111907",
+      "date": "2021-04-14",
+      "url": "https://freakonomics.com/podcast/how-to-manage-your-goal-hierarchy-ep-458/"
+    },
+    "age_years": 5,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Access to air travel",
     "entry_type": "figure",
     "category": "Economics",
@@ -16,6 +35,25 @@
     "age_years": 3,
     "freshness": "aging",
     "freshness_note": "Figure is ~3 yrs old — likely still ok",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Active vs. index funds",
+    "entry_type": "figure",
+    "category": "Investing",
+    "claim": "Over a decade, between 71% and 93% of U.S. stock mutual funds either closed or failed to beat their index fund.",
+    "quote": "between 71 and 93 percent of U.S. stock mutual funds either closed or failed to beat their closest index funds.",
+    "speaker": "Stephen Dubner (narration), citing The Wall Street Journal",
+    "episode": {
+      "title": "The Stupidest Thing You Can Do With Your Money",
+      "show": "Freakonomics Radio",
+      "id": "118317",
+      "date": "2017-07-26",
+      "url": "https://freakonomics.com/podcast/the-stupidest-thing-you-can-do-with-your-money/"
+    },
+    "age_years": 9,
+    "freshness": "check",
+    "freshness_note": "Figure is ~9 yrs old — verify before publishing",
     "verified_quote_in_transcript": true
   },
   {
@@ -54,6 +92,44 @@
     "age_years": 15,
     "freshness": "durable",
     "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Advance market commitment",
+    "entry_type": "concept",
+    "category": "Innovation policy",
+    "claim": "A 'pull' funding tool: funders pre-commit to buy a product that doesn't exist yet. A $1.5B pneumococcal-vaccine AMC is credited with saving ~700,000 children.",
+    "quote": "governments or foundations commit to buying a product that doesn't exist yet.",
+    "speaker": "Christopher Snyder, economist",
+    "episode": {
+      "title": "Are Thousands of Medical Cures Hiding in Plain Sight?",
+      "show": "Freakonomics Radio",
+      "id": "143286",
+      "date": "2026-02-20",
+      "url": "https://freakonomics.com/podcast/are-thousands-of-medical-cures-hiding-in-plain-sight/"
+    },
+    "age_years": 0,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Adverse selection",
+    "entry_type": "figure",
+    "category": "Insurance",
+    "claim": "People who buy life insurance are riskier than they look: over 12 years, those who died were nearly 20% more likely to have bought it than similar survivors.",
+    "quote": "those who died were nearly 20 percent more likely to have bought life insurance relative to people who remained alive during the period",
+    "speaker": "Amy Finkelstein, economist",
+    "episode": {
+      "title": "“Insurance Is Sexy.” Discuss.",
+      "show": "Freakonomics Radio",
+      "id": "133879",
+      "date": "2023-03-22",
+      "url": "https://freakonomics.com/podcast/insurance-is-sexy-discuss/"
+    },
+    "age_years": 3,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~3 yrs old — likely still ok",
     "verified_quote_in_transcript": true
   },
   {
@@ -133,6 +209,44 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Baseball draft odds",
+    "entry_type": "figure",
+    "category": "Sports",
+    "claim": "Only about 11% of drafted players reach the majors — though nearly all of them expect to.",
+    "quote": "only 11 percent of the kids who get drafted each year make the majors; but probably close to 100 percent of them think they will.",
+    "speaker": "Stephen Dubner (narration)",
+    "episode": {
+      "title": "The Upside of Quitting",
+      "show": "Freakonomics Radio",
+      "id": "128144",
+      "date": "2011-09-30",
+      "url": "https://freakonomics.com/podcast/the-upside-of-quitting-3/"
+    },
+    "age_years": 15,
+    "freshness": "check",
+    "freshness_note": "Figure is ~15 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Behavioral economics",
+    "entry_type": "concept",
+    "category": "Economics",
+    "claim": "The field that runs the rational-actor model through psychology; its founder hopes it eventually dissolves into economics itself.",
+    "quote": "I hope that 50 years from now, maybe sooner, the field of behavioral economics will no longer exist, and economics will just be as behavioral as it needs to be.",
+    "speaker": "Richard Thaler, economist",
+    "episode": {
+      "title": "Should We Really Behave Like Economists Say We Do?",
+      "show": "Freakonomics Radio",
+      "id": "118809",
+      "date": "2015-06-04",
+      "url": "https://freakonomics.com/podcast/should-we-really-behave-like-economists-say-we-do/"
+    },
+    "age_years": 11,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Belyaev fox experiment",
     "entry_type": "concept",
     "category": "Genetics & domestication",
@@ -149,6 +263,63 @@
     "age_years": 6,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Board games vs. video games",
+    "entry_type": "figure",
+    "category": "Media economics",
+    "claim": "Americans spend about $1.6 billion a year on board games and puzzles versus $23.5 billion on video games — nearly $15 on video for every $1 on board games.",
+    "quote": "Board-game and puzzle sales in the United States bring in about $1.6 billion a year.",
+    "speaker": "Baba Brinkman (narration)",
+    "episode": {
+      "title": "How to Win Games and Beat People",
+      "show": "Freakonomics Radio",
+      "id": "118765",
+      "date": "2016-05-11",
+      "url": "https://freakonomics.com/podcast/how-to-win-games-and-beat-people/"
+    },
+    "age_years": 10,
+    "freshness": "check",
+    "freshness_note": "Figure is ~10 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Brain-supplement market",
+    "entry_type": "figure",
+    "category": "Consumer economics",
+    "claim": "The brain-supplement segment has doubled over seven years and is projected to double again to roughly $25 billion a year.",
+    "quote": "it has doubled over the past seven years, and it’s projected to double again in the next seven, to around $25 billion a year.",
+    "speaker": "narration (Prevagen ad segment)",
+    "episode": {
+      "title": "This Is Your Brain on Supplements",
+      "show": "Freakonomics Radio",
+      "id": "143140",
+      "date": "2026-01-09",
+      "url": "https://freakonomics.com/podcast/this-is-your-brain-on-supplements/"
+    },
+    "age_years": 0,
+    "freshness": "current",
+    "freshness_note": "Recent (~0 yrs) — likely current",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Broadway flop rate",
+    "entry_type": "figure",
+    "category": "Entertainment economics",
+    "claim": "About 80% of Broadway shows never earn back their original investment.",
+    "quote": "80 percent of shows do not pay back their original capitalization.",
+    "speaker": "Jeffrey Seller, Broadway producer",
+    "episode": {
+      "title": "Why Is the Live-Event Ticket Market So Screwed Up?",
+      "show": "Freakonomics Radio",
+      "id": "118094",
+      "date": "2017-12-06",
+      "url": "https://freakonomics.com/podcast/why-is-the-live-event-ticket-market-so-screwed-up/"
+    },
+    "age_years": 9,
+    "freshness": "check",
+    "freshness_note": "Figure is ~9 yrs old — verify before publishing",
     "verified_quote_in_transcript": true
   },
   {
@@ -190,6 +361,44 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Connect Four combinations",
+    "entry_type": "fact",
+    "category": "Game theory",
+    "claim": "Connect Four has about 4.5 trillion possible board combinations — yet the first player can force a win with perfect play.",
+    "quote": "There are four and half trillion different combinations in Connect Four.",
+    "speaker": "Tom Whipple, journalist",
+    "episode": {
+      "title": "How to Win Games and Beat People",
+      "show": "Freakonomics Radio",
+      "id": "118765",
+      "date": "2016-05-11",
+      "url": "https://freakonomics.com/podcast/how-to-win-games-and-beat-people/"
+    },
+    "age_years": 10,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Cost of a new drug",
+    "entry_type": "figure",
+    "category": "Pharmaceutical economics",
+    "claim": "Developing a new drug costs roughly $1–2 billion and takes 10–15 years.",
+    "quote": "It costs between $1 and $2 billion and it takes 10 to 15 years to create a new drug.",
+    "speaker": "David Fajgenbaum, physician-researcher",
+    "episode": {
+      "title": "Are Thousands of Medical Cures Hiding in Plain Sight?",
+      "show": "Freakonomics Radio",
+      "id": "143286",
+      "date": "2026-02-20",
+      "url": "https://freakonomics.com/podcast/are-thousands-of-medical-cures-hiding-in-plain-sight/"
+    },
+    "age_years": 0,
+    "freshness": "current",
+    "freshness_note": "Recent (~0 yrs) — likely current",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "CPM (cost per mille)",
     "entry_type": "concept",
     "category": "Advertising",
@@ -206,6 +415,63 @@
     "age_years": 1,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Cycle of debt",
+    "entry_type": "concept",
+    "category": "Consumer finance",
+    "claim": "The industry's revenue leans on repeat borrowers: 75% of payday-loan fees come from people taking more than ten loans a year.",
+    "quote": "75 percent of the industry’s fees come from borrowers who take out more than ten loans a year.",
+    "speaker": "Stephen Dubner (narration), citing the CFPB",
+    "episode": {
+      "title": "Are Payday Loans Really as Evil as People Say?",
+      "show": "Freakonomics Radio",
+      "id": "118426",
+      "date": "2016-04-06",
+      "url": "https://freakonomics.com/podcast/are-payday-loans-really-as-evil-as-people-say/"
+    },
+    "age_years": 10,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Default-search payments",
+    "entry_type": "fact",
+    "category": "Market structure",
+    "claim": "Google pays Apple an estimated $15 billion a year to remain the default search engine on Safari.",
+    "quote": "Google pays Apple an estimated $15 billion a year to be the default search engine on Safari.",
+    "speaker": "Sridhar Ramaswamy (narration)",
+    "episode": {
+      "title": "Is Google Getting Worse?",
+      "show": "Freakonomics Radio",
+      "id": "132981",
+      "date": "2022-11-16",
+      "url": "https://freakonomics.com/podcast/is-google-getting-worse/"
+    },
+    "age_years": 4,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Divergence of Black names",
+    "entry_type": "fact",
+    "category": "Culture",
+    "claim": "Black and white American baby names were largely shared until they sharply diverged over a roughly seven-year span in the 1970s.",
+    "quote": "within about a seven-year period in the 1970s, names just completely diverged.",
+    "speaker": "Steve Levitt, economist",
+    "episode": {
+      "title": "How Much Does Your Name Matter?",
+      "show": "Freakonomics Radio",
+      "id": "128548",
+      "date": "2013-04-08",
+      "url": "https://freakonomics.com/podcast/how-much-does-your-name-matter-2/"
+    },
+    "age_years": 13,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -261,6 +527,44 @@
       "url": "https://freakonomics.com/podcast/sludge-part-1-the-world-is-drowning-in-it/"
     },
     "age_years": 1,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Drug repurposing",
+    "entry_type": "concept",
+    "category": "Medicine",
+    "claim": "Finding new uses for already-approved drugs — which costs roughly 1% of developing a new drug from scratch.",
+    "quote": "It costs about 1 percent of the cost to develop a new drug, to repurpose a drug and find a new use for an old drug.",
+    "speaker": "David Fajgenbaum, physician-researcher",
+    "episode": {
+      "title": "Are Thousands of Medical Cures Hiding in Plain Sight?",
+      "show": "Freakonomics Radio",
+      "id": "143286",
+      "date": "2026-02-20",
+      "url": "https://freakonomics.com/podcast/are-thousands-of-medical-cures-hiding-in-plain-sight/"
+    },
+    "age_years": 0,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "DSHEA (1994)",
+    "entry_type": "fact",
+    "category": "Regulation",
+    "claim": "The 1994 law that lightly regulates supplements; since then the number on the market grew from ~4,000 to 90,000, none with health-agency approval.",
+    "quote": "since the passage of DSHEA in 1994, the number of supplements on the market has grown from around 4,000 to 90,000",
+    "speaker": "Peter Attia (narration)",
+    "episode": {
+      "title": "This Is Your Brain on Supplements",
+      "show": "Freakonomics Radio",
+      "id": "143140",
+      "date": "2026-01-09",
+      "url": "https://freakonomics.com/podcast/this-is-your-brain-on-supplements/"
+    },
+    "age_years": 0,
     "freshness": "durable",
     "freshness_note": "Historical fact — stable over time",
     "verified_quote_in_transcript": true
@@ -361,6 +665,215 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Fantasy winnings concentration",
+    "entry_type": "figure",
+    "category": "Gambling",
+    "claim": "Daily-fantasy payouts are extremely top-heavy: one baseball study found over 90% of winnings went to just over 1% of players.",
+    "quote": "more than 90 percent of the winnings went to just over 1 percent of the players.",
+    "speaker": "Stephen Dubner (narration)",
+    "episode": {
+      "title": "The Economics of Sports Gambling",
+      "show": "Freakonomics Radio",
+      "id": "118503",
+      "date": "2019-09-04",
+      "url": "https://freakonomics.com/podcast/the-economics-of-sports-gambling/"
+    },
+    "age_years": 7,
+    "freshness": "check",
+    "freshness_note": "Figure is ~7 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Fees compound",
+    "entry_type": "figure",
+    "category": "Investing",
+    "claim": "A 2% fee vs. 0.04% doesn't look like much yearly, but over 50 years a dollar at 7% grows to ~$32 while a dollar at 5% grows to only ~$10.",
+    "quote": "over 50 years, believe it or not, a dollar invested at 7 percent grows to around $32 and a dollar invested at five percent grows to about $10.",
+    "speaker": "John Bogle, Vanguard founder",
+    "episode": {
+      "title": "The Stupidest Thing You Can Do With Your Money",
+      "show": "Freakonomics Radio",
+      "id": "118317",
+      "date": "2017-07-26",
+      "url": "https://freakonomics.com/podcast/the-stupidest-thing-you-can-do-with-your-money/"
+    },
+    "age_years": 9,
+    "freshness": "check",
+    "freshness_note": "Figure is ~9 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Female Fortune 500 CEOs",
+    "entry_type": "figure",
+    "category": "Business",
+    "claim": "An all-time high number of women running Fortune 500 firms still meant only 27 of 500 — about 5.4% — as of early 2018.",
+    "quote": "Out of those 500 companies, there were, as of early 2018, 27 female C.E.O.s.",
+    "speaker": "Stephen Dubner (narration)",
+    "episode": {
+      "title": "After the Glass Ceiling, a Glass Cliff",
+      "show": "Freakonomics Radio",
+      "id": "118056",
+      "date": "2018-02-14",
+      "url": "https://freakonomics.com/podcast/after-the-glass-ceiling-a-glass-cliff/"
+    },
+    "age_years": 8,
+    "freshness": "check",
+    "freshness_note": "Figure is ~8 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Financial illiteracy",
+    "entry_type": "figure",
+    "category": "Behavioral finance",
+    "claim": "On three basic money questions (interest, inflation, risk), only half of 50-plus respondents got the first two right and just a third got all three.",
+    "quote": "only fifty percent of respondents got both of the first two questions right, and only a third of the people got all three answers right.",
+    "speaker": "Stephen Dubner (narration), citing Annamaria Lusardi",
+    "episode": {
+      "title": "Lottery Loopholes and Deadly Doctors",
+      "show": "Freakonomics Radio",
+      "id": "128094",
+      "date": "2012-04-26",
+      "url": "https://freakonomics.com/podcast/lottery-loopholes-and-deadly-doctors/"
+    },
+    "age_years": 14,
+    "freshness": "check",
+    "freshness_note": "Figure is ~14 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Fiscal transfers between states",
+    "entry_type": "concept",
+    "category": "Public finance",
+    "claim": "The U.S. quietly redistributes across states: Mississippi gets ~10% of its GDP back from Washington, while Connecticut pays ~10% more in than it gets.",
+    "quote": "Mississippi gets about 10 percent of its GDP back from the federal government, more than what it puts in every single year.",
+    "speaker": "Austan Goolsbee, economist",
+    "episode": {
+      "title": "Should the U.S. Merge With Mexico?",
+      "show": "Freakonomics Radio",
+      "id": "128253",
+      "date": "2014-11-06",
+      "url": "https://freakonomics.com/podcast/should-the-u-s-merge-with-mexico/"
+    },
+    "age_years": 12,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Foreign ownership of the EPL",
+    "entry_type": "fact",
+    "category": "Sports economics",
+    "claim": "When the English Premier League launched in 1992, 21 of 22 teams had UK ownership; today only four of 20 are majority UK-owned.",
+    "quote": "In 1992, when the English Premier League was launched, 21 of its 22 teams had U.K. ownership.",
+    "speaker": "Rory Smith, sports journalist",
+    "episode": {
+      "title": "Why Governments Are Betting Big on Sports",
+      "show": "Freakonomics Radio",
+      "id": "142219",
+      "date": "2025-07-11",
+      "url": "https://freakonomics.com/podcast/why-governments-are-betting-big-on-sports/"
+    },
+    "age_years": 1,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "German reunification subsidy",
+    "entry_type": "figure",
+    "category": "Economics",
+    "claim": "Merging a poorer economy into a richer one is costly: West Germany transferred more than a trillion dollars to the former East Germany.",
+    "quote": "there was more than a trillion dollars of subsidy from the West Germany to the East Germany when they joined up.",
+    "speaker": "Austan Goolsbee, economist",
+    "episode": {
+      "title": "Should the U.S. Merge With Mexico?",
+      "show": "Freakonomics Radio",
+      "id": "128253",
+      "date": "2014-11-06",
+      "url": "https://freakonomics.com/podcast/should-the-u-s-merge-with-mexico/"
+    },
+    "age_years": 12,
+    "freshness": "check",
+    "freshness_note": "Figure is ~12 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Glass cliff",
+    "entry_type": "concept",
+    "category": "Management",
+    "claim": "Women are more likely to be handed leadership in precarious moments — and once in charge, are disproportionately targeted: the gender effect alone raises activist-targeting likelihood 28%.",
+    "quote": "the gender effect alone is responsible for a 28 percent increase in the likelihood that a firm experiences targeting from an activist.",
+    "speaker": "Dan Shropshire, management scholar",
+    "episode": {
+      "title": "After the Glass Ceiling, a Glass Cliff",
+      "show": "Freakonomics Radio",
+      "id": "118056",
+      "date": "2018-02-14",
+      "url": "https://freakonomics.com/podcast/after-the-glass-ceiling-a-glass-cliff/"
+    },
+    "age_years": 8,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Google ad dependence",
+    "entry_type": "figure",
+    "category": "Media economics",
+    "claim": "About 81% of Google's revenue comes from advertising on its own properties and in Search.",
+    "quote": "About 81 percent of Google's revenue comes from advertising on its properties and in Search",
+    "speaker": "Tim Hwang (narration)",
+    "episode": {
+      "title": "Is Google Getting Worse?",
+      "show": "Freakonomics Radio",
+      "id": "132981",
+      "date": "2022-11-16",
+      "url": "https://freakonomics.com/podcast/is-google-getting-worse/"
+    },
+    "age_years": 4,
+    "freshness": "check",
+    "freshness_note": "Figure is ~4 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Government as insurer",
+    "entry_type": "concept",
+    "category": "Public finance",
+    "claim": "Most of what the federal government does is insurance — Social Security, Medicare, disaster relief — with defense as a sideline.",
+    "quote": "The federal government is a giant insurance company with a sideline business in national defense.",
+    "speaker": "Amy Finkelstein, economist (quoting Peter Fisher)",
+    "episode": {
+      "title": "“Insurance Is Sexy.” Discuss.",
+      "show": "Freakonomics Radio",
+      "id": "133879",
+      "date": "2023-03-22",
+      "url": "https://freakonomics.com/podcast/insurance-is-sexy-discuss/"
+    },
+    "age_years": 3,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "H-1B lottery",
+    "entry_type": "fact",
+    "category": "Policy",
+    "claim": "The skilled-worker H-1B visa is rationed by lottery: 85,000 slots a year against roughly 700,000 applicants.",
+    "quote": "There are 85,000 slots every year.",
+    "speaker": "Sindhu Mahadevan (narration)",
+    "episode": {
+      "title": "What Both Parties Get Wrong About Immigration",
+      "show": "Freakonomics Radio",
+      "id": "139830",
+      "date": "2024-03-20",
+      "url": "https://freakonomics.com/podcast/what-both-parties-get-wrong-about-immigration/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Healthcare spending concentration",
     "entry_type": "figure",
     "category": "Health economics",
@@ -399,6 +912,63 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Homo economicus",
+    "entry_type": "concept",
+    "category": "Economics",
+    "claim": "The perfectly rational, self-interested actor still taught in Econ 101 — a model real humans rarely match.",
+    "quote": "the model of human behavior still taught in economics 101",
+    "speaker": "William Rosalsky (narration)",
+    "episode": {
+      "title": "Should We Really Behave Like Economists Say We Do?",
+      "show": "Freakonomics Radio",
+      "id": "118809",
+      "date": "2015-06-04",
+      "url": "https://freakonomics.com/podcast/should-we-really-behave-like-economists-say-we-do/"
+    },
+    "age_years": 11,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Immigrant fiscal contribution",
+    "entry_type": "figure",
+    "category": "Public finance",
+    "claim": "A 2017 National Academies study estimated the net federal tax benefit of each immigrant at about $260,000 over decades.",
+    "quote": "the net tax benefit of each immigrant, is, like, $260,000.",
+    "speaker": "Stephen Dubner (narration)",
+    "episode": {
+      "title": "What Both Parties Get Wrong About Immigration",
+      "show": "Freakonomics Radio",
+      "id": "139830",
+      "date": "2024-03-20",
+      "url": "https://freakonomics.com/podcast/what-both-parties-get-wrong-about-immigration/"
+    },
+    "age_years": 2,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~2 yrs old — likely still ok",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Immigrants and patents",
+    "entry_type": "figure",
+    "category": "Innovation",
+    "claim": "Immigrants are responsible for 36% of all U.S. patents and are 80% more likely than the native-born to start a business.",
+    "quote": "Immigrants today are responsible for 36 percent of all patents in the U.S.",
+    "speaker": "Zeke Hernandez, business professor",
+    "episode": {
+      "title": "What Both Parties Get Wrong About Immigration",
+      "show": "Freakonomics Radio",
+      "id": "139830",
+      "date": "2024-03-20",
+      "url": "https://freakonomics.com/podcast/what-both-parties-get-wrong-about-immigration/"
+    },
+    "age_years": 2,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~2 yrs old — likely still ok",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Inattention and subscriptions",
     "entry_type": "figure",
     "category": "Behavioral economics",
@@ -418,6 +988,82 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "IPL streaming record",
+    "entry_type": "fact",
+    "category": "Media",
+    "claim": "In 2023 an Indian Premier League cricket match set the world record for the most simultaneous live streams of any event.",
+    "quote": "in 2023, the world record for the most simultaneous live streams of an event was broken, for an Indian Premier League cricket match.",
+    "speaker": "Simon Chadwick, sports professor",
+    "episode": {
+      "title": "Why Governments Are Betting Big on Sports",
+      "show": "Freakonomics Radio",
+      "id": "142219",
+      "date": "2025-07-11",
+      "url": "https://freakonomics.com/podcast/why-governments-are-betting-big-on-sports/"
+    },
+    "age_years": 1,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Ketamine for depression",
+    "entry_type": "figure",
+    "category": "Neuroscience",
+    "claim": "A low, sub-anesthetic dose of ketamine can lift depression fast — with the largest effect seen ~72 hours after a single dose in early studies.",
+    "quote": "In the early studies, actually 72 hours after a single dose was the largest effect on depression.",
+    "speaker": "James Murrough, psychiatrist",
+    "episode": {
+      "title": "How Are Psychedelics and Other Party Drugs Changing Psychiatry?",
+      "show": "Freakonomics Radio",
+      "id": "112081",
+      "date": "2020-09-30",
+      "url": "https://freakonomics.com/podcast/how-are-psychedelics-and-other-party-drugs-changing-psychiatry-ep-433/"
+    },
+    "age_years": 6,
+    "freshness": "check",
+    "freshness_note": "Figure is ~6 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Limits of presidential power",
+    "entry_type": "concept",
+    "category": "Government",
+    "claim": "Constitutional scholars note that presidents arrive expecting sweeping power and find it heavily constrained.",
+    "quote": "every president comes into office thinking he’s got the keys to the kingdom only to discover that every door is double locked with a deadbolt.",
+    "speaker": "Bernadette Meyler, constitutional scholar",
+    "episode": {
+      "title": "How Much Does the President Really Matter?",
+      "show": "Freakonomics Radio",
+      "id": "127903",
+      "date": "2010-11-04",
+      "url": "https://freakonomics.com/podcast/how-much-does-the-president-really-matter/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Logic of collective action",
+    "entry_type": "concept",
+    "category": "Political economy",
+    "claim": "Mancur Olson's 1965 argument applying rational self-interest to politics — and why a purely rational person might not bother to vote.",
+    "quote": "In 1965, economist Mancur Olson published an influential book called The Logic of Collective Action, which applied the homo economicus model to the political world.",
+    "speaker": "William Rosalsky (narration)",
+    "episode": {
+      "title": "Should We Really Behave Like Economists Say We Do?",
+      "show": "Freakonomics Radio",
+      "id": "118809",
+      "date": "2015-06-04",
+      "url": "https://freakonomics.com/podcast/should-we-really-behave-like-economists-say-we-do/"
+    },
+    "age_years": 11,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Long snapper",
     "entry_type": "fact",
     "category": "Sports economics",
@@ -432,6 +1078,63 @@
       "url": "https://freakonomics.com/podcast/why-does-the-most-monotonous-job-in-the-world-pay-1-million/"
     },
     "age_years": 4,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Longest-running A/B test",
+    "entry_type": "fact",
+    "category": "Technology",
+    "claim": "A 1%-of-users 'no ads' holdout Google coded in 2000 kept running for years — reportedly the longest-running split A/B experiment on the internet.",
+    "quote": "this is the longest-running split A/B experiment in the history of the internet.",
+    "speaker": "Marissa Mayer, former Google executive",
+    "episode": {
+      "title": "Is Google Getting Worse?",
+      "show": "Freakonomics Radio",
+      "id": "132981",
+      "date": "2022-11-16",
+      "url": "https://freakonomics.com/podcast/is-google-getting-worse/"
+    },
+    "age_years": 4,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Lottery rake",
+    "entry_type": "figure",
+    "category": "Public finance",
+    "claim": "State lotteries keep as much as 60% of ticket sales (the 'rake'), versus casino slot machines that pay out over 90%.",
+    "quote": "With state lotteries, the rake can be as high as 60 percent.",
+    "speaker": "Gordon Medenica, NY state lottery director",
+    "episode": {
+      "title": "Lottery Loopholes and Deadly Doctors",
+      "show": "Freakonomics Radio",
+      "id": "128094",
+      "date": "2012-04-26",
+      "url": "https://freakonomics.com/podcast/lottery-loopholes-and-deadly-doctors/"
+    },
+    "age_years": 14,
+    "freshness": "check",
+    "freshness_note": "Figure is ~14 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "LSD",
+    "entry_type": "fact",
+    "category": "Pharmacology",
+    "claim": "The first synthetic hallucinogen, LSD, was discovered by Swiss chemist Albert Hofmann in 1938.",
+    "quote": "The first synthetic hallucinogenic molecule, LSD, was discovered by the Swiss chemist Albert Hofmann in 1938.",
+    "speaker": "Stephen Dubner (narration)",
+    "episode": {
+      "title": "How Are Psychedelics and Other Party Drugs Changing Psychiatry?",
+      "show": "Freakonomics Radio",
+      "id": "112081",
+      "date": "2020-09-30",
+      "url": "https://freakonomics.com/podcast/how-are-psychedelics-and-other-party-drugs-changing-psychiatry-ep-433/"
+    },
+    "age_years": 6,
     "freshness": "durable",
     "freshness_note": "Historical fact — stable over time",
     "verified_quote_in_transcript": true
@@ -475,6 +1178,101 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "MDMA",
+    "entry_type": "fact",
+    "category": "Pharmacology",
+    "claim": "MDMA was first synthesized by Merck in 1912 — originally as an intermediate toward a drug to stop bleeding.",
+    "quote": "MDMA was first synthesized by Merck in 1912, and it was originally supposed to be an intermediary compound towards making a drug that stops bleeding.",
+    "speaker": "Rachel Yehuda, neuroscientist",
+    "episode": {
+      "title": "How Are Psychedelics and Other Party Drugs Changing Psychiatry?",
+      "show": "Freakonomics Radio",
+      "id": "112081",
+      "date": "2020-09-30",
+      "url": "https://freakonomics.com/podcast/how-are-psychedelics-and-other-party-drugs-changing-psychiatry-ep-433/"
+    },
+    "age_years": 6,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Military Lending Act",
+    "entry_type": "fact",
+    "category": "Policy",
+    "claim": "A 2006 law capped the interest rate payday lenders can charge active-duty military and their dependents at 36% nationwide.",
+    "quote": "in 2006 it passed the Military Lending Act, which, among other things, capped the interest rate that payday lenders can charge active personnel and their dependents at 36 percent nationwide.",
+    "speaker": "Jonathan Zinman, economist",
+    "episode": {
+      "title": "Are Payday Loans Really as Evil as People Say?",
+      "show": "Freakonomics Radio",
+      "id": "118426",
+      "date": "2016-04-06",
+      "url": "https://freakonomics.com/podcast/are-payday-loans-really-as-evil-as-people-say/"
+    },
+    "age_years": 10,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Names trickle down",
+    "entry_type": "concept",
+    "category": "Culture",
+    "claim": "Trendy first names typically start among high-income, educated families and migrate down the income ladder over decades.",
+    "quote": "start at the top of the income distribution, and over the course of 20, or 30, or 40 years they migrate their way down becoming more and more popular among the less-educated set.",
+    "speaker": "Latanya Sweeney (narration)",
+    "episode": {
+      "title": "How Much Does Your Name Matter?",
+      "show": "Freakonomics Radio",
+      "id": "128548",
+      "date": "2013-04-08",
+      "url": "https://freakonomics.com/podcast/how-much-does-your-name-matter-2/"
+    },
+    "age_years": 13,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "National Origins Act (1924)",
+    "entry_type": "fact",
+    "category": "History",
+    "claim": "The 1924 law slashed U.S. immigration from about a million people a year to roughly 50,000 by the 1930s.",
+    "quote": "By the 1930s, immigration had fallen from a million people a year to 50,000.",
+    "speaker": "Stephen Dubner (narration)",
+    "episode": {
+      "title": "What Both Parties Get Wrong About Immigration",
+      "show": "Freakonomics Radio",
+      "id": "139830",
+      "date": "2024-03-20",
+      "url": "https://freakonomics.com/podcast/what-both-parties-get-wrong-about-immigration/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Opportunity cost of pro sports",
+    "entry_type": "figure",
+    "category": "Labor economics",
+    "claim": "Ten years on, a minor-league baseball player earns about 40% less than a similar peer who skipped baseball for a regular career.",
+    "quote": "the person who plays baseball is making about forty percent less on average ten years after they enter the game than the person who decides not to play baseball",
+    "speaker": "Sudhir Venkatesh, sociologist",
+    "episode": {
+      "title": "The Upside of Quitting",
+      "show": "Freakonomics Radio",
+      "id": "128144",
+      "date": "2011-09-30",
+      "url": "https://freakonomics.com/podcast/the-upside-of-quitting-3/"
+    },
+    "age_years": 15,
+    "freshness": "check",
+    "freshness_note": "Figure is ~15 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Papageno effect",
     "entry_type": "concept",
     "category": "Psychology & media",
@@ -491,6 +1289,44 @@
     "age_years": 15,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "PASPA (1992)",
+    "entry_type": "fact",
+    "category": "Law",
+    "claim": "The 1992 federal law barring states from legalizing sports betting; the Supreme Court struck it down 6–3 in 2018.",
+    "quote": "The justices voted 6-3 to strike down the 1992 federal law against gambling.",
+    "speaker": "Victor Matheson (narration)",
+    "episode": {
+      "title": "The Economics of Sports Gambling",
+      "show": "Freakonomics Radio",
+      "id": "118503",
+      "date": "2019-09-04",
+      "url": "https://freakonomics.com/podcast/the-economics-of-sports-gambling/"
+    },
+    "age_years": 7,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Payday loan APR",
+    "entry_type": "figure",
+    "category": "Consumer finance",
+    "claim": "Payday loans carry annualized rates around 400% — far above even the priciest credit cards.",
+    "quote": "The interest rates, on an annualized basis, can be in the neighborhood of 400 percent — much, much higher than even the most expensive credit cards.",
+    "speaker": "Stephen Dubner (narration)",
+    "episode": {
+      "title": "Are Payday Loans Really as Evil as People Say?",
+      "show": "Freakonomics Radio",
+      "id": "118426",
+      "date": "2016-04-06",
+      "url": "https://freakonomics.com/podcast/are-payday-loans-really-as-evil-as-people-say/"
+    },
+    "age_years": 10,
+    "freshness": "check",
+    "freshness_note": "Figure is ~10 yrs old — verify before publishing",
     "verified_quote_in_transcript": true
   },
   {
@@ -513,6 +1349,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Power not to enforce",
+    "entry_type": "concept",
+    "category": "Government",
+    "claim": "A frequently overlooked presidential power: choosing which laws to enforce.",
+    "quote": "Then a third power, that is often under-reflected-upon, is the power not to enforce laws.",
+    "speaker": "Bernadette Meyler, constitutional scholar",
+    "episode": {
+      "title": "How Much Does the President Really Matter?",
+      "show": "Freakonomics Radio",
+      "id": "127903",
+      "date": "2010-11-04",
+      "url": "https://freakonomics.com/podcast/how-much-does-the-president-really-matter/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Pre-roll / mid-roll / post-roll",
     "entry_type": "concept",
     "category": "Advertising",
@@ -527,6 +1382,44 @@
       "url": "https://freakonomics.com/podcast/podcasts/"
     },
     "age_years": 1,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Presidential effect on markets",
+    "entry_type": "figure",
+    "category": "Political economy",
+    "claim": "A natural experiment from the 2004 election suggested the stock market values the difference between a Bush and a Kerry presidency at only ~1.5–2%.",
+    "quote": "It looks like the difference between having a Bush presidency and a Kerry presidency for the value of U.S. stocks was maybe 1 and a half or 2 percent; which is really a pretty small thing.",
+    "speaker": "Justin Wolfers, economist",
+    "episode": {
+      "title": "How Much Does the President Really Matter?",
+      "show": "Freakonomics Radio",
+      "id": "127903",
+      "date": "2010-11-04",
+      "url": "https://freakonomics.com/podcast/how-much-does-the-president-really-matter/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Prize-linked savings",
+    "entry_type": "concept",
+    "category": "Behavioral finance",
+    "claim": "A savings product that pairs a bank account with lottery-style prizes, to lure lottery players into building an emergency cushion.",
+    "quote": "The idea is a new financial product that combines the thrill of the lottery with the goal of  maybe accumulating more than $2,000 in a savings account",
+    "speaker": "Melissa Kearney, economist",
+    "episode": {
+      "title": "Lottery Loopholes and Deadly Doctors",
+      "show": "Freakonomics Radio",
+      "id": "128094",
+      "date": "2012-04-26",
+      "url": "https://freakonomics.com/podcast/lottery-loopholes-and-deadly-doctors/"
+    },
+    "age_years": 14,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
     "verified_quote_in_transcript": true
@@ -548,6 +1441,25 @@
     "age_years": 7,
     "freshness": "check",
     "freshness_note": "Figure is ~7 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Quitting and health",
+    "entry_type": "concept",
+    "category": "Psychology",
+    "claim": "Being able to abandon unattainable goals is measurably good for your health.",
+    "quote": "he and a colleague found that being able to abandon goals that are essentially unattainable is good for your health.",
+    "speaker": "Stephen Dubner (narration)",
+    "episode": {
+      "title": "The Upside of Quitting",
+      "show": "Freakonomics Radio",
+      "id": "128144",
+      "date": "2011-09-30",
+      "url": "https://freakonomics.com/podcast/the-upside-of-quitting-3/"
+    },
+    "age_years": 15,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
     "verified_quote_in_transcript": true
   },
   {
@@ -608,6 +1520,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Rock-paper-scissors bias",
+    "entry_type": "fact",
+    "category": "Game theory",
+    "claim": "People don't play randomly: in one large study, scissors was thrown only 29.6% of the time.",
+    "quote": "scissors are 29.6 percent of the time, when they have been analyzed.",
+    "speaker": "Tom Whipple, journalist",
+    "episode": {
+      "title": "How to Win Games and Beat People",
+      "show": "Freakonomics Radio",
+      "id": "118765",
+      "date": "2016-05-11",
+      "url": "https://freakonomics.com/podcast/how-to-win-games-and-beat-people/"
+    },
+    "age_years": 10,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Roster specialization",
     "entry_type": "figure",
     "category": "Sports economics",
@@ -627,6 +1558,82 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Résumé name gap",
+    "entry_type": "figure",
+    "category": "Labor economics",
+    "claim": "An identical résumé with a white-sounding name gets about 50% more callbacks than one with a Black-sounding name (Bertrand & Mullainathan).",
+    "quote": "if you send out a  resume with a white-sounding name, it’s about 50 percent more likely to get a callback than an identical resume where all you’ve done is change the name to a black-sounding name.",
+    "speaker": "Latanya Sweeney (narration)",
+    "episode": {
+      "title": "How Much Does Your Name Matter?",
+      "show": "Freakonomics Radio",
+      "id": "128548",
+      "date": "2013-04-08",
+      "url": "https://freakonomics.com/podcast/how-much-does-your-name-matter-2/"
+    },
+    "age_years": 13,
+    "freshness": "check",
+    "freshness_note": "Figure is ~13 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Search market share",
+    "entry_type": "figure",
+    "category": "Market structure",
+    "claim": "Google handles roughly 90% of global online search.",
+    "quote": "As of today, Google handles about 90 percent of online global search activity.",
+    "speaker": "Stephen Dubner (narration)",
+    "episode": {
+      "title": "Is Google Getting Worse?",
+      "show": "Freakonomics Radio",
+      "id": "132981",
+      "date": "2022-11-16",
+      "url": "https://freakonomics.com/podcast/is-google-getting-worse/"
+    },
+    "age_years": 4,
+    "freshness": "check",
+    "freshness_note": "Figure is ~4 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Self-efficacy modeling",
+    "entry_type": "concept",
+    "category": "Psychology",
+    "claim": "Children's belief in what they can achieve rises from watching a parent persist — self-efficacy is taught by example, not praise.",
+    "quote": "that is increasing the self-efficacy of the child watching because you've shown what's possible.",
+    "speaker": "Angela Duckworth, psychologist",
+    "episode": {
+      "title": "How to Manage Your Goal Hierarchy",
+      "show": "Freakonomics Radio",
+      "id": "111907",
+      "date": "2021-04-14",
+      "url": "https://freakonomics.com/podcast/how-to-manage-your-goal-hierarchy-ep-458/"
+    },
+    "age_years": 5,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Skill vs. luck (Fama-French)",
+    "entry_type": "concept",
+    "category": "Investing",
+    "claim": "Studying mutual-fund returns, Fama and French found only the top 2–3% of managers had enough skill to cover their costs.",
+    "quote": "the top 2 to 3 percent had enough skill to cover their costs.",
+    "speaker": "Kenneth French, economist",
+    "episode": {
+      "title": "The Stupidest Thing You Can Do With Your Money",
+      "show": "Freakonomics Radio",
+      "id": "118317",
+      "date": "2017-07-26",
+      "url": "https://freakonomics.com/podcast/the-stupidest-thing-you-can-do-with-your-money/"
+    },
+    "age_years": 9,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Sludge",
     "entry_type": "concept",
     "category": "Behavioral economics",
@@ -643,6 +1650,44 @@
     "age_years": 1,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Sports as GDP strategy",
+    "entry_type": "figure",
+    "category": "Sports economics",
+    "claim": "Saudi Arabia is targeting roughly 3% of GDP from its sports economy — part of a Gulf pivot away from oil.",
+    "quote": "somewhere around three percent of G.D.P. is what Saudi Arabia is looking for its sports economy to grow to.",
+    "speaker": "Simon Chadwick, sports professor",
+    "episode": {
+      "title": "Why Governments Are Betting Big on Sports",
+      "show": "Freakonomics Radio",
+      "id": "142219",
+      "date": "2025-07-11",
+      "url": "https://freakonomics.com/podcast/why-governments-are-betting-big-on-sports/"
+    },
+    "age_years": 1,
+    "freshness": "current",
+    "freshness_note": "Recent (~1 yrs) — likely current",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Sports betting volume",
+    "entry_type": "figure",
+    "category": "Economics",
+    "claim": "Even before broad legalization, as much as $300 billion a year was estimated to be wagered on sports in the U.S.",
+    "quote": "You might have as much as $300 billion being bet in the United States every year.",
+    "speaker": "Victor Matheson, economist",
+    "episode": {
+      "title": "The Economics of Sports Gambling",
+      "show": "Freakonomics Radio",
+      "id": "118503",
+      "date": "2019-09-04",
+      "url": "https://freakonomics.com/podcast/the-economics-of-sports-gambling/"
+    },
+    "age_years": 7,
+    "freshness": "check",
+    "freshness_note": "Figure is ~7 yrs old — verify before publishing",
     "verified_quote_in_transcript": true
   },
   {
@@ -738,6 +1783,158 @@
     "age_years": 3,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Supplement label accuracy",
+    "entry_type": "figure",
+    "category": "Consumer safety",
+    "claim": "Where pharma versions contained 98–104% of the labeled dose, supplement versions ranged from under 2% to 110% — and a third were contaminated with bacteria.",
+    "quote": "The supplement versions, meanwhile, ranged from less than two percent to 110 percent of the quantity listed on the label",
+    "speaker": "Pieter Cohen, physician",
+    "episode": {
+      "title": "This Is Your Brain on Supplements",
+      "show": "Freakonomics Radio",
+      "id": "143140",
+      "date": "2026-01-09",
+      "url": "https://freakonomics.com/podcast/this-is-your-brain-on-supplements/"
+    },
+    "age_years": 0,
+    "freshness": "current",
+    "freshness_note": "Recent (~0 yrs) — likely current",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "The Offer (Zappos)",
+    "entry_type": "fact",
+    "category": "Management",
+    "claim": "Zappos pays new hires $3,000 to quit during training — a filter for commitment; of nearly 2,000 trainees, only about 30 ever took it.",
+    "quote": "Zappos offers 3,000 dollars to any new hire who wants to walk away from the job.",
+    "speaker": "Stacey Vanek Smith (narration)",
+    "episode": {
+      "title": "The Upside of Quitting",
+      "show": "Freakonomics Radio",
+      "id": "128144",
+      "date": "2011-09-30",
+      "url": "https://freakonomics.com/podcast/the-upside-of-quitting-3/"
+    },
+    "age_years": 15,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Think manager, think male",
+    "entry_type": "concept",
+    "category": "Psychology",
+    "claim": "A bias documented since the 1970s: people default to picturing a man when they picture a leader.",
+    "quote": "This is a finding that’s been in the literature since the 1970s  and that’s called the “think manager, think male” association.",
+    "speaker": "Michelle Ryan, psychologist",
+    "episode": {
+      "title": "After the Glass Ceiling, a Glass Cliff",
+      "show": "Freakonomics Radio",
+      "id": "118056",
+      "date": "2018-02-14",
+      "url": "https://freakonomics.com/podcast/after-the-glass-ceiling-a-glass-cliff/"
+    },
+    "age_years": 8,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Ticket bots",
+    "entry_type": "fact",
+    "category": "Technology",
+    "claim": "At one point up to 70% of Hamilton's tickets were being bought by automated bots.",
+    "quote": "up to 70 percent of our tickets were being purchased through automated bots.",
+    "speaker": "Jeffrey Seller, Broadway producer",
+    "episode": {
+      "title": "Why Is the Live-Event Ticket Market So Screwed Up?",
+      "show": "Freakonomics Radio",
+      "id": "118094",
+      "date": "2017-12-06",
+      "url": "https://freakonomics.com/podcast/why-is-the-live-event-ticket-market-so-screwed-up/"
+    },
+    "age_years": 9,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Ticket underpricing",
+    "entry_type": "concept",
+    "category": "Market design",
+    "claim": "Concert tickets are chronically priced below what the market will bear, so the gap becomes profit for scalpers rather than the artist.",
+    "quote": "if an artist sells a ticket for 50 bucks, but the price at which that ticket clears the market is more like 500 bucks, there's $450 of profit that's going somewhere.",
+    "speaker": "Eric Budish, economist",
+    "episode": {
+      "title": "Why Is the Live-Event Ticket Market So Screwed Up?",
+      "show": "Freakonomics Radio",
+      "id": "118094",
+      "date": "2017-12-06",
+      "url": "https://freakonomics.com/podcast/why-is-the-live-event-ticket-market-so-screwed-up/"
+    },
+    "age_years": 9,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Treaty of Guadalupe Hidalgo",
+    "entry_type": "fact",
+    "category": "History",
+    "claim": "Ending the Mexican-American War, Mexico ceded more than half its territory; the U.S. paid $15 million (roughly $400 million today).",
+    "quote": "The Treaty called for the U.S. to compensate Mexico $15 million for all this property.",
+    "speaker": "Stephen Dubner (narration)",
+    "episode": {
+      "title": "Should the U.S. Merge With Mexico?",
+      "show": "Freakonomics Radio",
+      "id": "128253",
+      "date": "2014-11-06",
+      "url": "https://freakonomics.com/podcast/should-the-u-s-merge-with-mexico/"
+    },
+    "age_years": 12,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Uninsured Americans",
+    "entry_type": "figure",
+    "category": "Health economics",
+    "claim": "The Affordable Care Act roughly halved the uninsured share, yet about 30 million Americans still lack health insurance.",
+    "quote": "there's still 30 million Americans without health insurance.",
+    "speaker": "Amy Finkelstein, economist",
+    "episode": {
+      "title": "“Insurance Is Sexy.” Discuss.",
+      "show": "Freakonomics Radio",
+      "id": "133879",
+      "date": "2023-03-22",
+      "url": "https://freakonomics.com/podcast/insurance-is-sexy-discuss/"
+    },
+    "age_years": 3,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~3 yrs old — likely still ok",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Untreated diseases",
+    "entry_type": "figure",
+    "category": "Medicine",
+    "claim": "There are ~18,000 known human diseases, but only about a quarter have an FDA-approved treatment.",
+    "quote": "There are 18,000 known human diseases — but only about a quarter of them have an F.D.A.-approved treatment.",
+    "speaker": "Grant Stone (narration)",
+    "episode": {
+      "title": "Are Thousands of Medical Cures Hiding in Plain Sight?",
+      "show": "Freakonomics Radio",
+      "id": "143286",
+      "date": "2026-02-20",
+      "url": "https://freakonomics.com/podcast/are-thousands-of-medical-cures-hiding-in-plain-sight/"
+    },
+    "age_years": 0,
+    "freshness": "current",
+    "freshness_note": "Recent (~0 yrs) — likely current",
     "verified_quote_in_transcript": true
   },
   {
