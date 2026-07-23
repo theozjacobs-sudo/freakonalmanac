@@ -4,12 +4,13 @@ a single self-contained HTML page: site/fact-finder.html.
 
 Run:  python3 scripts/build_site.py
 """
-import json, html
+import json, html, sys
 from pathlib import Path
 from collections import Counter
 
 ROOT = Path(__file__).resolve().parent.parent
-entries = json.load(open(ROOT / "data/prototype/fact_finder_entries.json", encoding="utf-8"))
+SRC = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "data/prototype/fact_finder_entries.json"
+entries = json.load(open(SRC, encoding="utf-8"))
 
 n_entries = len(entries)
 n_eps = len({e["episode"]["id"] for e in entries})

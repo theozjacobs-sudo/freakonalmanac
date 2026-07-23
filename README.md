@@ -55,3 +55,15 @@ python3 scripts/build_fact_finder.py  # rebuild + verify the entry dataset
 python3 scripts/build_site.py      # render site/fact-finder.html
 python3 scripts/verify_entries.py # re-check grounding
 ```
+
+
+## Scaling: the automated extractor
+`scripts/extract.py` runs the same extraction across many episodes via the Anthropic
+Batch API (50% cheaper, async) with prompt caching, then verifies every quote and
+writes `data/entries/generated.json`. Needs `ANTHROPIC_API_KEY` in the environment.
+```bash
+export ANTHROPIC_API_KEY=sk-ant-...
+python3 scripts/extract.py --show "Freakonomics Radio" --limit 50
+python3 scripts/build_site.py data/entries/generated.json   # render the result
+```
+Defaults to claude-opus-4-8; pass `--model claude-sonnet-5` for a cheaper full run.
