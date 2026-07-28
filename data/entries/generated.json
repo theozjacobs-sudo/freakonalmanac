@@ -1,0 +1,3783 @@
+[
+  {
+    "headword": "\"Detroit model\" of teaching",
+    "entry_type": "concept",
+    "category": "Labor economics",
+    "claim": "Klein said teaching needs professionalizing because it still operates like a trade-union assembly line, and he likened labor-management relations to the song \"The Glory of Love.\"",
+    "quote": "I think we’ve got to professionalize teaching and it’s still too much of a trade union assembly line Detroit model and we’ve got to move that.",
+    "speaker": "Chancellor Joel KLEIN",
+    "episode": {
+      "title": "Exit Interview: Schools Chancellor, NYC",
+      "show": "Freakonomics Radio",
+      "id": "127882",
+      "date": "2011-01-06",
+      "url": "https://freakonomics.com/podcast/exit-interview-schools-chancellor-nyc/"
+    },
+    "age_years": 15,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "\"More of Levitt, less of Dubner\"",
+    "entry_type": "story",
+    "category": "Media",
+    "claim": "Early Freakonomics Radio episodes drew brutal iTunes reviews, which Levitt and Dubner read aloud on air — including one asking for less Dubner.",
+    "quote": "I like this one here: “More of Levitt, less of Dubner.”",
+    "speaker": "LEVITT",
+    "episode": {
+      "title": "Two Book Authors and a Microphone",
+      "show": "Freakonomics Radio",
+      "id": "127915",
+      "date": "2010-09-30",
+      "url": "https://freakonomics.com/podcast/two-book-authors-and-a-microphone/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "\"People would get over it\"",
+    "entry_type": "concept",
+    "category": "Behavioral economics",
+    "claim": "Broncos COO Joe Ellis opposes jersey logos on tradition grounds but concedes fan outrage would be short-lived — as it was when Denver's Mile High Stadium was renamed for Invesco.",
+    "quote": "I'm of the camp that we shouldn't do that. The tradition of the uniform and how its presented to the public both in the stadium and on television has some long-standing value",
+    "speaker": "ELLIS",
+    "episode": {
+      "title": "The N.F.L.'s Best Real Estate Isn't for Sale. Yet.",
+      "show": "Freakonomics Radio",
+      "id": "127906",
+      "date": "2010-10-29",
+      "url": "https://freakonomics.com/podcast/the-nfls-best-real-estate-isnt-for-sale-yet/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "$2,000 in 30 days test",
+    "entry_type": "figure",
+    "category": "Household finance",
+    "claim": "Harvard's Peter Tufano surveyed people in 13 countries asking whether they could come up with $2,000 in 30 days; about half of Americans said they could not, leaving them one emergency away from disaster.",
+    "quote": "About half of Americans are not able to come up with $2,000 in 30 days, which means that they stand only one emergency or crisis away from really quite dire circumstances.",
+    "speaker": "Peter TUFANO",
+    "episode": {
+      "title": "Is America Ready for a “No-Lose Lottery”?",
+      "show": "Freakonomics Radio",
+      "id": "127900",
+      "date": "2010-11-18",
+      "url": "https://freakonomics.com/podcast/is-america-ready-for-a-no-lose-lottery/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "30,000 gallons of spoiled pizza sauce",
+    "entry_type": "story",
+    "category": "Food technology",
+    "claim": "Nelson's scale-up test in Pennsylvania filled two 15,000-gallon tanks with pizza sauce; a small drop in process temperature let organisms in and the whole batch spoiled, and had to be spread over the hills.",
+    "quote": "So, was I glad I was in the hills of Pennsylvania, because we had to spread that red wasted tomato all over the hills out there. Fortunately we had kept good records. We realized that you can’t be half aseptic; it’s got to be total.",
+    "speaker": "NELSON",
+    "episode": {
+      "title": "Waiter, There's a Physicist in My Soup, Part 2",
+      "show": "Freakonomics Radio",
+      "id": "127891",
+      "date": "2011-02-03",
+      "url": "https://freakonomics.com/podcast/waiter-theres-a-physicist-in-my-soup-part-2/"
+    },
+    "age_years": 15,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Abstinence track proposal",
+    "entry_type": "story",
+    "category": "Incentives",
+    "claim": "As a junior fellow, Levitt proposed that the Society of Fellows offer a \"drinking track\" and an \"abstinence track,\" with non-drinkers getting the roughly $3,000 a year in wine costs added to their paycheck. The reaction was negative.",
+    "quote": "because the cost of the wine was perhaps $60 per meal, that over the course of fifty weeks of the year, that would work out to be about  $3,000 and they could add $3,000 to the paycheck of those of us on the abstinence path.",
+    "speaker": "LEVITT",
+    "episode": {
+      "title": "Do More Expensive Wines Taste Better?",
+      "show": "Freakonomics Radio",
+      "id": "127894",
+      "date": "2010-12-16",
+      "url": "https://freakonomics.com/podcast/do-more-expensive-wines-taste-better/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Accidental experiment",
+    "entry_type": "concept",
+    "category": "Research methods",
+    "claim": "To separate correlation from causality, economists look for quirks of fate that push two otherwise identical people onto different paths — what Levitt calls an accidental experiment.",
+    "quote": "So the trick is finding what I would call an accidental experiment.",
+    "speaker": "LEVITT",
+    "episode": {
+      "title": "Freakonomics FAQ, No. 1",
+      "show": "Freakonomics Radio",
+      "id": "127876",
+      "date": "2011-01-20",
+      "url": "https://freakonomics.com/podcast/freakonomics-faq-no-1/"
+    },
+    "age_years": 15,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Alice Waters's Big Mac experiment",
+    "entry_type": "story",
+    "category": "Food culture",
+    "claim": "On a trip to Kansas, Alice Waters once tried a McDonald's drive-through as an experiment and found the food nondescript.",
+    "quote": "For me, it wasn’t tasty.  It was soft bread and salty, french fries.  Really objectively, it was kind of nondescript.",
+    "speaker": "WATERS",
+    "episode": {
+      "title": "Waiter, There's a Physicist In My Soup, Part I",
+      "show": "Freakonomics Radio",
+      "id": "127888",
+      "date": "2011-01-27",
+      "url": "https://freakonomics.com/podcast/waiter-theres-a-physicist-in-my-soup-part-i/"
+    },
+    "age_years": 15,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "American gambling participation",
+    "entry_type": "figure",
+    "category": "Gambling economics",
+    "claim": "Two-thirds of American adults say they gamble and half say they've played the lottery; casinos are a distant second at about one in five adults.",
+    "quote": "So two out of three American adults report gambling and 50 percent say they’ve played the lottery, the next closest is the casino, which is about one in five adults.",
+    "speaker": "Melissa KEARNEY",
+    "episode": {
+      "title": "The “No-Lose Lottery,” Part 2",
+      "show": "Freakonomics Radio",
+      "id": "127897",
+      "date": "2010-12-02",
+      "url": "https://freakonomics.com/podcast/the-no-lose-lottery-part-2/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Ansari X Prize",
+    "entry_type": "fact",
+    "category": "Innovation economics",
+    "claim": "The first X Prize offered $10 million for a privately built spacecraft carrying three people above 100 kilometers and repeating the flight within two weeks; it was won in 2004 and sponsored by the Ansari family.",
+    "quote": "The first prize offered $10 million to anyone who could send a spacecraft, with three people aboard, more than 100 kilometers above the Earth’s surface, and then come back — and then do it again within two weeks of that first launch.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Reading, Rockets, and ‘Rithmetic",
+      "show": "Freakonomics Radio",
+      "id": "127909",
+      "date": "2010-10-21",
+      "url": "https://freakonomics.com/podcast/reading-rockets-and-rithmetic/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Appert, Nicolas",
+    "entry_type": "person",
+    "category": "Food science history",
+    "claim": "Nicolas Appert, known as the father of canning, developed methods to seal and sterilize food in containers so Napoleon's armies could travel farther; he worked about a decade to win Napoleon's cash prize.",
+    "quote": "One of his scientists developed the methods to really can food and sterilize it so that Napoleon could actually transfer the food to his armies, and therefore can move forward to longer and longer distances.",
+    "speaker": "FLOROS",
+    "episode": {
+      "title": "Waiter, There's a Physicist in My Soup, Part 2",
+      "show": "Freakonomics Radio",
+      "id": "127891",
+      "date": "2011-02-03",
+      "url": "https://freakonomics.com/podcast/waiter-theres-a-physicist-in-my-soup-part-2/"
+    },
+    "age_years": 15,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Approval ratings of Congress and lawyers",
+    "entry_type": "figure",
+    "category": "Public opinion polling",
+    "claim": "Pollster John Zogby reported members of Congress at under 10 percent positive on performance and ethics, and lawyers at 13 percent positive — four points ahead of stockbrokers and Congress.",
+    "quote": "Lawyers, in fact, as of December specifically — 13 percent positive rating. That puts them four points ahead of stockbrokers and members of Congress.",
+    "speaker": "John ZOGBY",
+    "episode": {
+      "title": "What Would the World Look Like if Economists Were in Charge?",
+      "show": "Freakonomics Radio",
+      "id": "127927",
+      "date": "2010-03-24",
+      "url": "https://freakonomics.com/podcast/what-would-the-world-look-like-if-economists-were-in-charge/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Autopilot metaphor for the presidency",
+    "entry_type": "concept",
+    "category": "Political economy",
+    "claim": "Baseball economist J.C. Bradbury argues the gap between the president's real influence and perceived influence is enormous — the president is essentially a co-pilot in an already-automated plane.",
+    "quote": "The president is really just someone who’s sitting in the co-pilot seat in a plane that’s already on autopilot.",
+    "speaker": "BRADBURY",
+    "episode": {
+      "title": "How Much Does the President Really Matter?",
+      "show": "Freakonomics Radio",
+      "id": "127903",
+      "date": "2010-11-04",
+      "url": "https://freakonomics.com/podcast/how-much-does-the-president-really-matter/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Barr, Michael",
+    "entry_type": "person",
+    "category": "Government policy",
+    "claim": "As Treasury's Assistant Secretary for Financial Institutions, Barr called the lottery \"a fool's errand\" but declined to champion prize-linked savings legislation, saying it wasn't worth a fight over state gaming law.",
+    "quote": "One of the things that I’ve learned in my role at Treasury is that picking fights that one doesn’t have to pick isn’t the wisest course of action unless it’s something that’s absolutely essential to take on.",
+    "speaker": "BARR",
+    "episode": {
+      "title": "The “No-Lose Lottery,” Part 2",
+      "show": "Freakonomics Radio",
+      "id": "127897",
+      "date": "2010-12-02",
+      "url": "https://freakonomics.com/podcast/the-no-lose-lottery-part-2/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Barriers to entry in prostitution",
+    "entry_type": "concept",
+    "category": "Illicit markets",
+    "claim": "Allie argues the main barrier to entering sex work isn't cost — it's social values and stigma — so legalization would draw more women in and push prices down.",
+    "quote": "The thing is that generally, the barriers to entry for women to get into the business are more values and the way that they’re seen in society, obviously more than their costs.",
+    "speaker": "ALLIE",
+    "episode": {
+      "title": "What Would the World Look Like if Economists Were in Charge?",
+      "show": "Freakonomics Radio",
+      "id": "127927",
+      "date": "2010-03-24",
+      "url": "https://freakonomics.com/podcast/what-would-the-world-look-like-if-economists-were-in-charge/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Blooper that broke the no-hitter",
+    "entry_type": "story",
+    "category": "Sports",
+    "claim": "Inserted as a ninth-inning defensive replacement during teammate Eric Milton's no-hit bid, Glanville misread a blooper and let the no-hitter die.",
+    "quote": "a teammate of mine, Eric Milton, scoring a no-hitter into the ninth inning, and I went in for defense in the ninth and sure enough, the ball finds you.",
+    "speaker": "GLANVILLE",
+    "episode": {
+      "title": "Who Stole All the Runs in Major League Baseball?",
+      "show": "Freakonomics Radio",
+      "id": "127912",
+      "date": "2010-10-07",
+      "url": "https://freakonomics.com/podcast/who-stole-all-the-runs-in-major-league-baseball/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Body Mass Index (BMI)",
+    "entry_type": "concept",
+    "category": "Public health measurement",
+    "claim": "Political scientist Eric Oliver, six feet tall and 190 pounds, found himself technically overweight at a BMI of 25 — a discovery that launched his research into the politics of obesity.",
+    "quote": "I’m six feet tall and 190 pounds",
+    "speaker": "OLIVER",
+    "episode": {
+      "title": "Is America’s Obesity Epidemic For Real?",
+      "show": "Freakonomics Radio",
+      "id": "127930",
+      "date": "2010-02-26",
+      "url": "https://freakonomics.com/podcast/is-americas-obesity-epidemic-for-real/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Borlaug, Norman",
+    "entry_type": "person",
+    "category": "Agricultural science",
+    "claim": "Plant chemist Norman Borlaug bred heartier wheat strains that boosted yields as Asia faced mass famine in the 1960s; credited with saving a billion lives, he won the 1970 Nobel Peace Prize and founded the World Food Prize.",
+    "quote": "Borlaug, a plant chemist, developed new and heartier strains of wheat that drastically increased crop yield — and he’s credited with saving a billion lives, more than anyone in history.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Waiter, There's a Physicist in My Soup, Part 2",
+      "show": "Freakonomics Radio",
+      "id": "127891",
+      "date": "2011-02-03",
+      "url": "https://freakonomics.com/podcast/waiter-theres-a-physicist-in-my-soup-part-2/"
+    },
+    "age_years": 15,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Brazilian police moonlighting",
+    "entry_type": "fact",
+    "category": "Crime economics",
+    "claim": "According to researchers Levitt has spoken with, many Brazilian police officers know the favelas well because their off-duty work is serving as security guards for the drug dealers.",
+    "quote": "the standard job of many Brazilian police officers when they’re off duty is to work for the drug dealers in the favelas, serving as security guards",
+    "speaker": "LEVITT",
+    "episode": {
+      "title": "Freakonomics FAQ, No. 1",
+      "show": "Freakonomics Radio",
+      "id": "127876",
+      "date": "2011-01-20",
+      "url": "https://freakonomics.com/podcast/freakonomics-faq-no-1/"
+    },
+    "age_years": 15,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Bread as foam",
+    "entry_type": "concept",
+    "category": "Food science",
+    "claim": "Myhrvold classifies bread as a \"set foam\": gas from yeast or baking powder foams the dough, and oven heat sets the starches and proteins.",
+    "quote": "Bread is a foam.  You may not think of it that way, but bread is what we classify as a set foam.",
+    "speaker": "MYHRVOLD",
+    "episode": {
+      "title": "Waiter, There's a Physicist In My Soup, Part I",
+      "show": "Freakonomics Radio",
+      "id": "127888",
+      "date": "2011-01-27",
+      "url": "https://freakonomics.com/podcast/waiter-theres-a-physicist-in-my-soup-part-i/"
+    },
+    "age_years": 15,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Bulk aseptic processing",
+    "entry_type": "concept",
+    "category": "Food technology",
+    "claim": "Purdue's Philip Nelson developed a way to pasteurize food in a thin layer through sterilized pipes into a huge sterile tank, using gentler heat that preserved flavor and nutrition.",
+    "quote": "Nelson got to work on a process that could pasteurize food in a thin layer as it passed through a series of sterilized pipes and valves, and into a large sterilized tank.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Waiter, There's a Physicist in My Soup, Part 2",
+      "show": "Freakonomics Radio",
+      "id": "127891",
+      "date": "2011-02-03",
+      "url": "https://freakonomics.com/podcast/waiter-theres-a-physicist-in-my-soup-part-2/"
+    },
+    "age_years": 15,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Bush-Kerry stock market gap",
+    "entry_type": "figure",
+    "category": "Financial markets",
+    "claim": "Comparing market moves during the mistaken 'Kerry presidency' window with before and after, Wolfers estimated the difference in U.S. stock value between a Bush and a Kerry presidency was only about 1.5 to 2 percent.",
+    "quote": "It looks like the difference between having a Bush presidency and a Kerry presidency for the value of U.S. stocks was maybe 1 and a half or 2 percent; which is really a pretty small thing.",
+    "speaker": "WOLFERS",
+    "episode": {
+      "title": "How Much Does the President Really Matter?",
+      "show": "Freakonomics Radio",
+      "id": "127903",
+      "date": "2010-11-04",
+      "url": "https://freakonomics.com/podcast/how-much-does-the-president-really-matter/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Cab driver with a college degree",
+    "entry_type": "story",
+    "category": "Labor economics",
+    "claim": "Levitt overheard a taxi dispatcher advertising a night shift that required both experience and a college education — his illustration of credential inflation in the modern economy.",
+    "quote": "And I thought to myself, “If you need a college education to drive a cab in this country, what job don’t you need to have a college education for?”",
+    "speaker": "LEVITT",
+    "episode": {
+      "title": "Freakonomics FAQ, No. 1",
+      "show": "Freakonomics Radio",
+      "id": "127876",
+      "date": "2011-01-20",
+      "url": "https://freakonomics.com/podcast/freakonomics-faq-no-1/"
+    },
+    "age_years": 15,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Calorie labeling",
+    "entry_type": "concept",
+    "category": "Behavioral economics",
+    "claim": "Wansink found calorie labeling mostly influences people who already eat well and know calorie counts, failing to move those who most need to change.",
+    "quote": "When we look at calories labeling, for instance, the people it seems to have influenced the most are the people who already do eat pretty well.",
+    "speaker": "WANSINK",
+    "episode": {
+      "title": "Is America’s Obesity Epidemic For Real?",
+      "show": "Freakonomics Radio",
+      "id": "127930",
+      "date": "2010-02-26",
+      "url": "https://freakonomics.com/podcast/is-americas-obesity-epidemic-for-real/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Cannibalization (advertising)",
+    "entry_type": "concept",
+    "category": "Media economics",
+    "claim": "The N.F.L. fears jersey-sponsorship money wouldn't be new money at all but revenue siphoned from its $4.5 billion in annual broadcast rights, since networks pay for the ad inventory in the game.",
+    "quote": "The best comparative value you could get is the $4 and a half billion dollars that we currently get from our broadcast partners for the rights to our game.",
+    "speaker": "WALLER",
+    "episode": {
+      "title": "The N.F.L.'s Best Real Estate Isn't for Sale. Yet.",
+      "show": "Freakonomics Radio",
+      "id": "127906",
+      "date": "2010-10-29",
+      "url": "https://freakonomics.com/podcast/the-nfls-best-real-estate-isnt-for-sale-yet/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Carlton Cards (Penn Station)",
+    "entry_type": "place",
+    "category": "Gambling economics",
+    "claim": "A greeting-card shop in New York's Penn Station is the biggest lottery retailer in the state, doing $8 to $9 million a year in ticket sales while the card racks in back sit empty.",
+    "quote": "According to the New York State Lottery, Carlton Cards sells more lottery tickets than any other store in New York.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Is America Ready for a “No-Lose Lottery”?",
+      "show": "Freakonomics Radio",
+      "id": "127900",
+      "date": "2010-11-18",
+      "url": "https://freakonomics.com/podcast/is-america-ready-for-a-no-lose-lottery/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Place entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "CDC's 400,000 obesity deaths estimate",
+    "entry_type": "figure",
+    "category": "Public health statistics",
+    "claim": "A 2004 CDC article in JAMA claimed obesity killed 400,000 Americans a year; a different CDC division later put the figure closer to 20,000, and found as many people dying from weighing too little.",
+    "quote": "A different division of CDC later issued a report that said, in fact, that number was probably closer to more like 20,000 people a year. And, in fact, there were just as many people dying from weighing too little as there were from weighing too much.",
+    "speaker": "OLIVER",
+    "episode": {
+      "title": "Is America’s Obesity Epidemic For Real?",
+      "show": "Freakonomics Radio",
+      "id": "127930",
+      "date": "2010-02-26",
+      "url": "https://freakonomics.com/podcast/is-americas-obesity-epidemic-for-real/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Charlottesville garbage weighing study",
+    "entry_type": "figure",
+    "category": "Applied economics",
+    "claim": "In 1992, grad student Tom Kinnaman weighed Charlottesville, Virginia garbage cans before and after Pay-As-You-Throw; garbage weight fell, about 30 percent of the reduction showed up in recycling bins, and the other 60 percent went unaccounted for — likely dumped in the woods.",
+    "quote": "And we did find, for example, the weight of garbage did go down, and some of that reduction ended up in the recycling bin, about thirty-percent of it did. The other sixty-percent is unaccountable; we don’t know where it could have gone.",
+    "speaker": "KINNAMAN",
+    "episode": {
+      "title": "Trashed",
+      "show": "Freakonomics Radio",
+      "id": "127879",
+      "date": "2011-01-13",
+      "url": "https://freakonomics.com/podcast/trashed/"
+    },
+    "age_years": 15,
+    "freshness": "check",
+    "freshness_note": "Figure is ~15 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Cheap taste as an economic advantage",
+    "entry_type": "concept",
+    "category": "Behavioral economics",
+    "claim": "Levitt argues that having an inexpensive palate is a windfall: people born loving cheap food can afford everything they enjoy, while those with expensive tastes are either unhappy or broke.",
+    "quote": "Some people just happen to like expensive food and then they are unhappy most of the time, or else, they spend all their money on food.",
+    "speaker": "LEVITT",
+    "episode": {
+      "title": "Do More Expensive Wines Taste Better?",
+      "show": "Freakonomics Radio",
+      "id": "127894",
+      "date": "2010-12-16",
+      "url": "https://freakonomics.com/podcast/do-more-expensive-wines-taste-better/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Cheeseburger externality",
+    "entry_type": "figure",
+    "category": "Health economics",
+    "claim": "Because government covers 45 percent of U.S. health-care costs, one economist calculated that choosing a cheeseburger over a salad adds $2.50 in collective long-term health-care costs.",
+    "quote": "In fact, one economist has calculated that every time you order cheeseburger instead of a salad, you add $2.50 in collective long-term healthcare costs.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Is America’s Obesity Epidemic For Real?",
+      "show": "Freakonomics Radio",
+      "id": "127930",
+      "date": "2010-02-26",
+      "url": "https://freakonomics.com/podcast/is-americas-obesity-epidemic-for-real/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Choose your modality",
+    "entry_type": "story",
+    "category": "Education",
+    "claim": "Joel Rose got the idea for School of One while visiting a New Horizons technical-training franchise in Miami, where a sign at the entrance let students pick live instruction, online self-paced learning, or mentored learning.",
+    "quote": "So I went to meet him for lunch and I walk into the office, and there’s a big sign right when you walk in and it says, “Choose your modality.”",
+    "speaker": "ROSE",
+    "episode": {
+      "title": "How Is a Bad Radio Station Like the Public School System?",
+      "show": "Freakonomics Radio",
+      "id": "127921",
+      "date": "2010-05-12",
+      "url": "https://freakonomics.com/podcast/how-is-a-bad-radio-station-like-the-public-school-system/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "College wage premium",
+    "entry_type": "figure",
+    "category": "Labor economics",
+    "claim": "On average, a college graduate earns roughly 30% more than someone who stopped at high school — and Levitt says that premium is as large as it has ever been.",
+    "quote": "So someone who graduated from college will earn about 30% more on average than someone who only graduated from high school.",
+    "speaker": "LEVITT",
+    "episode": {
+      "title": "Freakonomics FAQ, No. 1",
+      "show": "Freakonomics Radio",
+      "id": "127876",
+      "date": "2011-01-20",
+      "url": "https://freakonomics.com/podcast/freakonomics-faq-no-1/"
+    },
+    "age_years": 15,
+    "freshness": "check",
+    "freshness_note": "Figure is ~15 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Crazy ideas as breakthroughs",
+    "entry_type": "concept",
+    "category": "Innovation economics",
+    "claim": "Diamandis argues real breakthroughs look crazy the day before they happen, so they can only be pursued by entrepreneurs — governments face investigations and big firms face falling stock prices.",
+    "quote": "If you want to cause a true breakthrough the day before something is really a breakthrough it’s a crazy idea.",
+    "speaker": "DIMANDIS",
+    "episode": {
+      "title": "Reading, Rockets, and ‘Rithmetic",
+      "show": "Freakonomics Radio",
+      "id": "127909",
+      "date": "2010-10-21",
+      "url": "https://freakonomics.com/podcast/reading-rockets-and-rithmetic/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Cut-in-half kitchen",
+    "entry_type": "story",
+    "category": "Publishing",
+    "claim": "To photograph what happens inside cooking vessels, the Modernist Cuisine team sawed pots, a microwave oven, and even a $5,000 professional steam oven in half.",
+    "quote": "We cut a whole microwave oven in half.  We even cut a $5,000 professional steam oven in half in order to show people what processes are going on during the cooking process.",
+    "speaker": "MYHRVOLD",
+    "episode": {
+      "title": "Waiter, There's a Physicist In My Soup, Part I",
+      "show": "Freakonomics Radio",
+      "id": "127888",
+      "date": "2011-01-27",
+      "url": "https://freakonomics.com/podcast/waiter-theres-a-physicist-in-my-soup-part-i/"
+    },
+    "age_years": 15,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Deathproof Mercedes",
+    "entry_type": "story",
+    "category": "Behavioral economics",
+    "claim": "Glenn Beck says a salesman pitched his new Mercedes as \"death proof,\" and that the safety features made him want to flip the car and take corners too fast.",
+    "quote": "This is, like, the safest car on the road, he used the term “Death Proof.”",
+    "speaker": "BECK",
+    "episode": {
+      "title": "The Dangers of Safety",
+      "show": "Freakonomics Radio",
+      "id": "127934",
+      "date": "2010-02-05",
+      "url": "https://freakonomics.com/podcast/the-dangers-of-safety/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Defenestration of economists",
+    "entry_type": "story",
+    "category": "Political economy",
+    "claim": "Patri Friedman predicted that economists in power would push deregulation, federalism, and school vouchers — and then be thrown out of high windows by teachers' unions.",
+    "quote": "And then the economists would be quickly out of power as the teachers' unions marched on Washington in their millions and seized the economists and throw them out of high story windows.",
+    "speaker": "Patri FRIEDMAN",
+    "episode": {
+      "title": "What Would the World Look Like if Economists Were in Charge?",
+      "show": "Freakonomics Radio",
+      "id": "127927",
+      "date": "2010-03-24",
+      "url": "https://freakonomics.com/podcast/what-would-the-world-look-like-if-economists-were-in-charge/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Defense as undervalued commodity",
+    "entry_type": "concept",
+    "category": "Market efficiency",
+    "claim": "Analysts argue teams now chase advanced defensive metrics because fielding is the market's underpriced asset, much as on-base percentage once was.",
+    "quote": "One of the reasons that some teams are focusing on defense and defense evaluation using these advance metrics is because it’s overall, it’s an undervalued commodity in baseball.",
+    "speaker": "LICHTMAN",
+    "episode": {
+      "title": "Who Stole All the Runs in Major League Baseball?",
+      "show": "Freakonomics Radio",
+      "id": "127912",
+      "date": "2010-10-07",
+      "url": "https://freakonomics.com/podcast/who-stole-all-the-runs-in-major-league-baseball/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Diamandis, Peter",
+    "entry_type": "person",
+    "category": "Innovation economics",
+    "claim": "Diamandis, born in 1961, was inspired by Apollo to obsess over spaceflight and later founded the X Prize Foundation, whose competitions launched a private spacecraft without him designing, building or paying for it.",
+    "quote": "The spacecraft that Peter Diamandis was responsible for launching — he didn’t design it, or build it, or even pay for it. All he did was create a competition.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Reading, Rockets, and ‘Rithmetic",
+      "show": "Freakonomics Radio",
+      "id": "127909",
+      "date": "2010-10-21",
+      "url": "https://freakonomics.com/podcast/reading-rockets-and-rithmetic/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Do More Expensive Wines Taste Better? (paper)",
+    "entry_type": "figure",
+    "category": "Economics of taste",
+    "claim": "Goldstein's paper analyzed 17 blind tastings with over 6,000 observations from more than 500 people, on wines priced from $1.65 to $150 a bottle, and found people liked expensive wines slightly less than cheap ones.",
+    "quote": "The data included more than 6,000 observations from more than 500 people, from amateur wine drinkers to sommeliers and wine makers.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Do More Expensive Wines Taste Better?",
+      "show": "Freakonomics Radio",
+      "id": "127894",
+      "date": "2010-12-16",
+      "url": "https://freakonomics.com/podcast/do-more-expensive-wines-taste-better/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Driving risk in life-years",
+    "entry_type": "figure",
+    "category": "Risk analysis",
+    "claim": "Levitt argues driving is remarkably safe: if car crashes were the only thing that could kill you and you drove nonstop, you'd expect to live 250 years.",
+    "quote": "If nothing were to kill you except driving your car, and all you did was drive your car day and night, you’d expect to live for 250 years.",
+    "speaker": "LEVITT",
+    "episode": {
+      "title": "The Dangers of Safety",
+      "show": "Freakonomics Radio",
+      "id": "127934",
+      "date": "2010-02-05",
+      "url": "https://freakonomics.com/podcast/the-dangers-of-safety/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Duncan, Arne",
+    "entry_type": "person",
+    "category": "Education policy",
+    "claim": "Arne Duncan, formerly head of the Chicago Public Schools, was U.S. Secretary of Education and oversaw Race to the Top, which had states compete to design the best school reforms.",
+    "quote": "That’s Arne Duncan, who used to run the Chicago Public Schools and now runs all of them.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Two Book Authors and a Microphone",
+      "show": "Freakonomics Radio",
+      "id": "127915",
+      "date": "2010-09-30",
+      "url": "https://freakonomics.com/podcast/two-book-authors-and-a-microphone/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Dying to Pandora",
+    "entry_type": "story",
+    "category": "Media economics",
+    "claim": "A dying man listened to Pandora daily in his final months; after he passed, his family sent Pandora the time of death, and the company identified the song playing at that moment and mailed a CD, which was played at his funeral.",
+    "quote": "We actually wrote them and told them which song was playing when he died.  And we sent them a CD and they played that song at his funeral.",
+    "speaker": "WESTERGREN",
+    "episode": {
+      "title": "How Is a Bad Radio Station Like the Public School System?",
+      "show": "Freakonomics Radio",
+      "id": "127921",
+      "date": "2010-05-12",
+      "url": "https://freakonomics.com/podcast/how-is-a-bad-radio-station-like-the-public-school-system/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Economists' immunity to repugnance",
+    "entry_type": "concept",
+    "category": "Behavioral economics",
+    "claim": "Steven Levitt argues you can identify an economist by testing them with repugnant ideas: economists ask whether something is efficient rather than whether it is right or wrong.",
+    "quote": "One of the easiest ways to differentiate an economist from almost anyone else in society is to test them with repugnant ideas.",
+    "speaker": "Steven D. LEVITT",
+    "episode": {
+      "title": "You Say Repugnant, I Say … Let’s Do It!",
+      "show": "Freakonomics Radio",
+      "id": "127885",
+      "date": "2010-12-30",
+      "url": "https://freakonomics.com/podcast/you-say-repugnant-i-say-lets-do-it/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Economists' social skills deficit",
+    "entry_type": "concept",
+    "category": "Economics profession",
+    "claim": "Levitt argues economists differ from politicians in not caring what others think, and says his wife chides him after every party for insulting someone without realizing it.",
+    "quote": "I cannot remember going to a party with my wife where, after we left, she didn’t chide me for having insulted or berated or challenged someone in a way that was completely and utterly beyond the social norm.",
+    "speaker": "Steven D. LEVITT",
+    "episode": {
+      "title": "What Would the World Look Like if Economists Were in Charge?",
+      "show": "Freakonomics Radio",
+      "id": "127927",
+      "date": "2010-03-24",
+      "url": "https://freakonomics.com/podcast/what-would-the-world-look-like-if-economists-were-in-charge/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Edwards, John",
+    "entry_type": "person",
+    "category": "Politics",
+    "claim": "Halperin calls Edwards the gold medalist of 2008 campaign fakery, negotiating for high office while concealing a child born out of wedlock.",
+    "quote": "The story of John Edwards winning the gold medal in fakery in the 2008 campaign is one that has a lot of resonance for people. In part because it’s like a slow-motion car crash.",
+    "speaker": "HALPERIN",
+    "episode": {
+      "title": "Faking It",
+      "show": "Freakonomics Radio",
+      "id": "127924",
+      "date": "2010-04-13",
+      "url": "https://freakonomics.com/podcast/faking-it/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Eighth-grade math proficiency in New York City",
+    "entry_type": "figure",
+    "category": "Education",
+    "claim": "Only 13 percent of New York City eighth-grade math teachers got 80 percent of their students to proficiency in a year; only 12 percent got a year's worth of growth out of 80 percent of students, and reading numbers were about half that.",
+    "quote": "if we picked a particular standard, like what percent of eighth grade math teachers in New York City get 80 percent of their students to proficiency by the end of the year, that number came in at 13 percent.",
+    "speaker": "ROSE",
+    "episode": {
+      "title": "How Is a Bad Radio Station Like the Public School System?",
+      "show": "Freakonomics Radio",
+      "id": "127921",
+      "date": "2010-05-12",
+      "url": "https://freakonomics.com/podcast/how-is-a-bad-radio-station-like-the-public-school-system/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Eli Manning vs. the Timex patch",
+    "entry_type": "story",
+    "category": "Sports marketing",
+    "claim": "Eli Manning personally endorses Citizen Watches, but the New York Giants signed a sponsorship deal—including practice-jersey patches—with rival Timex, nullifying Manning's ability to deliver on his own contract and raising talk of \"reparations.\"",
+    "quote": "Once the team decided to throw another competitive brand on the jersey, it essentially nullified the deal that Eli Manning had with his sponsor.",
+    "speaker": "GORDON",
+    "episode": {
+      "title": "The N.F.L.'s Best Real Estate Isn't for Sale. Yet.",
+      "show": "Freakonomics Radio",
+      "id": "127906",
+      "date": "2010-10-29",
+      "url": "https://freakonomics.com/podcast/the-nfls-best-real-estate-isnt-for-sale-yet/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Estonia's flat tax",
+    "entry_type": "story",
+    "category": "Political economy",
+    "claim": "At age 32, Laar introduced a flat tax in Estonia simply because it 'looked to work,' unaware he'd be the first in the world to do it; colleagues thought he was crazy.",
+    "quote": "I was 32. I was young and crazy. I didn’t know what is possible and what’s not, so I did impossible things.",
+    "speaker": "Mart LAAR",
+    "episode": {
+      "title": "What Would the World Look Like if Economists Were in Charge?",
+      "show": "Freakonomics Radio",
+      "id": "127927",
+      "date": "2010-03-24",
+      "url": "https://freakonomics.com/podcast/what-would-the-world-look-like-if-economists-were-in-charge/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Extra time as a measure of referee bias",
+    "entry_type": "concept",
+    "category": "Sports economics",
+    "claim": "Referees in track-free stadiums, where fans sit close to the pitch, add lots of stoppage time when the home team is behind and very little when it is ahead — a measurable sign that crowds intimidate officials.",
+    "quote": "when the home team is behind, the referees add on a lot of extra minutes. When the home team is ahead, they add on very few minutes relative to the stadiums where the track is in between",
+    "speaker": "LEVITT",
+    "episode": {
+      "title": "Why the World Cup Is an Economist’s Dream",
+      "show": "Freakonomics Radio",
+      "id": "127918",
+      "date": "2010-06-10",
+      "url": "https://freakonomics.com/podcast/why-the-world-cup-is-an-economists-dream/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Fake-free day",
+    "entry_type": "concept",
+    "category": "Thought experiments",
+    "claim": "Asked what would happen if Americans were obliged to stop faking for 24 hours, Miller predicts a spike in homicides — voicing every transient sentiment would get you killed or swindled.",
+    "quote": "I’d say that if you actually gave voice to all your transient sentiments you’d be dead, or swindled.",
+    "speaker": "MILLER",
+    "episode": {
+      "title": "Faking It",
+      "show": "Freakonomics Radio",
+      "id": "127924",
+      "date": "2010-04-13",
+      "url": "https://freakonomics.com/podcast/faking-it/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Faking it",
+    "entry_type": "concept",
+    "category": "Social psychology",
+    "claim": "Law professor William Ian Miller argues that faking is unavoidable in daily social life — nobody can be fully authentic, and the people who claim to be authentic are the phoniest of all.",
+    "quote": "I don’t think we have any choice. We have to fake it. We just can’t be 100% authentic at any one time. Of course, there’s nothing more phony than people who present themselves as authentic, right?",
+    "speaker": "MILLER",
+    "episode": {
+      "title": "Faking It",
+      "show": "Freakonomics Radio",
+      "id": "127924",
+      "date": "2010-04-13",
+      "url": "https://freakonomics.com/podcast/faking-it/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Favela drug dealers as law enforcement",
+    "entry_type": "concept",
+    "category": "Crime economics",
+    "claim": "Levitt argues drug dealers have a stronger incentive than police to keep favelas safe, since nobody wants to buy drugs where they might be shot or mugged — so crackdowns can raise crime.",
+    "quote": "And so far more than the police, who don’t really have that strong an incentive when you think about it to keep crime low, the drug dealers need law and order.",
+    "speaker": "LEVITT",
+    "episode": {
+      "title": "Freakonomics FAQ, No. 1",
+      "show": "Freakonomics Radio",
+      "id": "127876",
+      "date": "2011-01-20",
+      "url": "https://freakonomics.com/podcast/freakonomics-faq-no-1/"
+    },
+    "age_years": 15,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Food printer",
+    "entry_type": "story",
+    "category": "Food technology",
+    "claim": "Intellectual Ventures inventor Pablos Holman envisions an ATM-like machine loaded with toner cartridges of powdered food that deposits food pixel by pixel, hydrates it with needles, and cooks it with a laser.",
+    "quote": "the machine has toner cartridges of frozen or dried and powdered foods, and it goes down and puts a little pixel of powdered food down, hydrates it with a needles, zaps it with laser to cook it, and rinse and repeat for every pixel, and it prints a meal.",
+    "speaker": "HOLMAN",
+    "episode": {
+      "title": "Waiter, There's a Physicist in My Soup, Part 2",
+      "show": "Freakonomics Radio",
+      "id": "127891",
+      "date": "2011-02-03",
+      "url": "https://freakonomics.com/podcast/waiter-theres-a-physicist-in-my-soup-part-2/"
+    },
+    "age_years": 15,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Food waste",
+    "entry_type": "figure",
+    "category": "Food economics",
+    "claim": "By Pablos Holman's estimate, roughly half of industrially produced food is never eaten, and every American grocery store throws out about 2,000 pounds of expired food per week.",
+    "quote": "Every grocery store in America is throwing out 2,000 pounds a week in expired food.",
+    "speaker": "HOLMAN",
+    "episode": {
+      "title": "Waiter, There's a Physicist In My Soup, Part I",
+      "show": "Freakonomics Radio",
+      "id": "127888",
+      "date": "2011-01-27",
+      "url": "https://freakonomics.com/podcast/waiter-theres-a-physicist-in-my-soup-part-i/"
+    },
+    "age_years": 15,
+    "freshness": "check",
+    "freshness_note": "Figure is ~15 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Football on-field deaths",
+    "entry_type": "figure",
+    "category": "Sports medicine",
+    "claim": "According to neurosurgeon Robert Cantu, football has produced on-field deaths every year since 1931 except 1990 — five last year, two this year, all from brain injuries — down from 36 to 38 a year four decades ago.",
+    "quote": "There have been on the field deaths in football every single year since 1931 with the exception of 1990. Last year, there were five on-field deaths. This year, there have been two. All five last year and both this year were due to brain injuries.",
+    "speaker": "CANTU",
+    "episode": {
+      "title": "The Dangers of Safety",
+      "show": "Freakonomics Radio",
+      "id": "127934",
+      "date": "2010-02-05",
+      "url": "https://freakonomics.com/podcast/the-dangers-of-safety/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Free Mercedes argument",
+    "entry_type": "concept",
+    "category": "Health economics",
+    "claim": "Levitt argues patients consume medical care inefficiently because they pay almost nothing at the point of service, and compares a claimed right to free healthcare with demanding a free luxury car.",
+    "quote": "Where I could show up at the car dealership and I could say, “I want the Mercedes for free.”",
+    "speaker": "LEVITT",
+    "episode": {
+      "title": "Freakonomics FAQ, No. 1",
+      "show": "Freakonomics Radio",
+      "id": "127876",
+      "date": "2011-01-20",
+      "url": "https://freakonomics.com/podcast/freakonomics-faq-no-1/"
+    },
+    "age_years": 15,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Friedman's hidden legacy",
+    "entry_type": "fact",
+    "category": "History of economics",
+    "claim": "Milton Friedman, who died at 94, is credited with automatic tax withholding from paychecks, the all-volunteer army, and school vouchers.",
+    "quote": "You know how your paycheck has taxes automatically withheld? That was a Friedman argument. Our 100% volunteer army? A Friedman idea. School vouchers? Friedman.",
+    "speaker": "narration",
+    "episode": {
+      "title": "What Would the World Look Like if Economists Were in Charge?",
+      "show": "Freakonomics Radio",
+      "id": "127927",
+      "date": "2010-03-24",
+      "url": "https://freakonomics.com/podcast/what-would-the-world-look-like-if-economists-were-in-charge/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Giuliani's 100-million-dollar budget problem",
+    "entry_type": "figure",
+    "category": "Political economics",
+    "claim": "Rudy Giuliani says his presidential campaign budgeted as if it would raise $100 million; it raised $57 million and still ran out of money.",
+    "quote": "So even though we raised 57 million, which was a huge amount of money, we were out of money.",
+    "speaker": "GIULIANI",
+    "episode": {
+      "title": "Two Book Authors and a Microphone",
+      "show": "Freakonomics Radio",
+      "id": "127915",
+      "date": "2010-09-30",
+      "url": "https://freakonomics.com/podcast/two-book-authors-and-a-microphone/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Give Life, Get Life",
+    "entry_type": "story",
+    "category": "Health policy",
+    "claim": "Israeli transplant surgeon Jacob Lavee, angered by a patient who wanted an organ but would never donate one, pushed through a world-first law giving registered organ donors priority if they ever need a transplant themselves.",
+    "quote": "I’m fully aware of the fact that it’s a very drastic law. It’s a very drastic law and it had to be drastic because the situation is drastic.",
+    "speaker": "LAVEE",
+    "episode": {
+      "title": "You Say Repugnant, I Say … Let’s Do It!",
+      "show": "Freakonomics Radio",
+      "id": "127885",
+      "date": "2010-12-30",
+      "url": "https://freakonomics.com/podcast/you-say-repugnant-i-say-lets-do-it/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Glanville, Doug",
+    "entry_type": "person",
+    "category": "Sports",
+    "claim": "A nine-year major leaguer and Penn systems engineering major, Glanville ended his career with 293 straight games without an error and became an ESPN analyst.",
+    "quote": "Here’s a guy who is such a good fielder that he ended his career with 293 straight game appearances without an error.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Who Stole All the Runs in Major League Baseball?",
+      "show": "Freakonomics Radio",
+      "id": "127912",
+      "date": "2010-10-07",
+      "url": "https://freakonomics.com/podcast/who-stole-all-the-runs-in-major-league-baseball/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Gmail",
+    "entry_type": "story",
+    "category": "Corporate innovation",
+    "claim": "Gmail came out of Google's 20 percent time, built by engineer Paul Buchheit, who had been working on the main search engine; Google might never have gotten there otherwise.",
+    "quote": "Well Gmail was one of an engineer who worked on the main search engine and then accumulated a certain amount of time and decided, you know, what we really need to do is revolutionize email. That was Paul Buchheit.",
+    "speaker": "NEVILL-MANNING",
+    "episode": {
+      "title": "Reading, Rockets, and ‘Rithmetic",
+      "show": "Freakonomics Radio",
+      "id": "127909",
+      "date": "2010-10-21",
+      "url": "https://freakonomics.com/podcast/reading-rockets-and-rithmetic/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Goiter and iodized salt",
+    "entry_type": "fact",
+    "category": "Public health",
+    "claim": "Iodine deficiency caused goiters common enough that thousands of American men were rejected from World War I military service; adding iodine to salt made them disappear.",
+    "quote": "Thousands of men were rejected from military service in World War I for that reason. And then: We started putting iodine in salt, and the goiters disappeared.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Waiter, There's a Physicist in My Soup, Part 2",
+      "show": "Freakonomics Radio",
+      "id": "127891",
+      "date": "2011-02-03",
+      "url": "https://freakonomics.com/podcast/waiter-theres-a-physicist-in-my-soup-part-2/"
+    },
+    "age_years": 15,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Great Pacific Garbage Patch",
+    "entry_type": "place",
+    "category": "Environmental science",
+    "claim": "In 1997, Captain Charles Moore sailing from Honolulu to California found a soup of floating plastic debris in the middle of the Pacific, estimated to be roughly the size of Texas.",
+    "quote": "I couldn’t come on deck and spend ten minutes without seeing some evidence of civilization floating by, whether it was a bottle cap or a toothbrush or a shard of plastic or a soap bottle.",
+    "speaker": "MOORE",
+    "episode": {
+      "title": "Trashed",
+      "show": "Freakonomics Radio",
+      "id": "127879",
+      "date": "2011-01-13",
+      "url": "https://freakonomics.com/podcast/trashed/"
+    },
+    "age_years": 15,
+    "freshness": "durable",
+    "freshness_note": "Place entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Guillen, Ozzie",
+    "entry_type": "person",
+    "category": "Sports",
+    "claim": "A former big-leaguer told Levitt the White Sox declined his offer because their manager, Ozzie Guillen, was already the world's best sign stealer.",
+    "quote": "because Ozzie Guillen, the manager, he’s the best sign stealer in the entire world, he doesn’t need your help, nobody steals signs better than Ozzie Guillen does it.",
+    "speaker": "LEVITT",
+    "episode": {
+      "title": "Who Stole All the Runs in Major League Baseball?",
+      "show": "Freakonomics Radio",
+      "id": "127912",
+      "date": "2010-10-07",
+      "url": "https://freakonomics.com/podcast/who-stole-all-the-runs-in-major-league-baseball/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Half-billion-dollar jersey math",
+    "entry_type": "figure",
+    "category": "Sports economics",
+    "claim": "At a conservative $15 million per team across 32 teams, jersey sponsorships would be worth about $480 million a year the N.F.L. is forgoing.",
+    "quote": "We'll assume a fairly conservative average of $15 million a year for each N.F.L. team.  There are 32 teams in the league. That's $480 million, nearly half a billion dollars a year the N.F.L. is leaving on the table",
+    "speaker": "narration",
+    "episode": {
+      "title": "The N.F.L.'s Best Real Estate Isn't for Sale. Yet.",
+      "show": "Freakonomics Radio",
+      "id": "127906",
+      "date": "2010-10-29",
+      "url": "https://freakonomics.com/podcast/the-nfls-best-real-estate-isnt-for-sale-yet/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Harry S. Truman",
+    "entry_type": "person",
+    "category": "Presidential history",
+    "claim": "Truman, from Independence, Missouri, was a pianist who briefly considered a music career and instead opened a haberdashery before becoming president.",
+    "quote": "He was from the state of Missouri, town of Independence, he loved the piano, sometimes thought about a career in music. Instead he opened a haberdashery shop.  Later he became president of the United States.",
+    "speaker": "narration",
+    "episode": {
+      "title": "How Much Does the President Really Matter?",
+      "show": "Freakonomics Radio",
+      "id": "127903",
+      "date": "2010-11-04",
+      "url": "https://freakonomics.com/podcast/how-much-does-the-president-really-matter/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Head-and-neck restraints in NASCAR",
+    "entry_type": "fact",
+    "category": "Sports safety",
+    "claim": "Former NASCAR driver Randy LaJoie says the missing safety element was a head and neck restraint; only after Dale Earnhardt's death — following drivers like Kenny Irwin, Adam Petty and Tony Roper — did NASCAR act.",
+    "quote": "Kenny Irwin, Adam Petty, Tony Roper, Blaze Alexander — those guys before him that passed away with the same injury that we lost Dale with . . . Once we lost the best we had, NASCAR says, “Okay, we got to stop this.”",
+    "speaker": "LAJOIE",
+    "episode": {
+      "title": "The Dangers of Safety",
+      "show": "Freakonomics Radio",
+      "id": "127934",
+      "date": "2010-02-05",
+      "url": "https://freakonomics.com/podcast/the-dangers-of-safety/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Healthcare share of GDP",
+    "entry_type": "figure",
+    "category": "Health economics",
+    "claim": "Levitt says healthcare has grown to 15–20% of GDP, which is why it must be treated like any other scarce good with real trade-offs.",
+    "quote": "But now that healthcare is 15%, 20% of GDP, we have to start treating it like what it is, which is another good.",
+    "speaker": "LEVITT",
+    "episode": {
+      "title": "Freakonomics FAQ, No. 1",
+      "show": "Freakonomics Radio",
+      "id": "127876",
+      "date": "2011-01-20",
+      "url": "https://freakonomics.com/podcast/freakonomics-faq-no-1/"
+    },
+    "age_years": 15,
+    "freshness": "check",
+    "freshness_note": "Figure is ~15 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Helmet as weapon",
+    "entry_type": "concept",
+    "category": "Sports safety",
+    "claim": "Modern helmets prevent skull fractures and subdural hematomas but cannot prevent concussions, and Cantu says better head protection has made players in football and hockey markedly more aggressive.",
+    "quote": "Absolutely. Very much more aggressive, very much more violent. We’ve seen the same thing happen in ice hockey, as well. When you put face and head protection on people, they’re not as worried about taking blows to that area.",
+    "speaker": "CANTU",
+    "episode": {
+      "title": "The Dangers of Safety",
+      "show": "Freakonomics Radio",
+      "id": "127934",
+      "date": "2010-02-05",
+      "url": "https://freakonomics.com/podcast/the-dangers-of-safety/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "High-end escorting economics",
+    "entry_type": "story",
+    "category": "Illicit markets",
+    "claim": "A retired escort named Allie charged $300–$600 an hour for eight years, was never arrested, and says higher-paying clients generally get less sex and more companionship.",
+    "quote": "I found that the more that the clients pay, generally, the less sex that’s happening. They’re paying for companionship, and just company, and to be able to relax and be themselves. And sex.",
+    "speaker": "ALLIE",
+    "episode": {
+      "title": "What Would the World Look Like if Economists Were in Charge?",
+      "show": "Freakonomics Radio",
+      "id": "127927",
+      "date": "2010-03-24",
+      "url": "https://freakonomics.com/podcast/what-would-the-world-look-like-if-economists-were-in-charge/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Home-field advantage (soccer stadium design)",
+    "entry_type": "concept",
+    "category": "Sports economics",
+    "claim": "Teams playing in stadiums built exclusively for soccer enjoy a much larger home-field advantage than teams whose stadiums also host track and field, because a running track pushes fans farther from the pitch.",
+    "quote": "In the one group that had the big home-field advantage, they played in stadiums that were built exclusively for soccer, the other set of teams which had a much smaller home-field advantage, they played in stadiums that were multi-use",
+    "speaker": "LEVITT",
+    "episode": {
+      "title": "Why the World Cup Is an Economist’s Dream",
+      "show": "Freakonomics Radio",
+      "id": "127918",
+      "date": "2010-06-10",
+      "url": "https://freakonomics.com/podcast/why-the-world-cup-is-an-economists-dream/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Howell, Peggy",
+    "entry_type": "person",
+    "category": "Fat acceptance",
+    "claim": "Peggy Howell, 5'9\" and 280 pounds, was told by her employer at a religious school to lose weight or lose her job, on the theory that her weight showed her life was out of control.",
+    "quote": "He said that the fact that my weight was too high was an indication that my life was out of control and that as such I was not fit to counsel other students.",
+    "speaker": "PEGGY",
+    "episode": {
+      "title": "Is America’s Obesity Epidemic For Real?",
+      "show": "Freakonomics Radio",
+      "id": "127930",
+      "date": "2010-02-26",
+      "url": "https://freakonomics.com/podcast/is-americas-obesity-epidemic-for-real/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Identical wine, different ratings",
+    "entry_type": "figure",
+    "category": "Behavioral economics",
+    "claim": "In Levitt's tasting, tasters rated the two decanters containing the very same wine as more different from each other than they rated genuinely different wines.",
+    "quote": "it turned out that by a small margin, people actually rated the same wine from the same bottle but presented in a different decanter as being the most different of the two wines",
+    "speaker": "LEVITT",
+    "episode": {
+      "title": "Do More Expensive Wines Taste Better?",
+      "show": "Freakonomics Radio",
+      "id": "127894",
+      "date": "2010-12-16",
+      "url": "https://freakonomics.com/podcast/do-more-expensive-wines-taste-better/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Iran's kidney market",
+    "entry_type": "fact",
+    "category": "Health economics",
+    "claim": "Iran is the only country with a formal legal system for buying and selling kidneys, and appears to be the only place where patients don't routinely die waiting for one.",
+    "quote": "That said, it appears that Iran is the only country in the world where sick people do not routinely die for want of a kidney that no one is willing to donate.",
+    "speaker": "narration",
+    "episode": {
+      "title": "You Say Repugnant, I Say … Let’s Do It!",
+      "show": "Freakonomics Radio",
+      "id": "127885",
+      "date": "2010-12-30",
+      "url": "https://freakonomics.com/podcast/you-say-repugnant-i-say-lets-do-it/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Israeli organ-donor card rates",
+    "entry_type": "figure",
+    "category": "Health policy",
+    "claim": "Only 10 percent of Israelis carry an organ-donor card, compared with about 40 percent of American adults signed up as donors; after a one-month PR push for the new law, 20,000 additional Israelis signed up versus the usual 1,000 a month.",
+    "quote": "Lavee says that after one month of a public-relations push for the program, 20,000 additional Israelis have signed a donor card. Before that, only about 1,000 people a month were signing up.",
+    "speaker": "narration",
+    "episode": {
+      "title": "You Say Repugnant, I Say … Let’s Do It!",
+      "show": "Freakonomics Radio",
+      "id": "127885",
+      "date": "2010-12-30",
+      "url": "https://freakonomics.com/podcast/you-say-repugnant-i-say-lets-do-it/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Jello-in-a-bowl model of concussion",
+    "entry_type": "concept",
+    "category": "Neuroscience",
+    "claim": "Cantu explains concussion by comparing the brain to jello in an elliptical bowl: an off-center hit makes it oscillate and spin, producing linear and rotational forces that shear brain tissue.",
+    "quote": "The best analogy, or at least one that I think is useful, is to think of jello in a bowl. And if you hit the bowl very forcefully, you’ll see the jello oscillate.",
+    "speaker": "CANTU",
+    "episode": {
+      "title": "The Dangers of Safety",
+      "show": "Freakonomics Radio",
+      "id": "127934",
+      "date": "2010-02-05",
+      "url": "https://freakonomics.com/podcast/the-dangers-of-safety/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Jerry Colangelo",
+    "entry_type": "person",
+    "category": "Sports business",
+    "claim": "A 70-year-old sports owner whose holdings have included the Arizona Diamondbacks, an arena football club, and the Phoenix Suns; his WNBA Mercury became the first American basketball team with a big front-of-jersey sponsor logo.",
+    "quote": "Last season, the Mercury became the first American basketball team to put a big sponsor logo right across the front of their jerseys.",
+    "speaker": "narration",
+    "episode": {
+      "title": "The N.F.L.'s Best Real Estate Isn't for Sale. Yet.",
+      "show": "Freakonomics Radio",
+      "id": "127906",
+      "date": "2010-10-29",
+      "url": "https://freakonomics.com/podcast/the-nfls-best-real-estate-isnt-for-sale-yet/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Jersey sponsorship (European soccer)",
+    "entry_type": "figure",
+    "category": "Sports economics",
+    "claim": "European soccer clubs sell the front of their jerseys to corporate sponsors, with the richest deals worth roughly $30 million a year; the top 10 teams average about $17 million a year.",
+    "quote": "not the club's name but the name of the corporate sponsor, the most lucrative deals bring in about $30 million a year.",
+    "speaker": "narration",
+    "episode": {
+      "title": "The N.F.L.'s Best Real Estate Isn't for Sale. Yet.",
+      "show": "Freakonomics Radio",
+      "id": "127906",
+      "date": "2010-10-29",
+      "url": "https://freakonomics.com/podcast/the-nfls-best-real-estate-isnt-for-sale-yet/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Jimmy Hoffa garbage barge rumor",
+    "entry_type": "story",
+    "category": "Media & myth",
+    "claim": "As the Mobro 4000 was turned away from port, rumors spread that it carried hospital waste and even the body of Jimmy Hoffa — a story the captain says people simply blew up.",
+    "quote": "Everybody went crazy, saying we had hospital waste, and that Jimmy Hoffa was buried on there, you know the story about that.",
+    "speaker": "ST. PIERRE",
+    "episode": {
+      "title": "Trashed",
+      "show": "Freakonomics Radio",
+      "id": "127879",
+      "date": "2011-01-13",
+      "url": "https://freakonomics.com/podcast/trashed/"
+    },
+    "age_years": 15,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Job lock",
+    "entry_type": "concept",
+    "category": "Health economics",
+    "claim": "Tying health insurance to employment makes workers reluctant to change jobs — a distortion economists call job lock. Levitt argues the 2010 reform strengthened rather than broke the employment-insurance link.",
+    "quote": "It leads to what’s called job lock.",
+    "speaker": "LEVITT",
+    "episode": {
+      "title": "Freakonomics FAQ, No. 1",
+      "show": "Freakonomics Radio",
+      "id": "127876",
+      "date": "2011-01-20",
+      "url": "https://freakonomics.com/podcast/freakonomics-faq-no-1/"
+    },
+    "age_years": 15,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Kerry presidency of 2004 (the four-hour natural experiment)",
+    "entry_type": "story",
+    "category": "Political economy",
+    "claim": "Leaked exit polls on Election Day 2004 wrongly suggested John Kerry had won a landslide, giving markets roughly four hours of a 'Kerry presidency' — a rare random experiment for economists.",
+    "quote": "But what you have is this 4 hours — I’m a Democrat, so I’ll say 4 beautiful hours — in which we basically had a Kerry presidency. It was random because the only reason we thought John Kerry was president was because of a misinterpretation of the early exit polls.",
+    "speaker": "WOLFERS",
+    "episode": {
+      "title": "How Much Does the President Really Matter?",
+      "show": "Freakonomics Radio",
+      "id": "127903",
+      "date": "2010-11-04",
+      "url": "https://freakonomics.com/podcast/how-much-does-the-president-really-matter/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Kick it down the middle",
+    "entry_type": "story",
+    "category": "Behavioral economics",
+    "claim": "Data show the single best way to score a penalty is straight down the middle, since goalies almost never stay put — but kickers avoid it because a stopped center kick makes them look foolish.",
+    "quote": "In our data, if you’re a kicker, the single best way to score is to just kick it right down the middle because it turns out the goalie is almost never there",
+    "speaker": "LEVITT",
+    "episode": {
+      "title": "Why the World Cup Is an Economist’s Dream",
+      "show": "Freakonomics Radio",
+      "id": "127918",
+      "date": "2010-06-10",
+      "url": "https://freakonomics.com/podcast/why-the-world-cup-is-an-economists-dream/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Kidney exchange",
+    "entry_type": "concept",
+    "category": "Market design",
+    "claim": "A kidney exchange pairs two incompatible donor-recipient couples so each donor gives to the other couple's patient — a legal, non-repugnant way to swap organs. Since 2006, the New England program produced 71 transplants while the U.S. waiting list grew from about 50,000 to near 90,000.",
+    "quote": "When I started thinking about kidney exchange, the waiting list was on the order of 50,000 people and now it’s getting near 90,000 people. So kidney exchange is a small but fast growing source of live donors, but it’s like trying to hold back the tide with a broom.",
+    "speaker": "ROTH",
+    "episode": {
+      "title": "You Say Repugnant, I Say … Let’s Do It!",
+      "show": "Freakonomics Radio",
+      "id": "127885",
+      "date": "2010-12-30",
+      "url": "https://freakonomics.com/podcast/you-say-repugnant-i-say-lets-do-it/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Klein's self-graded report card",
+    "entry_type": "story",
+    "category": "Education policy",
+    "claim": "Asked to grade his own tenure, Klein gave himself a B+/A- on administration, an A on leadership, and marked himself down on public relations.",
+    "quote": "B+, A-. I think on leadership which is really the overall realm, there I think we get an A. I think it’s the most comprehensive, most integrated education reform in the country.",
+    "speaker": "Chancellor Joel KLEIN",
+    "episode": {
+      "title": "Exit Interview: Schools Chancellor, NYC",
+      "show": "Freakonomics Radio",
+      "id": "127882",
+      "date": "2011-01-06",
+      "url": "https://freakonomics.com/podcast/exit-interview-schools-chancellor-nyc/"
+    },
+    "age_years": 15,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Klein, Joel",
+    "entry_type": "person",
+    "category": "Education policy",
+    "claim": "Joel Klein ran New York City's public schools for over eight years after a career as a Washington lawyer who argued before the Supreme Court, fought antitrust cases at the DOJ, and served as Deputy Counsel to President Clinton.",
+    "quote": "He spent much of his career as a high voltage Washington lawyer arguing cases before the Supreme Court, fighting antitrust battles for the Department of Justice and serving as Deputy Counsel to President Bill Clinton.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Exit Interview: Schools Chancellor, NYC",
+      "show": "Freakonomics Radio",
+      "id": "127882",
+      "date": "2011-01-06",
+      "url": "https://freakonomics.com/podcast/exit-interview-schools-chancellor-nyc/"
+    },
+    "age_years": 15,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Kosher bacon cheater",
+    "entry_type": "story",
+    "category": "Religion and behavior",
+    "claim": "A woman who keeps an extremely kosher home — three sets of plates plus Passover dishes — orders bacon when eating out, and keeps it secret from her mother-in-law.",
+    "quote": "We allow no non-kosher foods into our kitchen, our refrigerator. We have three different sets of plates, plus another one for Passover — the whole nine yards.",
+    "speaker": "KARA",
+    "episode": {
+      "title": "Faking It",
+      "show": "Freakonomics Radio",
+      "id": "127924",
+      "date": "2010-04-13",
+      "url": "https://freakonomics.com/podcast/faking-it/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Laar, Mart",
+    "entry_type": "person",
+    "category": "Political economy",
+    "claim": "Mart Laar, twice Prime Minister of Estonia and not an economist, remade the post-Soviet Estonian economy by following Milton Friedman's 'Free to Choose,' the first economics book he ever read.",
+    "quote": "My name is Mart Laar. I have been twice Prime Minister of Estonia, and I’m not an economist.",
+    "speaker": "Mart LAAR",
+    "episode": {
+      "title": "What Would the World Look Like if Economists Were in Charge?",
+      "show": "Freakonomics Radio",
+      "id": "127927",
+      "date": "2010-03-24",
+      "url": "https://freakonomics.com/podcast/what-would-the-world-look-like-if-economists-were-in-charge/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Landfill shortage myth",
+    "entry_type": "concept",
+    "category": "Environmental economics",
+    "claim": "The belief that America was running out of landfill space came from EPA research that counted shrinking numbers of landfills without accounting for the fact that new landfills were far bigger than old ones.",
+    "quote": "The notion that we were running out of landfill space got its start by some research that was put out by the EPA that simply counted up the number of landfills over time and saw them diminishing, but failed to factor in that the new landfills that were opening up were much larger than the old ones.",
+    "speaker": "MACBRIDE",
+    "episode": {
+      "title": "Trashed",
+      "show": "Freakonomics Radio",
+      "id": "127879",
+      "date": "2011-01-13",
+      "url": "https://freakonomics.com/podcast/trashed/"
+    },
+    "age_years": 15,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Last in, first out (teacher layoffs)",
+    "entry_type": "concept",
+    "category": "Labor economics",
+    "claim": "Klein criticized seniority-based layoff rules, arguing that firing the most recently hired teachers first cannot possibly produce the best teaching workforce.",
+    "quote": "It’s hard to look you in the eye and say we’re going to do layoffs last in, first out. I mean, that is by definition not going to get us the right teachers.",
+    "speaker": "Chancellor Joel KLEIN",
+    "episode": {
+      "title": "Exit Interview: Schools Chancellor, NYC",
+      "show": "Freakonomics Radio",
+      "id": "127882",
+      "date": "2011-01-06",
+      "url": "https://freakonomics.com/podcast/exit-interview-schools-chancellor-nyc/"
+    },
+    "age_years": 15,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Last-mile food inefficiency",
+    "entry_type": "figure",
+    "category": "Food economics",
+    "claim": "Estimates suggest between a third and a half of all food produced in America is never eaten, with the waste concentrated not in agriculture but in the final preparation and serving stage.",
+    "quote": "By some estimates, between one-third and one-half of all food produced in America is never eaten.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Waiter, There's a Physicist in My Soup, Part 2",
+      "show": "Freakonomics Radio",
+      "id": "127891",
+      "date": "2011-02-03",
+      "url": "https://freakonomics.com/podcast/waiter-theres-a-physicist-in-my-soup-part-2/"
+    },
+    "age_years": 15,
+    "freshness": "check",
+    "freshness_note": "Figure is ~15 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Laws banning teacher evaluation by student achievement",
+    "entry_type": "fact",
+    "category": "Education policy",
+    "claim": "Arne Duncan says some states had laws prohibiting the linking of student achievement to teacher evaluation, and that all such laws were repealed after Race to the Top.",
+    "quote": "we actually had states that had laws on their books, actual laws that prohibited the linking of student achievement to teacher evaluation. Imagine that. Well, every single one of those laws are now gone.",
+    "speaker": "DUNCAN",
+    "episode": {
+      "title": "Reading, Rockets, and ‘Rithmetic",
+      "show": "Freakonomics Radio",
+      "id": "127909",
+      "date": "2010-10-21",
+      "url": "https://freakonomics.com/podcast/reading-rockets-and-rithmetic/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Let's Move",
+    "entry_type": "fact",
+    "category": "Public policy",
+    "claim": "Michelle Obama's anti-childhood-obesity campaign rested on four pillars: better school nutrition, more physical activity, greater food access (eliminating food deserts), and better information for parents.",
+    "quote": "the third pillar is to give people more access to foods, so eliminating food deserts and such",
+    "speaker": "EMANUEL",
+    "episode": {
+      "title": "Is America’s Obesity Epidemic For Real?",
+      "show": "Freakonomics Radio",
+      "id": "127930",
+      "date": "2010-02-26",
+      "url": "https://freakonomics.com/podcast/is-americas-obesity-epidemic-for-real/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Levitt's penalty kick choice",
+    "entry_type": "story",
+    "category": "Behavioral economics",
+    "claim": "Asked what he'd do with a World Cup penalty, Levitt says he'd ignore the optimal center shot and kick left, because as an economist he only worries about himself.",
+    "quote": "I’m an economist. I’m only worried about myself. I kick to the left because that’s where it’s easiest for me to kick.",
+    "speaker": "LEVITT",
+    "episode": {
+      "title": "Why the World Cup Is an Economist’s Dream",
+      "show": "Freakonomics Radio",
+      "id": "127918",
+      "date": "2010-06-10",
+      "url": "https://freakonomics.com/podcast/why-the-world-cup-is-an-economists-dream/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Levitt's sign-stealing scheme",
+    "entry_type": "story",
+    "category": "Sports economics",
+    "claim": "Steven Levitt pitched the Chicago White Sox on using data to steal opponents' catcher signs, purely for the intellectual thrill of code-breaking.",
+    "quote": "The thing that was most interesting to me was stealing signs and I told them that I was certain that I could do a great job stealing signs and they could use that to their benefit.",
+    "speaker": "Steven D. LEVITT",
+    "episode": {
+      "title": "Who Stole All the Runs in Major League Baseball?",
+      "show": "Freakonomics Radio",
+      "id": "127912",
+      "date": "2010-10-07",
+      "url": "https://freakonomics.com/podcast/who-stole-all-the-runs-in-major-league-baseball/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Lindbergh effect on air travel",
+    "entry_type": "figure",
+    "category": "Innovation economics",
+    "claim": "U.S. air passengers went from 6,000 the year before Lindbergh's flight to 180,000 eighteen months after — a 30-fold increase.",
+    "quote": "the year before Lindbergh flew, there were six thousand passengers flying in the United States. Eighteen months after his flight, there was a 180 thousand, a 30-fold increase.",
+    "speaker": "DIAMANDIS",
+    "episode": {
+      "title": "Reading, Rockets, and ‘Rithmetic",
+      "show": "Freakonomics Radio",
+      "id": "127909",
+      "date": "2010-10-21",
+      "url": "https://freakonomics.com/podcast/reading-rockets-and-rithmetic/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Lionel",
+    "entry_type": "person",
+    "category": "Education",
+    "claim": "An 11-year-old School of One student whose data showed him going from needing ten or twelve exposures to learn a skill in March to only two or three — learning how to learn faster.",
+    "quote": "It was taking him ten exposures, twelve exposures to learn certain skills, And now, Lionel is moving through certain things with two exposures, three exposures.",
+    "speaker": "RUSH",
+    "episode": {
+      "title": "How Is a Bad Radio Station Like the Public School System?",
+      "show": "Freakonomics Radio",
+      "id": "127921",
+      "date": "2010-05-12",
+      "url": "https://freakonomics.com/podcast/how-is-a-bad-radio-station-like-the-public-school-system/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Liquid-nitrogen hamburger",
+    "entry_type": "story",
+    "category": "Molecular gastronomy",
+    "claim": "Myhrvold's method for a perfect burger: cook to medium-rare, dunk in liquid nitrogen to freeze the exterior, then deep-fry or blowtorch it so the crust forms without overcooking the inside.",
+    "quote": "Then you cook it to perfect medium-rare, then you dunk it in liquid nitrogen, which freezes the outside. Then we deep-fry it. We pop it in a deep fryer. Or we use a torch on it, a blowtorch.",
+    "speaker": "Nathan MYHRVOLD",
+    "episode": {
+      "title": "Waiter, There's a Physicist in My Soup, Part 2",
+      "show": "Freakonomics Radio",
+      "id": "127891",
+      "date": "2011-02-03",
+      "url": "https://freakonomics.com/podcast/waiter-theres-a-physicist-in-my-soup-part-2/"
+    },
+    "age_years": 15,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Liquid-nitrogen hamburger",
+    "entry_type": "story",
+    "category": "Molecular gastronomy",
+    "claim": "Myhrvold's \"ultimate hamburger\" is cooked sous vide to medium rare, dunked in liquid nitrogen to freeze the outside, then deep-fried or blowtorched so the crust forms without overcooking the interior.",
+    "quote": "So then you cook it to perfect medium rare, then you dunk it in liquid nitrogen, which freezes the outside. Then we deep-fried it. We pop it in a deep fryer. Or we use a torch on it.",
+    "speaker": "MYHRVOLD",
+    "episode": {
+      "title": "Waiter, There's a Physicist In My Soup, Part I",
+      "show": "Freakonomics Radio",
+      "id": "127888",
+      "date": "2011-01-27",
+      "url": "https://freakonomics.com/podcast/waiter-theres-a-physicist-in-my-soup-part-i/"
+    },
+    "age_years": 15,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Lottery as wealth strategy",
+    "entry_type": "figure",
+    "category": "Inequality",
+    "claim": "In a national survey of 1,000 adults, one in five said the lottery was their greatest chance of accumulating hundreds of thousands of dollars — rising to 40 percent among those earning under $25,000.",
+    "quote": "one in five American adults said their greatest chance of accumulating hundreds of thousands of dollars is through the lottery. That number jumps to 40 percent for folks making less than $25,000 a year.",
+    "speaker": "KEARNEY",
+    "episode": {
+      "title": "Is America Ready for a “No-Lose Lottery”?",
+      "show": "Freakonomics Radio",
+      "id": "127900",
+      "date": "2010-11-18",
+      "url": "https://freakonomics.com/podcast/is-america-ready-for-a-no-lose-lottery/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Lottery play across income levels",
+    "entry_type": "fact",
+    "category": "Gambling economics",
+    "claim": "Lottery play is remarkably uniform across gender, education, and income; because lower-income households spend about the same absolute dollars, the tickets consume a much larger share of their budgets.",
+    "quote": "When you look at the absolute dollars reported spending, it’s not that different across the income distribution, so it’s sort of lower-income house spend about as much in dollar terms as higher-income households.",
+    "speaker": "KEARNEY",
+    "episode": {
+      "title": "The “No-Lose Lottery,” Part 2",
+      "show": "Freakonomics Radio",
+      "id": "127897",
+      "date": "2010-12-02",
+      "url": "https://freakonomics.com/podcast/the-no-lose-lottery-part-2/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Lottery spending, American households",
+    "entry_type": "figure",
+    "category": "Consumer economics",
+    "claim": "Households that play the lottery average about $1,000 a year on tickets — more than a typical household spends on dairy and beer combined — and Americans buy roughly $60 billion in tickets a year.",
+    "quote": "Households that play the lottery spend on average about $1,000 a year on tickets — that’s more than a typical household spends in grocery stores on dairy products and beer combined.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Is America Ready for a “No-Lose Lottery”?",
+      "show": "Freakonomics Radio",
+      "id": "127900",
+      "date": "2010-11-18",
+      "url": "https://freakonomics.com/podcast/is-america-ready-for-a-no-lose-lottery/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "M&M potty-training incentive scheme",
+    "entry_type": "story",
+    "category": "Behavioral economics",
+    "claim": "Steve Levitt paid his three-year-old daughter M&Ms for using the potty; within days she developed bladder control good enough to urinate a few drops on demand and farm the reward infinitely.",
+    "quote": "My three-year-old daughter had figured out such bladder control within three days that she now was able to go on-demand. And she had figured out how to game a system that a world-leading economist had come up with.",
+    "speaker": "Steven D. LEVITT",
+    "episode": {
+      "title": "What Would the World Look Like if Economists Were in Charge?",
+      "show": "Freakonomics Radio",
+      "id": "127927",
+      "date": "2010-03-24",
+      "url": "https://freakonomics.com/podcast/what-would-the-world-look-like-if-economists-were-in-charge/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Maillard reaction",
+    "entry_type": "concept",
+    "category": "Food chemistry",
+    "claim": "The browning of meat is caused by the Maillard reaction, first described in the 19th century by a French physician; menus usually say \"caramelized\" when they mean \"maillardized\" because it sounds better.",
+    "quote": "Most of the time on a menu, by the way, when it says caramelized, they really mean maillardized, but it doesn’t sound as good, so the menu says caramelized.",
+    "speaker": "MYHRVOLD",
+    "episode": {
+      "title": "Waiter, There's a Physicist In My Soup, Part I",
+      "show": "Freakonomics Radio",
+      "id": "127888",
+      "date": "2011-01-27",
+      "url": "https://freakonomics.com/podcast/waiter-theres-a-physicist-in-my-soup-part-i/"
+    },
+    "age_years": 15,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "MAMA (Million a Month Account)",
+    "entry_type": "story",
+    "category": "Development economics",
+    "claim": "South Africa's First National Bank launched a no-interest savings account that raffled off the pooled interest — top prize a million rand — drawing over a million new customers and $200 million before the national lottery sued it out of existence.",
+    "quote": "MAMA attracted more than a million new customers to Keip’s bank.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Is America Ready for a “No-Lose Lottery”?",
+      "show": "Freakonomics Radio",
+      "id": "127900",
+      "date": "2010-11-18",
+      "url": "https://freakonomics.com/podcast/is-america-ready-for-a-no-lose-lottery/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Managerial effect in baseball",
+    "entry_type": "fact",
+    "category": "Sports economics",
+    "claim": "Studies tracking players across many managers find almost no statistically detectable difference in performance from one manager to the next — though pitching coach Leo Mazzone was a notable exception.",
+    "quote": "Many years ago, I did a study on pitching coach Leo Mazzone, looking at how his pitchers performed with him as the pitching coach and without. I found that whenever he got a pitcher, that pitcher pitched a lot better",
+    "speaker": "BRADBURY",
+    "episode": {
+      "title": "How Much Does the President Really Matter?",
+      "show": "Freakonomics Radio",
+      "id": "127903",
+      "date": "2010-11-04",
+      "url": "https://freakonomics.com/podcast/how-much-does-the-president-really-matter/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Managing partner need not be a lawyer",
+    "entry_type": "concept",
+    "category": "Management",
+    "claim": "Klein argued that management skill, not classroom tenure, should qualify someone to run a school, comparing it to how a law firm's managing partner needn't be a lawyer.",
+    "quote": "In fact, I always used to say I didn’t think that the managing partner of a law firm necessarily should be a lawyer.",
+    "speaker": "Chancellor Joel KLEIN",
+    "episode": {
+      "title": "Exit Interview: Schools Chancellor, NYC",
+      "show": "Freakonomics Radio",
+      "id": "127882",
+      "date": "2011-01-06",
+      "url": "https://freakonomics.com/podcast/exit-interview-schools-chancellor-nyc/"
+    },
+    "age_years": 15,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Mega-church alibi",
+    "entry_type": "story",
+    "category": "Sociology of religion",
+    "claim": "An Atlanta IT worker fakes churchgoing in the Deep South by researching local mega-churches online, betting that they're so big nobody can disprove his attendance.",
+    "quote": "And one of the advantages of a lot of the mega-churches these days is most of them are so large and have so many services that you could attend the same church as someone for years and not even realize that they go there too.",
+    "speaker": "BRIAN",
+    "episode": {
+      "title": "Faking It",
+      "show": "Freakonomics Radio",
+      "id": "127924",
+      "date": "2010-04-13",
+      "url": "https://freakonomics.com/podcast/faking-it/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Milton Friedman as Soviet bogeyman",
+    "entry_type": "story",
+    "category": "History of economics",
+    "claim": "Growing up under Soviet communism, Laar was taught that Milton Friedman was the single most dangerous and insane man alive, destined to destroy humanity and all economies.",
+    "quote": "you heard about the one man who is especially dangerous, especially crazy, and absolutely mad, and which would destroy all the human beings and the economies and so on, and this man was called Milton Friedman",
+    "speaker": "Mart LAAR",
+    "episode": {
+      "title": "What Would the World Look Like if Economists Were in Charge?",
+      "show": "Freakonomics Radio",
+      "id": "127927",
+      "date": "2010-03-24",
+      "url": "https://freakonomics.com/podcast/what-would-the-world-look-like-if-economists-were-in-charge/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Missing runs of 2010",
+    "entry_type": "figure",
+    "category": "Sports economics",
+    "claim": "Major League Baseball run scoring hit an 18-year low, with 1,105 fewer runs than the previous season.",
+    "quote": "This year, the number of runs scored in major league baseball was at an 18-year low, 1105 fewer runs than last year.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Who Stole All the Runs in Major League Baseball?",
+      "show": "Freakonomics Radio",
+      "id": "127912",
+      "date": "2010-10-07",
+      "url": "https://freakonomics.com/podcast/who-stole-all-the-runs-in-major-league-baseball/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Mobro 4000",
+    "entry_type": "story",
+    "category": "Environmental economics",
+    "claim": "In 1987, a barge carrying 3,168 tons of Islip, New York garbage was towed south by the tugboat Break of Dawn, rejected in North Carolina, Louisiana, the Bahamas, Mexico and Belize, and spent two months at sea becoming a national joke.",
+    "quote": "So, on March 22, 1987, all 3,168 tons of garbage was loaded up. Then a little tugboat named the Break of Dawn began its long journey south, tugging the rusty old garbage barge behind it.",
+    "speaker": "WINTER",
+    "episode": {
+      "title": "Trashed",
+      "show": "Freakonomics Radio",
+      "id": "127879",
+      "date": "2011-01-13",
+      "url": "https://freakonomics.com/podcast/trashed/"
+    },
+    "age_years": 15,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Modalities (School of One)",
+    "entry_type": "fact",
+    "category": "Education",
+    "claim": "School of One uses six learning modalities: large live instruction, small live instruction, virtual tutoring, independent practice, small group collaboration, and independent virtual instruction.",
+    "quote": "Large live instruction, small live instruction, virtual live instruction — which we call virtual tutoring, colloquially — independent practice, small group collaboration and independent virtual instruction.",
+    "speaker": "KIRSTEN",
+    "episode": {
+      "title": "How Is a Bad Radio Station Like the Public School System?",
+      "show": "Freakonomics Radio",
+      "id": "127921",
+      "date": "2010-05-12",
+      "url": "https://freakonomics.com/podcast/how-is-a-bad-radio-station-like-the-public-school-system/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Modernist Cuisine",
+    "entry_type": "fact",
+    "category": "Culinary publishing",
+    "claim": "Nathan Myhrvold, a physicist-turned-chef who runs Intellectual Ventures, published a six-volume, 2,400-page, $625 cookbook celebrating molecular gastronomy.",
+    "quote": "He is about to publish a cookbook — a six-volume, 2,400-page, $625 cookbook – called Modernist Cuisine.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Waiter, There's a Physicist in My Soup, Part 2",
+      "show": "Freakonomics Radio",
+      "id": "127891",
+      "date": "2011-02-03",
+      "url": "https://freakonomics.com/podcast/waiter-theres-a-physicist-in-my-soup-part-2/"
+    },
+    "age_years": 15,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Modernist Cuisine",
+    "entry_type": "figure",
+    "category": "Food science",
+    "claim": "Nathan Myhrvold's self-published cookbook runs to six volumes, 2,400 pages, 3,500 color photographs and 1,600 recipes — with text that, set in a single 10-point line, would stretch six miles.",
+    "quote": "Six volumes, twenty-four hundred pages, thirty-five hundred color photographs, sixteen hundred recipes.  My favorite statistic is if you took, the text and you put it all in one line at 10 point size, it’ll be six miles long.",
+    "speaker": "MYHRVOLD",
+    "episode": {
+      "title": "Waiter, There's a Physicist In My Soup, Part I",
+      "show": "Freakonomics Radio",
+      "id": "127888",
+      "date": "2011-01-27",
+      "url": "https://freakonomics.com/podcast/waiter-theres-a-physicist-in-my-soup-part-i/"
+    },
+    "age_years": 15,
+    "freshness": "check",
+    "freshness_note": "Figure is ~15 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Mosquito-zapping laser",
+    "entry_type": "story",
+    "category": "Invention",
+    "claim": "At Intellectual Ventures, researchers breed thousands of malarial mosquitoes next door to the kitchen and have built a device that detects mosquitoes in flight and shoots them down with lasers.",
+    "quote": "Our single most dramatic way of doing it is a device that spots mosquitoes in the air and shoots them out of the sky with laser beams. That sounds like something from an “Austin Powers” movie, but by god it works.",
+    "speaker": "MYHRVOLD",
+    "episode": {
+      "title": "Waiter, There's a Physicist In My Soup, Part I",
+      "show": "Freakonomics Radio",
+      "id": "127888",
+      "date": "2011-01-27",
+      "url": "https://freakonomics.com/podcast/waiter-theres-a-physicist-in-my-soup-part-i/"
+    },
+    "age_years": 15,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Mutual knockout (Mikell vs. Fargas)",
+    "entry_type": "story",
+    "category": "Sports",
+    "claim": "Eagles safety Quintin Mikell describes running full-speed into Raiders running back Justin Fargas, knocking each other out — and counting it as a win because he got up first.",
+    "quote": "So essentially what happened was we basically ran full speed into each other and pretty much knocked each other out. And I tried to get up a little too soon, and I fell back down, and I was wobbly kneed.",
+    "speaker": "MIKELL",
+    "episode": {
+      "title": "The Dangers of Safety",
+      "show": "Freakonomics Radio",
+      "id": "127934",
+      "date": "2010-02-05",
+      "url": "https://freakonomics.com/podcast/the-dangers-of-safety/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Myhrvold, Nathan",
+    "entry_type": "person",
+    "category": "Food science",
+    "claim": "Former Microsoft chief technology officer, physicist and cookbook author who trained under Stephen Hawking, graduated high school at 14 and had a PhD by 23.",
+    "quote": "OK, well I’m Nathan Myhrvold, and I’m both an inventor and a cookbook author. I trained as a physicist, and then I worked with Stephen Hawking on quantum field theory and curved space-time, and the origin of the universe",
+    "speaker": "MYHRVOLD",
+    "episode": {
+      "title": "Waiter, There's a Physicist In My Soup, Part I",
+      "show": "Freakonomics Radio",
+      "id": "127888",
+      "date": "2011-01-27",
+      "url": "https://freakonomics.com/podcast/waiter-theres-a-physicist-in-my-soup-part-i/"
+    },
+    "age_years": 15,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "N.F.L. revenue",
+    "entry_type": "figure",
+    "category": "Sports economics",
+    "claim": "The N.F.L. is the most successful sports league in history, taking in roughly $9 billion in annual revenue, yet it doesn't sell ads on players' game jerseys.",
+    "quote": "The N.F.L. is the most successful sports league in history with revenue of about $9 billion a year.",
+    "speaker": "narration",
+    "episode": {
+      "title": "The N.F.L.'s Best Real Estate Isn't for Sale. Yet.",
+      "show": "Freakonomics Radio",
+      "id": "127906",
+      "date": "2010-10-29",
+      "url": "https://freakonomics.com/podcast/the-nfls-best-real-estate-isnt-for-sale-yet/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Networked food consumption",
+    "entry_type": "concept",
+    "category": "Health technology",
+    "claim": "Holman argues printed meals could log what you eat, incorporate your medications, report to your doctor, and gradually reduce sodium a few milligrams a day without you noticing.",
+    "quote": "Well, I can just ratchet it down a few milligrams a day over the next few months to get you down closer to zero, and you’ll never even notice it’s happening",
+    "speaker": "HOLMAN",
+    "episode": {
+      "title": "Waiter, There's a Physicist in My Soup, Part 2",
+      "show": "Freakonomics Radio",
+      "id": "127891",
+      "date": "2011-02-03",
+      "url": "https://freakonomics.com/podcast/waiter-theres-a-physicist-in-my-soup-part-2/"
+    },
+    "age_years": 15,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "New York City Public School system",
+    "entry_type": "figure",
+    "category": "Education economics",
+    "claim": "The NYC public school system is the largest in the United States, serving 1.1 million students across 1,600 schools on a $23 billion budget.",
+    "quote": "It’s the largest system in the country — 1.1 million students, 16 hundred schools, a 23 billion dollar budget.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Exit Interview: Schools Chancellor, NYC",
+      "show": "Freakonomics Radio",
+      "id": "127882",
+      "date": "2011-01-06",
+      "url": "https://freakonomics.com/podcast/exit-interview-schools-chancellor-nyc/"
+    },
+    "age_years": 15,
+    "freshness": "check",
+    "freshness_note": "Figure is ~15 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "New York State Lottery",
+    "entry_type": "fact",
+    "category": "Public finance",
+    "claim": "New York launched its lottery in 1967, the second state to do so after New Hampshire; the state lottery director says 75 percent of New Yorkers play, generating $7 billion in annual sales.",
+    "quote": "New York first began in 1967, and it was the second state after New Hampshire to come in.",
+    "speaker": "MEDENICA",
+    "episode": {
+      "title": "The “No-Lose Lottery,” Part 2",
+      "show": "Freakonomics Radio",
+      "id": "127897",
+      "date": "2010-12-02",
+      "url": "https://freakonomics.com/podcast/the-no-lose-lottery-part-2/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Not-from-concentrate orange juice",
+    "entry_type": "fact",
+    "category": "Food industry",
+    "claim": "In 1984 Tropicana asked Nelson whether aseptic processing would work for orange juice; it did, transforming the citrus industry and making refrigerated not-from-concentrate juice possible.",
+    "quote": "But in 1984 a company called Tropicana came to my office and said, “Do you think it will work for orange juice?” And with my fingers crossed, I said, “I think so.” And so, we actually changed the citrus industry with the not-from-concentrate orange juice.",
+    "speaker": "NELSON",
+    "episode": {
+      "title": "Waiter, There's a Physicist in My Soup, Part 2",
+      "show": "Freakonomics Radio",
+      "id": "127891",
+      "date": "2011-02-03",
+      "url": "https://freakonomics.com/podcast/waiter-theres-a-physicist-in-my-soup-part-2/"
+    },
+    "age_years": 15,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "O.J. Simpson's 1995 approval rating",
+    "entry_type": "figure",
+    "category": "Public opinion polling",
+    "claim": "Zogby noted that in 1995 O.J. Simpson had a 16 percent approval rating — higher than Congress's single-digit rating.",
+    "quote": "Back in 1995, O.J. had a 16 percent approval rating.",
+    "speaker": "John ZOGBY",
+    "episode": {
+      "title": "What Would the World Look Like if Economists Were in Charge?",
+      "show": "Freakonomics Radio",
+      "id": "127927",
+      "date": "2010-03-24",
+      "url": "https://freakonomics.com/podcast/what-would-the-world-look-like-if-economists-were-in-charge/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Obesity hype industry",
+    "entry_type": "concept",
+    "category": "Incentives",
+    "claim": "Cornell researcher Brian Wansink argues many parties — diet doctors, drug marketers, and grant-seeking academics — profit from exaggerating the obesity epidemic.",
+    "quote": "There’s a tremendous number of people who profit by hyping obesity. I don’t think it’s the epidemic that a lot of people paint it as, but here’s who profits: there’s a lot of diet doctors; there’s a lot of bariaticians",
+    "speaker": "WANSINK",
+    "episode": {
+      "title": "Is America’s Obesity Epidemic For Real?",
+      "show": "Freakonomics Radio",
+      "id": "127930",
+      "date": "2010-02-26",
+      "url": "https://freakonomics.com/podcast/is-americas-obesity-epidemic-for-real/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Obesity rates in America",
+    "entry_type": "figure",
+    "category": "Public health",
+    "claim": "According to the federal government, two of every three American adults are overweight and one-third of children are officially obese, while per-person calorie consumption has risen roughly 30 percent in half a century.",
+    "quote": "The federal government says that two of every three adults are overweight; and one-third of our children are officially obese. Over the past half-century, we’ve come to consume about 30 percent more calories each.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Is America’s Obesity Epidemic For Real?",
+      "show": "Freakonomics Radio",
+      "id": "127930",
+      "date": "2010-02-26",
+      "url": "https://freakonomics.com/podcast/is-americas-obesity-epidemic-for-real/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Old Norse honor culture",
+    "entry_type": "fact",
+    "category": "History",
+    "claim": "Miller's interest in faking came from medieval honor cultures, where men who lacked courage had to fake toughness to keep their honor — making them, he says, nervous wrecks.",
+    "quote": "So how do you fake looking tough enough that people, at least, will let you get by with your honor intact? And you better believe that they were a highly anxious people. They were nervous wrecks.",
+    "speaker": "MILLER",
+    "episode": {
+      "title": "Faking It",
+      "show": "Freakonomics Radio",
+      "id": "127924",
+      "date": "2010-04-13",
+      "url": "https://freakonomics.com/podcast/faking-it/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Organ Preservation Unit (New York City)",
+    "entry_type": "story",
+    "category": "Health policy",
+    "claim": "Lewis Goldfrank's European-inspired plan to send organ-harvesting ambulances into the field was cut down to a single ambulance in Manhattan, 4 p.m. to midnight, six months, kidneys only, donors aged 18–60, after critics called it a \"vulture bus.\"",
+    "quote": "We had a host of individuals who said that this is a vulture bus – these people are ghouls – they’re not concerned about us any longer – they’re doing this transplant.",
+    "speaker": "GOLDFRANK",
+    "episode": {
+      "title": "You Say Repugnant, I Say … Let’s Do It!",
+      "show": "Freakonomics Radio",
+      "id": "127885",
+      "date": "2010-12-30",
+      "url": "https://freakonomics.com/podcast/you-say-repugnant-i-say-lets-do-it/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Orteig-style prize that launched aviation",
+    "entry_type": "story",
+    "category": "Innovation economics",
+    "claim": "Charles Lindbergh crossed the Atlantic to win a $25,000 prize; that prize induced nine teams to spend $400,000, and the winner was the only one paid.",
+    "quote": "25-thousand dollars drove 400-thousand-dollars' worth of expenditures by nine teams. And the guy who put up the money only paid the winner. How cool was that?",
+    "speaker": "DIAMANDIS",
+    "episode": {
+      "title": "Reading, Rockets, and ‘Rithmetic",
+      "show": "Freakonomics Radio",
+      "id": "127909",
+      "date": "2010-10-21",
+      "url": "https://freakonomics.com/podcast/reading-rockets-and-rithmetic/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Osteria L'Intrepido",
+    "entry_type": "place",
+    "category": "Media economics",
+    "claim": "A fake Milan restaurant invented by Robin Goldstein — actually just a friend's former apartment — that won a Wine Spectator Award of Excellence with a made-up wine list.",
+    "quote": "I’ve been to the restaurant, but It’s actually located in my friend Giuliano’s former apartment in Milan.",
+    "speaker": "GOLDSTEIN",
+    "episode": {
+      "title": "Do More Expensive Wines Taste Better?",
+      "show": "Freakonomics Radio",
+      "id": "127894",
+      "date": "2010-12-16",
+      "url": "https://freakonomics.com/podcast/do-more-expensive-wines-taste-better/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Place entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Outspent 16 to 2",
+    "entry_type": "figure",
+    "category": "Political economics",
+    "claim": "Giuliani claims he won his first election despite being outspent $16 million to $2 million in a Republican primary, arguing campaign spending can be worthless if spent wrongly.",
+    "quote": "My first election that I won, I won when I was outspent 16 million to 2 million in a Republican primary.",
+    "speaker": "GIULIANI",
+    "episode": {
+      "title": "Two Book Authors and a Microphone",
+      "show": "Freakonomics Radio",
+      "id": "127915",
+      "date": "2010-09-30",
+      "url": "https://freakonomics.com/podcast/two-book-authors-and-a-microphone/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Pandora",
+    "entry_type": "figure",
+    "category": "Media economics",
+    "claim": "Founder Tim Westergren said Pandora had a little over 50 million registered US listeners, translating to a bit more than 20 million people using it each month.",
+    "quote": "We have a little over 50 million listeners in the US.",
+    "speaker": "WESTERGREN",
+    "episode": {
+      "title": "How Is a Bad Radio Station Like the Public School System?",
+      "show": "Freakonomics Radio",
+      "id": "127921",
+      "date": "2010-05-12",
+      "url": "https://freakonomics.com/podcast/how-is-a-bad-radio-station-like-the-public-school-system/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Pay-As-You-Throw",
+    "entry_type": "concept",
+    "category": "Incentives",
+    "claim": "Pay-As-You-Throw charges households per bag of trash instead of a flat fee; studies find it cuts an average person's trash by about 17 percent, split roughly evenly among recycling, organics, and source reduction.",
+    "quote": "What we found is that overall, Pay-As-You-Throw reduces the trash put in an average person’s trash bin by about 17 percent, with about a third of that going into recycling, about a third of that going to organics and mulch mowing and that sort of thing, and about a third of it due to source reduction.",
+    "speaker": "SKUMATZ",
+    "episode": {
+      "title": "Trashed",
+      "show": "Freakonomics Radio",
+      "id": "127879",
+      "date": "2011-01-13",
+      "url": "https://freakonomics.com/podcast/trashed/"
+    },
+    "age_years": 15,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Peltzman Effect",
+    "entry_type": "concept",
+    "category": "Behavioral economics",
+    "claim": "Named for economist Sam Peltzman, the Peltzman Effect holds that safety devices can make people take so much more risk that the device backfires and more people get hurt.",
+    "quote": "it’s the idea that you can put in a safety device and people can then feel so much safer in the activity they’re engaging in, that they take more and more risk, to the point where you actually have the opposite effect.",
+    "speaker": "LEVITT",
+    "episode": {
+      "title": "The Dangers of Safety",
+      "show": "Freakonomics Radio",
+      "id": "127934",
+      "date": "2010-02-05",
+      "url": "https://freakonomics.com/podcast/the-dangers-of-safety/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Penalty kick as a two-person simultaneous move game",
+    "entry_type": "concept",
+    "category": "Game theory",
+    "claim": "A soccer penalty kick nearly perfectly satisfies the conditions of a two-person simultaneous move game: the ball travels so fast that the goalie must commit before seeing where it goes, and each side has three simple options.",
+    "quote": "The beauty of the penalty kick is that it matches almost perfectly with the theoretical requirements of a two-person simultaneous move game.",
+    "speaker": "LEVITT",
+    "episode": {
+      "title": "Why the World Cup Is an Economist’s Dream",
+      "show": "Freakonomics Radio",
+      "id": "127918",
+      "date": "2010-06-10",
+      "url": "https://freakonomics.com/podcast/why-the-world-cup-is-an-economists-dream/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Plumber standard, the",
+    "entry_type": "concept",
+    "category": "Labor economics",
+    "claim": "Joel Rose argues that if any other profession had only 13 percent of workers meeting an objective standard, we'd redesign the job rather than blame the workers — so teaching is a design problem, not a talent problem.",
+    "quote": "If we set the bar at how successful do we need plumbers to be, and that standard is a reasonable objective standard, and only 13 percent of plumbers can actually hit that standard, then we have to think differently about how we’re organizing the work of plumbing.",
+    "speaker": "ROSE",
+    "episode": {
+      "title": "How Is a Bad Radio Station Like the Public School System?",
+      "show": "Freakonomics Radio",
+      "id": "127921",
+      "date": "2010-05-12",
+      "url": "https://freakonomics.com/podcast/how-is-a-bad-radio-station-like-the-public-school-system/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Power not to enforce laws",
+    "entry_type": "concept",
+    "category": "Constitutional law",
+    "claim": "An under-discussed presidential power is the discretion not to execute laws; Bernadette Meyler cites George W. Bush declining to enforce certain environmental laws.",
+    "quote": "Then a third power, that is often under-reflected-upon, is the power not to enforce laws.",
+    "speaker": "MEYLER",
+    "episode": {
+      "title": "How Much Does the President Really Matter?",
+      "show": "Freakonomics Radio",
+      "id": "127903",
+      "date": "2010-11-04",
+      "url": "https://freakonomics.com/podcast/how-much-does-the-president-really-matter/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Practice-jersey patch",
+    "entry_type": "fact",
+    "category": "Sports marketing",
+    "claim": "The N.F.L. first let teams sell sponsorships on practice jerseys — a 3.5-by-4.5-inch patch on the left shoulder — with buyers ranging from AT&T to local hospital networks.",
+    "quote": "Last season, for the first time, the N.F.L. allowed teams to start selling sponsorship on their practice jerseys, not right across the front but a 3 and a half by 4 and a half inch patch on the left shoulder.",
+    "speaker": "narration",
+    "episode": {
+      "title": "The N.F.L.'s Best Real Estate Isn't for Sale. Yet.",
+      "show": "Freakonomics Radio",
+      "id": "127906",
+      "date": "2010-10-29",
+      "url": "https://freakonomics.com/podcast/the-nfls-best-real-estate-isnt-for-sale-yet/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Prediction markets",
+    "entry_type": "concept",
+    "category": "Behavioral economics",
+    "claim": "Betting markets like Intrade aggregate many people's information into a price, because clever traders who want to win money move the price toward the 'wisdom of the crowds.'",
+    "quote": "The price ends up reflecting the wisdom of the crowds. All of these different sources of information — from formal models to water cooler conversations  — end up getting reflected in how people bet.",
+    "speaker": "WOLFERS",
+    "episode": {
+      "title": "How Much Does the President Really Matter?",
+      "show": "Freakonomics Radio",
+      "id": "127903",
+      "date": "2010-11-04",
+      "url": "https://freakonomics.com/podcast/how-much-does-the-president-really-matter/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Premium bonds and Mr. Million",
+    "entry_type": "story",
+    "category": "Financial products",
+    "claim": "For over 50 years the U.K. government has sold premium bonds that pay no interest; instead the interest pool is raffled off monthly, and a figure known as Mr. Million knocks on one lucky saver's door with a million-pound prize.",
+    "quote": "each month we’re going to basically take the interest pool and we’re going to lottery it off so that one lucky person will become a millionaire and literally every month someone in Britain gets a knock on their door from Mr. Million who tells them they’ve won the million pound prize.",
+    "speaker": "TUFANO",
+    "episode": {
+      "title": "Is America Ready for a “No-Lose Lottery”?",
+      "show": "Freakonomics Radio",
+      "id": "127900",
+      "date": "2010-11-18",
+      "url": "https://freakonomics.com/podcast/is-america-ready-for-a-no-lose-lottery/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Price signaling in wine",
+    "entry_type": "concept",
+    "category": "Behavioral economics",
+    "claim": "Brian DiMarco poured identical $20 wine into two brown bags, labeling one $50 and the other $10, then reversed the labels. His professional tasters preferred the \"$50\" wine both times.",
+    "quote": "And everyone liked the fifty-dollar bottle better in both circumstances, because they perceived that at the price there was either something they were missing",
+    "speaker": "DIMARCO",
+    "episode": {
+      "title": "Do More Expensive Wines Taste Better?",
+      "show": "Freakonomics Radio",
+      "id": "127894",
+      "date": "2010-12-16",
+      "url": "https://freakonomics.com/podcast/do-more-expensive-wines-taste-better/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Private incentives vs. team goals",
+    "entry_type": "concept",
+    "category": "Behavioral economics",
+    "claim": "Penalty takers optimize not just for scoring but for avoiding humiliation, so they shade toward safe strategies that produce fewer goals than the team would want.",
+    "quote": "They shade their strategies just enough so that they’re doing the thing that’s safe even though it won’t result in as many goals.",
+    "speaker": "LEVITT",
+    "episode": {
+      "title": "Why the World Cup Is an Economist’s Dream",
+      "show": "Freakonomics Radio",
+      "id": "127918",
+      "date": "2010-06-10",
+      "url": "https://freakonomics.com/podcast/why-the-world-cup-is-an-economists-dream/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Prize philanthropy boom",
+    "entry_type": "figure",
+    "category": "Innovation economics",
+    "claim": "McKinsey counted more than $250 million awarded across 60 new innovation prizes in the previous decade.",
+    "quote": "According to McKinsey, the consulting firm, more than $250 million has been handed out, for 60 new prizes, in the last 10 years, by all kinds of sponsors for all kinds of innovations.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Reading, Rockets, and ‘Rithmetic",
+      "show": "Freakonomics Radio",
+      "id": "127909",
+      "date": "2010-10-21",
+      "url": "https://freakonomics.com/podcast/reading-rockets-and-rithmetic/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Prize-linked savings (PLS)",
+    "entry_type": "concept",
+    "category": "Behavioral finance",
+    "claim": "Prize-linked savings accounts trade a tiny guaranteed interest payment for a small chance at a huge prize, exploiting loss aversion and people's tendency to misjudge small probabilities.",
+    "quote": "people would rather have a small chance at a life-changing payout, than an almost certainty of a pittance.",
+    "speaker": "TUFANO",
+    "episode": {
+      "title": "Is America Ready for a “No-Lose Lottery”?",
+      "show": "Freakonomics Radio",
+      "id": "127900",
+      "date": "2010-11-18",
+      "url": "https://freakonomics.com/podcast/is-america-ready-for-a-no-lose-lottery/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Prize-linked savings account (PLS)",
+    "entry_type": "concept",
+    "category": "Behavioral economics",
+    "claim": "A prize-linked savings account attaches lottery-style prizes to a savings deposit; it already operates in 20 countries but is effectively illegal in the U.S. because legally it counts as a lottery.",
+    "quote": "This is already happening in 20 countries around the world; it’s called a prize-linked savings account, or PLS.",
+    "speaker": "narration",
+    "episode": {
+      "title": "The “No-Lose Lottery,” Part 2",
+      "show": "Freakonomics Radio",
+      "id": "127897",
+      "date": "2010-12-02",
+      "url": "https://freakonomics.com/podcast/the-no-lose-lottery-part-2/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Problem A / Problem B",
+    "entry_type": "concept",
+    "category": "Political strategy",
+    "claim": "Mark Halperin explains that the Obama campaign could not answer the Jeremiah Wright question honestly — admitting they rarely attended church would have solved one problem while creating a worse one about Obama's faith.",
+    "quote": "So, faced with solving problem A with the honest explanation, the campaign decided not to give it because they didn’t want to create problem B.",
+    "speaker": "HALPERIN",
+    "episode": {
+      "title": "Faking It",
+      "show": "Freakonomics Radio",
+      "id": "127924",
+      "date": "2010-04-13",
+      "url": "https://freakonomics.com/podcast/faking-it/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Psychiatrist light bulb joke",
+    "entry_type": "story",
+    "category": "Education policy",
+    "claim": "Joel Klein used an old light bulb joke to explain school reform: the system doesn't want to change, it just wants more resources.",
+    "quote": "“How many psychiatrists does it take to change a light bulb?” And the answer is, “Only one, but the light bulb really has to want to change.” And the answer to your question is, the school system does not want to change. It wants more resources.",
+    "speaker": "KLEIN",
+    "episode": {
+      "title": "How Is a Bad Radio Station Like the Public School System?",
+      "show": "Freakonomics Radio",
+      "id": "127921",
+      "date": "2010-05-12",
+      "url": "https://freakonomics.com/podcast/how-is-a-bad-radio-station-like-the-public-school-system/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Race to the Top",
+    "entry_type": "fact",
+    "category": "Education policy",
+    "claim": "The U.S. Department of Education ran a competition in which eleven states plus D.C. shared over $4 billion in prize money for school reform.",
+    "quote": "Eleven states, and the District of Columbia, will share more than four billion dollars in prize money to invest in their school systems.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Reading, Rockets, and ‘Rithmetic",
+      "show": "Freakonomics Radio",
+      "id": "127909",
+      "date": "2010-10-21",
+      "url": "https://freakonomics.com/podcast/reading-rockets-and-rithmetic/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Rake (lottery commission)",
+    "entry_type": "figure",
+    "category": "Gambling economics",
+    "claim": "The \"rake\" is the cut taken by whoever operates a gambling game; state lotteries can rake as much as 60 percent, leaving as little as 40 percent for prizes, while casino slot machines pay out over 90 percent.",
+    "quote": "With state lotteries, the rake can be as high as 60 percent.",
+    "speaker": "narration",
+    "episode": {
+      "title": "The “No-Lose Lottery,” Part 2",
+      "show": "Freakonomics Radio",
+      "id": "127897",
+      "date": "2010-12-02",
+      "url": "https://freakonomics.com/podcast/the-no-lose-lottery-part-2/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Real Salt Lake / Xango Juice deal",
+    "entry_type": "fact",
+    "category": "Sports marketing",
+    "claim": "In 2006 Real Salt Lake became the first major North American team with a jersey sponsor, wearing a Xango Juice logo; today about three-quarters of M.L.S. teams have such deals, worth more than $2 million a year each.",
+    "quote": "In 2006, Amplify helped put together the first major jersey sponsorship deal in North American Sports. Real Salt Lake, a major league soccer team put a big Xango Juice logo on its players' chests.",
+    "speaker": "narration",
+    "episode": {
+      "title": "The N.F.L.'s Best Real Estate Isn't for Sale. Yet.",
+      "show": "Freakonomics Radio",
+      "id": "127906",
+      "date": "2010-10-29",
+      "url": "https://freakonomics.com/podcast/the-nfls-best-real-estate-isnt-for-sale-yet/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Repugnant transaction",
+    "entry_type": "concept",
+    "category": "Market design",
+    "claim": "Economist Al Roth defines a repugnant transaction as one that some people want to engage in while others believe it shouldn't be allowed — a category that shifts over time.",
+    "quote": "And so I have given a lot of thought to repugnant transactions, which are transactions that some people might want to engage in and other people think that they shouldn’t.",
+    "speaker": "ROTH",
+    "episode": {
+      "title": "You Say Repugnant, I Say … Let’s Do It!",
+      "show": "Freakonomics Radio",
+      "id": "127885",
+      "date": "2010-12-30",
+      "url": "https://freakonomics.com/podcast/you-say-repugnant-i-say-lets-do-it/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Returns to education",
+    "entry_type": "figure",
+    "category": "Labor economics",
+    "claim": "Levitt says one of the most settled findings in economics is that each additional year of schooling raises lifetime earnings by about 8%.",
+    "quote": "And the numbers that people have come up with over and over are that every extra year of education that you get will translate into an 8% increase in earnings over your lifetime.",
+    "speaker": "LEVITT",
+    "episode": {
+      "title": "Freakonomics FAQ, No. 1",
+      "show": "Freakonomics Radio",
+      "id": "127876",
+      "date": "2011-01-20",
+      "url": "https://freakonomics.com/podcast/freakonomics-faq-no-1/"
+    },
+    "age_years": 15,
+    "freshness": "check",
+    "freshness_note": "Figure is ~15 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Richard Petty's crash advice",
+    "entry_type": "story",
+    "category": "Sports",
+    "claim": "Before LaJoie's 1983 Daytona wreck, Richard Petty told him to yank his belts tight and take a deep breath before crashing; LaJoie did, woke up in the hospital with a severe concussion, and won a championship three weeks later.",
+    "quote": "“If you can remember, before you crash, to reach down and pull your belts as tight as you can get them and take a deep breath, you’ll be a lot better.”",
+    "speaker": "LAJOIE",
+    "episode": {
+      "title": "The Dangers of Safety",
+      "show": "Freakonomics Radio",
+      "id": "127934",
+      "date": "2010-02-05",
+      "url": "https://freakonomics.com/podcast/the-dangers-of-safety/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Right-footed kicker asymmetry",
+    "entry_type": "fact",
+    "category": "Game theory",
+    "claim": "Because of how the ball curves, right-footed kickers find it easier to shoot to the left side of the goal — and game theory predicts goalies will therefore dive that way more often than kickers actually shoot that way.",
+    "quote": "The goalie will jump to the kicker’s left more often than the kicker will actually kick it to the kicker’s left. That’s a strong prediction that comes out of game theory, but it’s something that, intuitively, you would never expect to see.",
+    "speaker": "LEVITT",
+    "episode": {
+      "title": "Why the World Cup Is an Economist’s Dream",
+      "show": "Freakonomics Radio",
+      "id": "127918",
+      "date": "2010-06-10",
+      "url": "https://freakonomics.com/podcast/why-the-world-cup-is-an-economists-dream/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Risk as a luxury good",
+    "entry_type": "concept",
+    "category": "Risk analysis",
+    "claim": "The episode's closing argument: in an increasingly safe world, the dangerous things we do are chosen for fun rather than necessity, making risk itself a luxury good.",
+    "quote": "If you think about it, risk is becoming a luxury good — kind of like Glenn Beck’s “deathproof” Mercedes.",
+    "speaker": "narration",
+    "episode": {
+      "title": "The Dangers of Safety",
+      "show": "Freakonomics Radio",
+      "id": "127934",
+      "date": "2010-02-05",
+      "url": "https://freakonomics.com/podcast/the-dangers-of-safety/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Roberto Baggio's missed penalty",
+    "entry_type": "person",
+    "category": "Sports history",
+    "claim": "Levitt cites a World Cup penalty blasted over the center of the goal as the archetype of a career-defining humiliation; a correction notes he named Ronaldo but meant Roberto Baggio.",
+    "quote": "CORRECTION: Steve Levitt refers to Ronaldo here when he means Roberto Baggio. This correction is not reflected in the audio.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Why the World Cup Is an Economist’s Dream",
+      "show": "Freakonomics Radio",
+      "id": "127918",
+      "date": "2010-06-10",
+      "url": "https://freakonomics.com/podcast/why-the-world-cup-is-an-economists-dream/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Robin Goldstein",
+    "entry_type": "person",
+    "category": "Economics of taste",
+    "claim": "A writer and researcher on wine and food, author of \"The Wine Trials,\" who studies how knowledge of price shapes sensory experience — and who staged the fake-restaurant award hoax.",
+    "quote": "And in particular I’m interested in price signals and how people’s knowledge of price affects their experience of wine on the most basic sensory level.",
+    "speaker": "GOLDSTEIN",
+    "episode": {
+      "title": "Do More Expensive Wines Taste Better?",
+      "show": "Freakonomics Radio",
+      "id": "127894",
+      "date": "2010-12-16",
+      "url": "https://freakonomics.com/podcast/do-more-expensive-wines-taste-better/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Roger the Shih Tzu",
+    "entry_type": "story",
+    "category": "Whimsy",
+    "claim": "Told his resignation was really about spending more time with his dog, Klein joked it was actually about his wife — and that his adolescent Shih Tzu, Roger, needs appropriate focus.",
+    "quote": "But you know, Roger is moving into his adolescence now and as you probably know, dogs in their adolescence need a lot of time so we’re going to give him the appropriate focus he needs.",
+    "speaker": "Chancellor Joel KLEIN",
+    "episode": {
+      "title": "Exit Interview: Schools Chancellor, NYC",
+      "show": "Freakonomics Radio",
+      "id": "127882",
+      "date": "2011-01-06",
+      "url": "https://freakonomics.com/podcast/exit-interview-schools-chancellor-nyc/"
+    },
+    "age_years": 15,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Roth, Al",
+    "entry_type": "person",
+    "category": "Economics",
+    "claim": "Al Roth is a Harvard economist and market designer — matching doctors to hospitals and students to New York City high schools — who also dropped out of high school.",
+    "quote": "But I woke up one morning in high school and thought that I hadn’t learned anything in a long time, and this distressed me so I stopped going so often.",
+    "speaker": "ROTH",
+    "episode": {
+      "title": "You Say Repugnant, I Say … Let’s Do It!",
+      "show": "Freakonomics Radio",
+      "id": "127885",
+      "date": "2010-12-30",
+      "url": "https://freakonomics.com/podcast/you-say-repugnant-i-say-lets-do-it/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Ryssdal, Kai",
+    "entry_type": "person",
+    "category": "Media",
+    "claim": "The Marketplace host has a straight Norwegian name — his father was born in Norway — and listeners constantly write in mispronouncing or misspelling it; in Norway it's sometimes spelled K-A-J.",
+    "quote": "It’s Norwegian people. My dad was born in Burgon. K-A-I R-Y-S-S-D-A-L. No middle name, thank you very much. Just Kai Ryssdal.",
+    "speaker": "RYSSDAL",
+    "episode": {
+      "title": "Two Book Authors and a Microphone",
+      "show": "Freakonomics Radio",
+      "id": "127915",
+      "date": "2010-09-30",
+      "url": "https://freakonomics.com/podcast/two-book-authors-and-a-microphone/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Sam Peltzman",
+    "entry_type": "person",
+    "category": "Economics",
+    "claim": "Sam Peltzman, the economist for whom the Peltzman Effect is named, is a colleague and friend of Steve Levitt — and, per Levitt, a spectacularly bad dresser.",
+    "quote": "which is named after a good friend of mine, Sam Peltzman, a colleague of mine, one of the most outlandish dressers who’s ever walked the earth",
+    "speaker": "LEVITT",
+    "episode": {
+      "title": "The Dangers of Safety",
+      "show": "Freakonomics Radio",
+      "id": "127934",
+      "date": "2010-02-05",
+      "url": "https://freakonomics.com/podcast/the-dangers-of-safety/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Sanford, Maine purple bags",
+    "entry_type": "place",
+    "category": "Public policy",
+    "claim": "Sanford, Maine — an old mill town known for the Palm Beach suit — launched Pay-As-You-Throw with $2 purple town-logo bags; recycling quadrupled and trash volume halved, but residents voted it out after about four months.",
+    "quote": "What we did is they were purple bags, because a couple of the counselors liked the purple color. So we did purple bags, and they had the town logo on them.",
+    "speaker": "GREEN",
+    "episode": {
+      "title": "Trashed",
+      "show": "Freakonomics Radio",
+      "id": "127879",
+      "date": "2011-01-13",
+      "url": "https://freakonomics.com/podcast/trashed/"
+    },
+    "age_years": 15,
+    "freshness": "durable",
+    "freshness_note": "Place entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Save to Win",
+    "entry_type": "figure",
+    "category": "Personal finance",
+    "claim": "Michigan credit unions' Save to Win prize-linked savings program pulled in $18 million in deposits in a year, and Rhode Island and Maine passed legislation to try the idea.",
+    "quote": "the Save to Win program has taken in $18 million in deposits this year",
+    "speaker": "narration",
+    "episode": {
+      "title": "The “No-Lose Lottery,” Part 2",
+      "show": "Freakonomics Radio",
+      "id": "127897",
+      "date": "2010-12-02",
+      "url": "https://freakonomics.com/podcast/the-no-lose-lottery-part-2/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Save to Win",
+    "entry_type": "fact",
+    "category": "Financial products",
+    "claim": "Michigan credit unions piloted a prize-linked savings program in which every $25 deposited into a one-year CD earns a chance at monthly cash prizes of $50 to $500 plus a $100,000 annual grand prize; it opened 15,000 new accounts.",
+    "quote": "And what it is, is using a lottery concept, so if someone saves, so that for every $25 that someone puts in to these one-year certificates of deposit, they are going to get a chance at cash prizes.",
+    "speaker": "ADAMS",
+    "episode": {
+      "title": "Is America Ready for a “No-Lose Lottery”?",
+      "show": "Freakonomics Radio",
+      "id": "127900",
+      "date": "2010-11-18",
+      "url": "https://freakonomics.com/podcast/is-america-ready-for-a-no-lose-lottery/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "School choice for the poor",
+    "entry_type": "concept",
+    "category": "Education economics",
+    "claim": "Klein argued middle-class families would never accept mandatory neighborhood-school assignment, yet the poor are given no options, and that even incomplete competition would improve the system.",
+    "quote": "Middle Class people, friends of yours would never agree to a school system in which they automatically went to the neighborhood school, whether it was good, bad or indifferent",
+    "speaker": "Chancellor Joel KLEIN",
+    "episode": {
+      "title": "Exit Interview: Schools Chancellor, NYC",
+      "show": "Freakonomics Radio",
+      "id": "127882",
+      "date": "2011-01-06",
+      "url": "https://freakonomics.com/podcast/exit-interview-schools-chancellor-nyc/"
+    },
+    "age_years": 15,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "School of One",
+    "entry_type": "concept",
+    "category": "Education",
+    "claim": "School of One is a New York City pilot program that replaces the one-teacher-25-kids classroom with daily individualized 'playlists' of learning modalities, generated by an algorithm that updates after each day's test.",
+    "quote": "At the end of every day, each kid takes a test. Now, the algorithm can learn what the kid learned today. Which lessons stuck, which topics need more attention, how each kid learns the best. Every day, as the kid gets a little smarter, the algorithm does too.",
+    "speaker": "ROSE",
+    "episode": {
+      "title": "How Is a Bad Radio Station Like the Public School System?",
+      "show": "Freakonomics Radio",
+      "id": "127921",
+      "date": "2010-05-12",
+      "url": "https://freakonomics.com/podcast/how-is-a-bad-radio-station-like-the-public-school-system/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "School of One pre-test/post-test gains",
+    "entry_type": "figure",
+    "category": "Education",
+    "claim": "School of One students went from an average pre-test score of 42 percent to 70 percent after roughly 50-60 hours of instruction — gains the D.O.E. estimated at 4 to 8 times traditional schooling in about a third the time.",
+    "quote": "The average score was 42 percent. At the end of the program, roughly 50-60 hours of instruction later, they took a post-test on the same skills. Post-test scores average 70 percent.",
+    "speaker": "ROSE",
+    "episode": {
+      "title": "How Is a Bad Radio Station Like the Public School System?",
+      "show": "Freakonomics Radio",
+      "id": "127921",
+      "date": "2010-05-12",
+      "url": "https://freakonomics.com/podcast/how-is-a-bad-radio-station-like-the-public-school-system/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Seasteading Institute",
+    "entry_type": "concept",
+    "category": "Governance",
+    "claim": "Patri Friedman, Milton Friedman's grandson, founded a nonprofit researching how to build new societies on the ocean, hoping to turn government into a market commodity where citizens pick the country that fits them.",
+    "quote": "I’m Patri Friedman and I founded the Seasteading Institute, a nonprofit which researches how we can let people build new societies on the ocean.",
+    "speaker": "Patri FRIEDMAN",
+    "episode": {
+      "title": "What Would the World Look Like if Economists Were in Charge?",
+      "show": "Freakonomics Radio",
+      "id": "127927",
+      "date": "2010-03-24",
+      "url": "https://freakonomics.com/podcast/what-would-the-world-look-like-if-economists-were-in-charge/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Seattle Stomp",
+    "entry_type": "concept",
+    "category": "Behavioral economics",
+    "claim": "When charged per can of trash, residents stomp their garbage down to compact more into fewer containers — a tactic famous among garbage scholars, possibly boosting sales of sturdier bins.",
+    "quote": "So you can imagine a big boot right on top of that garbage.  Got to get this extra stuff in.",
+    "speaker": "KINNAMAN",
+    "episode": {
+      "title": "Trashed",
+      "show": "Freakonomics Radio",
+      "id": "127879",
+      "date": "2011-01-13",
+      "url": "https://freakonomics.com/podcast/trashed/"
+    },
+    "age_years": 15,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Signaling theory",
+    "entry_type": "concept",
+    "category": "Behavioral economics",
+    "claim": "Dubner frames everyday faking as signaling: broadcasting to others that you're a good friend, a good job candidate, or a worthy partner.",
+    "quote": "Scientists have a framework for talking about this problem: “signaling theory.” It’s my way of telling the world that I’m a good friend, I’m not a sociopath, I’m a good candidate for that job you’re offering",
+    "speaker": "narration",
+    "episode": {
+      "title": "Faking It",
+      "show": "Freakonomics Radio",
+      "id": "127924",
+      "date": "2010-04-13",
+      "url": "https://freakonomics.com/podcast/faking-it/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Skewness",
+    "entry_type": "concept",
+    "category": "Behavioral economics",
+    "claim": "Skewness is the asymmetry of a tiny bet against a huge payout, and it manufactures the irrational hope that fuels lottery ticket buying — about $60 billion a year in the U.S.",
+    "quote": "This asymmetry is called “skewness” — and it generates hope — irrational hope, to be sure, and too much of it — for that life-changing payout.",
+    "speaker": "narration",
+    "episode": {
+      "title": "The “No-Lose Lottery,” Part 2",
+      "show": "Freakonomics Radio",
+      "id": "127897",
+      "date": "2010-12-02",
+      "url": "https://freakonomics.com/podcast/the-no-lose-lottery-part-2/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Skewness",
+    "entry_type": "concept",
+    "category": "Behavioral economics",
+    "claim": "Economists use \"skewness\" to describe a payoff structure with a tiny chance at an enormous prize — something a lottery ticket offers and a money market account cannot.",
+    "quote": "That’s the idea that there’s some big prize way out there that corresponds to very small odds, but there’s some potential of capturing that.",
+    "speaker": "KEARNEY",
+    "episode": {
+      "title": "Is America Ready for a “No-Lose Lottery”?",
+      "show": "Freakonomics Radio",
+      "id": "127900",
+      "date": "2010-11-18",
+      "url": "https://freakonomics.com/podcast/is-america-ready-for-a-no-lose-lottery/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Smith, Billie June",
+    "entry_type": "story",
+    "category": "Personal finance",
+    "claim": "The 87-year-old first big winner of Michigan's Save to Win program deposited $75 in a credit union account, won a $100,000 prize, and spent it on a furnace, a water softener, and savings.",
+    "quote": "So you put $75 of your own money into a credit union savings account.  And as a result, you were entered into a lottery for which you won $100,000.",
+    "speaker": "DUBNER",
+    "episode": {
+      "title": "The “No-Lose Lottery,” Part 2",
+      "show": "Freakonomics Radio",
+      "id": "127897",
+      "date": "2010-12-02",
+      "url": "https://freakonomics.com/podcast/the-no-lose-lottery-part-2/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Society of Fellows wine tasting hoax",
+    "entry_type": "story",
+    "category": "Behavioral economics",
+    "claim": "At Harvard's Society of Fellows, Steve Levitt organized a blind tasting with four decanters: two expensive wines, one cheap $8 bottle passed off as cellar wine, and a repeat of one expensive wine. The senior fellows couldn't tell them apart and one stormed out claiming he had a cold.",
+    "quote": "And he loudly announced that he had a cold. Otherwise he clearly could have made the distinctions and he stormed from the room and left the party prematurely.",
+    "speaker": "LEVITT",
+    "episode": {
+      "title": "Do More Expensive Wines Taste Better?",
+      "show": "Freakonomics Radio",
+      "id": "127894",
+      "date": "2010-12-16",
+      "url": "https://freakonomics.com/podcast/do-more-expensive-wines-taste-better/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "South African prize-linked savings lawsuit",
+    "entry_type": "story",
+    "category": "Regulation",
+    "claim": "A South African bank's prize-linked savings program was so popular that the country's National Lotteries Board sued to shut it down.",
+    "quote": "A few years ago, a bank in South Africa started a PLS program which was hugely successful — so much so that the National Lotteries Board of South Africa sued to have it shut down.",
+    "speaker": "DUBNER",
+    "episode": {
+      "title": "The “No-Lose Lottery,” Part 2",
+      "show": "Freakonomics Radio",
+      "id": "127897",
+      "date": "2010-12-02",
+      "url": "https://freakonomics.com/podcast/the-no-lose-lottery-part-2/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Steroid-testing paradox",
+    "entry_type": "fact",
+    "category": "Sports economics",
+    "claim": "Run scoring actually rose in the year steroid testing began, and the recent decline came almost entirely in the American League despite identical testing in both leagues.",
+    "quote": "Here’s a strange fact: The year steroids testing began, run scoring actually went up.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Who Stole All the Runs in Major League Baseball?",
+      "show": "Freakonomics Radio",
+      "id": "127912",
+      "date": "2010-10-07",
+      "url": "https://freakonomics.com/podcast/who-stole-all-the-runs-in-major-league-baseball/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Steroids skepticism",
+    "entry_type": "concept",
+    "category": "Sports economics",
+    "claim": "Levitt twice tried and failed to find evidence that steroids actually mattered to baseball performance, though the incentive to use them was still rational.",
+    "quote": "So twice in the past decade I have really tried to find evidence that say steroids matter in baseball and both times I invested a lot of effort and ended up finding no evidence that steroids mattered.",
+    "speaker": "LEVITT",
+    "episode": {
+      "title": "Who Stole All the Runs in Major League Baseball?",
+      "show": "Freakonomics Radio",
+      "id": "127912",
+      "date": "2010-10-07",
+      "url": "https://freakonomics.com/podcast/who-stole-all-the-runs-in-major-league-baseball/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Substitute-teacher payroll (NYC)",
+    "entry_type": "figure",
+    "category": "Public finance",
+    "claim": "Klein said the district was spending over $100 million on teachers who couldn't get hired full-time and effectively did substitute work while being paid as full-time teachers.",
+    "quote": "I spend over 100 million dollars right now as we’re talking on a group of people who can’t get hired as full time teachers in the system and they do basically substitute teaching but I don’t need substitute teachers that I pay for full time teachers",
+    "speaker": "Chancellor Joel KLEIN",
+    "episode": {
+      "title": "Exit Interview: Schools Chancellor, NYC",
+      "show": "Freakonomics Radio",
+      "id": "127882",
+      "date": "2011-01-06",
+      "url": "https://freakonomics.com/podcast/exit-interview-schools-chancellor-nyc/"
+    },
+    "age_years": 15,
+    "freshness": "check",
+    "freshness_note": "Figure is ~15 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Sumo burger",
+    "entry_type": "story",
+    "category": "Food culture",
+    "claim": "Big Nick's on New York's Upper West Side was famous for a \"sumo burger\" made from a full pound of ground beef; one diner used it as the first stop on a five-meal walking crawl.",
+    "quote": "We’re starting at Big Nick’s on the Upper West Side. It’s famous for a “sumo burger,” one full pound of ground beef.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Is America’s Obesity Epidemic For Real?",
+      "show": "Freakonomics Radio",
+      "id": "127930",
+      "date": "2010-02-26",
+      "url": "https://freakonomics.com/podcast/is-americas-obesity-epidemic-for-real/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Sunk cost fallacy",
+    "entry_type": "concept",
+    "category": "Behavioral economics",
+    "claim": "Wolfers admitted to doubling down on John Kerry bets after losses, illustrating that even economists fall prey to behavioral failings.",
+    "quote": "I decided to double down because if I had lost in the era, I’m sure he’s going to bounce back in the second era. We economists have our behavioral failings too.",
+    "speaker": "WOLFERS",
+    "episode": {
+      "title": "How Much Does the President Really Matter?",
+      "show": "Freakonomics Radio",
+      "id": "127903",
+      "date": "2010-11-04",
+      "url": "https://freakonomics.com/podcast/how-much-does-the-president-really-matter/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Taipei trash truck courtship",
+    "entry_type": "story",
+    "category": "Culture & incentives",
+    "claim": "In Taipei, garbage trucks blare Beethoven like an ice cream truck and residents must run their trash out to meet them — turning collection into a neighborhood social event where young men reportedly go looking for pretty girls.",
+    "quote": "I’ve seen this where there will be people, you know, twenty or twenty-five people gathering on a corner, and with the trash truck coming in the distance. And I’ve also heard that guys sometimes go there and try to find pretty girls.",
+    "speaker": "FORMA",
+    "episode": {
+      "title": "Trashed",
+      "show": "Freakonomics Radio",
+      "id": "127879",
+      "date": "2011-01-13",
+      "url": "https://freakonomics.com/podcast/trashed/"
+    },
+    "age_years": 15,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Taipei's musical garbage trucks",
+    "entry_type": "story",
+    "category": "Urban economics",
+    "claim": "In Taiwan, residents must bring trash out to the truck when they hear it coming — and the truck announces itself by blasting Beethoven, so it sounds like an ice cream truck.",
+    "quote": "This is one of the funny things: it actually plays Beethoven music. It blares it, in fact, and so when you hear it coming, your first thought is, “The ice cream truck is coming.”",
+    "speaker": "FORMA",
+    "episode": {
+      "title": "Two Book Authors and a Microphone",
+      "show": "Freakonomics Radio",
+      "id": "127915",
+      "date": "2010-09-30",
+      "url": "https://freakonomics.com/podcast/two-book-authors-and-a-microphone/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Target Field",
+    "entry_type": "place",
+    "category": "Sports",
+    "claim": "The Minnesota Twins' new ballpark has yielded far fewer home runs than their former home, the Metrodome, offering one possible explanation for scarcer runs.",
+    "quote": "There’s the brand-new Target Field where the Minnesota Twins play and where home runs have been much less plentiful than in the Twins' old home, The Metrodome.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Who Stole All the Runs in Major League Baseball?",
+      "show": "Freakonomics Radio",
+      "id": "127912",
+      "date": "2010-10-07",
+      "url": "https://freakonomics.com/podcast/who-stole-all-the-runs-in-major-league-baseball/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Place entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Ten days of trash",
+    "entry_type": "story",
+    "category": "Everyday economics",
+    "claim": "A grad student newly arrived in Taiwan missed the trash truck for ten straight days because he was out exploring the city, and ended up storing ten days of garbage in his dorm room.",
+    "quote": "The result of all that was about ten days worth of trash in my room.",
+    "speaker": "FORMA",
+    "episode": {
+      "title": "Two Book Authors and a Microphone",
+      "show": "Freakonomics Radio",
+      "id": "127915",
+      "date": "2010-09-30",
+      "url": "https://freakonomics.com/podcast/two-book-authors-and-a-microphone/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Thin line of skepticism",
+    "entry_type": "concept",
+    "category": "Practical philosophy",
+    "claim": "Nassim Nicholas Taleb argues skepticism must be calibrated: total gullibility makes you a sucker, but total skepticism paralyzes you so you can't even get out of bed.",
+    "quote": "There’s a thin line between pure gullibility — not a sucker — and pure skepticism: you can’t get out of bed and you have to figure out to navigate it.",
+    "speaker": "TALEB",
+    "episode": {
+      "title": "Two Book Authors and a Microphone",
+      "show": "Freakonomics Radio",
+      "id": "127915",
+      "date": "2010-09-30",
+      "url": "https://freakonomics.com/podcast/two-book-authors-and-a-microphone/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Trash as a community builder",
+    "entry_type": "concept",
+    "category": "Social economics",
+    "claim": "Because Taiwanese neighbors must wait together for the garbage truck, trash pickup becomes a social event — 20 to 25 people on a corner, some men reportedly hoping to meet women.",
+    "quote": "I’ve seen this, where there will be 20 to 25 people gathering on a corner with the trash truck coming in the distance. I’ve also heard that guys sometimes go there and try to find pretty girls.",
+    "speaker": "FORMA",
+    "episode": {
+      "title": "Two Book Authors and a Microphone",
+      "show": "Freakonomics Radio",
+      "id": "127915",
+      "date": "2010-09-30",
+      "url": "https://freakonomics.com/podcast/two-book-authors-and-a-microphone/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Trash fee backlash abroad",
+    "entry_type": "fact",
+    "category": "Unintended consequences",
+    "claim": "New trash fees produced perverse results overseas: burn injuries rose in Ireland as people torched their trash, and Germans flushed so much food waste that sewers became rat-infested.",
+    "quote": "In Ireland, new trash fees led to a rise in burn victims–because more people were burning their trash in the backyard to avoid paying. In Germany, people started flushing so much of their food waste down the toilet that the sewers became infested with rats.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Trashed",
+      "show": "Freakonomics Radio",
+      "id": "127879",
+      "date": "2011-01-13",
+      "url": "https://freakonomics.com/podcast/trashed/"
+    },
+    "age_years": 15,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Twenty percent time",
+    "entry_type": "concept",
+    "category": "Corporate innovation",
+    "claim": "Google engineers may spend 20 percent of their working time on any project they believe matters to the company or the world, even without manager approval.",
+    "quote": "So 20 percent time means that any Google engineer can take 20 percent of their time, say it’s one day a week, or one month in five, and do with that time something that they think is important for the company or for the world, regardless of whether their manager thinks it’s a good idea.",
+    "speaker": "NEVILL-MANNING",
+    "episode": {
+      "title": "Reading, Rockets, and ‘Rithmetic",
+      "show": "Freakonomics Radio",
+      "id": "127909",
+      "date": "2010-10-21",
+      "url": "https://freakonomics.com/podcast/reading-rockets-and-rithmetic/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Tyranny of choice",
+    "entry_type": "concept",
+    "category": "Behavioral economics",
+    "claim": "Westergren describes the web's second phase as making its overwhelming volume navigable — solving the misery of having too many options, like a record store with 80,000 CDs.",
+    "quote": "You’ve got a tyranny of choice on the web. [It’s] like walking into a record store and you’ve got eighty thousand CDs to choose from and you need to figure out where to start.",
+    "speaker": "WESTERGREN",
+    "episode": {
+      "title": "How Is a Bad Radio Station Like the Public School System?",
+      "show": "Freakonomics Radio",
+      "id": "127921",
+      "date": "2010-05-12",
+      "url": "https://freakonomics.com/podcast/how-is-a-bad-radio-station-like-the-public-school-system/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Ultimate zone rating (UZR)",
+    "entry_type": "concept",
+    "category": "Sports analytics",
+    "claim": "Analysts grade fielders by comparing how often an individual converts each type of batted ball versus the average fielder at that position, using years of data.",
+    "quote": "I look at how hard a ball is hit, exactly what area on the field a ball is hit, go through 5 or 6 years worth of data and I figure out how often for every type of batted ball the average fielder at each position fields that ball successfully",
+    "speaker": "LICHTMAN",
+    "episode": {
+      "title": "Who Stole All the Runs in Major League Baseball?",
+      "show": "Freakonomics Radio",
+      "id": "127912",
+      "date": "2010-10-07",
+      "url": "https://freakonomics.com/podcast/who-stole-all-the-runs-in-major-league-baseball/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Viable-organ rate at death",
+    "entry_type": "figure",
+    "category": "Health economics",
+    "claim": "Fewer than one percent of people who die leave behind organs suitable for transplantation, which limits the value of donor sign-up rates.",
+    "quote": "Only a very small share of people who die — less than one percent — actually leave behind organs that are viable for transplantation.",
+    "speaker": "narration",
+    "episode": {
+      "title": "You Say Repugnant, I Say … Let’s Do It!",
+      "show": "Freakonomics Radio",
+      "id": "127885",
+      "date": "2010-12-30",
+      "url": "https://freakonomics.com/podcast/you-say-repugnant-i-say-lets-do-it/"
+    },
+    "age_years": 16,
+    "freshness": "check",
+    "freshness_note": "Figure is ~16 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Vietnam draft lottery (as natural experiment)",
+    "entry_type": "story",
+    "category": "Economics of education",
+    "claim": "Because college enrollment could get you out of Vietnam, men with bad draft numbers went to college at much higher rates than men with high numbers — giving economists a clean way to measure education's payoff, and turning a bad draft number into a lifetime earnings boost.",
+    "quote": "So what happened was, the men who were unlucky and got bad draft numbers, many more of them went to college than did the people who got high draft numbers.",
+    "speaker": "LEVITT",
+    "episode": {
+      "title": "Freakonomics FAQ, No. 1",
+      "show": "Freakonomics Radio",
+      "id": "127876",
+      "date": "2011-01-20",
+      "url": "https://freakonomics.com/podcast/freakonomics-faq-no-1/"
+    },
+    "age_years": 15,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Voting as venting",
+    "entry_type": "concept",
+    "category": "Behavioral economics",
+    "claim": "Since a single vote has negligible instrumental value, Bradbury argues voting and bumper stickers serve mainly as cheap emotional expression.",
+    "quote": "Voting and bumper stickers are much cheaper than therapists.",
+    "speaker": "BRADBURY",
+    "episode": {
+      "title": "How Much Does the President Really Matter?",
+      "show": "Freakonomics Radio",
+      "id": "127903",
+      "date": "2010-11-04",
+      "url": "https://freakonomics.com/podcast/how-much-does-the-president-really-matter/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Waters, Alice",
+    "entry_type": "person",
+    "category": "Food culture",
+    "claim": "Owner of Chez Panisse in Berkeley and godmother of the slow-food movement, she dismisses molecular gastronomy as museum-like rather than a real way of eating.",
+    "quote": "It’s a kind of scientific experiment, and I think that there are good scientists and crazy old scientists that can be very amazing. But it’s more like a museum to me.",
+    "speaker": "WATERS",
+    "episode": {
+      "title": "Waiter, There's a Physicist In My Soup, Part I",
+      "show": "Freakonomics Radio",
+      "id": "127888",
+      "date": "2011-01-27",
+      "url": "https://freakonomics.com/podcast/waiter-theres-a-physicist-in-my-soup-part-i/"
+    },
+    "age_years": 15,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Wembley Stadium experiment",
+    "entry_type": "place",
+    "category": "Sports marketing",
+    "claim": "At its annual London game, the N.F.L. permits on-field sideline advertising it bans in the U.S., using the U.K. as a testing ground for how much commercialization fans will tolerate.",
+    "quote": "We never used to allow sideline advertising at all. Now, [when] we play in Wembly in the U.K., we have on-field signage. We did it for a year and tested it.",
+    "speaker": "WALLER",
+    "episode": {
+      "title": "The N.F.L.'s Best Real Estate Isn't for Sale. Yet.",
+      "show": "Freakonomics Radio",
+      "id": "127906",
+      "date": "2010-10-29",
+      "url": "https://freakonomics.com/podcast/the-nfls-best-real-estate-isnt-for-sale-yet/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Place entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Wine Spectator Award of Excellence",
+    "entry_type": "fact",
+    "category": "Media economics",
+    "claim": "Goldstein hypothesized the award was really an advertising scheme, with the $250 application fee doing the real work. His fake restaurant, whose list included wines Wine Spectator itself had panned, won the award.",
+    "quote": "My hypothesis was that the 250-dollar fee was really the functional part of the application.  In other words, the entire awards program was really just an advertising scheme",
+    "speaker": "GOLDSTEIN",
+    "episode": {
+      "title": "Do More Expensive Wines Taste Better?",
+      "show": "Freakonomics Radio",
+      "id": "127894",
+      "date": "2010-12-16",
+      "url": "https://freakonomics.com/podcast/do-more-expensive-wines-taste-better/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "World Cup crime dip (South Africa)",
+    "entry_type": "fact",
+    "category": "Crime",
+    "claim": "South Africans feared the World Cup would bring a crime spike; instead crime fell, which activist Mamphela Ramphele attributes to young men having something to do.",
+    "quote": "I think it is true that the level of crime came down and those who did commit crimes were quickly nabbed so crime didn’t pay during the World Cup",
+    "speaker": "RAMPHELE",
+    "episode": {
+      "title": "Two Book Authors and a Microphone",
+      "show": "Freakonomics Radio",
+      "id": "127915",
+      "date": "2010-09-30",
+      "url": "https://freakonomics.com/podcast/two-book-authors-and-a-microphone/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Wright, Jeremiah",
+    "entry_type": "person",
+    "category": "Politics",
+    "claim": "Obama's pastor of 17 years, whose recorded sermons — including claims that America deserved 9/11 — became a 2008 campaign crisis.",
+    "quote": "You might remember some other things Reverend Wright had to say: that America deserved the 9/11 terrorist attacks, that blacks shouldn’t say “god bless America” — they should say “god damn America.”",
+    "speaker": "narration",
+    "episode": {
+      "title": "Faking It",
+      "show": "Freakonomics Radio",
+      "id": "127924",
+      "date": "2010-04-13",
+      "url": "https://freakonomics.com/podcast/faking-it/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Wrong Emanuel brother",
+    "entry_type": "story",
+    "category": "Politics",
+    "claim": "Asked whether it was time for a cheeseburger tax, Obama health adviser Ezekiel Emanuel — brother of White House chief of staff Rahm Emanuel — deflected the political question with a joke.",
+    "quote": "That’s a political question: when is the right time for a cheeseburger tax? I think you’ve got the wrong Emanuel brother.",
+    "speaker": "EMANUEL",
+    "episode": {
+      "title": "Is America’s Obesity Epidemic For Real?",
+      "show": "Freakonomics Radio",
+      "id": "127930",
+      "date": "2010-02-26",
+      "url": "https://freakonomics.com/podcast/is-americas-obesity-epidemic-for-real/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Xenotransplantation",
+    "entry_type": "concept",
+    "category": "Medical technology",
+    "claim": "Roth suggests pig organs, if modified so the human immune system doesn't reject them, could fully satisfy demand for kidneys — a possible alternative to legalizing organ markets.",
+    "quote": "That would presumably completely satisfy the need for kidneys if it worked for everyone because we could grow lots of pigs and use their organs.",
+    "speaker": "ROTH",
+    "episode": {
+      "title": "You Say Repugnant, I Say … Let’s Do It!",
+      "show": "Freakonomics Radio",
+      "id": "127885",
+      "date": "2010-12-30",
+      "url": "https://freakonomics.com/podcast/you-say-repugnant-i-say-lets-do-it/"
+    },
+    "age_years": 16,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "“Nice to see you”",
+    "entry_type": "fact",
+    "category": "Etiquette",
+    "claim": "In Washington, people greet strangers with \"Nice to see you\" instead of \"Nice to meet you\" to hedge against having forgotten a prior meeting.",
+    "quote": "Because I’m pretty sure I’ve never met them, but I don’t want to take that two percent risk.",
+    "speaker": "HALPERIN",
+    "episode": {
+      "title": "Faking It",
+      "show": "Freakonomics Radio",
+      "id": "127924",
+      "date": "2010-04-13",
+      "url": "https://freakonomics.com/podcast/faking-it/"
+    },
+    "age_years": 16,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  }
+]
