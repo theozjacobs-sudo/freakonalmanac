@@ -28,7 +28,15 @@ export function getSupabase(): SupabaseClient {
     cached = createClient(
       process.env.SUPABASE_URL as string,
       process.env.SUPABASE_SERVICE_ROLE_KEY as string,
-      { auth: { persistSession: false } }
+      {
+        auth: { persistSession: false },
+        global: {
+          // Next.js caches server-side fetch() GETs by default, which froze
+          // stale Supabase responses (pre-migration schema/settings) in
+          // Vercel's data cache. Every DB read must hit the database.
+          fetch: (input, init) => fetch(input, { ...init, cache: "no-store" }),
+        },
+      }
     );
   }
   return cached;
