@@ -108,6 +108,14 @@ export async function GET(req: NextRequest) {
     const ai = await sb.from("reviewers").select("id").like("token", "claude-ai-%");
     report.ai_reviewer_present = ai.error ? `ERROR: ${ai.error.message}` : (ai.data?.length ?? 0) > 0;
 
+    // Raw evidence for which-database-is-this questions: the settings table
+    // verbatim, and exactly which reviewer columns the API returns.
+    const allSettings = await sb.from("settings").select("*").order("key");
+    report.settings_rows = allSettings.error
+      ? `ERROR: ${allSettings.error.message}`
+      : allSettings.data;
+    report.reviewer_columns_visible = Object.keys(who.data as object).sort();
+
     const modeRow = await sb
       .from("settings")
       .select("value")
