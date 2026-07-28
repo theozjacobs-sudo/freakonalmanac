@@ -1,0 +1,183 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------------------------------------------------ */
+/* Fact Finder design tokens — kept in lockstep with site/fact-finder.html */
+/* ------------------------------------------------------------------ */
+:root {
+  --ground: #f7f6f1;
+  --surface: #ffffff;
+  --surface-2: #fbfaf6;
+  --ink: #191d23;
+  --muted: #5c6672;
+  --faint: #8b93a0;
+  --hair: #e6e4db;
+  --hair-2: #efeee7;
+  --accent: #22457e;
+  --accent-soft: #e8eef7;
+  --accent-ink: #1b365f;
+  --good: #3a7a4e;
+  --good-bg: #e7f1e8;
+  --warn: #9a6a12;
+  --warn-bg: #f6edd7;
+  --alert: #b34a37;
+  --alert-bg: #f7e6e1;
+  --shadow: 0 1px 2px rgba(20, 30, 50, 0.04), 0 8px 24px rgba(20, 30, 50, 0.05);
+
+  /* type-pill hues (light) */
+  --t-concept-bg: #e8eef7; --t-concept-fg: #1b365f;
+  --t-figure-bg: #e7f1e8;  --t-figure-fg: #3a7a4e;
+  --t-fact-bg: #f6edd7;    --t-fact-fg: #9a6a12;
+  --t-person-bg: #ece6f6;  --t-person-fg: #5b3a9a;
+  --t-place-bg: #dff0ee;   --t-place-fg: #1f6e66;
+  --t-story-bg: #f7e5ec;   --t-story-fg: #a03a5e;
+
+  --seg-on-fg: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ground: #131619;
+    --surface: #1a1e24;
+    --surface-2: #171b20;
+    --ink: #edf0f3;
+    --muted: #a4adb9;
+    --faint: #727c8a;
+    --hair: #2b3138;
+    --hair-2: #242a31;
+    --accent: #7ea6dd;
+    --accent-soft: #1e2a3d;
+    --accent-ink: #a9c4e8;
+    --good: #78b98a;
+    --good-bg: #1c2a20;
+    --warn: #d6a44e;
+    --warn-bg: #2c2517;
+    --alert: #e08a76;
+    --alert-bg: #2e1f1b;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 10px 30px rgba(0, 0, 0, 0.35);
+
+    /* type-pill hues (dark) — same six hues, dimmed grounds */
+    --t-concept-bg: #1e2a3d; --t-concept-fg: #a9c4e8;
+    --t-figure-bg: #1c2a20;  --t-figure-fg: #78b98a;
+    --t-fact-bg: #2c2517;    --t-fact-fg: #d6a44e;
+    --t-person-bg: #241d36;  --t-person-fg: #b6a0e4;
+    --t-place-bg: #14302d;   --t-place-fg: #6ec4ba;
+    --t-story-bg: #301c25;   --t-story-fg: #e08aa8;
+
+    --seg-on-fg: #0c1220;
+  }
+}
+
+html {
+  background: var(--ground);
+}
+
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+}
+
+/* mono uppercase label */
+.eyebrow {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* type pills: concept=blue figure=green fact=amber person=purple place=teal story=rose */
+.tag {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.63rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-weight: 600;
+  white-space: nowrap;
+  display: inline-block;
+}
+.tag--concept { background: var(--t-concept-bg); color: var(--t-concept-fg); }
+.tag--figure  { background: var(--t-figure-bg);  color: var(--t-figure-fg); }
+.tag--fact    { background: var(--t-fact-bg);    color: var(--t-fact-fg); }
+.tag--person  { background: var(--t-person-bg);  color: var(--t-person-fg); }
+.tag--place   { background: var(--t-place-bg);   color: var(--t-place-fg); }
+.tag--story   { background: var(--t-story-bg);   color: var(--t-story-fg); }
+
+/* freshness pills */
+.pill {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  padding: 3px 9px;
+  border-radius: 20px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.pill::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+}
+.pill--current { background: var(--good-bg); color: var(--good); }
+.pill--aging   { background: var(--warn-bg); color: var(--warn); }
+.pill--check   { background: var(--alert-bg); color: var(--alert); }
+.pill--evergreen,
+.pill--durable { background: var(--surface-2); color: var(--faint); border: 1px solid var(--hair-2); }
+
+/* keep/reject chips (my decisions only) */
+.chip-keep   { background: var(--good-bg); color: var(--good); }
+.chip-reject { background: var(--alert-bg); color: var(--alert); }
+.chip-none   { background: var(--surface-2); color: var(--faint); }
+
+/* swipe deck */
+.deck-card {
+  touch-action: pan-y;
+  user-select: none;
+  -webkit-user-select: none;
+  will-change: transform;
+}
+.deck-card--animating {
+  transition: transform 0.28s cubic-bezier(0.2, 0.7, 0.3, 1), opacity 0.28s ease;
+}
+.deck-card--return {
+  transition: transform 0.22s cubic-bezier(0.2, 0.7, 0.3, 1);
+}
+
+.stamp {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 1.1rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 3px solid currentColor;
+  border-radius: 10px;
+  padding: 6px 14px;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .deck-card--animating,
+  .deck-card--return {
+    transition: none;
+  }
+}
+
+/* focus */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
