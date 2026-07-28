@@ -28,6 +28,9 @@ CSS = r"""
   --good:#3a7a4e; --good-bg:#e7f1e8;
   --warn:#9a6a12; --warn-bg:#f6edd7;
   --alert:#b34a37; --alert-bg:#f7e6e1;
+  --person:#6a4c9c; --person-bg:#efe9f8;
+  --place:#1f6f6a; --place-bg:#e1f0ee;
+  --story:#a84364; --story-bg:#f8e7ed;
   --shadow:0 1px 2px rgba(20,30,50,.04),0 8px 24px rgba(20,30,50,.05);
   --serif:Georgia,"Iowan Old Style","Times New Roman",serif;
   --sans:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
@@ -41,6 +44,9 @@ CSS = r"""
   --good:#78b98a; --good-bg:#1c2a20;
   --warn:#d6a44e; --warn-bg:#2c2517;
   --alert:#e08a76; --alert-bg:#2e1f1b;
+  --person:#b79ae0; --person-bg:#251d38;
+  --place:#6cc5bc; --place-bg:#152e2b;
+  --story:#e08aa7; --story-bg:#301e26;
   --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
 }}
 :root[data-theme="light"]{
@@ -48,14 +54,20 @@ CSS = r"""
   --ink:#191d23; --muted:#5c6672; --faint:#8b93a0; --hair:#e6e4db; --hair-2:#efeee7;
   --accent:#22457e; --accent-soft:#e8eef7; --accent-ink:#1b365f;
   --good:#3a7a4e; --good-bg:#e7f1e8; --warn:#9a6a12; --warn-bg:#f6edd7;
-  --alert:#b34a37; --alert-bg:#f7e6e1; --shadow:0 1px 2px rgba(20,30,50,.04),0 8px 24px rgba(20,30,50,.05);
+  --alert:#b34a37; --alert-bg:#f7e6e1;
+  --person:#6a4c9c; --person-bg:#efe9f8; --place:#1f6f6a; --place-bg:#e1f0ee;
+  --story:#a84364; --story-bg:#f8e7ed;
+  --shadow:0 1px 2px rgba(20,30,50,.04),0 8px 24px rgba(20,30,50,.05);
 }
 :root[data-theme="dark"]{
   --ground:#131619; --surface:#1a1e24; --surface-2:#171b20;
   --ink:#edf0f3; --muted:#a4adb9; --faint:#727c8a; --hair:#2b3138; --hair-2:#242a31;
   --accent:#7ea6dd; --accent-soft:#1e2a3d; --accent-ink:#a9c4e8;
   --good:#78b98a; --good-bg:#1c2a20; --warn:#d6a44e; --warn-bg:#2c2517;
-  --alert:#e08a76; --alert-bg:#2e1f1b; --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
+  --alert:#e08a76; --alert-bg:#2e1f1b;
+  --person:#b79ae0; --person-bg:#251d38; --place:#6cc5bc; --place-bg:#152e2b;
+  --story:#e08aa7; --story-bg:#301e26;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);
@@ -103,6 +115,24 @@ select.filter{border:1px solid var(--hair);border-radius:9px;background:var(--su
 .count{font-family:var(--mono);font-size:.8rem;color:var(--muted);margin-left:auto;
   font-variant-numeric:tabular-nums}
 
+/* A–Z jump bar */
+.azbar{display:flex;flex-wrap:wrap;gap:2px;margin-top:10px}
+.az{border:0;background:transparent;color:var(--muted);font-family:var(--mono);cursor:pointer;
+  border-radius:6px;padding:3px 0 2px;flex:1 1 26px;min-width:26px;max-width:44px;
+  display:flex;flex-direction:column;align-items:center;line-height:1.15}
+.az b{font-size:.82rem;font-weight:600}
+.az i{font-style:normal;font-size:.56rem;color:var(--faint);font-variant-numeric:tabular-nums;
+  min-height:.8em}
+.az:not(:disabled):hover{background:var(--surface-2);color:var(--ink)}
+.az:disabled{color:color-mix(in srgb,var(--faint) 38%,transparent);cursor:default}
+.az:disabled i{visibility:hidden}
+.az[aria-pressed="true"]{background:var(--accent);color:#fff}
+.az[aria-pressed="true"] i{color:currentColor;opacity:.75}
+@media (prefers-color-scheme:dark){.az[aria-pressed="true"]{color:#0c1220}}
+:root[data-theme="dark"] .az[aria-pressed="true"]{color:#0c1220}
+:root[data-theme="light"] .az[aria-pressed="true"]{color:#fff}
+.az:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+
 /* entries */
 main{padding:30px 0 8px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px}
@@ -119,6 +149,9 @@ main{padding:30px 0 8px}
 .tag--concept{background:var(--accent-soft);color:var(--accent-ink)}
 .tag--figure{background:var(--good-bg);color:var(--good)}
 .tag--fact{background:var(--warn-bg);color:var(--warn)}
+.tag--person{background:var(--person-bg);color:var(--person)}
+.tag--place{background:var(--place-bg);color:var(--place)}
+.tag--story{background:var(--story-bg);color:var(--story)}
 .entry__cat{font-size:.76rem;color:var(--faint);text-transform:uppercase;letter-spacing:.06em;
   margin-top:-6px}
 .entry__claim{font-size:1.01rem;color:var(--ink);margin:0}
@@ -148,6 +181,9 @@ main{padding:30px 0 8px}
 .grounded{margin-left:auto;font-family:var(--mono);font-size:.72rem;color:var(--good);
   display:inline-flex;align-items:center;gap:4px}
 .empty{text-align:center;color:var(--muted);padding:60px 0;font-size:1.02rem}
+.sentinel{height:1px}
+.loadstate{text-align:center;color:var(--faint);font-family:var(--mono);font-size:.76rem;
+  padding:18px 0 6px;font-variant-numeric:tabular-nums}
 
 /* how it works */
 .how{border-top:1px solid var(--hair);margin-top:44px;padding:46px 0 10px;background:var(--surface-2)}
@@ -205,13 +241,19 @@ def render():
     <button class="seg" data-type="concept" aria-pressed="false">Concepts</button>
     <button class="seg" data-type="figure" aria-pressed="false">Figures</button>
     <button class="seg" data-type="fact" aria-pressed="false">Facts</button>
+    <button class="seg" data-type="person" aria-pressed="false">People</button>
+    <button class="seg" data-type="place" aria-pressed="false">Places</button>
+    <button class="seg" data-type="story" aria-pressed="false">Stories</button>
   </div>
   <select class="filter" id="showSel" aria-label="Filter by show"></select>
   <span class="count" id="count"></span>
-</div></div>
+</div>
+<div class="wrap"><nav class="azbar" id="azbar" aria-label="Jump to letter"></nav></div></div>
 
 <main><div class="wrap"><div class="grid" id="grid"></div>
   <div class="empty" id="empty" hidden>No entries match — try clearing the filters.</div>
+  <div class="sentinel" id="sentinel" aria-hidden="true"></div>
+  <div class="loadstate" id="loadstate" hidden></div>
 </div></main>
 
 <section class="how"><div class="wrap">
@@ -232,8 +274,19 @@ def render():
 const ENTRIES=JSON.parse(document.getElementById('data').textContent);
 const grid=document.getElementById('grid'),countEl=document.getElementById('count'),
       emptyEl=document.getElementById('empty'),q=document.getElementById('q'),
-      showSel=document.getElementById('showSel');
-let type='all';
+      showSel=document.getElementById('showSel'),azbar=document.getElementById('azbar'),
+      sentinel=document.getElementById('sentinel'),loadEl=document.getElementById('loadstate');
+let type='all',letter='all';
+const coll=new Intl.Collator('en',{sensitivity:'base',numeric:true});
+ENTRIES.sort((a,b)=>coll.compare(a.headword,b.headword));
+const letterOf=h=>{const c=(h||'').trim().normalize('NFD').charAt(0).toUpperCase();
+  return c>='A'&&c<='Z'?c:'#';};
+ENTRIES.forEach(e=>e._letter=letterOf(e.headword));
+const LETTERS=['#',...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'];
+azbar.innerHTML=LETTERS.map(L=>
+  `<button class="az" data-letter="${L}" aria-pressed="false" title="Jump to ${L==='#'?'0–9 & symbols':L}">
+   <b>${L}</b><i></i></button>`).join('');
+const azBtns=[...azbar.querySelectorAll('.az')];
 const shows=[...new Set(ENTRIES.map(e=>e.episode.show))].sort();
 showSel.innerHTML='<option value="all">All shows</option>'+shows.map(s=>`<option value="${s.replace(/"/g,'&quot;')}">${s}</option>`).join('');
 const fresh={current:'current',aging:'aging',check:'check',evergreen:'evergreen',durable:'durable'};
@@ -254,24 +307,69 @@ function card(e){
       <span class="grounded" title="Quote verified against the source transcript">✓ grounded</span>
     </div></article>`;
 }
+/* --- incremental rendering: BATCH cards at a time via IntersectionObserver --- */
+const BATCH=60;
+let rows=[],shown=0;
+function appendBatch(){
+  if(shown>=rows.length)return;
+  const next=rows.slice(shown,shown+BATCH);
+  grid.insertAdjacentHTML('beforeend',next.map(card).join(''));
+  shown+=next.length;
+  updateLoadState();
+  requestAnimationFrame(topUp);          // keep filling if sentinel is still near the viewport
+}
+function topUp(){
+  if(shown>=rows.length)return;
+  if(sentinel.getBoundingClientRect().top<innerHeight+600)appendBatch();
+}
+function updateLoadState(){
+  const more=shown<rows.length;
+  sentinel.hidden=!more;
+  loadEl.hidden=!more;
+  if(more)loadEl.textContent='showing '+shown+' of '+rows.length+' — scroll for more';
+}
+const io=new IntersectionObserver(es=>{if(es.some(x=>x.isIntersecting))appendBatch();},
+  {rootMargin:'900px 0px'});
+io.observe(sentinel);
+
+function baseMatch(e,term,show){
+  if(type!=='all'&&e.entry_type!==type)return false;
+  if(show!=='all'&&e.episode.show!==show)return false;
+  if(term){const hay=(e.headword+' '+e.claim+' '+e.quote+' '+e.speaker+' '+e.category+' '+e.episode.title).toLowerCase();
+    if(!hay.includes(term))return false;}
+  return true;
+}
 function render(){
   const term=q.value.trim().toLowerCase(), show=showSel.value;
-  const rows=ENTRIES.filter(e=>{
-    if(type!=='all'&&e.entry_type!==type)return false;
-    if(show!=='all'&&e.episode.show!==show)return false;
-    if(term){const hay=(e.headword+' '+e.claim+' '+e.quote+' '+e.speaker+' '+e.category+' '+e.episode.title).toLowerCase();
-      if(!hay.includes(term))return false;}
-    return true;
-  });
-  grid.innerHTML=rows.map(card).join('');
+  const base=ENTRIES.filter(e=>baseMatch(e,term,show));
+  /* letter counts reflect the other active filters, so the bar composes with them */
+  const lc={};for(const e of base)lc[e._letter]=(lc[e._letter]||0)+1;
+  if(letter!=='all'&&!lc[letter])letter='all';   // active letter emptied by a new filter
+  for(const b of azBtns){
+    const n=lc[b.dataset.letter]||0;
+    b.disabled=!n;
+    b.querySelector('i').textContent=n||'';
+    b.setAttribute('aria-pressed',String(letter===b.dataset.letter));
+  }
+  rows=letter==='all'?base:base.filter(e=>e._letter===letter);
+  grid.innerHTML='';shown=0;
+  appendBatch();
+  updateLoadState();
   emptyEl.hidden=rows.length>0;
   countEl.textContent=rows.length+' / '+ENTRIES.length+' entries';
 }
 document.getElementById('typeSeg').addEventListener('click',ev=>{
   const b=ev.target.closest('.seg'); if(!b)return;
   type=b.dataset.type;
-  [...ev.currentTarget.children].forEach(x=>x.setAttribute('aria-pressed',x===b));
+  [...ev.currentTarget.children].forEach(x=>x.setAttribute('aria-pressed',String(x===b)));
   render();
+});
+azbar.addEventListener('click',ev=>{
+  const b=ev.target.closest('.az'); if(!b||b.disabled)return;
+  letter=(letter===b.dataset.letter)?'all':b.dataset.letter;   // click again to clear
+  render();
+  const y=grid.getBoundingClientRect().top+scrollY-document.querySelector('.toolbar').offsetHeight-10;
+  if(scrollY>y)scrollTo({top:Math.max(y,0),behavior:'smooth'});
 });
 q.addEventListener('input',render); showSel.addEventListener('change',render);
 render();
