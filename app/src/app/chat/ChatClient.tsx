@@ -5,6 +5,7 @@ import { useSearchParams } from "next/navigation";
 import type { ChatEvent, ChatMode, ChatSource } from "@/lib/types";
 import { resolveToken } from "@/lib/token";
 import NoTokenNotice from "@/components/NoTokenNotice";
+import MarkdownLite from "@/components/MarkdownLite";
 
 /**
  * Grounded chat over the archive, in three modes:
@@ -428,14 +429,18 @@ export default function ChatClient() {
                     ))}
                   </div>
                 )}
-                <p className={`m-0 whitespace-pre-wrap ${m.error ? "text-alert" : ""}`}>
-                  {m.content}
-                  {m.role === "assistant" &&
-                    streaming &&
-                    i === messages.length - 1 && (
+                {m.role === "assistant" && !m.error ? (
+                  <div>
+                    <MarkdownLite text={m.content} />
+                    {streaming && i === messages.length - 1 && (
                       <span className="ml-1 inline-block animate-pulse text-accent">▌</span>
                     )}
-                </p>
+                  </div>
+                ) : (
+                  <p className={`m-0 whitespace-pre-wrap ${m.error ? "text-alert" : ""}`}>
+                    {m.content}
+                  </p>
+                )}
                 {m.role === "assistant" && m.sources && m.sources.length > 0 && (
                   <div className="mt-3 border-t border-hair-2 pt-2">
                     <p className="eyebrow">Episodes</p>

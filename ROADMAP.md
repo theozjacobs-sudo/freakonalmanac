@@ -79,3 +79,5 @@ the show's real research workflow. The `freshness` field already flags them
 
 - Agentic archive chat ("option 1"): Claude drives `search_archive` itself —
   multi-search, typo-tolerant, conversation-aware. (2026-07-28)
+- Chat formatting: answers render **bold** / *italics* / lists in the
+  bubbles (lightweight renderer, no markdown headings/tables). (2026-07-28)
