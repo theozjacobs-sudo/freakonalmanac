@@ -9,6 +9,7 @@ interface ReviewerRow {
   name: string;
   token: string;
   is_admin: boolean;
+  in_pool: boolean;
 }
 
 /** Admin-only team page: see everyone's links, add a new reviewer. */
@@ -19,6 +20,7 @@ export default function AdminClient() {
     "loading" | "unconfigured" | "forbidden" | "error" | "ready"
   >("loading");
   const [name, setName] = useState("");
+  const [inPool, setInPool] = useState(true);
   const [adding, setAdding] = useState(false);
   const [copied, setCopied] = useState<string | null>(null);
   const [origin, setOrigin] = useState("");
@@ -51,7 +53,7 @@ export default function AdminClient() {
       const res = await fetch("/api/reviewers", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ token, name: name.trim() }),
+        body: JSON.stringify({ token, name: name.trim(), in_pool: inPool }),
       });
       if (!res.ok) throw new Error(String(res.status));
       const data = (await res.json()) as { reviewer: ReviewerRow };
@@ -110,6 +112,9 @@ export default function AdminClient() {
                       admin
                     </span>
                   )}
+                  <span className="ml-2 align-middle font-mono text-[0.65rem] uppercase tracking-wider text-muted">
+                    {r.in_pool ? "in rotation" : "extra signal"}
+                  </span>
                 </div>
                 <div className="truncate font-mono text-xs text-muted">{link}</div>
               </div>
@@ -132,6 +137,14 @@ export default function AdminClient() {
           className="flex-1 rounded-lg border border-hair bg-surface px-4 py-2.5"
           maxLength={60}
         />
+        <label className="flex items-center gap-2 text-sm text-muted">
+          <input
+            type="checkbox"
+            checked={inPool}
+            onChange={(e) => setInPool(e.target.checked)}
+          />
+          in rotation
+        </label>
         <button
           type="submit"
           disabled={adding || !name.trim()}
@@ -141,8 +154,9 @@ export default function AdminClient() {
         </button>
       </form>
       <p className="mt-2 text-xs text-muted">
-        Note: in blind-review mode every reviewer sees all {""}entries — a new
-        person starts with the full deck.
+        &ldquo;In rotation&rdquo; reviewers split the deck between them (each entry
+        goes to exactly one). People out of rotation (Stephen, the AI) can swipe
+        anything — their takes are extra signal and never consume an assignment.
       </p>
     </div>
   );

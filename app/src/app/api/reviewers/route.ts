@@ -40,7 +40,7 @@ export async function GET(req: NextRequest) {
 
     const { data, error } = await gate.sb
       .from("reviewers")
-      .select("id,name,token,is_admin")
+      .select("id,name,token,is_admin,in_pool")
       .order("id");
     if (error) throw new Error(error.message);
     return NextResponse.json({ reviewers: data ?? [] });
@@ -54,6 +54,7 @@ export async function POST(req: NextRequest) {
     const body = await req.json().catch(() => null);
     if (!body) return jsonError(400, "bad_json");
     const { token, name } = body as { token?: string; name?: string };
+    const inPool = body.in_pool !== false;
 
     const trimmed = (name ?? "").trim();
     if (trimmed.length < 1 || trimmed.length > 60) return jsonError(400, "bad_name");
@@ -64,8 +65,8 @@ export async function POST(req: NextRequest) {
     const newToken = `${slugify(trimmed)}-${randomBytes(4).toString("hex")}`;
     const { data, error } = await gate.sb
       .from("reviewers")
-      .insert({ name: trimmed, token: newToken, is_admin: false })
-      .select("id,name,token,is_admin")
+      .insert({ name: trimmed, token: newToken, is_admin: false, in_pool: inPool })
+      .select("id,name,token,is_admin,in_pool")
       .single();
     if (error) throw new Error(error.message);
 

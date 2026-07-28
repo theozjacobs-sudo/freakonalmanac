@@ -36,17 +36,24 @@ create table if not exists reviewers (
   id       serial primary key,
   name     text not null,
   token    text not null unique,
-  is_admin boolean not null default false
+  is_admin boolean not null default false,
+  in_pool  boolean not null default true
 );
 
--- Migration for databases created before is_admin existed (safe to re-run).
+-- Migrations for databases created before these columns existed (safe to re-run).
 alter table reviewers add column if not exists is_admin boolean not null default false;
+alter table reviewers add column if not exists in_pool boolean not null default true;
 
 insert into reviewers (name, token) values
   ('Theo',    'theo-3de9b622'),
   ('Zack',    'zack-f8d088fe'),
-  ('Stephen', 'stephen-a37c359d')
+  ('Stephen', 'stephen-a37c359d'),
+  ('Claude (AI)', 'claude-ai-401af5bf')
 on conflict (token) do nothing;
+
+-- Stephen and the AI account review everything but stay out of the split
+-- pool, so 'split' mode divides the deck between Theo and Zack only.
+update reviewers set in_pool = false where token in ('stephen-a37c359d', 'claude-ai-401af5bf');
 
 update reviewers set is_admin = true where token = 'theo-3de9b622';
 

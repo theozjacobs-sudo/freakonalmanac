@@ -42,14 +42,20 @@ export async function GET(req: NextRequest) {
     // Scope for this reviewer.
     let scopeIds = allIds;
     if (mode === "split") {
+      // Split only across pool members (in_pool). Reviewers outside the pool
+      // (e.g. Stephen, the AI account) keep the full undecided set — their
+      // swipes are extra signal and never consume a pool assignment.
       const { data: reviewers, error } = await sb
         .from("reviewers")
         .select("id")
+        .eq("in_pool", true)
         .order("id");
       if (error) throw new Error(error.message);
       const myIndex = (reviewers ?? []).findIndex((r) => r.id === reviewer.id);
       const n = (reviewers ?? []).length;
-      scopeIds = allIds.filter((id) => assignedReviewerIndex(id, n) === myIndex);
+      if (myIndex >= 0 && n > 0) {
+        scopeIds = allIds.filter((id) => assignedReviewerIndex(id, n) === myIndex);
+      }
     }
 
     // This reviewer's own round-1 decisions (never anyone else's).

@@ -59,6 +59,7 @@ export interface Reviewer {
   name: string;
   token: string;
   is_admin?: boolean;
+  in_pool?: boolean;
 }
 
 export async function getReviewerByToken(
