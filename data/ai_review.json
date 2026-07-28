@@ -86788,5 +86788,437 @@
   "keep": false,
   "score": 6,
   "reason": "Inside-baseball WTO procedure that requires the episode's setup to matter."
+ },
+ {
+  "id": "112059-move-fast-and-break-things",
+  "keep": false,
+  "score": 3,
+  "reason": "Generic opinion on a tired slogan; no fact, no surprise."
+ },
+ {
+  "id": "118029-or-not-is-not-an-option",
+  "keep": false,
+  "score": 5,
+  "reason": "Decent decision-making maxim but abstract and needs the surrounding framework to land."
+ },
+ {
+  "id": "138890-asymmetry-of-impostor-syndrome",
+  "keep": false,
+  "score": 6,
+  "reason": "A sharpened definition rather than a revelation; interesting but not delightful."
+ },
+ {
+  "id": "118456-bill-flack",
+  "keep": true,
+  "score": 9,
+  "reason": "Semi-retired Nebraskan who reads only the Omaha World-Herald beating the CIA — perfect almanac character with a killer quote."
+ },
+ {
+  "id": "128119-booth-single-sex-classroom-risk-experiment",
+  "keep": true,
+  "score": 8,
+  "reason": "Clean randomized experiment with a genuinely reframing result about where 'female risk aversion' comes from."
+ },
+ {
+  "id": "132341-border-collie-with-no-border-collie",
+  "keep": true,
+  "score": 8,
+  "reason": "A Border Collie with zero Border Collie in it — funny, self-contained, and quietly upends breed intuition."
+ },
+ {
+  "id": "118781-bound-copy-test-for-internet-reading",
+  "keep": false,
+  "score": 7,
+  "reason": "Sharp thought experiment, but it's a rhetorical flourish rather than a fact that reframes."
+ },
+ {
+  "id": "131663-charpentier-doudna-collaboration",
+  "keep": false,
+  "score": 5,
+  "reason": "Standard science-history connective tissue; no number, twist, or wonder."
+ },
+ {
+  "id": "133169-churchill-s-dictum-on-buildings",
+  "keep": false,
+  "score": 7,
+  "reason": "Nice architecture-shapes-politics nugget but the quote is very well-worn."
+ },
+ {
+  "id": "128984-counterfactual-earth-without-coal-or-oil",
+  "keep": false,
+  "score": 5,
+  "reason": "Musing without evidence or a hard hook; reads as podcast chatter."
+ },
+ {
+  "id": "129191-creativity-cliff",
+  "keep": false,
+  "score": 7,
+  "reason": "Useful, near-B+ finding, but 'second ten minutes are just as good' lacks a vivid hook."
+ },
+ {
+  "id": "132449-dubner-s-mother-s-dying-mantra",
+  "keep": false,
+  "score": 4,
+  "reason": "Touching personal memory that means little without the episode's emotional context."
+ },
+ {
+  "id": "132920-dubner-s-primadonna-misread-of-duckworth",
+  "keep": false,
+  "score": 3,
+  "reason": "Inside-baseball host anecdote with no payoff for an outside reader."
+ },
+ {
+  "id": "127915-duncan-arne",
+  "keep": false,
+  "score": 2,
+  "reason": "Pure encyclopedia entry — no surprise, no number, no life."
+ },
+ {
+  "id": "128085-ebay-intangible-items-policy",
+  "keep": false,
+  "score": 7,
+  "reason": "Charmingly weird ('you can't auction your soul on eBay') but thin as a standalone fact."
+ },
+ {
+  "id": "140860-egg-labels-cage-free-organic-farm-fresh",
+  "keep": false,
+  "score": 6,
+  "reason": "Label-debunking is well-trodden consumer-column territory."
+ },
+ {
+  "id": "112458-empty-containers-as-a-top-l-a-export",
+  "keep": true,
+  "score": 9,
+  "reason": "One of America's biggest exports is air in a box — a hard trade number that instantly reframes globalization."
+ },
+ {
+  "id": "132716-executive-function-and-fatigue",
+  "keep": false,
+  "score": 7,
+  "reason": "Genuinely intriguing observation, but stated too loosely to carry as a fact."
+ },
+ {
+  "id": "139873-federated-learning",
+  "keep": false,
+  "score": 5,
+  "reason": "Technical explainer plus a credit claim; more glossary than wonder."
+ },
+ {
+  "id": "112466-filing-cabinet-moment",
+  "keep": false,
+  "score": 7,
+  "reason": "Fun research-lore scene, but the drama depends on knowing the abortion-crime saga."
+ },
+ {
+  "id": "112685-free-throw-pressure-gap-between-the-n-b-a-and-w-n-b-a",
+  "keep": true,
+  "score": 8,
+  "reason": "Data that inverts a stereotype, with the quotable 'ice water in their veins' twist."
+ },
+ {
+  "id": "139989-freedom-as-a-choice-set",
+  "keep": false,
+  "score": 6,
+  "reason": "Elegant reframing of freedom, but it's philosophy without a concrete anchor."
+ },
+ {
+  "id": "118103-full-practice-authority",
+  "keep": false,
+  "score": 4,
+  "reason": "Regulatory definition; dry policy plumbing."
+ },
+ {
+  "id": "131747-gendering-of-the-automobile",
+  "keep": true,
+  "score": 8,
+  "reason": "Electric cars as 'girly' — and husbands liked capping how far their wives could drive. Delicious and surprising."
+ },
+ {
+  "id": "131162-germany-s-solar-feed-in-tariff",
+  "keep": false,
+  "score": 6,
+  "reason": "Big 80-percent number buried in a tangled policy narrative."
+ },
+ {
+  "id": "111903-god-panels",
+  "keep": true,
+  "score": 8,
+  "reason": "Committees ranking patients' 'social worth' to ration dialysis, nicknamed God panels — chilling and unforgettable."
+ },
+ {
+  "id": "128851-half-a-million-dollars-for-the-future-of-meat",
+  "keep": true,
+  "score": 8,
+  "reason": "A hard, absurd number: total federal alt-meat R&D equals a quarter of one lab's budget."
+ },
+ {
+  "id": "118118-hartz-reforms",
+  "keep": false,
+  "score": 5,
+  "reason": "Solid policy history but dry and context-dependent."
+ },
+ {
+  "id": "112114-highly-sensitive-people-h-s-p",
+  "keep": false,
+  "score": 4,
+  "reason": "Label-dropping definition, and 'indigo children' invites skepticism without explanation."
+ },
+ {
+  "id": "112069-humans-as-general-purpose-tools",
+  "keep": false,
+  "score": 7,
+  "reason": "Lovely idea — dogs' tool is us — but the paraphrase is vague and lacks a concrete study or number."
+ },
+ {
+  "id": "112462-humblebrag",
+  "keep": true,
+  "score": 8,
+  "reason": "Research showing we prefer outright braggarts to humblebraggers — counterintuitive, quotable, immediately usable."
+ },
+ {
+  "id": "133054-hume-david",
+  "keep": false,
+  "score": 6,
+  "reason": "'Le Bon David' is a nice morsel, but mostly biographical background."
+ },
+ {
+  "id": "142068-humility-in-policy-design",
+  "keep": false,
+  "score": 4,
+  "reason": "Sensible moral, zero surprise; classic filler."
+ },
+ {
+  "id": "133045-jamie-johnson-robot-assistant",
+  "keep": true,
+  "score": 8,
+  "reason": "Someone mailed cookies to an AI — a perfect small, funny artifact of the automation age."
+ },
+ {
+  "id": "112245-joe-s-crab-shack-no-tipping-experiment",
+  "keep": false,
+  "score": 7,
+  "reason": "Nice natural experiment, just shy of the bar: ratings moved, but the mechanism stays fuzzy."
+ },
+ {
+  "id": "111883-juror-story-model",
+  "keep": false,
+  "score": 7,
+  "reason": "Interesting jury psychology, but reads like a study summary without a punchy hook."
+ },
+ {
+  "id": "111879-kabat-zinn-workshop-mishap",
+  "keep": false,
+  "score": 6,
+  "reason": "Amusing personal pratfall, but it's host-anecdote territory, not almanac material."
+ },
+ {
+  "id": "112216-kelp-price-floor",
+  "keep": false,
+  "score": 4,
+  "reason": "Niche price talk; the co-op price-fixing angle is left undeveloped."
+ },
+ {
+  "id": "128066-labor-as-cost-vs-investment",
+  "keep": false,
+  "score": 3,
+  "reason": "Business-school truism stated without evidence or twist."
+ },
+ {
+  "id": "132256-lassie-and-the-well",
+  "keep": true,
+  "score": 8,
+  "reason": "The most famous scene in Lassie history never happened — a perfect myth-buster that stands alone."
+ },
+ {
+  "id": "128237-levar-burton-the-only-man-worth-following",
+  "keep": false,
+  "score": 6,
+  "reason": "Charming micro-anecdote, but it's a fleeting celebrity-Twitter quirk that needs to know who Halpern is to land."
+ },
+ {
+  "id": "142107-life-expectancy-in-the-middle-ages",
+  "keep": true,
+  "score": 8,
+  "reason": "Hard number that punctures the 'everyone died at 30' myth and explains why a 30-something was middle-aged."
+ },
+ {
+  "id": "129130-life-insurance-as-profanation",
+  "keep": true,
+  "score": 8,
+  "reason": "Genuinely surprising history — betting on death as blasphemy — and it stands entirely on its own."
+ },
+ {
+  "id": "118165-lockerbie-bombing",
+  "keep": false,
+  "score": 3,
+  "reason": "Encyclopedia entry on a famous atrocity; the personal hook is meaningless without the episode."
+ },
+ {
+  "id": "112486-lockout-not-strike",
+  "keep": false,
+  "score": 7,
+  "reason": "Neat reframing of sports work stoppages, but more explainer than wonder; falls just short of the bar."
+ },
+ {
+  "id": "140489-meme",
+  "keep": true,
+  "score": 9,
+  "reason": "Delicious counterfactual: the word 'meme' might have been 'computer virus,' straight from Dawkins."
+ },
+ {
+  "id": "132803-microphone-in-the-respirator-mask",
+  "keep": false,
+  "score": 5,
+  "reason": "Touching listener idea, but no surprise, no number, no punchline."
+ },
+ {
+  "id": "111861-moral-licensing-meta-analysis",
+  "keep": false,
+  "score": 4,
+  "reason": "Dry methods talk about effect sizes and publication bias — filler for a general reader."
+ },
+ {
+  "id": "129217-overpriced-jewelry-that-finally-sold",
+  "keep": false,
+  "score": 7,
+  "reason": "Beloved Cialdini turquoise story, but it's already the most-told anecdote in persuasion; too familiar to delight."
+ },
+ {
+  "id": "128076-overproduction-breeds-ingenuity",
+  "keep": true,
+  "score": 8,
+  "reason": "Killer quotable line — capitalism 'tricks' surplus corn into food we'll eat; reframes the whole junk-food story."
+ },
+ {
+  "id": "111924-parenting-s-missing-control-group",
+  "keep": false,
+  "score": 5,
+  "reason": "Sensible but generic observation; no fact, no twist."
+ },
+ {
+  "id": "112751-parking-s-share-of-city-land",
+  "keep": true,
+  "score": 8,
+  "reason": "A single number that makes you see every city differently: a third or more of it is car storage."
+ },
+ {
+  "id": "112296-parkinson-s-law",
+  "keep": true,
+  "score": 9,
+  "reason": "Perfect almanac fact: the world's meetings are an hour long because Outlook says so."
+ },
+ {
+  "id": "129197-pascal-s-persuasion-rule",
+  "keep": false,
+  "score": 7,
+  "reason": "Elegant 17th-century advice, but it's a well-circulated aphorism rather than a fresh jolt."
+ },
+ {
+  "id": "118281-pasporta-servo",
+  "keep": true,
+  "score": 9,
+  "reason": "Esperantists invented couchsurfing in 1974 — wonderfully odd, with crisp before-and-after numbers."
+ },
+ {
+  "id": "134060-pitt-rivers-museum",
+  "keep": false,
+  "score": 6,
+  "reason": "The 'most violent space in Oxford' tweet is provocative but the entry leans on episode context to make sense."
+ },
+ {
+  "id": "128220-planos-vanity-glasses",
+  "keep": true,
+  "score": 8,
+  "reason": "Four million Americans wearing $225 fake glasses is exactly the kind of absurd consumer number readers repeat."
+ },
+ {
+  "id": "128684-politics-as-the-religion-of-the-20th-century",
+  "keep": false,
+  "score": 4,
+  "reason": "A cliché analogy stated without evidence or a fresh angle."
+ },
+ {
+  "id": "129404-portability-thesis-of-digital-technology",
+  "keep": false,
+  "score": 5,
+  "reason": "Secondhand summary of a familiar Gordon argument; no hard number or surprise."
+ },
+ {
+  "id": "133175-robin-hood-meets-pinocchio",
+  "keep": false,
+  "score": 7,
+  "reason": "Great title and finding, but it's an Ariely cheating study — shaky provenance and a thin standalone payoff."
+ },
+ {
+  "id": "139873-rudder-roll-stabilizer-program",
+  "keep": false,
+  "score": 6,
+  "reason": "Precocious-teen résumé item with heavy jargon; interesting to the guest, not the reader."
+ },
+ {
+  "id": "131672-shoes-owned-by-the-average-american",
+  "keep": false,
+  "score": 6,
+  "reason": "Mildly fun 12-vs-27 gap, but hedged as one shaky survey and no twist beyond the gap."
+ },
+ {
+  "id": "132194-silent-killer-hypertension",
+  "keep": false,
+  "score": 3,
+  "reason": "Textbook definition everyone already knows."
+ },
+ {
+  "id": "128688-silver-nate",
+  "keep": false,
+  "score": 2,
+  "reason": "Bland who-is-this profile of a famous figure; no fact worth keeping."
+ },
+ {
+  "id": "130285-smokey-bear",
+  "keep": false,
+  "score": 7,
+  "reason": "The 'Smokey Bear, not Smokey the Bear' nugget is fun but is buried under a muddled dueling-psychology framing."
+ },
+ {
+  "id": "131484-steve-kerr-s-three-point-accuracy",
+  "keep": true,
+  "score": 9,
+  "reason": "Perfectly counterintuitive stat: the greatest shooter's coach was the better percentage shooter."
+ },
+ {
+  "id": "140247-sven-marquardt",
+  "keep": false,
+  "score": 7,
+  "reason": "Vivid character sketch, but it's a profile rather than a fact that reframes anything."
+ },
+ {
+  "id": "112177-three-waves-of-the-opioid-crisis",
+  "keep": false,
+  "score": 4,
+  "reason": "Standard public-health chronology; useful but not delightful."
+ },
+ {
+  "id": "130522-urgent-care-centers-and-health-spending",
+  "keep": false,
+  "score": 7,
+  "reason": "Solid counterintuitive finding, but stated flatly with no number to make it stick."
+ },
+ {
+  "id": "118512-vehicle-every-four-seconds",
+  "keep": false,
+  "score": 7,
+  "reason": "Punchy retort, but it's a CEO's talking point that depends on the Ford-vs-Tesla framing to land."
+ },
+ {
+  "id": "118235-visual-effects-share-of-production-budgets",
+  "keep": false,
+  "score": 6,
+  "reason": "Industry-margin trivia; the quote doesn't even support the number in the claim."
+ },
+ {
+  "id": "118814-year-of-the-cheeseburger",
+  "keep": false,
+  "score": 7,
+  "reason": "Fun stunt-eating tally, but it's one person's hobby with no larger insight or surprise."
  }
 ]
