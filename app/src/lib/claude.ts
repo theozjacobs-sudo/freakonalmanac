@@ -33,16 +33,16 @@ export interface ChatTurn {
 }
 
 /**
- * The core ask-Claude helper: stream a grounded answer as a web
- * ReadableStream of UTF-8 text bytes. `system` carries the per-mode
- * grounding rules plus the retrieved context; `messages` is the (capped)
- * conversation history ending with the user's question.
+ * Stream a plain (tool-less) Claude answer, delivering text chunks to a
+ * callback. Used by chat modes whose grounding context fits in the system
+ * prompt (entries, episode).
  */
-export function streamClaudeText(opts: {
+export async function streamClaudeText(opts: {
   system: string;
   messages: ChatTurn[];
   maxTokens?: number;
-}): ReadableStream<Uint8Array> {
+  onText: (text: string) => void;
+}): Promise<void> {
   const client = getAnthropic();
   const stream = client.messages.stream({
     model: CLAUDE_MODEL,
@@ -53,27 +53,94 @@ export function streamClaudeText(opts: {
     system: opts.system,
     messages: opts.messages.map((m) => ({ role: m.role, content: m.content })),
   });
-
-  const encoder = new TextEncoder();
-  return new ReadableStream<Uint8Array>({
-    start(controller) {
-      stream.on("text", (text) => controller.enqueue(encoder.encode(text)));
-      stream.on("end", () => controller.close());
-      stream.on("error", (err) => controller.error(err));
-    },
-    cancel() {
-      stream.abort();
-    },
-  });
+  stream.on("text", (t) => opts.onText(t));
+  await stream.finalMessage();
 }
 
-/** A constant "answer" streamed without calling Claude (e.g. empty retrieval). */
-export function fixedTextStream(text: string): ReadableStream<Uint8Array> {
-  const encoder = new TextEncoder();
-  return new ReadableStream<Uint8Array>({
-    start(controller) {
-      controller.enqueue(encoder.encode(text));
-      controller.close();
-    },
-  });
+// ---------------------------------------------------------------------------
+// Agentic loop: Claude drives tools itself, streaming the final answer.
+// ---------------------------------------------------------------------------
+
+export interface AgentTool {
+  name: string;
+  description: string;
+  input_schema: Anthropic.Tool.InputSchema;
+  /** Execute the tool; the returned string becomes the tool_result. */
+  run: (input: Record<string, unknown>) => Promise<string>;
+}
+
+/**
+ * Run a tool-use conversation loop: Claude may call the given tools as many
+ * times as it likes (up to maxToolRounds round-trips), then answers. Text is
+ * streamed to onText as it's generated; each tool call is announced through
+ * onToolCall before it executes. After maxToolRounds, tool use is switched
+ * off so the model must answer with what it has.
+ */
+export async function runAgenticChat(opts: {
+  system: string;
+  messages: ChatTurn[];
+  tools: AgentTool[];
+  maxToolRounds?: number;
+  maxTokens?: number;
+  onText: (text: string) => void;
+  onToolCall?: (name: string, input: Record<string, unknown>) => void;
+}): Promise<void> {
+  const client = getAnthropic();
+  const maxToolRounds = opts.maxToolRounds ?? 6;
+  const apiTools: Anthropic.Tool[] = opts.tools.map(
+    ({ name, description, input_schema }) => ({ name, description, input_schema })
+  );
+  const convo: Anthropic.MessageParam[] = opts.messages.map((m) => ({
+    role: m.role,
+    content: m.content,
+  }));
+  let emittedText = false;
+
+  for (let round = 0; ; round++) {
+    let textThisRound = false;
+    const stream = client.messages.stream({
+      model: CLAUDE_MODEL,
+      max_tokens: opts.maxTokens ?? 2000,
+      output_config: { effort: "low" },
+      system: opts.system,
+      messages: convo,
+      tools: apiTools,
+      tool_choice: round >= maxToolRounds ? { type: "none" } : { type: "auto" },
+    });
+    stream.on("text", (t) => {
+      // Rare preamble text in a tool round still reaches the user; keep a
+      // blank line between text from different rounds.
+      if (!textThisRound && emittedText) opts.onText("\n\n");
+      textThisRound = true;
+      emittedText = true;
+      opts.onText(t);
+    });
+
+    const final = await stream.finalMessage();
+    const toolUses = final.content.filter(
+      (b): b is Anthropic.ToolUseBlock => b.type === "tool_use"
+    );
+    if (final.stop_reason !== "tool_use" || toolUses.length === 0) return;
+
+    // Thinking blocks must be preserved verbatim for the follow-up request.
+    convo.push({
+      role: "assistant",
+      content: final.content as Anthropic.MessageParam["content"],
+    });
+
+    const results: Anthropic.ToolResultBlockParam[] = [];
+    for (const tu of toolUses) {
+      const input = (tu.input ?? {}) as Record<string, unknown>;
+      opts.onToolCall?.(tu.name, input);
+      const tool = opts.tools.find((t) => t.name === tu.name);
+      let out: string;
+      try {
+        out = tool ? await tool.run(input) : `Unknown tool: ${tu.name}`;
+      } catch (err) {
+        out = `Tool error: ${err instanceof Error ? err.message : String(err)}`;
+      }
+      results.push({ type: "tool_result", tool_use_id: tu.id, content: out });
+    }
+    convo.push({ role: "user", content: results });
+  }
 }

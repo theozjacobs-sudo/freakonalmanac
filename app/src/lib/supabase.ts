@@ -94,16 +94,21 @@ export async function getAssignmentMode(sb: SupabaseClient): Promise<"all" | "sp
   return data?.value === "split" ? "split" : "all";
 }
 
+/** FNV-1a 32-bit hash — deterministic, fast, good spread for short ids. */
+export function fnv1a(s: string): number {
+  let h = 0x811c9dc5;
+  for (let i = 0; i < s.length; i++) {
+    h ^= s.charCodeAt(i);
+    h = Math.imul(h, 0x01000193);
+  }
+  return h >>> 0;
+}
+
 /**
  * Deterministic entry -> reviewer assignment for 'split' mode.
  * FNV-1a over the entry id, mod the number of reviewers (ordered by id).
  * Keep in sync with the note in the README if this ever changes.
  */
 export function assignedReviewerIndex(entryId: string, reviewerCount: number): number {
-  let h = 0x811c9dc5;
-  for (let i = 0; i < entryId.length; i++) {
-    h ^= entryId.charCodeAt(i);
-    h = Math.imul(h, 0x01000193);
-  }
-  return (h >>> 0) % Math.max(reviewerCount, 1);
+  return fnv1a(entryId) % Math.max(reviewerCount, 1);
 }

@@ -72,15 +72,20 @@ export interface ChatSource {
 }
 
 /**
- * First line of every /api/chat POST response body (JSON), followed by "\n"
- * and then the streamed answer text.
+ * The /api/chat POST response body is NDJSON: one ChatEvent per line.
+ *  - meta:    first line — mode + (episode mode) the episode being discussed
+ *  - search:  the agent ran an archive search with this query
+ *  - delta:   a chunk of the streamed answer text
+ *  - sources: episodes the answer drew on (sent when known — end of stream
+ *             for archive mode, up front for episode mode)
+ *  - error:   something failed mid-stream
  */
-export interface ChatMeta {
-  mode: ChatMode;
-  sources: ChatSource[];
-  candidate_count?: number;
-  episode?: ChatSource;
-}
+export type ChatEvent =
+  | { type: "meta"; mode: ChatMode; episode?: ChatSource; candidate_count?: number }
+  | { type: "search"; query: string }
+  | { type: "delta"; text: string }
+  | { type: "sources"; sources: ChatSource[] }
+  | { type: "error"; message: string };
 
 export interface StatsResponse {
   total_entries: number;

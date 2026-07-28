@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import {
   assignedReviewerIndex,
   fetchAll,
+  fnv1a,
   getAssignmentMode,
   getReviewerByToken,
   getSupabase,
@@ -58,6 +59,14 @@ export async function GET(req: NextRequest) {
       }
     }
 
+    // Shuffle the deck: deterministic per reviewer (hash of token + id), so
+    // cards arrive in a stable random-feeling order that mixes episodes and
+    // eras instead of marching through the archive chronologically — and
+    // each reviewer gets a different order.
+    scopeIds = scopeIds
+      .slice()
+      .sort((a, b) => fnv1a(reviewer.token + a) - fnv1a(reviewer.token + b));
+
     // This reviewer's own round-1 decisions (never anyone else's).
     const decided = new Set(
       (
@@ -81,10 +90,13 @@ export async function GET(req: NextRequest) {
       const { data, error } = await sb
         .from("entries")
         .select("*")
-        .in("id", nextIds)
-        .order("id");
+        .in("id", nextIds);
       if (error) throw new Error(error.message);
-      entries = (data ?? []) as Entry[];
+      // Preserve the shuffled order — .in() returns rows in table order.
+      const pos = new Map(nextIds.map((id, i) => [id, i]));
+      entries = ((data ?? []) as Entry[])
+        .slice()
+        .sort((a, b) => (pos.get(a.id) ?? 0) - (pos.get(b.id) ?? 0));
     }
 
     const body: QueueResponse = {

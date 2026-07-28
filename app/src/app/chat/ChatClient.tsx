@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useSearchParams } from "next/navigation";
-import type { ChatMeta, ChatMode, ChatSource } from "@/lib/types";
+import type { ChatEvent, ChatMode, ChatSource } from "@/lib/types";
 import { resolveToken } from "@/lib/token";
 import NoTokenNotice from "@/components/NoTokenNotice";
 
@@ -15,8 +15,9 @@ import NoTokenNotice from "@/components/NoTokenNotice";
  *  - Episode:  chat about one episode (opened from an entry card's
  *              "chat about this episode" link).
  *
- * The POST /api/chat response is one JSON meta line, then streamed text —
- * rendered incrementally as it arrives.
+ * The POST /api/chat response is NDJSON (one ChatEvent per line): search
+ * activity, streamed answer text, and cited episodes — rendered as they
+ * arrive.
  */
 
 const ENTRY_TYPES = ["concept", "figure", "fact", "person", "place", "story"];
@@ -59,6 +60,7 @@ interface ChatMessage {
   role: "user" | "assistant";
   content: string;
   sources?: ChatSource[];
+  searches?: string[];
   error?: boolean;
 }
 
@@ -191,36 +193,49 @@ export default function ChatClient() {
         throw new Error((data?.error as string) ?? `chat failed (${res.status})`);
       }
 
-      // First line = ChatMeta JSON; everything after = the streamed answer.
+      // NDJSON: one ChatEvent per line, rendered as it arrives.
       const reader = res.body.getReader();
       const decoder = new TextDecoder();
       let buffer = "";
-      let meta: ChatMeta | null = null;
       let text = "";
+      let failed = false;
+      const searches: string[] = [];
+
+      const handle = (ev: ChatEvent) => {
+        if (ev.type === "delta") {
+          text += ev.text;
+          patchLast({ content: text });
+        } else if (ev.type === "search") {
+          searches.push(ev.query);
+          patchLast({ searches: [...searches] });
+        } else if (ev.type === "sources") {
+          patchLast({ sources: ev.sources });
+        } else if (ev.type === "error") {
+          failed = true;
+          patchLast({
+            content:
+              text ||
+              "Something went wrong talking to the archive. Give it another try in a moment.",
+            error: true,
+          });
+        }
+      };
 
       for (;;) {
         const { done, value } = await reader.read();
         if (done) break;
         buffer += decoder.decode(value, { stream: true });
-        if (!meta) {
-          const nl = buffer.indexOf("\n");
-          if (nl === -1) continue;
-          meta = JSON.parse(buffer.slice(0, nl)) as ChatMeta;
+        let nl;
+        while ((nl = buffer.indexOf("\n")) !== -1) {
+          const line = buffer.slice(0, nl).trim();
           buffer = buffer.slice(nl + 1);
-          patchLast({ sources: meta.sources });
-        }
-        if (buffer) {
-          text += buffer;
-          buffer = "";
-          patchLast({ content: text });
+          if (line) handle(JSON.parse(line) as ChatEvent);
         }
       }
-      buffer += decoder.decode();
-      if (buffer && meta) {
-        text += buffer;
-        patchLast({ content: text });
-      }
-      if (!text.trim()) {
+      const tail = (buffer + decoder.decode()).trim();
+      if (tail) handle(JSON.parse(tail) as ChatEvent);
+
+      if (!text.trim() && !failed) {
         patchLast({
           content: "(No answer came back — try asking again.)",
           error: true,
@@ -401,6 +416,18 @@ export default function ChatClient() {
                     : "max-w-[92%] rounded-2xl rounded-bl-md border border-hair-2 bg-surface-2 px-4 py-2.5 text-sm text-ink"
                 }
               >
+                {m.role === "assistant" && m.searches && m.searches.length > 0 && (
+                  <div className="mb-2 space-y-0.5">
+                    {m.searches.map((q, k) => (
+                      <p key={k} className="m-0 font-mono text-xs text-faint">
+                        🔍{" "}
+                        {streaming && i === messages.length - 1 && k === m.searches!.length - 1 && !m.content
+                          ? `searching: ${q}…`
+                          : q}
+                      </p>
+                    ))}
+                  </div>
+                )}
                 <p className={`m-0 whitespace-pre-wrap ${m.error ? "text-alert" : ""}`}>
                   {m.content}
                   {m.role === "assistant" &&

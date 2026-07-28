@@ -135,6 +135,49 @@ as $$
 $$;
 
 -- ---------------------------------------------------------------------------
+-- Entry search for /chat (entries mode, agentic): full-text index over the
+-- entry text plus a facets helper so the AI editor can see the whole pool.
+-- Safe to re-run.
+-- ---------------------------------------------------------------------------
+alter table entries add column if not exists fts tsvector
+  generated always as (to_tsvector('english',
+    coalesce(headword, '') || ' ' || coalesce(claim, '') || ' ' ||
+    coalesce(quote, '') || ' ' || coalesce(speaker, '') || ' ' ||
+    coalesce(category, ''))) stored;
+
+create index if not exists entries_fts_idx on entries using gin (fts);
+
+create or replace function search_entries(
+  query text,
+  match_count int default 20,
+  p_entry_type text default null,
+  p_show text default null
+)
+returns setof entries
+language sql
+stable
+as $$
+  select e.*
+  from entries e
+  where e.fts @@ websearch_to_tsquery('english', query)
+    and (p_entry_type is null or e.entry_type = p_entry_type)
+    and (p_show is null or e.episode_show = p_show)
+  order by ts_rank(e.fts, websearch_to_tsquery('english', query)) desc
+  limit least(greatest(match_count, 1), 50);
+$$;
+
+create or replace function entry_facets()
+returns table (entry_type text, category text, n bigint)
+language sql
+stable
+as $$
+  select e.entry_type, e.category, count(*) as n
+  from entries e
+  group by e.entry_type, e.category
+  order by e.entry_type, n desc;
+$$;
+
+-- ---------------------------------------------------------------------------
 -- Row Level Security: on for every table, with service-role-only policies.
 -- The Next.js app uses the service role key server-side, which bypasses RLS;
 -- these explicit policies just make the intent auditable. No anon access.
