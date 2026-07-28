@@ -23,7 +23,24 @@ What it involves:
 - Needs a `VOYAGE_API_KEY` env var on Vercel (embedding the *question* at
   query time).
 
-## 2. Merge / canonicalization pass (Fable 5)
+## 2. Animals categorization (topic-tagging pass — NO rerun needed)
+
+Theo wants animal entries findable as a group. The extraction's `category`
+field is free text (2,798 distinct values — "Sports economics" next to
+"Marine biology"), so animal material is scattered. A rough keyword scan
+finds ~2,300 entries mentioning animal words; the true count is likely in
+the high hundreds — strong chapter material.
+
+How: a cheap classification batch over the existing 14,537 entries
+(headword + claim + quote only — the transcripts are NOT re-mined),
+assigning each entry one or more tags from a small controlled vocabulary
+with **Animals & nature** as the flagship tag (other candidates: crime,
+money & incentives, food, medicine, sports, parenting…). Adds a `tags`
+column to `entries`; /browse gets a tag filter and the chat's entry tools
+filter by tag. Haiku-class model, ~$2–5, an afternoon of work. Can fold
+into the theme-clustering pass (#5) if they end up wanted at the same time.
+
+## 3. Merge / canonicalization pass (Fable 5)
 
 Collapse the 14,537 raw entries into canonical A–Z headwords: merge
 duplicates across episodes into one entry with multi-episode citations, and
@@ -31,24 +48,24 @@ generate Diderot-style `see_also` cross-references (Stephen asked for these
 explicitly). Deliberately deferred until after the first human swipe cut so
 we don't spend model budget canonicalizing entries that get rejected.
 
-## 3. Round-2 shortlist pass (~1,500 → ~300)
+## 4. Round-2 shortlist pass (~1,500 → ~300)
 
 The APIs and `decisions` table already accept `round = 2`. When round 1 is
 done, build the round-2 deck from round-1 keeps (plus AI/overlap signal) and
 point the swipe UI at it.
 
-## 4. Theme clustering
+## 5. Theme clustering
 
 AI-proposed candidate chapter themes over the kept entries (chapters are
 emergent, not A–Z). Post-curation, low priority.
 
-## 5. Verify queue
+## 6. Verify queue
 
 Every kept `figure` older than ~4 years lands in a fact-check list — feeds
 the show's real research workflow. The `freshness` field already flags them
 (`check`); this is just a filtered view + workflow.
 
-## 6. Housekeeping
+## 7. Housekeeping
 
 - Two episodes never extracted cleanly (post IDs 111992, 141694) — optional
   one-off retry.
