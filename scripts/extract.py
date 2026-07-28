@@ -2,9 +2,10 @@
 """Fact Finder extractor — the production pipeline.
 
 Reads per-episode transcripts and asks Claude to extract encyclopedia entries
-(concept / figure / fact), each with a VERBATIM quote + speaker, using the
-Batch API (50% cheaper, async) with prompt caching on the shared instructions.
-Every returned quote is verified against the source transcript before it's kept.
+(concept / figure / fact / person / place / story), each with a VERBATIM quote
++ speaker, using the Batch API (50% cheaper, async) with prompt caching on the
+shared instructions. Every returned quote is verified against the source
+transcript before it's kept.
 
 Usage:
   export ANTHROPIC_API_KEY=sk-ant-...           # required
@@ -14,9 +15,12 @@ Usage:
   python3 scripts/build_site.py data/entries/generated.json   # render the result
 
 Notes:
-  - Defaults to claude-opus-4-8. Pass --model claude-sonnet-5 (or claude-haiku-4-5)
+  - Defaults to claude-opus-5. Pass --model claude-sonnet-5 (or claude-haiku-4-5)
     to trade some quality for lower cost on the full 1,604-episode run.
   - Idempotent: episodes already present in the output file are skipped unless --force.
+  - If data/replay_skiplist.json exists (built by scripts/dedupe_replays.py),
+    --all / --show selection excludes those replay/duplicate episodes; pass
+    --include-replays to process them anyway.
 """
 import os, re, json, glob, argparse, sys, time
 from pathlib import Path
@@ -25,16 +29,20 @@ from collections import Counter
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "entries" / "generated.json"
+SKIPLIST = ROOT / "data" / "replay_skiplist.json"
 TODAY = date(2026, 7, 14)
 
 SYSTEM = """You build "Fact Finder" — an A–Z almanac of Freakonomics Radio, drawn ONLY from the show's own transcripts.
 
 From the transcript you are given, extract the strongest encyclopedia-style entries. For each entry return:
 - headword: the term this files under, written as an encyclopedia headword (e.g. "Regression to the mean", "CPM (cost per mille)", "Airline Deregulation Act"). Title-case the first word.
-- entry_type: exactly one of "concept", "figure", or "fact".
+- entry_type: exactly one of "concept", "figure", "fact", "person", "place", or "story".
     * figure = a hard number or statistic
     * concept = a named idea, effect, model, or mechanism
     * fact = a concrete historical/definitional fact
+    * person = a notable person DISCUSSED in the episode (not merely a guest who happens to be speaking). Headword = their name; claim = who they are / what they did, strictly per the transcript.
+    * place = a location with a real story attached (e.g. a Pennsylvania town that's home to America's oldest brewery; a city subway system that changed how newspapers report suicides). Headword = the place name.
+    * story = a self-contained, crazy-fun narrative bit — an anecdote or saga, not a stat (e.g. the economics of pet cremation, a reef fish that runs a cleaning business, a company that pays new hires to quit). Give it a punchy encyclopedia-style headword. The editorial voice leans playful and surprising.
 - category: a short topical label (e.g. "Health economics", "Behavioral economics", "Media economics").
 - claim: the fact stated plainly in 1–2 sentences, in your own words.
 - quote: a VERBATIM span copied EXACTLY from the transcript that supports the claim. Copy it character-for-character — do not paraphrase, trim mid-word, or fix punctuation. Keep it under ~50 words; pick the sentence that best carries the fact.
@@ -43,8 +51,9 @@ From the transcript you are given, extract the strongest encyclopedia-style entr
 Rules:
 - Use ONLY what is in this transcript. Never add outside facts, figures, or context the transcript doesn't contain.
 - Lean toward surprising or quotable material and hard numbers, but include a few steady, definitional facts too.
+- Include person, place, and story entries when the episode genuinely supports them — a memorable character, a place with a real tale attached, a narrative gem. Don't force one of each type; let the episode decide the mix.
 - The quote MUST appear verbatim in the transcript — this is checked programmatically and non-matching entries are discarded.
-- Return the 4–7 best entries. Quality over quantity; skip filler.
+- Return the 5–9 best entries. Quality over quantity; skip filler.
 """
 
 SCHEMA = {
@@ -58,7 +67,7 @@ SCHEMA = {
                 "additionalProperties": False,
                 "properties": {
                     "headword": {"type": "string"},
-                    "entry_type": {"type": "string", "enum": ["concept", "figure", "fact"]},
+                    "entry_type": {"type": "string", "enum": ["concept", "figure", "fact", "person", "place", "story"]},
                     "category": {"type": "string"},
                     "claim": {"type": "string"},
                     "quote": {"type": "string"},
@@ -84,7 +93,10 @@ def freshness(entry_type, age):
         return "current", f"Recent (~{age} yrs) — likely current"
     if entry_type == "concept":
         return "evergreen", "Concept — not time-sensitive"
-    return "durable", "Historical fact — stable over time"
+    if entry_type == "fact":
+        return "durable", "Historical fact — stable over time"
+    # person / place / story — durable, like facts
+    return "durable", f"{entry_type.capitalize()} entry — stable over time"
 
 def load_episodes(args):
     eps = {}
@@ -97,6 +109,13 @@ def load_episodes(args):
         picked = [r for r in eps.values() if r.get("transcript", "").strip()]
         if args.show:
             picked = [r for r in picked if args.show.lower() in r["show"].lower()]
+        if not args.include_replays and SKIPLIST.exists():
+            skip_ids = {e["id"] for e in json.load(open(SKIPLIST, encoding="utf-8"))}
+            before = len(picked)
+            picked = [r for r in picked if r["id"] not in skip_ids]
+            if before != len(picked):
+                print(f"Excluding {before - len(picked)} replay/duplicate episodes "
+                      f"per {SKIPLIST.relative_to(ROOT)} (use --include-replays to keep them).")
         picked.sort(key=lambda r: r["date"])
         if args.limit:
             picked = picked[: args.limit]
@@ -108,8 +127,10 @@ def main():
     ap.add_argument("--limit", type=int, default=None)
     ap.add_argument("--ids", nargs="*", default=None)
     ap.add_argument("--all", action="store_true")
-    ap.add_argument("--model", default="claude-opus-4-8")
+    ap.add_argument("--model", default="claude-opus-5")
     ap.add_argument("--force", action="store_true")
+    ap.add_argument("--include-replays", action="store_true",
+                    help="Do not exclude episodes listed in data/replay_skiplist.json")
     args = ap.parse_args()
     if not (args.show or args.ids or args.all or args.limit):
         sys.exit("Specify --show / --limit / --ids / --all")
