@@ -266,6 +266,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "\"Anonymous\" (donor listing)",
+    "entry_type": "story",
+    "category": "Philanthropy",
+    "claim": "Duckworth says her favorite name on museum donor walls is \"Anonymous,\" because anonymity is the one case where you can be reasonably confident the motive was pure.",
+    "quote": "at the end of every section, there was my favorite donor: “Anonymous.”  What, of course, everyone loves about that is that then you can have some confidence that the motive was pure.",
+    "speaker": "DUCKWORTH",
+    "episode": {
+      "title": "Is It Okay to Do the Right Thing for the Wrong Reason?",
+      "show": "No Stupid Questions",
+      "id": "140860",
+      "date": "2024-10-12",
+      "url": "https://freakonomics.com/podcast/is-it-okay-to-do-the-right-thing-for-the-wrong-reason/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "\"Are you a hard worker?\" (grit item)",
     "entry_type": "concept",
     "category": "Psychology of achievement",
@@ -2299,6 +2318,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "\"Nature cannot be fooled\"",
+    "entry_type": "concept",
+    "category": "Science and public policy",
+    "claim": "The Rogers Commission report went easy on NASA, but Feynman's personal appendix did not; it closed with a line that became his most quoted judgment on institutional self-deception.",
+    "quote": "“For a successful technology, reality must take precedence over public relations, for Nature cannot be fooled.”",
+    "speaker": "narration",
+    "episode": {
+      "title": "The Curious Mr. Feynman",
+      "show": "Freakonomics Radio",
+      "id": "139556",
+      "date": "2024-01-31",
+      "url": "https://freakonomics.com/podcast/the-curious-mr-feynman/"
+    },
+    "age_years": 2,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "\"Never been better\"",
     "entry_type": "story",
     "category": "Psychology",
@@ -3705,6 +3743,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "\"Think. Don't Smoke\" backfire",
+    "entry_type": "fact",
+    "category": "Public health messaging",
+    "claim": "The tobacco-industry-funded anti-smoking ads \"Think. Don't Smoke\" backfired: the more they aired, the more teens wanted to smoke and the more warmly they viewed tobacco companies.",
+    "quote": "They found that the more “Think. Don't Smoke” was played, the more that kids wanted to smoke and the more that they liked the tobacco companies because they thought, Hey, these companies are looking out for me because the tobacco companies were the ones paying for the ads.",
+    "speaker": "YEAGER",
+    "episode": {
+      "title": "How to Help Kids Succeed",
+      "show": "People I (Mostly) Admire",
+      "id": "142104",
+      "date": "2025-06-20",
+      "url": "https://freakonomics.com/podcast/how-to-help-kids-succeed/"
+    },
+    "age_years": 1,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "\"This is math, not politics\"",
     "entry_type": "concept",
     "category": "Political economy",
@@ -3816,6 +3873,25 @@
     "age_years": 5,
     "freshness": "durable",
     "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "\"Truth\" campaign",
+    "entry_type": "figure",
+    "category": "Public health",
+    "claim": "The \"Truth\" anti-tobacco campaign, which framed smoking as submitting to manipulative tobacco executives, coincided with teen smoking falling from about 30 percent in the late 1990s to as low as 5 or 6 percent.",
+    "quote": "The \"Truth\" campaign has led teen smoking to go from around 30 percent in the late ‘90s to in some cases under 5 percent, 6 percent.",
+    "speaker": "YEAGER",
+    "episode": {
+      "title": "How to Help Kids Succeed",
+      "show": "People I (Mostly) Admire",
+      "id": "142104",
+      "date": "2025-06-20",
+      "url": "https://freakonomics.com/podcast/how-to-help-kids-succeed/"
+    },
+    "age_years": 1,
+    "freshness": "current",
+    "freshness_note": "Recent (~1 yrs) — likely current",
     "verified_quote_in_transcript": true
   },
   {
@@ -4158,6 +4234,25 @@
     "age_years": 15,
     "freshness": "durable",
     "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "\"Why I Hope to Die at 75\"",
+    "entry_type": "story",
+    "category": "Medical ethics",
+    "claim": "Emanuel's much-discussed 2014 Atlantic essay argued not that he'd die at 75 but that he would refuse life-prolonging treatment after that age; reader reaction has split roughly into thirds.",
+    "quote": "Yeah, it’s not like I’m going to die at 75. It’s that I would not take life-prolonging treatments at 75, like cancer chemotherapies or renal dialysis if my kidneys fail.",
+    "speaker": "EMANUEL",
+    "episode": {
+      "title": "Is Ozempic as Magical as It Sounds?",
+      "show": "Freakonomics Radio",
+      "id": "141125",
+      "date": "2024-12-11",
+      "url": "https://freakonomics.com/podcast/is-ozempic-as-magical-as-it-sounds/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -8417,6 +8512,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "52 Things I Learned",
+    "entry_type": "story",
+    "category": "Media",
+    "claim": "Tom Whitwell began his annual list of 52 facts in 2014 after falling out with his editor at The Times, hoping 1,000 readers might notice and offer him a job — essentially content marketing for himself.",
+    "quote": "In 2014, I had left The Times. I had fallen out with the editor, and it became clear I needed to find a different job. While I was unemployed and looking around for things to do, I had this idea of collecting things that I’d found during the year.",
+    "speaker": "WHITWELL",
+    "episode": {
+      "title": "Signs of Progress, One Year at a Time",
+      "show": "Freakonomics Radio",
+      "id": "140178",
+      "date": "2024-06-05",
+      "url": "https://freakonomics.com/podcast/signs-of-progress-one-year-at-a-time/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "52 years for a homicide",
     "entry_type": "story",
     "category": "Criminal justice",
@@ -9003,6 +9117,25 @@
     "age_years": 8,
     "freshness": "durable",
     "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "9-9-6",
+    "entry_type": "concept",
+    "category": "Labor",
+    "claim": "The default schedule at many Chinese tech companies: 9 a.m. to 9 p.m., six days a week.",
+    "quote": "I may be working for a tech company, where the default is for people to work 9-9-6, which means 9 a.m. to 9 p.m., 6 days a week.",
+    "speaker": "WANG",
+    "episode": {
+      "title": "China Is Run by Engineers. America Is Run by Lawyers.",
+      "show": "Freakonomics Radio",
+      "id": "142579",
+      "date": "2025-09-19",
+      "url": "https://freakonomics.com/podcast/china-is-run-by-engineers-america-is-run-by-lawyers/"
+    },
+    "age_years": 1,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
     "verified_quote_in_transcript": true
   },
   {
@@ -10654,6 +10787,25 @@
       "url": "https://freakonomics.com/podcast/hes-one-of-the-most-famous-political-operatives-in-america-america-just-doesnt-know-it-yet/"
     },
     "age_years": 9,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Accidental pop star",
+    "entry_type": "story",
+    "category": "Careers",
+    "claim": "Cox joined the band D:Ream almost by chance while working as their sound engineer, because they needed someone to stand and play keyboards on a TV show — and the band went on to a number-one hit.",
+    "quote": "So they said to me, “Well, you know how to play keyboards, don't you? And you look okay, so will you just stand there and play the keyboard?” So I did that and accidentally joined the band.",
+    "speaker": "COX",
+    "episode": {
+      "title": "Finding the God Particle",
+      "show": "People I (Mostly) Admire",
+      "id": "142853",
+      "date": "2025-11-07",
+      "url": "https://freakonomics.com/podcast/finding-the-god-particle/"
+    },
+    "age_years": 1,
     "freshness": "durable",
     "freshness_note": "Story entry — stable over time",
     "verified_quote_in_transcript": true
@@ -13050,6 +13202,25 @@
     "age_years": 5,
     "freshness": "durable",
     "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Age of majority",
+    "entry_type": "concept",
+    "category": "Law",
+    "claim": "The age of majority is the age at which a person is legally an adult and fully responsible for their own actions; it's distinct from the \"legal age of license,\" which governs specific activities like drinking.",
+    "quote": "So the age of majority is when you are legally considered an adult and fully responsible for your own actions.",
+    "speaker": "MAUGHAN",
+    "episode": {
+      "title": "When Do You Become an Adult?",
+      "show": "No Stupid Questions",
+      "id": "140774",
+      "date": "2024-09-21",
+      "url": "https://freakonomics.com/podcast/when-do-you-become-an-adult/"
+    },
+    "age_years": 2,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
     "verified_quote_in_transcript": true
   },
   {
@@ -18240,6 +18411,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Anaconda in the chandelier",
+    "entry_type": "concept",
+    "category": "Censorship",
+    "claim": "Sinologist Perry Link's metaphor for Chinese censorship: a sleeping anaconda coiled in a chandelier above dinner guests, who self-censor because they don't know when it might strike.",
+    "quote": "There is a chandelier above you, and within this chandelier was a great anaconda that was just coiled inside, sleeping. All of these dinner guests are very well aware that there’s an anaconda hanging above them.",
+    "speaker": "WANG",
+    "episode": {
+      "title": "China Is Run by Engineers. America Is Run by Lawyers.",
+      "show": "Freakonomics Radio",
+      "id": "142579",
+      "date": "2025-09-19",
+      "url": "https://freakonomics.com/podcast/china-is-run-by-engineers-america-is-run-by-lawyers/"
+    },
+    "age_years": 1,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Anatol Rapoport",
     "entry_type": "person",
     "category": "Game theory",
@@ -20969,6 +21159,25 @@
       "id": "139650",
       "date": "2024-02-19",
       "url": "https://freakonomics.com/podcast/mr-feynman-takes-a-trip-but-doesnt-fall/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Arline Greenbaum",
+    "entry_type": "person",
+    "category": "Biography",
+    "claim": "Feynman's high-school sweetheart and first wife had contagious tuberculosis; he married her against his family's objections, housed her in an Albuquerque sanitorium about 100 miles from Los Alamos, and lost her within weeks of the bomb test.",
+    "quote": "She had tuberculosis, which was highly contagious, and his own parents — and sister even — were saying, you know, break up your marriage plans.",
+    "speaker": "LEIGHTON",
+    "episode": {
+      "title": "The Curious Mr. Feynman",
+      "show": "Freakonomics Radio",
+      "id": "139556",
+      "date": "2024-01-31",
+      "url": "https://freakonomics.com/podcast/the-curious-mr-feynman/"
     },
     "age_years": 2,
     "freshness": "durable",
@@ -33003,6 +33212,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Black Hole Information Paradox",
+    "entry_type": "concept",
+    "category": "Astrophysics",
+    "claim": "Hawking's 1974 result implied black holes radiate and eventually evaporate, seemingly erasing information — which the laws of physics forbid, since they allow information to be scrambled but not destroyed.",
+    "quote": "So the question was, it looked like black holes were erasing information from the universe, but the laws of physics that were used to make that statement and make those calculations do not allow for information to be erased.",
+    "speaker": "COX",
+    "episode": {
+      "title": "Finding the God Particle",
+      "show": "People I (Mostly) Admire",
+      "id": "142853",
+      "date": "2025-11-07",
+      "url": "https://freakonomics.com/podcast/finding-the-god-particle/"
+    },
+    "age_years": 1,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Black Lotus laundering",
     "entry_type": "story",
     "category": "Financial crime",
@@ -33934,6 +34162,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Blockbuster drug",
+    "entry_type": "concept",
+    "category": "Pharmaceutical economics",
+    "claim": "Because most drugs never earn back their R&D costs, the industry depends on rare \"blockbusters\" — drugs with more than $1 billion in annual sales.",
+    "quote": "The pharmaceutical industry, therefore, relies on the occasional blockbuster drug, a blockbuster defined as doing more than $1 billion a year in sales.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Is Ozempic as Magical as It Sounds?",
+      "show": "Freakonomics Radio",
+      "id": "141125",
+      "date": "2024-12-11",
+      "url": "https://freakonomics.com/podcast/is-ozempic-as-magical-as-it-sounds/"
+    },
+    "age_years": 2,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Blockchain without tokens is just a database",
     "entry_type": "concept",
     "category": "Crypto economics",
@@ -34406,6 +34653,25 @@
     "age_years": 1,
     "freshness": "durable",
     "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Blue zones",
+    "entry_type": "concept",
+    "category": "Demography",
+    "claim": "Blue zones are areas said to have exceptional longevity, popularized by Dan Buettner's 2008 book; the name comes not from sky or sea but from the blue circle the original researchers' software drew around a region of Sardinia.",
+    "quote": "It’s just the software they used to draw the graph — put a blue circle around that area.",
+    "speaker": "WHITWELL",
+    "episode": {
+      "title": "Signs of Progress, One Year at a Time",
+      "show": "Freakonomics Radio",
+      "id": "140178",
+      "date": "2024-06-05",
+      "url": "https://freakonomics.com/podcast/signs-of-progress-one-year-at-a-time/"
+    },
+    "age_years": 2,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
     "verified_quote_in_transcript": true
   },
   {
@@ -35093,6 +35359,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Bogusky, Alex",
+    "entry_type": "person",
+    "category": "Advertising",
+    "claim": "An ad executive—not a researcher—who created the \"Truth\" anti-smoking campaign, starting with ads in Florida before his firm won the national bid.",
+    "quote": "And it was started by this brilliant ad executive, not by researchers, this guy named Alex Bogusky.",
+    "speaker": "YEAGER",
+    "episode": {
+      "title": "How to Help Kids Succeed",
+      "show": "People I (Mostly) Admire",
+      "id": "142104",
+      "date": "2025-06-20",
+      "url": "https://freakonomics.com/podcast/how-to-help-kids-succeed/"
+    },
+    "age_years": 1,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Bohannon only-child survey (19th century)",
     "entry_type": "fact",
     "category": "Psychology history",
@@ -35392,6 +35677,25 @@
       "url": "https://freakonomics.com/podcast/is-the-air-traffic-control-system-broken/"
     },
     "age_years": 1,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Bongos on the radiator",
+    "entry_type": "story",
+    "category": "History of science",
+    "claim": "Collaborating at Cornell with Toichiro Kinoshita, Feynman tapped two pencils on a radiator for hours a day instead of playing bongos — driving his shy colleague crazy — while he thought about simplifying the problem. Kinoshita arrived with a huge wad of calculations; Feynman had one sheet and had solved it in 15 minutes.",
+    "quote": "And Feynman has one sheet of paper. And he had spent the entire time thinking about how to make the problem simple. And that’s what he’d been doing when he’d been doing the bongos. And then he had solved the problem in 15 minutes.",
+    "speaker": "MANN",
+    "episode": {
+      "title": "The Curious Mr. Feynman",
+      "show": "Freakonomics Radio",
+      "id": "139556",
+      "date": "2024-01-31",
+      "url": "https://freakonomics.com/podcast/the-curious-mr-feynman/"
+    },
+    "age_years": 2,
     "freshness": "durable",
     "freshness_note": "Story entry — stable over time",
     "verified_quote_in_transcript": true
@@ -37104,6 +37408,25 @@
     "age_years": 3,
     "freshness": "aging",
     "freshness_note": "Figure is ~3 yrs old — likely still ok",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Boy Scouts and the curb",
+    "entry_type": "story",
+    "category": "Marketing history",
+    "claim": "To sell the idea that streets belonged to cars, car companies hired Boy Scouts to hand out cards telling pedestrians their road-crossing habits were old-fashioned — the goal being to make pedestrians feel they were in the wrong.",
+    "quote": "Car firms would hire Boy Scouts to give cards to pedestrians saying, we’re in a new era, this is old-fashioned, what you’re doing.",
+    "speaker": "WHITWELL",
+    "episode": {
+      "title": "Signs of Progress, One Year at a Time",
+      "show": "Freakonomics Radio",
+      "id": "140178",
+      "date": "2024-06-05",
+      "url": "https://freakonomics.com/podcast/signs-of-progress-one-year-at-a-time/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -39154,6 +39477,25 @@
       "url": "https://freakonomics.com/podcast/his-brilliant-videos-get-millions-of-views-why-dont-they-make-money/"
     },
     "age_years": 1,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Brothers' camping trip",
+    "entry_type": "story",
+    "category": "Self-care",
+    "claim": "Maughan's annual horseback-camping ritual with the Marriott brothers turned near-fatal when he developed a horse allergy and went into anaphylaxis hours from cell service — and they considered a knife tracheotomy.",
+    "quote": "We literally were pulling out a knife to try to— you can't Google how to do an emergency tracheotomy.",
+    "speaker": "MAUGHAN",
+    "episode": {
+      "title": "How Can You Be Kinder to Yourself?",
+      "show": "No Stupid Questions",
+      "id": "135571",
+      "date": "2023-09-10",
+      "url": "https://freakonomics.com/podcast/how-can-you-be-kinder-to-yourself/"
+    },
+    "age_years": 3,
     "freshness": "durable",
     "freshness_note": "Story entry — stable over time",
     "verified_quote_in_transcript": true
@@ -42902,6 +43244,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Cannavan",
+    "entry_type": "story",
+    "category": "Research methods",
+    "claim": "Because federal law bars researchers from supplying cannabis, Angela Bryan's lab drives a mobile pharmacology laboratory to participants' homes, where they use their own product and get tested in the van.",
+    "quote": "It’s a mobile pharmacology laboratory, it’s the Cannavan. We drive that laboratory to people’s houses, and then they use their product in their house, and we do all our testing in the van.",
+    "speaker": "BRYAN",
+    "episode": {
+      "title": "Is Weed a Performance-Enhancing Drug?",
+      "show": "Freakonomics Radio",
+      "id": "143257",
+      "date": "2026-02-13",
+      "url": "https://freakonomics.com/podcast/is-weed-a-performance-enhancing-drug/"
+    },
+    "age_years": 0,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Canned tomatoes and lycopene",
     "entry_type": "fact",
     "category": "Nutrition",
@@ -43621,6 +43982,25 @@
     "age_years": 5,
     "freshness": "check",
     "freshness_note": "Figure is ~5 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Carbon footprint",
+    "entry_type": "concept",
+    "category": "Corporate marketing",
+    "claim": "Around 2001, BP — the one oil company then acknowledging global warming — worked with ad agency Ogilvy & Mather to create a personal carbon-footprint calculator, shifting the advertising message from corporate might to consumer responsibility.",
+    "quote": "And you’re saying this carbon-footprint calculator was created for B.P. by its ad agency, the very famous Ogilvy & Mather, is that right?",
+    "speaker": "DUBNER",
+    "episode": {
+      "title": "Signs of Progress, One Year at a Time",
+      "show": "Freakonomics Radio",
+      "id": "140178",
+      "date": "2024-06-05",
+      "url": "https://freakonomics.com/podcast/signs-of-progress-one-year-at-a-time/"
+    },
+    "age_years": 2,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
     "verified_quote_in_transcript": true
   },
   {
@@ -47291,6 +47671,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Challenger disaster",
+    "entry_type": "fact",
+    "category": "Space history",
+    "claim": "The Challenger space shuttle launched from Cape Canaveral on a cold January day in 1986 and exploded 73 seconds into flight on live television, killing all seven crew members, including schoolteacher Christa McAuliffe.",
+    "quote": "It was in the air only 73 seconds before it exploded, on live TV; all seven crew members were killed, including a schoolteacher named Christa McAuliffe.",
+    "speaker": "narration",
+    "episode": {
+      "title": "The Curious Mr. Feynman",
+      "show": "Freakonomics Radio",
+      "id": "139556",
+      "date": "2024-01-31",
+      "url": "https://freakonomics.com/podcast/the-curious-mr-feynman/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Chalmers, Iain",
     "entry_type": "person",
     "category": "Evidence-based medicine",
@@ -50046,6 +50445,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "China as a touch outlier",
+    "entry_type": "fact",
+    "category": "Cross-cultural psychology",
+    "claim": "In a 45-country survey of 14,000 people on everyday touch, China rated so low that researchers had to exclude it from the analysis to avoid distorting the statistical model.",
+    "quote": "They were so much an outlier, in that the rate of touching was so low, they had to exclude China from analyses",
+    "speaker": "DUCKWORTH",
+    "episode": {
+      "title": "Do You Need a Hug?",
+      "show": "No Stupid Questions",
+      "id": "140387",
+      "date": "2024-07-13",
+      "url": "https://freakonomics.com/podcast/do-you-need-a-hug/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "China earthquake fertility policy (2008)",
     "entry_type": "story",
     "category": "Public policy",
@@ -50236,6 +50654,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "China's rejection of the fortune cookie",
+    "entry_type": "story",
+    "category": "International trade",
+    "claim": "Wonton Food tried to sell fortune cookies in China in the 1990s and gave up for lack of interest — Chinese consumers found paper-in-food baffling and too American.",
+    "quote": "If you ever bring a whole bag of fortune cookies to China and you just give them to people, they'll pop them in their mouth and they're like \"Whoa! Whoa — what's this? Americans are so strange. Like, why are they putting pieces of paper in their food?”",
+    "speaker": "LEE",
+    "episode": {
+      "title": "Fortune Cookies",
+      "show": "The Economics of Everyday Things",
+      "id": "141753",
+      "date": "2025-04-13",
+      "url": "https://freakonomics.com/podcast/fortune-cookies/"
+    },
+    "age_years": 1,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "China's rise as a global anti-poverty event",
     "entry_type": "figure",
     "category": "Development economics",
@@ -50404,6 +50841,25 @@
     "age_years": 8,
     "freshness": "durable",
     "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Chinese restaurants in the United States",
+    "entry_type": "figure",
+    "category": "Restaurant economics",
+    "claim": "There are estimated to be more than 45,000 Chinese restaurants in the U.S. — more than all McDonald's, Burger King, KFC, and Wendy's locations combined.",
+    "quote": "It’s estimated that there are more than 45,000 Chinese restaurants in the United States. That’s more than all McDonald’s, Burger King, K.F.C., and Wendy’s locations combined.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Fortune Cookies",
+      "show": "The Economics of Everyday Things",
+      "id": "141753",
+      "date": "2025-04-13",
+      "url": "https://freakonomics.com/podcast/fortune-cookies/"
+    },
+    "age_years": 1,
+    "freshness": "current",
+    "freshness_note": "Recent (~1 yrs) — likely current",
     "verified_quote_in_transcript": true
   },
   {
@@ -51696,6 +52152,25 @@
     "age_years": 12,
     "freshness": "durable",
     "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Churn (insurance)",
+    "entry_type": "concept",
+    "category": "Health economics",
+    "claim": "Because Americans frequently switch insurers, insurance companies' investment horizon is only one to two years, so they have no incentive to pay for drugs whose savings arrive years later.",
+    "quote": "We call this in the medical health policy world “churn.” The churn is so much in the insurance market that that investment horizon for companies is not five, six, seven years. It tends to be one year and maximum two years.",
+    "speaker": "EMANUEL",
+    "episode": {
+      "title": "Is Ozempic as Magical as It Sounds?",
+      "show": "Freakonomics Radio",
+      "id": "141125",
+      "date": "2024-12-11",
+      "url": "https://freakonomics.com/podcast/is-ozempic-as-magical-as-it-sounds/"
+    },
+    "age_years": 2,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
     "verified_quote_in_transcript": true
   },
   {
@@ -53005,6 +53480,25 @@
       "url": "https://freakonomics.com/podcast/a-sneak-peek-at-bidens-top-economist-ep-443/"
     },
     "age_years": 6,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Climbing ladders vs. laying ladders",
+    "entry_type": "concept",
+    "category": "Industrial policy",
+    "claim": "Wang argues the U.S. invents industries while China dominates them; Bell Labs invented the solar cell in 1954, yet solar production is now roughly 90 percent Chinese.",
+    "quote": "It was Bell Labs of New Jersey that invented the first solar cell in 1954. And the U.S. didn’t really do enough with the solar industry.",
+    "speaker": "WANG",
+    "episode": {
+      "title": "China Is Run by Engineers. America Is Run by Lawyers.",
+      "show": "Freakonomics Radio",
+      "id": "142579",
+      "date": "2025-09-19",
+      "url": "https://freakonomics.com/podcast/china-is-run-by-engineers-america-is-run-by-lawyers/"
+    },
+    "age_years": 1,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
     "verified_quote_in_transcript": true
@@ -55097,6 +55591,25 @@
     "age_years": 12,
     "freshness": "check",
     "freshness_note": "Figure is ~12 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Colder than outer space",
+    "entry_type": "figure",
+    "category": "Physics",
+    "claim": "Liquid helium can cool materials into the milli-Kelvin range — below the roughly three-Kelvin temperature of outer space — and no other element can do it.",
+    "quote": "It can cool things into the milli-Kelvin regime. The temperature of outer space is about three Kelvin. So, this is below the temperature of outer space and only helium is able to do that.",
+    "speaker": "HAYES",
+    "episode": {
+      "title": "Helium",
+      "show": "The Economics of Everyday Things",
+      "id": "141072",
+      "date": "2024-11-24",
+      "url": "https://freakonomics.com/podcast/helium/"
+    },
+    "age_years": 2,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~2 yrs old — likely still ok",
     "verified_quote_in_transcript": true
   },
   {
@@ -57855,6 +58368,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Conscription Act of 1942",
+    "entry_type": "fact",
+    "category": "History of law",
+    "claim": "In 1942 Congress lowered the military draft age from 21 to 18, which led to the 26th Amendment giving 18-year-olds the vote — meaning the American age of adulthood was set by warfare, not by psychology.",
+    "quote": "So, in 1942, Congress lowered the age of conscription into the military from 21 to 18, and then that led to the 26th Amendment in the United States, where it was like, “Hey, look, if you can send me into war at 18, then I want to be able to vote at 18.”",
+    "speaker": "MAUGHAN",
+    "episode": {
+      "title": "When Do You Become an Adult?",
+      "show": "No Stupid Questions",
+      "id": "140774",
+      "date": "2024-09-21",
+      "url": "https://freakonomics.com/podcast/when-do-you-become-an-adult/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Consensual vs. non-consensual tows",
     "entry_type": "fact",
     "category": "Industry definitions",
@@ -58726,6 +59258,25 @@
     "age_years": 6,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Control your soul's desire for freedom",
+    "entry_type": "story",
+    "category": "Surveillance",
+    "claim": "When Shanghai residents screamed out their windows to protest Covid measures, the government sent drones broadcasting an order to stop singing and control their desire for freedom.",
+    "quote": "The announcement says, “Please comply with Covid restrictions. Control your soul’s desire for freedom. Do not open the window or sing.”",
+    "speaker": "narration",
+    "episode": {
+      "title": "China Is Run by Engineers. America Is Run by Lawyers.",
+      "show": "Freakonomics Radio",
+      "id": "142579",
+      "date": "2025-09-19",
+      "url": "https://freakonomics.com/podcast/china-is-run-by-engineers-america-is-run-by-lawyers/"
+    },
+    "age_years": 1,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -60415,6 +60966,25 @@
       "url": "https://freakonomics.com/podcast/where-do-good-ideas-come-from/"
     },
     "age_years": 7,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Cosmic-ray argument against collider doomsday",
+    "entry_type": "concept",
+    "category": "Risk analysis",
+    "claim": "Physicists rebutted fears that colliders could create earth-destroying black holes by noting cosmic rays hit Earth at far higher energies for 4.5 billion years without incident, letting them put a numerical upper bound on the risk.",
+    "quote": "In putting an upper bound on it, we've probably made a P.R. mistake. Because of course, if you're talking about destroying the earth, then people go, But that means there's a chance!",
+    "speaker": "COX",
+    "episode": {
+      "title": "Finding the God Particle",
+      "show": "People I (Mostly) Admire",
+      "id": "142853",
+      "date": "2025-11-07",
+      "url": "https://freakonomics.com/podcast/finding-the-god-particle/"
+    },
+    "age_years": 1,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
     "verified_quote_in_transcript": true
@@ -62852,6 +63422,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Crash bleep",
+    "entry_type": "concept",
+    "category": "Health technology",
+    "claim": "In U.K. hospitals pagers are called \"bleeps,\" and a \"crash bleep\" summons staff to run and save a life — carrying one is a status milestone for medical trainees.",
+    "quote": "But he also talked about having a crash bleep. So this is where you are a doctor around the hospital, or a nurse around the hospital, you have this thing on you and it bleeps, and you have to run to save somebody’s life, literally.",
+    "speaker": "WHITWELL",
+    "episode": {
+      "title": "Signs of Progress, One Year at a Time",
+      "show": "Freakonomics Radio",
+      "id": "140178",
+      "date": "2024-06-05",
+      "url": "https://freakonomics.com/podcast/signs-of-progress-one-year-at-a-time/"
+    },
+    "age_years": 2,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Crash Course Coin",
     "entry_type": "concept",
     "category": "Media economics",
@@ -63856,6 +64445,25 @@
     "age_years": 4,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Cross-generational friendship curation",
+    "entry_type": "story",
+    "category": "Social connection",
+    "claim": "Inspired by Arthur Brooks's From Strength to Strength, Maughan deliberately cultivated friendships across age gaps — including a nearly-90-year-old board colleague named Addie Fuhrman and a life coach 15 years his junior.",
+    "quote": "And so, I sit on the board of this charitable organization with this woman, Addie Fuhrman, who is turning 90 next year. And Addie and I will go out to dinner, or go grab lunch.",
+    "speaker": "MAUGHAN",
+    "episode": {
+      "title": "Do \"Generations\" Mean Anything?",
+      "show": "No Stupid Questions",
+      "id": "138947",
+      "date": "2023-10-01",
+      "url": "https://freakonomics.com/podcast/do-generations-mean-anything/"
+    },
+    "age_years": 3,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -66326,6 +66934,25 @@
     "age_years": 6,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Dark stars",
+    "entry_type": "story",
+    "category": "History of science",
+    "claim": "Around 1790, Laplace and the Reverend Michell independently speculated that stars could be so massive that their escape velocity exceeded light speed, making them invisible; Laplace called them dark stars.",
+    "quote": "And Laplace called them dark stars. I always remember the quote he said in the paper that he wrote that, “The largest objects in the universe may go unseen by reason of their magnitude.”",
+    "speaker": "COX",
+    "episode": {
+      "title": "Finding the God Particle",
+      "show": "People I (Mostly) Admire",
+      "id": "142853",
+      "date": "2025-11-07",
+      "url": "https://freakonomics.com/podcast/finding-the-god-particle/"
+    },
+    "age_years": 1,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -72045,6 +72672,25 @@
     "age_years": 2,
     "freshness": "aging",
     "freshness_note": "Figure is ~2 yrs old — likely still ok",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Direct-to-consumer drug advertising",
+    "entry_type": "fact",
+    "category": "Pharmaceutical policy",
+    "claim": "Only two countries in the world permit pharmaceutical companies to advertise prescription drugs directly to consumers: the United States and New Zealand.",
+    "quote": "The United States is one of just two countries that allow pharmaceutical firms to freely advertise their products directly to consumers. (The other is New Zealand.)",
+    "speaker": "narration",
+    "episode": {
+      "title": "Is Ozempic as Magical as It Sounds?",
+      "show": "Freakonomics Radio",
+      "id": "141125",
+      "date": "2024-12-11",
+      "url": "https://freakonomics.com/podcast/is-ozempic-as-magical-as-it-sounds/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -79610,6 +80256,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Efficient MRI machines",
+    "entry_type": "figure",
+    "category": "Technology",
+    "claim": "Newer MRI machines use just 7 liters of helium each, compared with 1,500 liters in older models.",
+    "quote": "They use just 7 liters of helium per machine, compared to the 1,500 liters used by older machines.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Helium",
+      "show": "The Economics of Everyday Things",
+      "id": "141072",
+      "date": "2024-11-24",
+      "url": "https://freakonomics.com/podcast/helium/"
+    },
+    "age_years": 2,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~2 yrs old — likely still ok",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Efron, Zac",
     "entry_type": "story",
     "category": "Celebrity culture",
@@ -79664,6 +80329,25 @@
     "age_years": 4,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Egg labels (\"cage free,\" \"organic,\" \"farm fresh\")",
+    "entry_type": "fact",
+    "category": "Consumer economics",
+    "claim": "Egg-carton labels can be misleading: \"cage free\" only means no cage, and \"farm fresh\" eggs can come from indoor spaces where chickens are crowded in cages.",
+    "quote": "There are also “farm fresh” eggs which come from a farm, just like all other eggs, even if the “farm” in question is an indoor space where chickens are crowded in cages.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Is It Okay to Do the Right Thing for the Wrong Reason?",
+      "show": "No Stupid Questions",
+      "id": "140860",
+      "date": "2024-10-12",
+      "url": "https://freakonomics.com/podcast/is-it-okay-to-do-the-right-thing-for-the-wrong-reason/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -80158,6 +80842,25 @@
     "age_years": 5,
     "freshness": "check",
     "freshness_note": "Figure is ~5 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Eighty cents a balloon",
+    "entry_type": "figure",
+    "category": "Retail economics",
+    "claim": "A party store might pay about $500 for a 291-cubic-foot helium canister that fills roughly 600 eleven-inch latex balloons — about 80 cents of helium per balloon.",
+    "quote": "A party store, for instance, might buy a standard canister containing 291 cubic feet of helium for around $500. That’s enough to fill something like 600 11-inch latex balloons, which means the store pays about 80 cents for the helium in each balloon.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Helium",
+      "show": "The Economics of Everyday Things",
+      "id": "141072",
+      "date": "2024-11-24",
+      "url": "https://freakonomics.com/podcast/helium/"
+    },
+    "age_years": 2,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~2 yrs old — likely still ok",
     "verified_quote_in_transcript": true
   },
   {
@@ -81716,6 +82419,44 @@
     "age_years": 5,
     "freshness": "durable",
     "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Emergent vs. deliberate strategy",
+    "entry_type": "concept",
+    "category": "Career strategy",
+    "claim": "Harvard Business School's Clayton Christensen distinguished early-career 'emergent' strategies — sampling jobs like dating — from the later 'deliberate' strategy of committing to one path.",
+    "quote": "Early in one's career, we go through kind of these emergent strategies, which he I think — maybe this is just my way of interpreting — compared to dating.",
+    "speaker": "MAUGHAN",
+    "episode": {
+      "title": "Do \"Generations\" Mean Anything?",
+      "show": "No Stupid Questions",
+      "id": "138947",
+      "date": "2023-10-01",
+      "url": "https://freakonomics.com/podcast/do-generations-mean-anything/"
+    },
+    "age_years": 3,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Emerging adulthood",
+    "entry_type": "concept",
+    "category": "Developmental psychology",
+    "claim": "Clark University psychologist Jeffrey Arnett proposes rebranding ages 18 to 25 — roughly the college years and first job — as a distinct developmental period called \"emerging adulthood.\"",
+    "quote": "There's some people, most prominently Jeffrey Arnett, who's a professor of psychology at Clark University, he wants to rebrand that as “emerging adulthood,” or he wants to say that's, like, a distinct developmental period.",
+    "speaker": "DUCKWORTH",
+    "episode": {
+      "title": "When Do You Become an Adult?",
+      "show": "No Stupid Questions",
+      "id": "140774",
+      "date": "2024-09-21",
+      "url": "https://freakonomics.com/podcast/when-do-you-become-an-adult/"
+    },
+    "age_years": 2,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
     "verified_quote_in_transcript": true
   },
   {
@@ -83467,6 +84208,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Engineering state vs. lawyerly society",
+    "entry_type": "concept",
+    "category": "Political economy",
+    "claim": "Dan Wang's central framework contrasts China as an engineering state that builds fast with the U.S. as a lawyerly society that blocks projects, both good and bad.",
+    "quote": "China is an engineering state, building big at breakneck speed, in contrast to the United States’ lawyerly society, blocking everything it can, good and bad.",
+    "speaker": "narration",
+    "episode": {
+      "title": "China Is Run by Engineers. America Is Run by Lawyers.",
+      "show": "Freakonomics Radio",
+      "id": "142579",
+      "date": "2025-09-19",
+      "url": "https://freakonomics.com/podcast/china-is-run-by-engineers-america-is-run-by-lawyers/"
+    },
+    "age_years": 1,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Engineers as maintainers",
     "entry_type": "figure",
     "category": "Labor economics",
@@ -84034,6 +84794,25 @@
     "age_years": 3,
     "freshness": "aging",
     "freshness_note": "Figure is ~3 yrs old — likely still ok",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Epcot's broccoli cannon attraction",
+    "entry_type": "story",
+    "category": "Public health",
+    "claim": "Around 13 years ago Disney and a health insurer built an Epcot attraction where kids fired a digital cannon of broccoli at overweight characters to make them drop their cupcakes; it was denounced as fat-shaming and Yeager's team was brought in to redesign it.",
+    "quote": "And as you go through the rooms of the attraction, you would do things like use a digital cannon to shoot broccoli at overweight people so that they would drop their cupcakes.",
+    "speaker": "YEAGER",
+    "episode": {
+      "title": "How to Help Kids Succeed",
+      "show": "People I (Mostly) Admire",
+      "id": "142104",
+      "date": "2025-06-20",
+      "url": "https://freakonomics.com/podcast/how-to-help-kids-succeed/"
+    },
+    "age_years": 1,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -84889,6 +85668,25 @@
     "age_years": 2,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Escape velocity",
+    "entry_type": "figure",
+    "category": "Physics",
+    "claim": "Escape velocity is the speed needed to break free of a body's gravity: about 11 kilometers per second from Earth and roughly 620 kilometers per second from the sun's surface.",
+    "quote": "So these two, apparently independently, were thinking about something called escape velocity, which is the speed you have to travel from the surface of something to completely escape its gravitational pull. So, from the earth, it's about 11 kilometers per second.",
+    "speaker": "COX",
+    "episode": {
+      "title": "Finding the God Particle",
+      "show": "People I (Mostly) Admire",
+      "id": "142853",
+      "date": "2025-11-07",
+      "url": "https://freakonomics.com/podcast/finding-the-god-particle/"
+    },
+    "age_years": 1,
+    "freshness": "current",
+    "freshness_note": "Recent (~1 yrs) — likely current",
     "verified_quote_in_transcript": true
   },
   {
@@ -86089,6 +86887,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Excess deaths after Zero Covid",
+    "entry_type": "figure",
+    "category": "Health economics",
+    "claim": "Research in JAMA found nearly two million excess deaths among Chinese aged 30 and over in the first two months after Zero Covid was abandoned.",
+    "quote": "According to research published by the Journal of the American Medical Association, there were nearly two million excess deaths in China among people 30 and over in the first two months after the “zero Covid” strategy was abandoned.",
+    "speaker": "narration",
+    "episode": {
+      "title": "China Is Run by Engineers. America Is Run by Lawyers.",
+      "show": "Freakonomics Radio",
+      "id": "142579",
+      "date": "2025-09-19",
+      "url": "https://freakonomics.com/podcast/china-is-run-by-engineers-america-is-run-by-lawyers/"
+    },
+    "age_years": 1,
+    "freshness": "current",
+    "freshness_note": "Recent (~1 yrs) — likely current",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Excuse vs. justification",
     "entry_type": "concept",
     "category": "Psychology",
@@ -87017,6 +87834,25 @@
     "age_years": 5,
     "freshness": "durable",
     "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Extended adolescence",
+    "entry_type": "concept",
+    "category": "Developmental psychology",
+    "claim": "Because the legal age of adulthood has moved later while puberty has moved earlier, humans now experience an unprecedented, historically novel stretch of adolescence.",
+    "quote": "If the age of adulthood is getting later, and the age of puberty is getting earlier, then you have this extended adolescence.",
+    "speaker": "DUCKWORTH",
+    "episode": {
+      "title": "When Do You Become an Adult?",
+      "show": "No Stupid Questions",
+      "id": "140774",
+      "date": "2024-09-21",
+      "url": "https://freakonomics.com/podcast/when-do-you-become-an-adult/"
+    },
+    "age_years": 2,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
     "verified_quote_in_transcript": true
   },
   {
@@ -91010,6 +91846,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Feels better, goes slower",
+    "entry_type": "concept",
+    "category": "Exercise science",
+    "claim": "In running studies, people under the influence of cannabis report feeling better emotionally but actually run slower and rate the effort as harder — so cannabis is not a direct performance enhancer.",
+    "quote": "The one thing I would say is that our studies with running have shown that people definitely feel better when they’re running under the influence of cannabis. But interestingly, they go slower, and it feels harder.",
+    "speaker": "BRYAN",
+    "episode": {
+      "title": "Is Weed a Performance-Enhancing Drug?",
+      "show": "Freakonomics Radio",
+      "id": "143257",
+      "date": "2026-02-13",
+      "url": "https://freakonomics.com/podcast/is-weed-a-performance-enhancing-drug/"
+    },
+    "age_years": 0,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Feet as bound feet",
     "entry_type": "concept",
     "category": "Anthropology",
@@ -91898,6 +92753,25 @@
       "url": "https://freakonomics.com/podcast/failure-is-your-friend-2/"
     },
     "age_years": 12,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Feynman's ice-water O-ring demonstration",
+    "entry_type": "story",
+    "category": "Science and public policy",
+    "claim": "During a televised Rogers Commission hearing, Feynman dunked a piece of the shuttle's O-ring seal in a glass of ice water to show it lost resilience at 32 degrees — the defining moment of the Challenger inquiry. He had bought a C-clamp, screwdriver and wrench at a Washington hardware store that morning.",
+    "quote": "I took this stuff that I got out of your seal, and I put it in ice water. And I discovered that when you put some pressure on it for a while, and then undo it, it maintains — it doesn’t stretch back.",
+    "speaker": "RICHARD FEYNMAN",
+    "episode": {
+      "title": "The Curious Mr. Feynman",
+      "show": "Freakonomics Radio",
+      "id": "139556",
+      "date": "2024-01-31",
+      "url": "https://freakonomics.com/podcast/the-curious-mr-feynman/"
+    },
+    "age_years": 2,
     "freshness": "durable",
     "freshness_note": "Story entry — stable over time",
     "verified_quote_in_transcript": true
@@ -93651,6 +94525,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Fish pancreases and the discovery of GLP-1",
+    "entry_type": "story",
+    "category": "Medical history",
+    "claim": "Early GLP-1 research at Massachusetts General Hospital involved removing pancreases from fish to test their effect on glucose, which led researchers to pro-glucagon and the GLP-1 agent.",
+    "quote": "One of the groups at the Mass General Hospital was taking pancreases out of fish, and then testing how do they affect glucose in other models?",
+    "speaker": "EMANUEL",
+    "episode": {
+      "title": "Is Ozempic as Magical as It Sounds?",
+      "show": "Freakonomics Radio",
+      "id": "141125",
+      "date": "2024-12-11",
+      "url": "https://freakonomics.com/podcast/is-ozempic-as-magical-as-it-sounds/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Fish-scale metallic paint",
     "entry_type": "story",
     "category": "Industrial history",
@@ -95209,6 +96102,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Flowy white skirt compliment, the",
+    "entry_type": "story",
+    "category": "Everyday altruism",
+    "claim": "On bad days Angela Duckworth admits she scans fellow park-walkers for an outfit she genuinely likes, then compliments the stranger purely to lift her own mood — once delighting both a woman and her husband.",
+    "quote": "I have brought 12 seconds of joy to not one stranger, but two, and then I amble off and I feel this warm glow. And I don't know that that makes me more or less deserving of moral credit. I honestly don't care.",
+    "speaker": "DUCKWORTH",
+    "episode": {
+      "title": "Is It Okay to Do the Right Thing for the Wrong Reason?",
+      "show": "No Stupid Questions",
+      "id": "140860",
+      "date": "2024-10-12",
+      "url": "https://freakonomics.com/podcast/is-it-okay-to-do-the-right-thing-for-the-wrong-reason/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Flu vaccination rate",
     "entry_type": "figure",
     "category": "Public health",
@@ -95641,6 +96553,25 @@
       "url": "https://freakonomics.com/podcast/how-do-you-know-when-its-time-to-quit-nsq-ep-29/"
     },
     "age_years": 6,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Fondue",
+    "entry_type": "fact",
+    "category": "Food history",
+    "claim": "Fondue existed as a niche Swiss dish, but the Swiss cheese industry heavily promoted it as an American family activity — and as a reason to buy a fondue set.",
+    "quote": "the way I wrote it up was that “fondue was invented by the cheese industry.” Which does seem to be more or less true, in that fondue did exist as a kind of niche Swiss dish.",
+    "speaker": "WHITWELL",
+    "episode": {
+      "title": "Signs of Progress, One Year at a Time",
+      "show": "Freakonomics Radio",
+      "id": "140178",
+      "date": "2024-06-05",
+      "url": "https://freakonomics.com/podcast/signs-of-progress-one-year-at-a-time/"
+    },
+    "age_years": 2,
     "freshness": "durable",
     "freshness_note": "Historical fact — stable over time",
     "verified_quote_in_transcript": true
@@ -96973,6 +97904,25 @@
     "age_years": 5,
     "freshness": "check",
     "freshness_note": "Figure is ~5 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Fortune cookie folding, hand vs. machine",
+    "entry_type": "figure",
+    "category": "Manufacturing",
+    "claim": "A top hand-folder could shape about 750 fortune cookies an hour; modern machines turn out 8,000 an hour, which wiped out most family-run cookie factories.",
+    "quote": "The cookies were hand-made, and a top-notch employee could fold around 750 cookies an hour. But eventually, the demand grew so large that humans could no longer keep up.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Fortune Cookies",
+      "show": "The Economics of Everyday Things",
+      "id": "141753",
+      "date": "2025-04-13",
+      "url": "https://freakonomics.com/podcast/fortune-cookies/"
+    },
+    "age_years": 1,
+    "freshness": "current",
+    "freshness_note": "Recent (~1 yrs) — likely current",
     "verified_quote_in_transcript": true
   },
   {
@@ -99541,6 +100491,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Frequency beats duration",
+    "entry_type": "concept",
+    "category": "Behavioral science",
+    "claim": "According to the touch meta-analysis, the benefit of touch is driven more by how often you're touched than by how long each touch lasts.",
+    "quote": "what they found was the driver of how much of a benefit you would get was less about the duration and more about the frequency. So just translating this into practical advice, it's like, \"Hug often, but not necessarily for longer.\"",
+    "speaker": "DUCKWORTH",
+    "episode": {
+      "title": "Do You Need a Hug?",
+      "show": "No Stupid Questions",
+      "id": "140387",
+      "date": "2024-07-13",
+      "url": "https://freakonomics.com/podcast/do-you-need-a-hug/"
+    },
+    "age_years": 2,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Frequency illusion",
     "entry_type": "concept",
     "category": "Behavioral science",
@@ -102049,6 +103018,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Gaming disorder",
+    "entry_type": "figure",
+    "category": "Public health",
+    "claim": "The World Health Organization classifies gaming disorder in its International Classification of Diseases; Maughan cites 3–4 percent of the world's 3 billion-plus gamers as addicted, or over 90 million people.",
+    "quote": "Over 3 billion people play video games worldwide. And three to four percent of gamers, they say, are addicted to video games, which means over 90 million people suffer from this disorder.",
+    "speaker": "MAUGHAN",
+    "episode": {
+      "title": "Do \"Generations\" Mean Anything?",
+      "show": "No Stupid Questions",
+      "id": "138947",
+      "date": "2023-10-01",
+      "url": "https://freakonomics.com/podcast/do-generations-mean-anything/"
+    },
+    "age_years": 3,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~3 yrs old — likely still ok",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Gandhi, Mahatma",
     "entry_type": "person",
     "category": "Peace Prize politics",
@@ -103512,6 +104500,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Generationalism",
+    "entry_type": "concept",
+    "category": "Social psychology",
+    "claim": "George Washington University's David Costanza argues that casual talk about generations promotes 'generationalism' — a socially acceptable prejudice toward people of particular ages that he likens to modern ageism.",
+    "quote": "It promotes the spread of generationalism, which can be considered modern ageism, just as modern racism is characterized by more subtle and implicit yet no less discriminatory or troubling racist beliefs about black, indigenous, and people of color, generationalism is defined by sanctioned ambivalence and socially acceptable prejudice toward people of particular ages.",
+    "speaker": "DUCKWORTH",
+    "episode": {
+      "title": "Do \"Generations\" Mean Anything?",
+      "show": "No Stupid Questions",
+      "id": "138947",
+      "date": "2023-10-01",
+      "url": "https://freakonomics.com/podcast/do-generations-mean-anything/"
+    },
+    "age_years": 3,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Generics",
     "entry_type": "fact",
     "category": "Retail history",
@@ -103699,6 +104706,25 @@
     "age_years": 2,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Geneva summit (June 2021)",
+    "entry_type": "story",
+    "category": "Geopolitics",
+    "claim": "Biden and Putin flew to Geneva in June 2021 for a summit in which, according to U.S. Ambassador John Sullivan who sat in the expanded meeting, Ukraine barely came up at all — months before Russia's full-scale invasion.",
+    "quote": "The headline is: what did they not talk about? Ukraine. I look back now and I say the way Putin conducted himself, he had decided he was going to invade Ukraine. He was going to take what he thought was his.",
+    "speaker": "SULLIVAN",
+    "episode": {
+      "title": "Is the U.S. Sleeping on Threats from Russia and China?",
+      "show": "Freakonomics Radio",
+      "id": "141103",
+      "date": "2024-12-04",
+      "url": "https://freakonomics.com/podcast/is-the-u-s-sleeping-on-threats-from-russia-and-china/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -106283,6 +107309,44 @@
     "age_years": 0,
     "freshness": "current",
     "freshness_note": "Recent (~0 yrs) — likely current",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "GLP-1 international price gap",
+    "entry_type": "figure",
+    "category": "Health economics",
+    "claim": "The price charged for GLP-1 drugs varies enormously by country — roughly $280 in Japan versus about $1,350 in the United States.",
+    "quote": "I believe it’s around $280-some in Japan to $1,350 in the U.S.",
+    "speaker": "DUBNER",
+    "episode": {
+      "title": "Is Ozempic as Magical as It Sounds?",
+      "show": "Freakonomics Radio",
+      "id": "141125",
+      "date": "2024-12-11",
+      "url": "https://freakonomics.com/podcast/is-ozempic-as-magical-as-it-sounds/"
+    },
+    "age_years": 2,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~2 yrs old — likely still ok",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "GLP-1 weight-loss percentages",
+    "entry_type": "figure",
+    "category": "Health economics",
+    "claim": "Wegovy produces roughly 15-16 percent weight reduction, while Mounjaro — which adds the GIP component — produces about 21 percent.",
+    "quote": "with Wegovy, you get about 15, 16 percent weight reduction — but also very good at bringing down blood sugars for diabetics. And then when you add the other component, the GIP —  Mounjaro, that’s the Lilly drug — you got even more weight drop, 21 percent.",
+    "speaker": "EMANUEL",
+    "episode": {
+      "title": "Is Ozempic as Magical as It Sounds?",
+      "show": "Freakonomics Radio",
+      "id": "141125",
+      "date": "2024-12-11",
+      "url": "https://freakonomics.com/podcast/is-ozempic-as-magical-as-it-sounds/"
+    },
+    "age_years": 2,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~2 yrs old — likely still ok",
     "verified_quote_in_transcript": true
   },
   {
@@ -109915,6 +110979,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Greenwashing",
+    "entry_type": "concept",
+    "category": "Marketing ethics",
+    "claim": "Greenwashing is when companies use labels like \"eco friendly\" to mislead consumers into thinking their products are more environmentally responsible than they actually are.",
+    "quote": "\"greenwashing\" is this idea that companies can mislead consumers about the environmental benefits of their products or services, and they'll put things on the packaging that says something like, \"eco friendly,\" or \"environmentally responsible\"",
+    "speaker": "MAUGHAN",
+    "episode": {
+      "title": "Is It Okay to Do the Right Thing for the Wrong Reason?",
+      "show": "No Stupid Questions",
+      "id": "140860",
+      "date": "2024-10-12",
+      "url": "https://freakonomics.com/podcast/is-it-okay-to-do-the-right-thing-for-the-wrong-reason/"
+    },
+    "age_years": 2,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Greenwich Locksmiths",
     "entry_type": "place",
     "category": "Small business",
@@ -110444,6 +111527,25 @@
     "age_years": 2,
     "freshness": "durable",
     "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Grit rises with age",
+    "entry_type": "figure",
+    "category": "Behavioral science",
+    "claim": "Duckworth's data show a diagonal, essentially linear relationship between age and grit: the youngest adults in her sample score lowest and people in their 60s and older score highest.",
+    "quote": "And there's a diagonal line from the bottom left, you know, where people are the youngest in my sample, so these are young adults, and they are the least gritty, to the top right, where the oldest people in my sample, like 60s and older, you know, they're the grittiest, on average.",
+    "speaker": "DUCKWORTH",
+    "episode": {
+      "title": "Do \"Generations\" Mean Anything?",
+      "show": "No Stupid Questions",
+      "id": "138947",
+      "date": "2023-10-01",
+      "url": "https://freakonomics.com/podcast/do-generations-mean-anything/"
+    },
+    "age_years": 3,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~3 yrs old — likely still ok",
     "verified_quote_in_transcript": true
   },
   {
@@ -111432,6 +112534,25 @@
     "age_years": 13,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Gun deaths in the U.S. (breakdown)",
+    "entry_type": "figure",
+    "category": "Public policy",
+    "claim": "Levitt cites roughly 27,000 gun suicides, about 15,000 gun homicides, and about 500 accidental gun deaths per year in the U.S., with about 90 percent of accidental victims being friends and family.",
+    "quote": "And looking at the data there, there are about 500 accidental gun deaths a year, and many of those I imagine are with legal guns. But the thing is, when you look at the data, about 90 percent of accidental deaths are of friends and family.",
+    "speaker": "LEVITT",
+    "episode": {
+      "title": "Finding the God Particle",
+      "show": "People I (Mostly) Admire",
+      "id": "142853",
+      "date": "2025-11-07",
+      "url": "https://freakonomics.com/podcast/finding-the-god-particle/"
+    },
+    "age_years": 1,
+    "freshness": "current",
+    "freshness_note": "Recent (~1 yrs) — likely current",
     "verified_quote_in_transcript": true
   },
   {
@@ -113924,6 +115045,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Harlow, Harry",
+    "entry_type": "person",
+    "category": "Psychology",
+    "claim": "A University of Wisconsin psychology professor who raised infant monkeys in isolation with two surrogate 'mothers' — a wire one that dispensed milk and a soft terry-cloth one — and concluded that primates have a primitive instinct for tenderness beyond basic survival needs.",
+    "quote": "Harry Harlow, professor of psychology at University of Wisconsin. So, Harry Harlow was the mastermind behind these very creative experiments on primates, like monkeys.",
+    "speaker": "DUCKWORTH",
+    "episode": {
+      "title": "Do You Need a Hug?",
+      "show": "No Stupid Questions",
+      "id": "140387",
+      "date": "2024-07-13",
+      "url": "https://freakonomics.com/podcast/do-you-need-a-hug/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Harm reduction",
     "entry_type": "concept",
     "category": "Public health policy",
@@ -116128,6 +117268,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Helium (naming)",
+    "entry_type": "fact",
+    "category": "Science history",
+    "claim": "Helium was first detected in 1868 as a yellow wavelength in the sun's spectrum, and was named for the Greek word for \"sun.\" It was later found on Earth in underground natural gas deposits.",
+    "quote": "In 1868, astronomers observed a yellow wavelength of light in the spectrum of the sun. It was soon deemed to be a previously unknown element, and it was named helium, after the Greek word for \"sun.\"",
+    "speaker": "narration",
+    "episode": {
+      "title": "Helium",
+      "show": "The Economics of Everyday Things",
+      "id": "141072",
+      "date": "2024-11-24",
+      "url": "https://freakonomics.com/podcast/helium/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Helium (parade consumption)",
     "entry_type": "figure",
     "category": "Commodity markets",
@@ -116144,6 +117303,63 @@
     "age_years": 2,
     "freshness": "aging",
     "freshness_note": "Figure is ~2 yrs old — likely still ok",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Helium escape problem",
+    "entry_type": "concept",
+    "category": "Sustainability",
+    "claim": "Every atom of commercially used helium eventually escapes into outer space and is unrecoverable; because it has no substitute and is replenished only by slow radioactive decay, consumption is unsustainable.",
+    "quote": "Because it has no substitute, and because every atom of helium can escape the Earth, every time we let it go, we still have to recreate that helium one atom at a time through radioactive decay, which is a natural process. We are using it up faster than it's being replenished.",
+    "speaker": "HAYES",
+    "episode": {
+      "title": "Helium",
+      "show": "The Economics of Everyday Things",
+      "id": "141072",
+      "date": "2024-11-24",
+      "url": "https://freakonomics.com/podcast/helium/"
+    },
+    "age_years": 2,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Helium triage",
+    "entry_type": "concept",
+    "category": "Supply chain economics",
+    "claim": "During shortages, helium is allocated by priority: MRI, chip manufacturing and fiber optics get supplied first, while balloon retailers are often cut off entirely.",
+    "quote": "Helium is very much a triage unit — the most important users, the M.R.I., chip manufacturing, fiber optics, those are the most high volume users of helium, so they'll usually get the most product. And then you go all the way down to the balloon guys, and oftentimes they are completely cut out",
+    "speaker": "SEARS",
+    "episode": {
+      "title": "Helium",
+      "show": "The Economics of Everyday Things",
+      "id": "141072",
+      "date": "2024-11-24",
+      "url": "https://freakonomics.com/podcast/helium/"
+    },
+    "age_years": 2,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Helium wildcatters",
+    "entry_type": "story",
+    "category": "Resource exploration",
+    "claim": "About 60 firms now hunt for new helium deposits, checking whether a site has uranium and thorium in the basement rock, faults, a trap, and reservoir quality — a risky, old-fashioned wildcatting business.",
+    "quote": "We are traditional wildcatters. We are looking for stuff that we're not sure is there, but we have a pretty good idea it is. All that low hanging fruit is pretty much gone.",
+    "speaker": "SEARS",
+    "episode": {
+      "title": "Helium",
+      "show": "The Economics of Everyday Things",
+      "id": "141072",
+      "date": "2024-11-24",
+      "url": "https://freakonomics.com/podcast/helium/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -117189,6 +118405,25 @@
     "age_years": 3,
     "freshness": "durable",
     "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Higgs boson",
+    "entry_type": "concept",
+    "category": "Particle physics",
+    "claim": "Peter Higgs and others found a mathematical way to introduce mass into the Standard Model's equations without breaking its symmetries, and that mechanism predicted a new particle — the Higgs boson.",
+    "quote": "But it turns out that this way of introducing the masses predicts a particle associated with the mechanism for generating mass, and that particle is the Higgs boson.",
+    "speaker": "COX",
+    "episode": {
+      "title": "Finding the God Particle",
+      "show": "People I (Mostly) Admire",
+      "id": "142853",
+      "date": "2025-11-07",
+      "url": "https://freakonomics.com/podcast/finding-the-god-particle/"
+    },
+    "age_years": 1,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
     "verified_quote_in_transcript": true
   },
   {
@@ -120175,6 +121410,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Hot vs. cool decision-making",
+    "entry_type": "concept",
+    "category": "Developmental psychology",
+    "claim": "Psychologist Larry Steinberg argues logical reasoning is fully mature by 16 in \"cool\" (unemotional, non-peer-pressured) contexts, but self-regulation in \"hot\" contexts — time pressure, peer pressure, emotion — matures much later, supporting a second legal line near 21.",
+    "quote": "He said it's in cool decision-making contexts. In other words, like, not emotional, not peer-pressured. But if you actually give 16-year-olds logic puzzles, and, like, reasoning puzzles, they are just as good, if not better, honestly, than many of their older family members.",
+    "speaker": "DUCKWORTH",
+    "episode": {
+      "title": "When Do You Become an Adult?",
+      "show": "No Stupid Questions",
+      "id": "140774",
+      "date": "2024-09-21",
+      "url": "https://freakonomics.com/podcast/when-do-you-become-an-adult/"
+    },
+    "age_years": 2,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Hot-cold empathy gap",
     "entry_type": "concept",
     "category": "Behavioral economics",
@@ -122132,6 +123386,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Huntsman, Jon",
+    "entry_type": "person",
+    "category": "Philanthropy",
+    "claim": "The philanthropist Jon Huntsman put his name on buildings — Huntsman Hall at Penn, the Huntsman Cancer Institute, the Huntsman Center in Utah — reportedly to shame and challenge other billionaires into giving too.",
+    "quote": "he wanted to put his name places to basically challenge other billionaires and say, “Look, I'm giving all of this money. I want to set an example of a socially-responsible member of society and demonstrate leadership.”",
+    "speaker": "MAUGHAN",
+    "episode": {
+      "title": "Is It Okay to Do the Right Thing for the Wrong Reason?",
+      "show": "No Stupid Questions",
+      "id": "140860",
+      "date": "2024-10-12",
+      "url": "https://freakonomics.com/podcast/is-it-okay-to-do-the-right-thing-for-the-wrong-reason/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Huntsville vs. Amarillo",
     "entry_type": "place",
     "category": "Economics of sleep",
@@ -123286,6 +124559,25 @@
       "url": "https://freakonomics.com/podcast/this-is-your-brain-on-podcasts/"
     },
     "age_years": 10,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "If you have a brain, you try to alter it",
+    "entry_type": "concept",
+    "category": "Behavioral science",
+    "claim": "Bryan argues that consciousness-altering is the animal condition — sloths, dolphins, and chimpanzees do it too — making moral judgments about it inconsistent, given that coffee is also a mind-altering drug.",
+    "quote": "One thing we know about humans — honestly, not even humans, sloths, dolphins chimpanzees, no matter if you have a brain, you try to alter it.",
+    "speaker": "BRYAN",
+    "episode": {
+      "title": "Is Weed a Performance-Enhancing Drug?",
+      "show": "Freakonomics Radio",
+      "id": "143257",
+      "date": "2026-02-13",
+      "url": "https://freakonomics.com/podcast/is-weed-a-performance-enhancing-drug/"
+    },
+    "age_years": 0,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
     "verified_quote_in_transcript": true
@@ -129219,6 +130511,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Japan's missing centenarians",
+    "entry_type": "figure",
+    "category": "Demography",
+    "claim": "In 2010, 230,000 Japanese centenarians on the records turned out to be missing, imaginary, clerical errors, or dead — an 82 percent error rate.",
+    "quote": "In 2010, 230,000 Japanese centenarians were discovered to be missing, imaginary, clerical errors, or dead. This was an 82 percent error rate.",
+    "speaker": "WHITWELL",
+    "episode": {
+      "title": "Signs of Progress, One Year at a Time",
+      "show": "Freakonomics Radio",
+      "id": "140178",
+      "date": "2024-06-05",
+      "url": "https://freakonomics.com/podcast/signs-of-progress-one-year-at-a-time/"
+    },
+    "age_years": 2,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~2 yrs old — likely still ok",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Japan's robot subsidies",
     "entry_type": "fact",
     "category": "Public policy",
@@ -129444,6 +130755,25 @@
     "age_years": 4,
     "freshness": "durable",
     "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Jaywalking",
+    "entry_type": "concept",
+    "category": "Transportation history",
+    "claim": "In the 1920s, as U.S. car sales growth slowed and public alarm over car deaths rose, the auto industry promoted the term \"jaywalking\" to shift blame for accidents from drivers to pedestrians. A \"jay\" meant a country bumpkin.",
+    "quote": "So number 30 from the year 2022 was, “In the 1920s, new car sales were falling. So the industry promoted the term ‘jaywalking’ to blame accidents on pedestrians rather than aggressive drivers.”",
+    "speaker": "DUBNER",
+    "episode": {
+      "title": "Signs of Progress, One Year at a Time",
+      "show": "Freakonomics Radio",
+      "id": "140178",
+      "date": "2024-06-05",
+      "url": "https://freakonomics.com/podcast/signs-of-progress-one-year-at-a-time/"
+    },
+    "age_years": 2,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
     "verified_quote_in_transcript": true
   },
   {
@@ -129979,6 +131309,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Jewish quotas at Columbia and Princeton",
+    "entry_type": "fact",
+    "category": "Education history",
+    "claim": "Feynman was denied admission to Columbia because of its quota limiting Jewish students; Princeton also had a Jewish quota, but admitted him after he earned a perfect score on the entrance exam.",
+    "quote": "After MIT, he applied to Princeton for graduate school; they too had a Jewish quota but Feynman was admitted after getting a perfect score on the entrance exam.",
+    "speaker": "narration",
+    "episode": {
+      "title": "The Curious Mr. Feynman",
+      "show": "Freakonomics Radio",
+      "id": "139556",
+      "date": "2024-01-31",
+      "url": "https://freakonomics.com/podcast/the-curious-mr-feynman/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Jha, Ashish",
     "entry_type": "person",
     "category": "Public health",
@@ -130226,6 +131575,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Joan Feynman",
+    "entry_type": "person",
+    "category": "History of science",
+    "claim": "Richard Feynman's sister, nine years younger, became an astrophysicist known for studying auroras — a subject her brother first taught her about as a child — despite their mother's insistence that women's brains couldn't do science.",
+    "quote": "Joan Feynman also became a physicist — an astrophysicist, known for her study of auroras, which her brother first taught her about, when they were kids.",
+    "speaker": "narration",
+    "episode": {
+      "title": "The Curious Mr. Feynman",
+      "show": "Freakonomics Radio",
+      "id": "139556",
+      "date": "2024-01-31",
+      "url": "https://freakonomics.com/podcast/the-curious-mr-feynman/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Joan McCord",
     "entry_type": "person",
     "category": "Criminology",
@@ -130394,6 +131762,25 @@
     "age_years": 7,
     "freshness": "check",
     "freshness_note": "Figure is ~7 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Job satisfaction, U.S.",
+    "entry_type": "figure",
+    "category": "Labor economics",
+    "claim": "A Conference Board survey found U.S. job satisfaction at a 35-year high: under 45 percent satisfied in 2010 versus over 62 percent in 2022, with improved performance reviews a possible driver.",
+    "quote": "You write that in 2010, less than 45 percent of people said they were satisfied with their jobs. But in 2022, over 62 percent said they were.",
+    "speaker": "DUBNER",
+    "episode": {
+      "title": "Signs of Progress, One Year at a Time",
+      "show": "Freakonomics Radio",
+      "id": "140178",
+      "date": "2024-06-05",
+      "url": "https://freakonomics.com/podcast/signs-of-progress-one-year-at-a-time/"
+    },
+    "age_years": 2,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~2 yrs old — likely still ok",
     "verified_quote_in_transcript": true
   },
   {
@@ -132753,6 +134140,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Kangaroo care",
+    "entry_type": "fact",
+    "category": "Medicine",
+    "claim": "Skin-to-skin contact between a newborn and caregiver; the World Health Organization's 2022 guidelines now recommend it immediately for premature babies, even before placing them in an incubator.",
+    "quote": "they actually talk about now, the recommendation is to go immediately to skin-to-skin care, even before putting a child in an incubator or anything else.",
+    "speaker": "MAUGHAN",
+    "episode": {
+      "title": "Do You Need a Hug?",
+      "show": "No Stupid Questions",
+      "id": "140387",
+      "date": "2024-07-13",
+      "url": "https://freakonomics.com/podcast/do-you-need-a-hug/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Kansas City fare-free transit",
     "entry_type": "story",
     "category": "Transportation policy",
@@ -132826,6 +134232,25 @@
     "age_years": 3,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Kant, Immanuel",
+    "entry_type": "person",
+    "category": "Philosophy",
+    "claim": "Kant is described as holding that an act done primarily for the warm glow of feeling good is no longer moral; acts must be done because they are categorically right.",
+    "quote": "Immanuel Kant, you know, said that if you have a feeling of joy when you do a moral act, and if you are primarily motivated by the warm glow of that moral act, it is no longer moral",
+    "speaker": "DUCKWORTH",
+    "episode": {
+      "title": "Is It Okay to Do the Right Thing for the Wrong Reason?",
+      "show": "No Stupid Questions",
+      "id": "140860",
+      "date": "2024-10-12",
+      "url": "https://freakonomics.com/podcast/is-it-okay-to-do-the-right-thing-for-the-wrong-reason/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -134002,6 +135427,25 @@
       "url": "https://freakonomics.com/podcast/this-idea-must-die-2/"
     },
     "age_years": 11,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Kepler's six-cornered snowflake",
+    "entry_type": "story",
+    "category": "History of science",
+    "claim": "In 1610 Kepler wrote a book after watching snowflakes land on his arm on Prague's Charles Bridge, insisting their six-fold symmetry couldn't be chance — a cause not explained until 20th-century quantum mechanics revealed the water molecule's shape.",
+    "quote": "Kepler wrote this book called The Six Cornered Snowflake in 1610, which was about him walking across the Charles Bridge in Prague in a snowstorm and seeing snowflakes land on his arm and trying to understand why they're all six sided.",
+    "speaker": "COX",
+    "episode": {
+      "title": "Finding the God Particle",
+      "show": "People I (Mostly) Admire",
+      "id": "142853",
+      "date": "2025-11-07",
+      "url": "https://freakonomics.com/podcast/finding-the-god-particle/"
+    },
+    "age_years": 1,
     "freshness": "durable",
     "freshness_note": "Story entry — stable over time",
     "verified_quote_in_transcript": true
@@ -135959,6 +137403,25 @@
       "url": "https://freakonomics.com/podcast/whats-stopping-us-from-curing-rare-diseases/"
     },
     "age_years": 3,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Knowing the name of something",
+    "entry_type": "concept",
+    "category": "Epistemology",
+    "claim": "Feynman's father taught him that learning a bird's name in many languages tells you nothing about the bird — only about what humans in different places call it. The distinction became central to Feynman's view of real understanding.",
+    "quote": "He knew the difference between knowing the name of something and knowing something.",
+    "speaker": "RICHARD FEYNMAN",
+    "episode": {
+      "title": "The Curious Mr. Feynman",
+      "show": "Freakonomics Radio",
+      "id": "139556",
+      "date": "2024-01-31",
+      "url": "https://freakonomics.com/podcast/the-curious-mr-feynman/"
+    },
+    "age_years": 2,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
     "verified_quote_in_transcript": true
@@ -143868,6 +145331,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Life-history theory",
+    "entry_type": "concept",
+    "category": "Evolutionary psychology",
+    "claim": "A leading evolutionary theory holds that development is shaped by environment: chaotic, dangerous surroundings speed up the rush to reproduce, while stable, secure ones let people postpone adulthood in order to learn more.",
+    "quote": "If you sense that you are in a chaotic, uncertain, and dangerous environment, you better get to adulthood fast. Get to adulthood, reproduce, and get the hell out of there.",
+    "speaker": "DUCKWORTH",
+    "episode": {
+      "title": "When Do You Become an Adult?",
+      "show": "No Stupid Questions",
+      "id": "140774",
+      "date": "2024-09-21",
+      "url": "https://freakonomics.com/podcast/when-do-you-become-an-adult/"
+    },
+    "age_years": 2,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Lifequakes",
     "entry_type": "concept",
     "category": "Life transitions",
@@ -147345,6 +148827,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Loss leader",
+    "entry_type": "concept",
+    "category": "Business economics",
+    "claim": "Fortune cookies carry almost no margin and may function as a loss leader — an upsell to restaurant accounts already buying noodles and wonton skins.",
+    "quote": "Once you have those sales accounts, it is not that expensive to then upsell and add additional products.",
+    "speaker": "LEE",
+    "episode": {
+      "title": "Fortune Cookies",
+      "show": "The Economics of Everyday Things",
+      "id": "141753",
+      "date": "2025-04-13",
+      "url": "https://freakonomics.com/podcast/fortune-cookies/"
+    },
+    "age_years": 1,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Loss leader broadcasting",
     "entry_type": "fact",
     "category": "Media economics",
@@ -150325,6 +151826,25 @@
     "age_years": 8,
     "freshness": "durable",
     "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Makoto Hagiwara",
+    "entry_type": "person",
+    "category": "Food history",
+    "claim": "Hagiwara ran the Japanese Tea Garden at Golden Gate Park and, per a leading theory, began selling Japanese fortune crackers bought from the Benkyodo bakery to San Francisco Chinese restaurants around 1906.",
+    "quote": "A leading theory is that a Japanese bakery called Benkyodo sold them in San Francisco around 1906. One of their customers was Makoto Hagiwara, who ran the Japanese Tea Garden at Golden Gate Park.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Fortune Cookies",
+      "show": "The Economics of Everyday Things",
+      "id": "141753",
+      "date": "2025-04-13",
+      "url": "https://freakonomics.com/podcast/fortune-cookies/"
+    },
+    "age_years": 1,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -154090,6 +155610,44 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Maturity principle",
+    "entry_type": "concept",
+    "category": "Personality psychology",
+    "claim": "Longitudinal research finds that as people age they become more conscientious, more agreeable, and more emotionally stable — a pattern scientists call the maturity principle.",
+    "quote": "And people get more conscientious as they get older. People get more, basically, nice, but the term is “agreeable.” And they get much more emotionally stable, so less, kind of, like, super highs, super lows.",
+    "speaker": "DUCKWORTH",
+    "episode": {
+      "title": "Do \"Generations\" Mean Anything?",
+      "show": "No Stupid Questions",
+      "id": "138947",
+      "date": "2023-10-01",
+      "url": "https://freakonomics.com/podcast/do-generations-mean-anything/"
+    },
+    "age_years": 3,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Mausoleum economy",
+    "entry_type": "concept",
+    "category": "Economic growth",
+    "claim": "Wang's coinage for Europe's stagnation: a place optimistic only about its past, too proud to adopt American or Chinese practices.",
+    "quote": "“Europeans have a sense of optimism only about the past. Stuck in their mausoleum economy because they are too sniffy to embrace American or Chinese practices.”",
+    "speaker": "DUBNER",
+    "episode": {
+      "title": "China Is Run by Engineers. America Is Run by Lawyers.",
+      "show": "Freakonomics Radio",
+      "id": "142579",
+      "date": "2025-09-19",
+      "url": "https://freakonomics.com/podcast/china-is-run-by-engineers-america-is-run-by-lawyers/"
+    },
+    "age_years": 1,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Mavericks turnaround",
     "entry_type": "figure",
     "category": "Sports economics",
@@ -156897,6 +158455,25 @@
       "url": "https://freakonomics.com/podcast/am-i-boring-you-ep-225-rebroadcast/"
     },
     "age_years": 5,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Mentor mindset",
+    "entry_type": "concept",
+    "category": "Psychology",
+    "claim": "A third way between the demanding-but-unsupportive \"enforcer\" and the kind-but-low-standards \"protector\": very high standards paired with very high support, on the presumption that young people are competent.",
+    "quote": "The mentor mindset is the best of both. It's the very high standards of the enforcer and the high support of the protector.",
+    "speaker": "YEAGER",
+    "episode": {
+      "title": "How to Help Kids Succeed",
+      "show": "People I (Mostly) Admire",
+      "id": "142104",
+      "date": "2025-06-20",
+      "url": "https://freakonomics.com/podcast/how-to-help-kids-succeed/"
+    },
+    "age_years": 1,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
     "verified_quote_in_transcript": true
@@ -161576,6 +163153,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Molar eruption and early-life stress",
+    "entry_type": "fact",
+    "category": "Neuroscience",
+    "claim": "Neuroscientist Allyson Mackey's research finds that greater early-life stress is associated with permanent molars erupting earlier, consistent with life-history theory's prediction that secure environments slow the pace of development.",
+    "quote": "her research shows that the more early life stress you have, the earlier your molars erupt.",
+    "speaker": "DUCKWORTH",
+    "episode": {
+      "title": "When Do You Become an Adult?",
+      "show": "No Stupid Questions",
+      "id": "140774",
+      "date": "2024-09-21",
+      "url": "https://freakonomics.com/podcast/when-do-you-become-an-adult/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Mold-aged beef",
     "entry_type": "story",
     "category": "Food production",
@@ -163096,6 +164692,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Moral licensing",
+    "entry_type": "concept",
+    "category": "Behavioral psychology",
+    "claim": "Moral licensing is the tendency to behave less ethically later after doing something virtuous, as if morality were a bank account you can deposit into and withdraw from.",
+    "quote": "the idea of moral licensing is that when you behave in a moral way — you compliment somebody, you donate to charity, you do an hour of volunteer work, you recycle your container in the morning — then later on in the day, you are more likely to act in an immoral or unethical way. It is the idea of kind of like having a bank account of morality",
+    "speaker": "DUCKWORTH",
+    "episode": {
+      "title": "Is It Okay to Do the Right Thing for the Wrong Reason?",
+      "show": "No Stupid Questions",
+      "id": "140860",
+      "date": "2024-10-12",
+      "url": "https://freakonomics.com/podcast/is-it-okay-to-do-the-right-thing-for-the-wrong-reason/"
+    },
+    "age_years": 2,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Moral licensing and clicktivism",
     "entry_type": "concept",
     "category": "Behavioral economics",
@@ -164594,6 +166209,25 @@
     "age_years": 3,
     "freshness": "durable",
     "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "MRI helium load",
+    "entry_type": "figure",
+    "category": "Health economics",
+    "claim": "There are more than 13,000 MRI machines in the U.S., each holding roughly $60,000 worth of liquid helium, which cools the superconducting magnets at the heart of the scanner.",
+    "quote": "There are more than 13,000 of these machines in the U.S. alone — and each one holds an average of around $60,000 worth of helium.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Helium",
+      "show": "The Economics of Everyday Things",
+      "id": "141072",
+      "date": "2024-11-24",
+      "url": "https://freakonomics.com/podcast/helium/"
+    },
+    "age_years": 2,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~2 yrs old — likely still ok",
     "verified_quote_in_transcript": true
   },
   {
@@ -166193,6 +167827,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "N.H.S. pagers",
+    "entry_type": "figure",
+    "category": "Health technology",
+    "claim": "A 2017 Economist statistic claimed Britain's National Health Service uses more than 10 percent of all pagers in the world; a 2019 government press release counted 130,000 pagers costing 6.6 million pounds a year — about 50 pounds per pager annually.",
+    "quote": "they said, there are 130,000 pagers in the N.H.S., and it’s costing 6.6 million pounds a year. You hear that and you go, well, that sounds bad — until you realize that’s 50 pound per pager per year, it’s less than a pound a week for a critical healthcare piece of infrastructure.",
+    "speaker": "WHITWELL",
+    "episode": {
+      "title": "Signs of Progress, One Year at a Time",
+      "show": "Freakonomics Radio",
+      "id": "140178",
+      "date": "2024-06-05",
+      "url": "https://freakonomics.com/podcast/signs-of-progress-one-year-at-a-time/"
+    },
+    "age_years": 2,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~2 yrs old — likely still ok",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "N.I.H. budget allocation (90/10 rule)",
     "entry_type": "figure",
     "category": "Science funding",
@@ -166972,6 +168625,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "NASA's helium bill",
+    "entry_type": "figure",
+    "category": "Space economics",
+    "claim": "NASA is the single largest buyer of helium, and the helium for a typical space launch costs about $12 million. Global helium sales run $2.5 to $4 billion a year.",
+    "quote": "The cost of helium for a typical space launch runs around $12 million bucks.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Helium",
+      "show": "The Economics of Everyday Things",
+      "id": "141072",
+      "date": "2024-11-24",
+      "url": "https://freakonomics.com/podcast/helium/"
+    },
+    "age_years": 2,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~2 yrs old — likely still ok",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Nasal breathing oxygen advantage",
     "entry_type": "figure",
     "category": "Health",
@@ -167276,6 +168948,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "National Helium Reserve",
+    "entry_type": "place",
+    "category": "Public policy",
+    "claim": "In the 1920s the U.S. government built a giant helium stockpile in Amarillo, Texas, eventually storing more than ten years' world supply plus a pipeline to Kansas — then sold it off after the Helium Privatization Act of 1996.",
+    "quote": "Somebody in Washington said, \"This is stupid. Why are we storing that much helium in the ground? Let's sell it off and pay off the federal debt.\" A bill was passed, the Helium Privatization Act of 1996, that set up the disposal of the Federal Reserve.",
+    "speaker": "KORNBLUTH",
+    "episode": {
+      "title": "Helium",
+      "show": "The Economics of Everyday Things",
+      "id": "141072",
+      "date": "2024-11-24",
+      "url": "https://freakonomics.com/podcast/helium/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Place entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "National Institutes of Health",
     "entry_type": "fact",
     "category": "Health policy",
@@ -167328,6 +169019,25 @@
       "url": "https://freakonomics.com/podcast/office-hours-with-bapu/"
     },
     "age_years": 4,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "National Minimum Drinking Age Act",
+    "entry_type": "fact",
+    "category": "Public policy",
+    "claim": "After many states dropped the drinking age to 18 in the 1970s, President Reagan pushed through a law threatening to withhold federal highway funds from states that didn't raise it back to 21.",
+    "quote": "he said that if states don't raise the drinking age from 18 to 21, then he would cut funding for their federal highway funds.",
+    "speaker": "MAUGHAN",
+    "episode": {
+      "title": "When Do You Become an Adult?",
+      "show": "No Stupid Questions",
+      "id": "140774",
+      "date": "2024-09-21",
+      "url": "https://freakonomics.com/podcast/when-do-you-become-an-adult/"
+    },
+    "age_years": 2,
     "freshness": "durable",
     "freshness_note": "Historical fact — stable over time",
     "verified_quote_in_transcript": true
@@ -168188,6 +169898,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Needs a hug (Doritos incident)",
+    "entry_type": "story",
+    "category": "Behavioral psychology",
+    "claim": "While training for Kilimanjaro, Mike Maughan stress-ate Doritos and Diet Coke in a corner of his office; his nutritionist reframed the scene not as a bad choice but as someone needing a hug.",
+    "quote": "And she says to me, \"No, Mike, what I actually see is someone who probably just needs a hug.\"",
+    "speaker": "MAUGHAN",
+    "episode": {
+      "title": "How Can You Be Kinder to Yourself?",
+      "show": "No Stupid Questions",
+      "id": "135571",
+      "date": "2023-09-10",
+      "url": "https://freakonomics.com/podcast/how-can-you-be-kinder-to-yourself/"
+    },
+    "age_years": 3,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Neel, Alice",
     "entry_type": "person",
     "category": "Art history",
@@ -168242,6 +169971,25 @@
     "age_years": 4,
     "freshness": "durable",
     "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Neff, Kristin",
+    "entry_type": "person",
+    "category": "Psychology",
+    "claim": "Kristin Neff founded the research field of self-compassion and co-authored the self-compassion scale; her work grew out of a painful divorce in the 1990s that led her to a Buddhist meditation center.",
+    "quote": "And the origin story of Kristin Neff's research is actually her own personal crisis. So, she was going through a divorce. And this is back in the '90s. She says, \"It was very messy. And I felt a lot of shame about some bad decisions I had made.\"",
+    "speaker": "DUCKWORTH",
+    "episode": {
+      "title": "How Can You Be Kinder to Yourself?",
+      "show": "No Stupid Questions",
+      "id": "135571",
+      "date": "2023-09-10",
+      "url": "https://freakonomics.com/podcast/how-can-you-be-kinder-to-yourself/"
+    },
+    "age_years": 3,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -169116,6 +170864,25 @@
     "age_years": 3,
     "freshness": "durable",
     "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Neurobiological incompetence model",
+    "entry_type": "concept",
+    "category": "Psychology",
+    "claim": "Yeager's name for the dominant adult belief that teenagers' underdeveloped prefrontal cortexes make them incapable of good decisions—a belief that leads adults to do all the thinking for young people.",
+    "quote": "And it's what you described: Teenagers lack a prefrontal cortex, their brains are dumb and bad at decision making.",
+    "speaker": "YEAGER",
+    "episode": {
+      "title": "How to Help Kids Succeed",
+      "show": "People I (Mostly) Admire",
+      "id": "142104",
+      "date": "2025-06-20",
+      "url": "https://freakonomics.com/podcast/how-to-help-kids-succeed/"
+    },
+    "age_years": 1,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
     "verified_quote_in_transcript": true
   },
   {
@@ -170031,6 +171798,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "New York City subway construction costs",
+    "entry_type": "figure",
+    "category": "Infrastructure economics",
+    "claim": "New York spends roughly $2 billion per mile of subway, about eight or nine times more than comparable projects in European cities.",
+    "quote": "New York spends about $2 billion building a mile of subway and this is not just a little bit more pricey than places like Spain and Italy and France, which are also complicated to build. It’s something like eight or nine times more expensive than subway projects in Rome or Paris or Barcelona.",
+    "speaker": "WANG",
+    "episode": {
+      "title": "China Is Run by Engineers. America Is Run by Lawyers.",
+      "show": "Freakonomics Radio",
+      "id": "142579",
+      "date": "2025-09-19",
+      "url": "https://freakonomics.com/podcast/china-is-run-by-engineers-america-is-run-by-lawyers/"
+    },
+    "age_years": 1,
+    "freshness": "current",
+    "freshness_note": "Recent (~1 yrs) — likely current",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "New York City Summer Youth Employment Program",
     "entry_type": "fact",
     "category": "Labor economics",
@@ -170883,6 +172669,25 @@
     "age_years": 15,
     "freshness": "check",
     "freshness_note": "Figure is ~15 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "NFL substance-abuse program escalation",
+    "entry_type": "figure",
+    "category": "Sports policy",
+    "claim": "A first failed NFL drug test triggered a two-year program with testing nine times a month; a second failure cost four-seventeenths of a player's salary, i.e. four game checks.",
+    "quote": "The first reason it gets serious is because, you failed the second test, it’s four-seventeenths of your salary. So, four game checks.",
+    "speaker": "WILLIAMS",
+    "episode": {
+      "title": "Is Weed a Performance-Enhancing Drug?",
+      "show": "Freakonomics Radio",
+      "id": "143257",
+      "date": "2026-02-13",
+      "url": "https://freakonomics.com/podcast/is-weed-a-performance-enhancing-drug/"
+    },
+    "age_years": 0,
+    "freshness": "current",
+    "freshness_note": "Recent (~0 yrs) — likely current",
     "verified_quote_in_transcript": true
   },
   {
@@ -172995,6 +174800,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Noble gases",
+    "entry_type": "concept",
+    "category": "Chemistry",
+    "claim": "Helium is one of only six naturally occurring noble gases — highly stable elements that rarely bond with anything else. The name is an analogy to aristocrats who don't mingle with commoners.",
+    "quote": "They’re called “noble” by analogy to aristocrats who don’t mix with the common folk.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Helium",
+      "show": "The Economics of Everyday Things",
+      "id": "141072",
+      "date": "2024-11-24",
+      "url": "https://freakonomics.com/podcast/helium/"
+    },
+    "age_years": 2,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Noble, Georgia",
     "entry_type": "place",
     "category": "Regulation",
@@ -174776,6 +176600,25 @@
       "url": "https://freakonomics.com/podcast/when-is-a-negative-a-positive/"
     },
     "age_years": 13,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Novo Nordisk",
+    "entry_type": "fact",
+    "category": "Pharmaceutical economics",
+    "claim": "The Danish maker of Ozempic and Wegovy is now worth more than Denmark's entire G.D.P., with the two drugs expected to do $65 billion in combined global sales in a year.",
+    "quote": "Ozempic and Wegovy, another GLP drug made by Novo Nordisk, and which is authorized to treat obesity — will do a combined $65 billion in global sales this year. Novo Nordisk is now worth more than the G.D.P. of Denmark.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Is Ozempic as Magical as It Sounds?",
+      "show": "Freakonomics Radio",
+      "id": "141125",
+      "date": "2024-12-11",
+      "url": "https://freakonomics.com/podcast/is-ozempic-as-magical-as-it-sounds/"
+    },
+    "age_years": 2,
     "freshness": "durable",
     "freshness_note": "Historical fact — stable over time",
     "verified_quote_in_transcript": true
@@ -177134,6 +178977,25 @@
     "age_years": 1,
     "freshness": "durable",
     "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Okinawa",
+    "entry_type": "place",
+    "category": "Demography",
+    "claim": "Okinawa is Japan's designated blue zone, yet it has the highest obesity rate of Japan's 47 prefectures, the fourth-highest suicide rate among over-65s, and residents eat about 40 kilos of meat and 14 cans of Spam a year.",
+    "quote": "Okinawan residents each consume an average of 14 cans of Spam per year.",
+    "speaker": "WHITWELL",
+    "episode": {
+      "title": "Signs of Progress, One Year at a Time",
+      "show": "Freakonomics Radio",
+      "id": "140178",
+      "date": "2024-06-05",
+      "url": "https://freakonomics.com/podcast/signs-of-progress-one-year-at-a-time/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Place entry — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -181545,6 +183407,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Ozempic jingle",
+    "entry_type": "story",
+    "category": "Advertising",
+    "claim": "The Ozempic ad jingle is set to the tune of \"Magic,\" a 1974 hit by the band Pilot, which had exactly one U.S. hit — unlike the drug it now sells.",
+    "quote": "Their jingle is sung to the tune of the 1974 pop hit “Magic,” by a band called Pilot, which had exactly one U.S. hit. Ozempic, which is sold by the Danish multinational Novo Nordisk, is not a one-hit wonder.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Is Ozempic as Magical as It Sounds?",
+      "show": "Freakonomics Radio",
+      "id": "141125",
+      "date": "2024-12-11",
+      "url": "https://freakonomics.com/podcast/is-ozempic-as-magical-as-it-sounds/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Ozzy Osbourne captioning problem",
     "entry_type": "story",
     "category": "Media production",
@@ -182416,6 +184297,25 @@
     "age_years": 7,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Panama hat",
+    "entry_type": "fact",
+    "category": "Cultural history",
+    "claim": "The 'Panama hat' is actually Ecuadorian; the name spread in 1906 after Teddy Roosevelt was photographed wearing one while overseeing construction of the Panama Canal.",
+    "quote": "The name “Panama hat” spread in 1906 when President Teddy Roosevelt was photographed wearing the style while overseeing construction of the canal.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Do \"Generations\" Mean Anything?",
+      "show": "No Stupid Questions",
+      "id": "138947",
+      "date": "2023-10-01",
+      "url": "https://freakonomics.com/podcast/do-generations-mean-anything/"
+    },
+    "age_years": 3,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -183673,6 +185573,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Parents at job interviews",
+    "entry_type": "figure",
+    "category": "Labor economics",
+    "claim": "A resumetemplates.com survey of 1,400 Gen Z respondents found 10 percent had a parent write their resume, 16 percent had a parent submit job applications, and 26 percent had brought a parent to a job interview.",
+    "quote": "And they found that 10 percent had had their parents write their resume. Sixteen percent of respondents said their parents had submitted job applications for them. But this was the number that shocked me most: 26 percent of Gen Z respondents said that at one point or another they had brought a parent with them to a job interview.",
+    "speaker": "MAUGHAN",
+    "episode": {
+      "title": "When Do You Become an Adult?",
+      "show": "No Stupid Questions",
+      "id": "140774",
+      "date": "2024-09-21",
+      "url": "https://freakonomics.com/podcast/when-do-you-become-an-adult/"
+    },
+    "age_years": 2,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~2 yrs old — likely still ok",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Parents kicked off the pedestal",
     "entry_type": "fact",
     "category": "Developmental psychology",
@@ -184069,6 +185988,25 @@
     "age_years": 1,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Party balloons' market share",
+    "entry_type": "figure",
+    "category": "Industrial economics",
+    "claim": "Balloons and blimps — the uses most people associate with helium — make up only about 15 percent of the U.S. market and about 10 percent of the global market.",
+    "quote": "Most folks only are familiar with party balloons and the Goodyear blimp and stuff like that. Well, they're about 15 percent of the U.S. market and about probably 10 percent of the global market.",
+    "speaker": "KORNBLUTH",
+    "episode": {
+      "title": "Helium",
+      "show": "The Economics of Everyday Things",
+      "id": "141072",
+      "date": "2024-11-24",
+      "url": "https://freakonomics.com/podcast/helium/"
+    },
+    "age_years": 2,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~2 yrs old — likely still ok",
     "verified_quote_in_transcript": true
   },
   {
@@ -187321,6 +189259,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Period effects vs. cohort effects",
+    "entry_type": "concept",
+    "category": "Social science methodology",
+    "claim": "A period effect sweeps through everyone alive at a given moment (like the Covid-19 pandemic), whereas a cohort effect hits only people born in a particular window.",
+    "quote": "And a cohort effect is supposed to affect, like, a very specific group of people who were born in a certain time.",
+    "speaker": "DUCKWORTH",
+    "episode": {
+      "title": "Do \"Generations\" Mean Anything?",
+      "show": "No Stupid Questions",
+      "id": "138947",
+      "date": "2023-10-01",
+      "url": "https://freakonomics.com/podcast/do-generations-mean-anything/"
+    },
+    "age_years": 3,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Period Project",
     "entry_type": "story",
     "category": "Philanthropy",
@@ -187549,6 +189506,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Persona non grata (Moscow, 2021)",
+    "entry_type": "story",
+    "category": "Diplomacy",
+    "claim": "After Biden called Putin a killer, Russia withdrew its ambassador from Washington and told Sullivan to go home too — not by expelling him, but by telling him nobody in Moscow would speak to him.",
+    "quote": "And the Russian government said to me, “You need to go home too.” I said, “Are you declaring me persona non grata? Are you expelling the U.S. ambassador?” And they said, “Oh God, no, but you do need to go home because no one is going to talk to you.”",
+    "speaker": "SULLIVAN",
+    "episode": {
+      "title": "Is the U.S. Sleeping on Threats from Russia and China?",
+      "show": "Freakonomics Radio",
+      "id": "141103",
+      "date": "2024-12-04",
+      "url": "https://freakonomics.com/podcast/is-the-u-s-sleeping-on-threats-from-russia-and-china/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Personal injury claims market",
     "entry_type": "figure",
     "category": "Legal economics",
@@ -187620,6 +189596,25 @@
       "url": "https://freakonomics.com/podcast/how-valuable-is-enthusiasm/"
     },
     "age_years": 4,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Personality modes",
+    "entry_type": "concept",
+    "category": "Psychology",
+    "claim": "Tim Beck, the father of cognitive therapy, coined \"personality modes\" — different adaptive selves that surface depending on the situation, distinct from dissociative identity disorder.",
+    "quote": "And, you know, the father of cognitive therapy, which you could argue is basically modern psychotherapy, Tim Beck, he called them “personality modes.”",
+    "speaker": "DUCKWORTH",
+    "episode": {
+      "title": "How Can You Be Kinder to Yourself?",
+      "show": "No Stupid Questions",
+      "id": "135571",
+      "date": "2023-09-10",
+      "url": "https://freakonomics.com/podcast/how-can-you-be-kinder-to-yourself/"
+    },
+    "age_years": 3,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
     "verified_quote_in_transcript": true
@@ -194503,6 +196498,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Post-It Note study",
+    "entry_type": "figure",
+    "category": "Education research",
+    "claim": "When seventh graders received heavily critiqued essays with a handwritten note saying the teacher had high standards and believed they could meet them, 80 percent revised their essays, versus 40 percent in the placebo-note control group.",
+    "quote": "But then 80 percent of kids revised their essays when they got the high standards and feedback note.",
+    "speaker": "YEAGER",
+    "episode": {
+      "title": "How to Help Kids Succeed",
+      "show": "People I (Mostly) Admire",
+      "id": "142104",
+      "date": "2025-06-20",
+      "url": "https://freakonomics.com/podcast/how-to-help-kids-succeed/"
+    },
+    "age_years": 1,
+    "freshness": "current",
+    "freshness_note": "Recent (~1 yrs) — likely current",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Post-Kobayashi hot dog inflation",
     "entry_type": "figure",
     "category": "Competitive eating",
@@ -195146,6 +197160,25 @@
     "age_years": 1,
     "freshness": "durable",
     "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Powerball fortune cookie coincidence of 2005",
+    "entry_type": "story",
+    "category": "Probability",
+    "claim": "In 2005, 110 people across the U.S. shared a $19 million Powerball prize after all playing the same lucky numbers printed on the back of Wonton Food fortune cookies; suspicious lottery officials investigated the factory.",
+    "quote": "In 2005, 110 people all over the country won $19 million dollars in the Powerball lottery by using the lucky numbers on the back of a Wonton Food fortune cookie.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Fortune Cookies",
+      "show": "The Economics of Everyday Things",
+      "id": "141753",
+      "date": "2025-04-13",
+      "url": "https://freakonomics.com/podcast/fortune-cookies/"
+    },
+    "age_years": 1,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -198246,6 +200279,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Process knowledge",
+    "entry_type": "concept",
+    "category": "Technology and manufacturing",
+    "claim": "Wang divides technology into hardware, written instructions, and process (or tacit) knowledge — the practical experience of doing things, which he considers the most important and China's fundamental advantage.",
+    "quote": "And the third and I think the most important part is process knowledge, which we can also call tacit knowledge. It’s just the practical experience of doing things.",
+    "speaker": "WANG",
+    "episode": {
+      "title": "China Is Run by Engineers. America Is Run by Lawyers.",
+      "show": "Freakonomics Radio",
+      "id": "142579",
+      "date": "2025-09-19",
+      "url": "https://freakonomics.com/podcast/china-is-run-by-engineers-america-is-run-by-lawyers/"
+    },
+    "age_years": 1,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Process-directed versus person-directed feedback",
     "entry_type": "concept",
     "category": "Psychology of feedback",
@@ -200260,6 +202312,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Psychological egoism",
+    "entry_type": "concept",
+    "category": "Philosophy",
+    "claim": "Per philosopher Emrys Westacott, psychological egoists argue that apparently selfless acts — helping a stranded motorist, falling on a grenade — are ultimately self-serving.",
+    "quote": "the psychological egoist would say, “Well, maybe the person is hoping to impress other people or trying to avoid feelings of guilt or looking for that warm, fuzzy feeling.",
+    "speaker": "MAUGHAN",
+    "episode": {
+      "title": "Is It Okay to Do the Right Thing for the Wrong Reason?",
+      "show": "No Stupid Questions",
+      "id": "140860",
+      "date": "2024-10-12",
+      "url": "https://freakonomics.com/podcast/is-it-okay-to-do-the-right-thing-for-the-wrong-reason/"
+    },
+    "age_years": 2,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Psychological immune system",
     "entry_type": "concept",
     "category": "Psychology",
@@ -201381,6 +203452,44 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Putin's Geneva stand-up routine",
+    "entry_type": "story",
+    "category": "Diplomacy",
+    "claim": "At the 2021 Geneva summit Putin joked about letting the U.S. share Russia's strategic 201st military base in Tajikistan, then silenced his own foreign minister with his hand to make an ethnic joke about Lavrov being Armenian.",
+    "quote": "And then his foreign minister, Lavrov is talking about something else. Putin interrupts him, puts his hand over Lavrov’s mouth and looks at Biden and says, “Be careful negotiating with this guy, he’s Armenian.”",
+    "speaker": "SULLIVAN",
+    "episode": {
+      "title": "Is the U.S. Sleeping on Threats from Russia and China?",
+      "show": "Freakonomics Radio",
+      "id": "141103",
+      "date": "2024-12-04",
+      "url": "https://freakonomics.com/podcast/is-the-u-s-sleeping-on-threats-from-russia-and-china/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Putin's three advisers",
+    "entry_type": "concept",
+    "category": "Political history",
+    "claim": "A running idea in Sullivan's book is that Putin takes counsel from three long-dead rulers — Ivan the Terrible, Peter the Great, and Catherine the Great — reflecting his aim to re-create the Russian empire.",
+    "quote": "You write about the famous idea that Putin really has three advisers: Ivan the Terrible, Peter the Great, and Catherine the Great.",
+    "speaker": "DUBNER",
+    "episode": {
+      "title": "Is the U.S. Sleeping on Threats from Russia and China?",
+      "show": "Freakonomics Radio",
+      "id": "141103",
+      "date": "2024-12-04",
+      "url": "https://freakonomics.com/podcast/is-the-u-s-sleeping-on-threats-from-russia-and-china/"
+    },
+    "age_years": 2,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Putnam, Robert (\"Bob\")",
     "entry_type": "person",
     "category": "Social science",
@@ -201853,6 +203962,25 @@
     "age_years": 5,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Quark (naming of)",
+    "entry_type": "fact",
+    "category": "History of science",
+    "claim": "Murray Gell-Mann, Nobel laureate for the Eightfold Way, named the quark after a line from Joyce's Finnegans Wake because he thought there were three of them.",
+    "quote": "And a very famous quote from Finnegans Wake called, “Three quarks the Muster Mark,” or something like that. It was because he thought there were three of them at the time",
+    "speaker": "COX",
+    "episode": {
+      "title": "Finding the God Particle",
+      "show": "People I (Mostly) Admire",
+      "id": "142853",
+      "date": "2025-11-07",
+      "url": "https://freakonomics.com/podcast/finding-the-god-particle/"
+    },
+    "age_years": 1,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -203851,6 +205979,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Rare earths",
+    "entry_type": "fact",
+    "category": "Resource economics",
+    "claim": "Rare earths are not actually rare — about 20 elements qualify and most are abundant — but processing is so polluting and energy-intensive that China dominates it, with cancer rates soaring near processing sites.",
+    "quote": "The challenge with rare earths is that processing is so energy-intensive and so polluting that only the Chinese have the stomach to do something like this.",
+    "speaker": "WANG",
+    "episode": {
+      "title": "China Is Run by Engineers. America Is Run by Lawyers.",
+      "show": "Freakonomics Radio",
+      "id": "142579",
+      "date": "2025-09-19",
+      "url": "https://freakonomics.com/podcast/china-is-run-by-engineers-america-is-run-by-lawyers/"
+    },
+    "age_years": 1,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Rare earths vs. the Mexican avocado",
     "entry_type": "figure",
     "category": "Trade policy",
@@ -205387,6 +207534,25 @@
     "age_years": 2,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Recursive effects of a trust-restoring note",
+    "entry_type": "fact",
+    "category": "Education research",
+    "claim": "The single handwritten feedback note produced fewer school discipline incidents a year later and higher rates of college enrollment—especially four-year colleges—six years later.",
+    "quote": "And then the amazing part was we find kids are more likely to be in college, especially four-year colleges, six years later, if they had gotten that note.",
+    "speaker": "YEAGER",
+    "episode": {
+      "title": "How to Help Kids Succeed",
+      "show": "People I (Mostly) Admire",
+      "id": "142104",
+      "date": "2025-06-20",
+      "url": "https://freakonomics.com/podcast/how-to-help-kids-succeed/"
+    },
+    "age_years": 1,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -210710,6 +212876,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Ricky Williams",
+    "entry_type": "person",
+    "category": "Sports",
+    "claim": "Williams was a two-time All-American Heisman-winning running back at Texas who led the NFL in rushing, abruptly retired in 2004 after failing drug tests, and now runs a cannabis company called Highsman.",
+    "quote": "He was one of the best running backs ever in college football, playing for the Texas Longhorns; he was a two-time All-American and he won the Heisman.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Is Weed a Performance-Enhancing Drug?",
+      "show": "Freakonomics Radio",
+      "id": "143257",
+      "date": "2026-02-13",
+      "url": "https://freakonomics.com/podcast/is-weed-a-performance-enhancing-drug/"
+    },
+    "age_years": 0,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Ridesharing and drunk-driving deaths",
     "entry_type": "figure",
     "category": "Public health",
@@ -212531,6 +214716,25 @@
     "age_years": 3,
     "freshness": "durable",
     "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Roman curators",
+    "entry_type": "story",
+    "category": "History of law",
+    "claim": "Early Romans treated 15 as adulthood for males, correlating it with puberty, but assigned them guardians called \"curators\" who had to validate their formal actions until age 25 — effectively a decade of supervised adulthood.",
+    "quote": "they would place them under temporary guardianship of adults who were known as “curators,” and the curators would validate any formal action that the 15-year-old took until they reach the age of 25.",
+    "speaker": "MAUGHAN",
+    "episode": {
+      "title": "When Do You Become an Adult?",
+      "show": "No Stupid Questions",
+      "id": "140774",
+      "date": "2024-09-21",
+      "url": "https://freakonomics.com/podcast/when-do-you-become-an-adult/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -214415,6 +216619,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Runner's high",
+    "entry_type": "concept",
+    "category": "Neuroscience",
+    "claim": "Researchers now believe the euphoria of the runner's high is caused by the body's own endogenous cannabinoids, not endogenous opiates, after decades of opioid-based research failed to find support.",
+    "quote": "In fact, we now believe that it is those cannabinoids, not endogenous opiates, that are responsible for things like the runner’s high, that feeling of euphoria that we get with physical exertion.",
+    "speaker": "BRYAN",
+    "episode": {
+      "title": "Is Weed a Performance-Enhancing Drug?",
+      "show": "Freakonomics Radio",
+      "id": "143257",
+      "date": "2026-02-13",
+      "url": "https://freakonomics.com/podcast/is-weed-a-performance-enhancing-drug/"
+    },
+    "age_years": 0,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Running back salary decline",
     "entry_type": "figure",
     "category": "Sports economics",
@@ -214697,6 +216920,25 @@
     "age_years": 4,
     "freshness": "durable",
     "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Russian prime lending rate",
+    "entry_type": "figure",
+    "category": "Macroeconomics",
+    "claim": "Sullivan cites Russia's prime lending rate at 21 percent as evidence that sanctions plus wartime spending are inflicting real damage on the Russian economy, comparing it to U.S. inflation after Vietnam and the Great Society.",
+    "quote": "So I think sanctions have had a significant impact on the Russian economy. The current prime lending rate in Russia is 21 percent.",
+    "speaker": "SULLIVAN",
+    "episode": {
+      "title": "Is the U.S. Sleeping on Threats from Russia and China?",
+      "show": "Freakonomics Radio",
+      "id": "141103",
+      "date": "2024-12-04",
+      "url": "https://freakonomics.com/podcast/is-the-u-s-sleeping-on-threats-from-russia-and-china/"
+    },
+    "age_years": 2,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~2 yrs old — likely still ok",
     "verified_quote_in_transcript": true
   },
   {
@@ -215400,6 +217642,25 @@
     "age_years": 4,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Salisbury nerve agent attack",
+    "entry_type": "story",
+    "category": "National security",
+    "claim": "A Russian assassination attempt in Salisbury, England used a nerve agent applied to a former spy's front door; the target survived, but a British civilian died after spraying herself with perfume containing the agent that her boyfriend had found in a collection bin.",
+    "quote": "He survived, but a British civilian died when she reportedly sprayed herself with perfume containing the same nerve agent; her boyfriend had found it in a collection bin.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Is the U.S. Sleeping on Threats from Russia and China?",
+      "show": "Freakonomics Radio",
+      "id": "141103",
+      "date": "2024-12-04",
+      "url": "https://freakonomics.com/podcast/is-the-u-s-sleeping-on-threats-from-russia-and-china/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -216771,6 +219032,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Satir, Virginia",
+    "entry_type": "person",
+    "category": "Psychotherapy",
+    "claim": "A world-renowned family therapist who died in 1988 and who famously prescribed a daily hug dosage: four for survival, eight for maintenance, twelve for growth.",
+    "quote": "there was this world-renowned family therapist named Virginia Satir, and she would always advocate, \"We need four hugs a day for survival, we need eight hugs a day for maintenance, and 12 hugs a day for growth.\"",
+    "speaker": "MAUGHAN",
+    "episode": {
+      "title": "Do You Need a Hug?",
+      "show": "No Stupid Questions",
+      "id": "140387",
+      "date": "2024-07-13",
+      "url": "https://freakonomics.com/podcast/do-you-need-a-hug/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Satisfaction gap (personal vs. national)",
     "entry_type": "figure",
     "category": "Polling",
@@ -217547,6 +219827,25 @@
     "age_years": 2,
     "freshness": "aging",
     "freshness_note": "Figure is ~2 yrs old — likely still ok",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Schedule 1 vs. Schedule 3",
+    "entry_type": "fact",
+    "category": "Drug policy",
+    "claim": "Schedule 1 drugs like heroin and LSD are deemed to have no accepted medical use and high abuse potential; Schedule 3 drugs, including opioids and steroids, have accepted medical uses and lower abuse risk.",
+    "quote": "Schedule 1 drugs have “no currently accepted medical use” and a “high potential for abuse”; these include heroin and LSD. Schedule 3 drugs — which include opioids and steroids — do have an accepted medical use, and a lower risk for abuse.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Is Weed a Performance-Enhancing Drug?",
+      "show": "Freakonomics Radio",
+      "id": "143257",
+      "date": "2026-02-13",
+      "url": "https://freakonomics.com/podcast/is-weed-a-performance-enhancing-drug/"
+    },
+    "age_years": 0,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -218649,6 +220948,25 @@
     "age_years": 1,
     "freshness": "current",
     "freshness_note": "Recent (~1 yrs) — likely current",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Screen time is not created equal",
+    "entry_type": "figure",
+    "category": "Adolescent psychology",
+    "claim": "After analyzing data from 11,000 teens, Jean Twenge and colleagues found general internet use and social media were more strongly linked to depression than gaming or video-watching.",
+    "quote": "After analyzing data from 11,000 teens, we found that general internet use and social media were more strongly linked to depression than playing games or watching videos was.",
+    "speaker": "DUCKWORTH",
+    "episode": {
+      "title": "Do \"Generations\" Mean Anything?",
+      "show": "No Stupid Questions",
+      "id": "138947",
+      "date": "2023-10-01",
+      "url": "https://freakonomics.com/podcast/do-generations-mean-anything/"
+    },
+    "age_years": 3,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~3 yrs old — likely still ok",
     "verified_quote_in_transcript": true
   },
   {
@@ -220115,6 +222433,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Self-care vs. self-compassion",
+    "entry_type": "fact",
+    "category": "Psychology",
+    "claim": "Executive coach Charlie Gilkey distinguishes the two: self-compassion is an attitude toward yourself, self-care is the behavior that follows.",
+    "quote": "And he says that self-compassion is regarding yourself compassionately. Self-care is treating yourself compassionately.",
+    "speaker": "MAUGHAN",
+    "episode": {
+      "title": "How Can You Be Kinder to Yourself?",
+      "show": "No Stupid Questions",
+      "id": "135571",
+      "date": "2023-09-10",
+      "url": "https://freakonomics.com/podcast/how-can-you-be-kinder-to-yourself/"
+    },
+    "age_years": 3,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Self-checkout adoption rate",
     "entry_type": "figure",
     "category": "Retail economics",
@@ -220131,6 +222468,25 @@
     "age_years": 2,
     "freshness": "aging",
     "freshness_note": "Figure is ~2 yrs old — likely still ok",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Self-compassion",
+    "entry_type": "concept",
+    "category": "Psychology",
+    "claim": "Self-compassion is described as a posture toward oneself that is the opposite of self-judgment — and crucially, its opposite is not denial.",
+    "quote": "Like, the opposite of self-judgment isn't denial. The opposite of self-judgment is self-compassion.",
+    "speaker": "DUCKWORTH",
+    "episode": {
+      "title": "How Can You Be Kinder to Yourself?",
+      "show": "No Stupid Questions",
+      "id": "135571",
+      "date": "2023-09-10",
+      "url": "https://freakonomics.com/podcast/how-can-you-be-kinder-to-yourself/"
+    },
+    "age_years": 3,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
     "verified_quote_in_transcript": true
   },
   {
@@ -222737,6 +225093,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Shanghai lockdown of 2022",
+    "entry_type": "story",
+    "category": "Public health policy",
+    "claim": "For ten weeks in spring 2022, Shanghai's 25 million residents were barred from leaving their apartment compounds — what Wang calls the most ambitious lockdown ever attempted.",
+    "quote": "It was probably the most ambitious lockdown ever attempted in the history of humanity. China essentially demanded that its population in its largest city of 25 million people essentially could not leave their apartment compounds over the course of 10 weeks in the spring of 2022",
+    "speaker": "WANG",
+    "episode": {
+      "title": "China Is Run by Engineers. America Is Run by Lawyers.",
+      "show": "Freakonomics Radio",
+      "id": "142579",
+      "date": "2025-09-19",
+      "url": "https://freakonomics.com/podcast/china-is-run-by-engineers-america-is-run-by-lawyers/"
+    },
+    "age_years": 1,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Shanghai real estate costs",
     "entry_type": "fact",
     "category": "Business",
@@ -223950,6 +226325,25 @@
     "age_years": 8,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Shuttle risk estimates, NASA management vs. engineers",
+    "entry_type": "figure",
+    "category": "Risk assessment",
+    "claim": "NASA management put the odds of a shuttle disaster at roughly 1 in 100,000, while NASA's own engineers put it at 1 in 100. Feynman noted the management figure implied launching a shuttle every day for 300 years and losing only one.",
+    "quote": "NASA management had put the risk of a shuttle disaster at around 1 in 100,000. Feynman thought this was absurd. This implied, he later wrote, that “[you] could put a Shuttle up [every] day for 300 years expecting to lose only one.”",
+    "speaker": "narration",
+    "episode": {
+      "title": "The Curious Mr. Feynman",
+      "show": "Freakonomics Radio",
+      "id": "139556",
+      "date": "2024-01-31",
+      "url": "https://freakonomics.com/podcast/the-curious-mr-feynman/"
+    },
+    "age_years": 2,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~2 yrs old — likely still ok",
     "verified_quote_in_transcript": true
   },
   {
@@ -226002,6 +228396,25 @@
     "age_years": 7,
     "freshness": "durable",
     "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Skin hunger",
+    "entry_type": "concept",
+    "category": "Psychology",
+    "claim": "A term psychologists use for the non-sexual need for physical human contact, said to hit the elderly especially hard as physical fragility makes contact more important to health.",
+    "quote": "So, I was reading some stuff by a journalist named Sirin Kale about what some psychologists term \"skin hunger,\" and it's this need for physical human contact, not a sexual need, but just need for physical human contact",
+    "speaker": "MAUGHAN",
+    "episode": {
+      "title": "Do You Need a Hug?",
+      "show": "No Stupid Questions",
+      "id": "140387",
+      "date": "2024-07-13",
+      "url": "https://freakonomics.com/podcast/do-you-need-a-hug/"
+    },
+    "age_years": 2,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
     "verified_quote_in_transcript": true
   },
   {
@@ -229881,6 +232294,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Solomon, David",
+    "entry_type": "person",
+    "category": "Finance and culture",
+    "claim": "The CEO of Goldman Sachs moonlights as a DJ, playing massive events like Lollapalooza — used in the episode as a rebuke to generational stereotyping, since he's a late baby boomer born in 1962.",
+    "quote": "David Solomon is the C.E.O. of Goldman Sachs. And he moonlights as a D.J. Yes. It's not like he just does these, like, small little parties for friends and family. David Solomon has performed at, like, huge events like Lollapalooza with 400,000 people.",
+    "speaker": "MAUGHAN",
+    "episode": {
+      "title": "Do \"Generations\" Mean Anything?",
+      "show": "No Stupid Questions",
+      "id": "138947",
+      "date": "2023-10-01",
+      "url": "https://freakonomics.com/podcast/do-generations-mean-anything/"
+    },
+    "age_years": 3,
+    "freshness": "durable",
+    "freshness_note": "Person entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Solow, Robert",
     "entry_type": "person",
     "category": "Economics history",
@@ -231192,6 +233624,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Spinning plate, Cornell cafeteria",
+    "entry_type": "story",
+    "category": "History of science",
+    "claim": "Depressed and unproductive at Cornell after the war, Feynman resolved to do physics only for fun; he then watched a student toss a plate whose medallion wobbled at a different rate than the plate spun, worked it out for no purpose at all, and it led to his Nobel Prize-winning work.",
+    "quote": "And his Nobel Prize-winning work actually came from the spin of the plate, and then it goes to the spin of electrons and equations. He said it all came tumbling out from working out the wobble of a spinning plate.",
+    "speaker": "LEIGHTON",
+    "episode": {
+      "title": "The Curious Mr. Feynman",
+      "show": "Freakonomics Radio",
+      "id": "139556",
+      "date": "2024-01-31",
+      "url": "https://freakonomics.com/podcast/the-curious-mr-feynman/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Spinning-egg test",
     "entry_type": "story",
     "category": "Physics of everyday life",
@@ -232066,6 +234517,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Sputnik V",
+    "entry_type": "concept",
+    "category": "Science and propaganda",
+    "claim": "Sullivan argues the Kremlin promoted its Sputnik V COVID vaccine, which he says was never properly tested, as an instrument of Russian nationalism rather than for global public health.",
+    "quote": "During the pandemic, instead of working for the betterment of humankind, they’re falsely promoting their Sputnik V vaccine, which was never properly tested. It was seized by the Kremlin as an instrument to promote Russian nationalism.",
+    "speaker": "SULLIVAN",
+    "episode": {
+      "title": "Is the U.S. Sleeping on Threats from Russia and China?",
+      "show": "Freakonomics Radio",
+      "id": "141103",
+      "date": "2024-12-04",
+      "url": "https://freakonomics.com/podcast/is-the-u-s-sleeping-on-threats-from-russia-and-china/"
+    },
+    "age_years": 2,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Square-cube law",
     "entry_type": "concept",
     "category": "Mathematical biology",
@@ -232139,6 +234609,25 @@
     "age_years": 2,
     "freshness": "durable",
     "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Squeaky wheel vs. the bird whose head sticks out",
+    "entry_type": "concept",
+    "category": "Cross-cultural translation",
+    "claim": "Fortune writers found Chinese proverbs often clash with American sensibilities — the American \"squeaky wheel gets the grease\" is nearly the opposite of the Chinese saying that the bird whose head sticks out gets shot.",
+    "quote": "So for example, the American perspective, “The squeaky wheel gets the grease.” Speak up, right? Call attention to your needs. Chinese? Qiangda chutouniao, which means, \"The bird whose head sticks out gets shot.\"",
+    "speaker": "LEE",
+    "episode": {
+      "title": "Fortune Cookies",
+      "show": "The Economics of Everyday Things",
+      "id": "141753",
+      "date": "2025-04-13",
+      "url": "https://freakonomics.com/podcast/fortune-cookies/"
+    },
+    "age_years": 1,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
     "verified_quote_in_transcript": true
   },
   {
@@ -232576,6 +235065,25 @@
     "age_years": 1,
     "freshness": "durable",
     "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Standard Model of particle physics",
+    "entry_type": "concept",
+    "category": "Particle physics",
+    "claim": "The Standard Model consists of 12 fundamental matter particles — four basic ones (electron, up quark, down quark, electron neutrino) plus two further copies — and three forces carried by photons, W and Z bosons, and gluons.",
+    "quote": "So, four fundamental particles that you need to make up everything that we touch. And indeed, ourselves. There happened to be two copies of those four particles.",
+    "speaker": "COX",
+    "episode": {
+      "title": "Finding the God Particle",
+      "show": "People I (Mostly) Admire",
+      "id": "142853",
+      "date": "2025-11-07",
+      "url": "https://freakonomics.com/podcast/finding-the-god-particle/"
+    },
+    "age_years": 1,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
     "verified_quote_in_transcript": true
   },
   {
@@ -234780,6 +237288,25 @@
     "age_years": 5,
     "freshness": "durable",
     "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Stoner paradox (cannabis and fitness)",
+    "entry_type": "fact",
+    "category": "Health economics",
+    "claim": "Epidemiological data contradict the couch-potato stereotype: cannabis users exercise more than non-users and show lower rates of Type 2 diabetes, lower BMI, and better waist-to-hip ratios.",
+    "quote": "Digging into some of the epidemiology, cannabis users have lower rates of Type 2 diabetes. They have lower B.M.I. They have better waist-to-hip ratio than non-users.",
+    "speaker": "BRYAN",
+    "episode": {
+      "title": "Is Weed a Performance-Enhancing Drug?",
+      "show": "Freakonomics Radio",
+      "id": "143257",
+      "date": "2026-02-13",
+      "url": "https://freakonomics.com/podcast/is-weed-a-performance-enhancing-drug/"
+    },
+    "age_years": 0,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -237975,6 +240502,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Supercentenarian fraud",
+    "entry_type": "concept",
+    "category": "Demography",
+    "claim": "Oxford demographer Saul Newman argues extreme-longevity claims collapse under scrutiny: supercentenarian counts fall about a century after accurate birth records arrive, and poverty and short life expectancy predict such claims.",
+    "quote": "You write, “The number of supercentenarians in an area tends to fall dramatically about 100 years after accurate birth records are introduced.”",
+    "speaker": "DUBNER",
+    "episode": {
+      "title": "Signs of Progress, One Year at a Time",
+      "show": "Freakonomics Radio",
+      "id": "140178",
+      "date": "2024-06-05",
+      "url": "https://freakonomics.com/podcast/signs-of-progress-one-year-at-a-time/"
+    },
+    "age_years": 2,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Superforecaster",
     "entry_type": "concept",
     "category": "Forecasting",
@@ -238405,6 +240951,25 @@
       "id": "134863",
       "date": "2023-08-06",
       "url": "https://freakonomics.com/podcast/how-can-you-get-closer-to-the-people-you-care-about/"
+    },
+    "age_years": 3,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Supportive-and-demanding quadrant",
+    "entry_type": "concept",
+    "category": "Parenting and leadership",
+    "claim": "Research on parenting and leadership suggests the best mentors are simultaneously highly demanding and highly supportive — demanding of behavior while affirming the whole person.",
+    "quote": "What you're demanding is an action. And you can say that the action that you just took was not good enough, but the supportive part is about what I think of you as a whole and as a person.",
+    "speaker": "DUCKWORTH",
+    "episode": {
+      "title": "How Can You Be Kinder to Yourself?",
+      "show": "No Stupid Questions",
+      "id": "135571",
+      "date": "2023-09-10",
+      "url": "https://freakonomics.com/podcast/how-can-you-be-kinder-to-yourself/"
     },
     "age_years": 3,
     "freshness": "evergreen",
@@ -240179,6 +242744,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Synergistic mindsets intervention",
+    "entry_type": "figure",
+    "category": "Behavioral science",
+    "claim": "A roughly 30-minute online intervention combining growth mindset with the idea that stress can be enhancing raised course pass rates from 47 percent to 63 percent among treated students months later.",
+    "quote": "I'm just looking at the paper now — 63 percent of the students who got your treatment passed the courses versus 47 percent.",
+    "speaker": "LEVITT",
+    "episode": {
+      "title": "How to Help Kids Succeed",
+      "show": "People I (Mostly) Admire",
+      "id": "142104",
+      "date": "2025-06-20",
+      "url": "https://freakonomics.com/podcast/how-to-help-kids-succeed/"
+    },
+    "age_years": 1,
+    "freshness": "current",
+    "freshness_note": "Recent (~1 yrs) — likely current",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Synesthesia prevalence",
     "entry_type": "figure",
     "category": "Neuroscience",
@@ -240689,6 +243273,25 @@
     "age_years": 4,
     "freshness": "durable",
     "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Takuhaibin",
+    "entry_type": "fact",
+    "category": "Logistics",
+    "claim": "Japan has a nationwide luggage-forwarding system, available through hotels, that ships travelers' bags ahead so they don't have to haul them from hotel to hotel.",
+    "quote": "There is this thing called takuhaibin. If you are traveling around Japan, rather than hauling your bags from hotel to hotel, there’s a whole system. Every hotel apparently has it. You send it on, and then they ship your bags around for you.",
+    "speaker": "WHITWELL",
+    "episode": {
+      "title": "Signs of Progress, One Year at a Time",
+      "show": "Freakonomics Radio",
+      "id": "140178",
+      "date": "2024-06-05",
+      "url": "https://freakonomics.com/podcast/signs-of-progress-one-year-at-a-time/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -242433,6 +245036,25 @@
       "id": "134064",
       "date": "2023-05-12",
       "url": "https://freakonomics.com/podcast/can-data-keep-people-out-of-prison/"
+    },
+    "age_years": 3,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Technology model of generations",
+    "entry_type": "concept",
+    "category": "Generational research",
+    "claim": "Jean Twenge's central thesis is that technology, not war or economics, is the root driver of generational difference — a 'technology model of generations.'",
+    "quote": "This model, let's call it the ‘technology model of generations,’ is a new theory of generations for the modern world.",
+    "speaker": "DUCKWORTH",
+    "episode": {
+      "title": "Do \"Generations\" Mean Anything?",
+      "show": "No Stupid Questions",
+      "id": "138947",
+      "date": "2023-10-01",
+      "url": "https://freakonomics.com/podcast/do-generations-mean-anything/"
     },
     "age_years": 3,
     "freshness": "evergreen",
@@ -248292,6 +250914,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Time dilation at the Large Hadron Collider",
+    "entry_type": "figure",
+    "category": "Physics",
+    "claim": "Protons in the LHC travel so close to light speed that time slows by a factor of 7,000 — and from the protons' viewpoint the 27-kilometer ring shrinks to about four meters around.",
+    "quote": "So at that speed, the factor by which time slows down is 7,000. Also, distances shrink, by the way. So from the point of view of the protons, the L.H.C. circumference shrinks by a factor of 7,000. So it's no longer, 27 kilometers, it's four-meters in circumference.",
+    "speaker": "COX",
+    "episode": {
+      "title": "Finding the God Particle",
+      "show": "People I (Mostly) Admire",
+      "id": "142853",
+      "date": "2025-11-07",
+      "url": "https://freakonomics.com/podcast/finding-the-god-particle/"
+    },
+    "age_years": 1,
+    "freshness": "current",
+    "freshness_note": "Recent (~1 yrs) — likely current",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Time is tissue",
     "entry_type": "concept",
     "category": "Emergency medicine",
@@ -250398,6 +253039,44 @@
     "age_years": 0,
     "freshness": "durable",
     "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Touch interventions meta-analysis",
+    "entry_type": "figure",
+    "category": "Behavioral science",
+    "claim": "A 2024 meta-analysis in Nature Human Behaviour pooled roughly 13,000 people across touch interventions and found large, reliable benefits — and about the same magnitude of benefit for babies as for adults.",
+    "quote": "in total, there were about 13,000 people involved in interventions, actually. They're called \"touch interventions.\"",
+    "speaker": "DUCKWORTH",
+    "episode": {
+      "title": "Do You Need a Hug?",
+      "show": "No Stupid Questions",
+      "id": "140387",
+      "date": "2024-07-13",
+      "url": "https://freakonomics.com/podcast/do-you-need-a-hug/"
+    },
+    "age_years": 2,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~2 yrs old — likely still ok",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Touch Test, The",
+    "entry_type": "figure",
+    "category": "Survey research",
+    "claim": "An online survey developed by Goldsmiths, University of London psychologists for the BBC, gathering 40,000 responses across 112 countries just before the pandemic; 72 percent reported a positive attitude toward touch, and nearly half felt society didn't let them touch enough.",
+    "quote": "It had 40,000 responses across 112 countries. And it happened right before the pandemic. And it was an online survey developed by psychologists at Goldsmiths, University of London for use by the BBC called \"The Touch Test,\" And almost half of the typical adult felt that society did not enable us to touch enough.",
+    "speaker": "MAUGHAN",
+    "episode": {
+      "title": "Do You Need a Hug?",
+      "show": "No Stupid Questions",
+      "id": "140387",
+      "date": "2024-07-13",
+      "url": "https://freakonomics.com/podcast/do-you-need-a-hug/"
+    },
+    "age_years": 2,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~2 yrs old — likely still ok",
     "verified_quote_in_transcript": true
   },
   {
@@ -252868,6 +255547,44 @@
     "age_years": 2,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Truthfulness of touch",
+    "entry_type": "concept",
+    "category": "Cognitive science",
+    "claim": "Philosophy and cognitive neuroscience professor Ophelia Deroy suggests we trust touch more than our other senses — we may doubt our eyes, but we believe what we feel.",
+    "quote": "there's a truthfulness in touch. That we actually believe touch. So, you always say, like, \"I couldn't believe my eyes\" or \"I wasn't sure if I saw that exactly.\" But we actually believe touch more.",
+    "speaker": "MAUGHAN",
+    "episode": {
+      "title": "Do You Need a Hug?",
+      "show": "No Stupid Questions",
+      "id": "140387",
+      "date": "2024-07-13",
+      "url": "https://freakonomics.com/podcast/do-you-need-a-hug/"
+    },
+    "age_years": 2,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Tsujiura senbei",
+    "entry_type": "fact",
+    "category": "Food history",
+    "claim": "Fortune cookies likely originated in mid-19th century Japan as \"tsujiura senbei,\" or fortune crackers — bigger, browner, and miso-flavored.",
+    "quote": "They have a much nuttier miso flavor. And they're bigger and browner. But if you see them side by side, you're like, \"Oh, this is unmistakable family resemblance.\"",
+    "speaker": "LEE",
+    "episode": {
+      "title": "Fortune Cookies",
+      "show": "The Economics of Everyday Things",
+      "id": "141753",
+      "date": "2025-04-13",
+      "url": "https://freakonomics.com/podcast/fortune-cookies/"
+    },
+    "age_years": 1,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -255550,6 +258267,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "U.S. defense and intelligence spending",
+    "entry_type": "figure",
+    "category": "Defense economics",
+    "claim": "Counting the Defense Department plus intelligence community budgets, the U.S. spends about $1 trillion a year on national defense, aimed chiefly at two threats: China and Russia.",
+    "quote": "We spend, if you include the Department of Defense and the budgets for the intelligence community, we spend $1 trillion a year to defend our country. The two principal threats to the United States — 1a) PRC, 1b) the Russian Federation.",
+    "speaker": "SULLIVAN",
+    "episode": {
+      "title": "Is the U.S. Sleeping on Threats from Russia and China?",
+      "show": "Freakonomics Radio",
+      "id": "141103",
+      "date": "2024-12-04",
+      "url": "https://freakonomics.com/podcast/is-the-u-s-sleeping-on-threats-from-russia-and-china/"
+    },
+    "age_years": 2,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~2 yrs old — likely still ok",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "U.S. fertility rate decline",
     "entry_type": "figure",
     "category": "Demographics",
@@ -255623,6 +258359,25 @@
     "age_years": 5,
     "freshness": "check",
     "freshness_note": "Figure is ~5 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "U.S. healthcare spending per person",
+    "entry_type": "figure",
+    "category": "Health economics",
+    "claim": "The U.S. spends close to or over $13,000 per person on healthcare, versus roughly $8,000 in Switzerland, the next-highest-spending country.",
+    "quote": "But yes, we spend I think Switzerland’s the next highest country in terms of spend at about $8,000 per person. We’re close to $13,000, or maybe even over $13,000 per person.",
+    "speaker": "EMANUEL",
+    "episode": {
+      "title": "Is Ozempic as Magical as It Sounds?",
+      "show": "Freakonomics Radio",
+      "id": "141125",
+      "date": "2024-12-11",
+      "url": "https://freakonomics.com/podcast/is-ozempic-as-magical-as-it-sounds/"
+    },
+    "age_years": 2,
+    "freshness": "aging",
+    "freshness_note": "Figure is ~2 yrs old — likely still ok",
     "verified_quote_in_transcript": true
   },
   {
@@ -257046,6 +259801,25 @@
       "url": "https://freakonomics.com/podcast/can-you-change-your-personality/"
     },
     "age_years": 2,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Unconditional positive regard",
+    "entry_type": "concept",
+    "category": "Psychology",
+    "claim": "A term from humanist psychology for total support of a person regardless of behavior; Duckworth says she always felt it from her demanding mentor Marty Seligman, and likens it to the Christian idea of grace.",
+    "quote": "As demanding as he ever was, I always knew with this kind of, like, rock-solid certainty that he had my back and that he had this — the psychological term is “unconditional positive regard.”",
+    "speaker": "DUCKWORTH",
+    "episode": {
+      "title": "How Can You Be Kinder to Yourself?",
+      "show": "No Stupid Questions",
+      "id": "135571",
+      "date": "2023-09-10",
+      "url": "https://freakonomics.com/podcast/how-can-you-be-kinder-to-yourself/"
+    },
+    "age_years": 3,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
     "verified_quote_in_transcript": true
@@ -258777,6 +261551,25 @@
     "age_years": 4,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Up Zambia",
+    "entry_type": "story",
+    "category": "Ultimatums",
+    "claim": "After a friend's blunt ultimatum, listener Sara Larios resigned from a Zambian law firm; eight years later her organization has provided free legal help to more than 3,000 children.",
+    "quote": "And since that time, Up Zambia, my organization, has helped more than 3,000 children with free legal help.",
+    "speaker": "Sara LARIOS",
+    "episode": {
+      "title": "How Can You Be Kinder to Yourself?",
+      "show": "No Stupid Questions",
+      "id": "135571",
+      "date": "2023-09-10",
+      "url": "https://freakonomics.com/podcast/how-can-you-be-kinder-to-yourself/"
+    },
+    "age_years": 3,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -261801,6 +264594,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Vietnam War polling and the upper-class bias of generations",
+    "entry_type": "fact",
+    "category": "Public opinion research",
+    "claim": "Pew Research notes that the memory of boomers opposing the Vietnam War reflects college-educated survey respondents; high-quality polls at the time showed younger, non-college Americans were more supportive of the war than older generations.",
+    "quote": "Pew notes that a lot of very high-quality surveys at the time showed that younger Americans, most of whom were not going to college, they were much more supportive of the war than older generations who'd been through previous conflicts.",
+    "speaker": "MAUGHAN",
+    "episode": {
+      "title": "Do \"Generations\" Mean Anything?",
+      "show": "No Stupid Questions",
+      "id": "138947",
+      "date": "2023-10-01",
+      "url": "https://freakonomics.com/podcast/do-generations-mean-anything/"
+    },
+    "age_years": 3,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "View Through a Window May Influence Recovery From Surgery",
     "entry_type": "fact",
     "category": "Health economics",
@@ -264328,6 +267140,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Warm contact stress inoculation study",
+    "entry_type": "story",
+    "category": "Health psychology",
+    "claim": "In a lab experiment with 109 men and 74 women, couples who held hands for 10 minutes watching a romantic video and then hugged for 20 seconds showed smaller heart rate and blood pressure spikes during a stressful public speaking task than the resting control group.",
+    "quote": "half of the couples were asked to hold each other's hands for 10 minutes and watch a romantic video together. And then you're asked to hug your partner for 20 seconds.",
+    "speaker": "DUCKWORTH",
+    "episode": {
+      "title": "Do You Need a Hug?",
+      "show": "No Stupid Questions",
+      "id": "140387",
+      "date": "2024-07-13",
+      "url": "https://freakonomics.com/podcast/do-you-need-a-hug/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Warm glow altruism",
     "entry_type": "concept",
     "category": "Behavioral economics",
@@ -264344,6 +267175,25 @@
     "age_years": 13,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Warm glow, moral credit for",
+    "entry_type": "fact",
+    "category": "Moral psychology",
+    "claim": "A six-study University of Pennsylvania paper found that ordinary people rate \"emotional do-gooders\" — those who feel good doing good — as MORE moral, reading the emotion as a signal of sincerity.",
+    "quote": "we actually consider emotional do-gooders to be more moral. And the reason, I think, makes so much sense to me. That is for us, a signal that there is sincerity on the part of the actor.",
+    "speaker": "DUCKWORTH",
+    "episode": {
+      "title": "Is It Okay to Do the Right Thing for the Wrong Reason?",
+      "show": "No Stupid Questions",
+      "id": "140860",
+      "date": "2024-10-12",
+      "url": "https://freakonomics.com/podcast/is-it-okay-to-do-the-right-thing-for-the-wrong-reason/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -266418,6 +269268,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Westminster Abbey (Hawking memorial)",
+    "entry_type": "place",
+    "category": "Science memorials",
+    "claim": "Stephen Hawking's equation for the temperature of a black hole is carved into his memorial stone in the floor of Westminster Abbey.",
+    "quote": "And by the way, if you go to Westminster Abbey and look on Stephen's memorial stone in the Abbey, you'll see his equation for the temperature of a black hole chiseled in stone on the floor of Westminster Abbey.",
+    "speaker": "COX",
+    "episode": {
+      "title": "Finding the God Particle",
+      "show": "People I (Mostly) Admire",
+      "id": "142853",
+      "date": "2025-11-07",
+      "url": "https://freakonomics.com/podcast/finding-the-god-particle/"
+    },
+    "age_years": 1,
+    "freshness": "durable",
+    "freshness_note": "Place entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Wet nurses and the growth of ancient cities",
     "entry_type": "concept",
     "category": "Population economics",
@@ -266966,6 +269835,25 @@
     "age_years": 11,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "While England Slept",
+    "entry_type": "fact",
+    "category": "History",
+    "claim": "Churchill's warnings about Nazi Germany were collected into a book published in the United States titled 'While England Slept' — Sullivan's analogy for American complacency today.",
+    "quote": "Churchill gives these speeches warning about what’s coming. And they’re combined into a book that’s published in the United States and the title of it is While England Slept.",
+    "speaker": "SULLIVAN",
+    "episode": {
+      "title": "Is the U.S. Sleeping on Threats from Russia and China?",
+      "show": "Freakonomics Radio",
+      "id": "141103",
+      "date": "2024-12-04",
+      "url": "https://freakonomics.com/podcast/is-the-u-s-sleeping-on-threats-from-russia-and-china/"
+    },
+    "age_years": 2,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -268679,6 +271567,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Within-generation variation",
+    "entry_type": "concept",
+    "category": "Statistics",
+    "claim": "Duckworth's key statistical caution: there is more variation inside any given generation than there is between generations.",
+    "quote": "you also don't want to fall into the trap of generationalism where you’re like, “Oh, you know, baby boomers,” because there is more variation within a generation than there is between generations.",
+    "speaker": "DUCKWORTH",
+    "episode": {
+      "title": "Do \"Generations\" Mean Anything?",
+      "show": "No Stupid Questions",
+      "id": "138947",
+      "date": "2023-10-01",
+      "url": "https://freakonomics.com/podcast/do-generations-mean-anything/"
+    },
+    "age_years": 3,
+    "freshness": "evergreen",
+    "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Within-occupation pay gap",
     "entry_type": "figure",
     "category": "Labor economics",
@@ -269284,6 +272191,25 @@
     "age_years": 3,
     "freshness": "durable",
     "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Wonton Food",
+    "entry_type": "fact",
+    "category": "Food manufacturing",
+    "claim": "Wonton Food is the world's largest fortune cookie manufacturer, producing 5.5 million cookies a day across factories in New York, Texas, and Tennessee.",
+    "quote": "He’s the C.E.O. of Wonton Food — the largest manufacturer of fortune cookies in the world. Between its New York factory and additional facilities in Texas and Tennessee, it produces five and a half million of them every day.",
+    "speaker": "narration",
+    "episode": {
+      "title": "Fortune Cookies",
+      "show": "The Economics of Everyday Things",
+      "id": "141753",
+      "date": "2025-04-13",
+      "url": "https://freakonomics.com/podcast/fortune-cookies/"
+    },
+    "age_years": 1,
+    "freshness": "durable",
+    "freshness_note": "Historical fact — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -270503,6 +273429,25 @@
     "verified_quote_in_transcript": true
   },
   {
+    "headword": "Wrong but most-cited",
+    "entry_type": "story",
+    "category": "Academic incentives",
+    "claim": "Brian Cox's most-cited scientific paper, 'WW scattering in the absence of a Higgs boson,' turned out to be wrong — because the Higgs boson does exist — yet it endured for the detection techniques it invented.",
+    "quote": "It's the most cited paper, and it's wrong because there is a boson.",
+    "speaker": "COX",
+    "episode": {
+      "title": "Finding the God Particle",
+      "show": "People I (Mostly) Admire",
+      "id": "142853",
+      "date": "2025-11-07",
+      "url": "https://freakonomics.com/podcast/finding-the-god-particle/"
+    },
+    "age_years": 1,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
+    "verified_quote_in_transcript": true
+  },
+  {
     "headword": "Wrong Emanuel brother",
     "entry_type": "story",
     "category": "Politics",
@@ -270899,6 +273844,25 @@
     "age_years": 4,
     "freshness": "check",
     "freshness_note": "Figure is ~4 yrs old — verify before publishing",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Xxtra Clean",
+    "entry_type": "story",
+    "category": "Sports",
+    "claim": "Williams beat NFL drug tests for nearly two years using a detox drink that kept his urine clean for five hours — until he fell back asleep mid-regimen and got caught.",
+    "quote": "I drank the first bottle and I was so tired I fell back asleep. I didn’t wake up until the drug guy was ringing the doorbell.",
+    "speaker": "WILLIAMS",
+    "episode": {
+      "title": "Is Weed a Performance-Enhancing Drug?",
+      "show": "Freakonomics Radio",
+      "id": "143257",
+      "date": "2026-02-13",
+      "url": "https://freakonomics.com/podcast/is-weed-a-performance-enhancing-drug/"
+    },
+    "age_years": 0,
+    "freshness": "durable",
+    "freshness_note": "Story entry — stable over time",
     "verified_quote_in_transcript": true
   },
   {
@@ -272780,6 +275744,25 @@
     "age_years": 1,
     "freshness": "evergreen",
     "freshness_note": "Concept — not time-sensitive",
+    "verified_quote_in_transcript": true
+  },
+  {
+    "headword": "Zomia",
+    "entry_type": "place",
+    "category": "Anthropology",
+    "claim": "Zomia, a term from James C. Scott, is a highland region stretching from southwestern China to Vietnam, Laos, and Cambodia where peoples fled to mountains to avoid taxation, conscription, and state control.",
+    "quote": "That is a region of highland Southeast Asia that stretches from the southwestern part of China, where I'm from, all the way down to Vietnam and Laos and Cambodia, where you have all of these peoples that are uninterested in being part of organized states.",
+    "speaker": "WANG",
+    "episode": {
+      "title": "China Is Run by Engineers. America Is Run by Lawyers.",
+      "show": "Freakonomics Radio",
+      "id": "142579",
+      "date": "2025-09-19",
+      "url": "https://freakonomics.com/podcast/china-is-run-by-engineers-america-is-run-by-lawyers/"
+    },
+    "age_years": 1,
+    "freshness": "durable",
+    "freshness_note": "Place entry — stable over time",
     "verified_quote_in_transcript": true
   },
   {
