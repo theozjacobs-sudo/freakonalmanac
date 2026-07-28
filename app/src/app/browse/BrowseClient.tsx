@@ -69,7 +69,12 @@ export default function BrowseClient() {
   const [sortKey, setSortKey] = useState<SortKey>("headword");
   const [sortDir, setSortDir] = useState<1 | -1>(1);
 
+  // ?entry=<id> — a shared permalink: spotlight that entry above the list.
+  const [pinnedId, setPinnedId] = useState<string | null>(null);
+  const [copiedId, setCopiedId] = useState<string | null>(null);
+
   useEffect(() => {
+    setPinnedId(searchParams.get("entry"));
     const token = resolveToken(searchParams);
     const url = token
       ? `/api/entries?r=${encodeURIComponent(token)}`
@@ -131,6 +136,30 @@ export default function BrowseClient() {
     else {
       setSortKey(key);
       setSortDir(1);
+    }
+  };
+
+  const pinned = useMemo(
+    () => (pinnedId ? (entries ?? []).find((e) => e.id === pinnedId) ?? null : null),
+    [entries, pinnedId]
+  );
+
+  const copyShareLink = (id: string) => {
+    const link = `${window.location.origin}/browse?entry=${encodeURIComponent(id)}`;
+    navigator.clipboard?.writeText(link).then(() => {
+      setCopiedId(id);
+      setTimeout(() => setCopiedId(null), 1500);
+    });
+  };
+
+  const dismissPinned = () => {
+    setPinnedId(null);
+    try {
+      const url = new URL(window.location.href);
+      url.searchParams.delete("entry");
+      window.history.replaceState(window.history.state, "", url.toString());
+    } catch {
+      /* cosmetic */
     }
   };
 
@@ -256,6 +285,42 @@ export default function BrowseClient() {
         </div>
       </div>
 
+      {/* shared-entry spotlight */}
+      {pinned && (
+        <div className="relative mt-4 rounded-2xl border-2 border-accent bg-surface p-5 shadow-card">
+          <div className="mb-2 flex items-center justify-between">
+            <p className="eyebrow">Shared entry</p>
+            <div className="flex items-center gap-2">
+              <button
+                onClick={() => copyShareLink(pinned.id)}
+                className="rounded-lg border border-hair bg-surface-2 px-2.5 py-1 font-mono text-xs hover:border-accent"
+              >
+                {copiedId === pinned.id ? "Copied ✓" : "🔗 Copy link"}
+              </button>
+              <button
+                onClick={dismissPinned}
+                aria-label="Dismiss shared entry"
+                className="rounded-lg border border-hair bg-surface-2 px-2.5 py-1 font-mono text-xs hover:border-accent"
+              >
+                ✕
+              </button>
+            </div>
+          </div>
+          <EntryCardBody entry={pinned} />
+          {pinned.my_decision && (
+            <div className="absolute -top-2 right-4">
+              <DecisionChip decision={pinned.my_decision} />
+            </div>
+          )}
+        </div>
+      )}
+      {pinnedId && entries && !pinned && (
+        <p className="mt-4 rounded-xl border border-hair bg-surface-2 px-4 py-3 text-sm text-muted">
+          The shared entry (<code className="font-mono text-xs">{pinnedId}</code>)
+          wasn&rsquo;t found — it may have been removed.
+        </p>
+      )}
+
       {filtered.length === 0 ? (
         <p className="py-20 text-center text-muted">
           No entries match — try clearing the filters.
@@ -292,6 +357,13 @@ export default function BrowseClient() {
                         ↗
                       </a>
                     )}
+                    <button
+                      onClick={() => copyShareLink(e.id)}
+                      title="Copy a shareable link to this entry"
+                      className="ml-1.5 text-xs opacity-40 hover:opacity-100"
+                    >
+                      {copiedId === e.id ? "✓" : "🔗"}
+                    </button>
                   </td>
                   <td className="px-3 py-2"><TypePill type={e.entry_type} /></td>
                   <td className="max-w-[180px] truncate px-3 py-2 text-muted" title={e.category ?? undefined}>
@@ -325,6 +397,13 @@ export default function BrowseClient() {
                   <DecisionChip decision={e.my_decision} />
                 </div>
               )}
+              <button
+                onClick={() => copyShareLink(e.id)}
+                title="Copy a shareable link to this entry"
+                className="absolute bottom-3 right-3 text-sm opacity-40 hover:opacity-100"
+              >
+                {copiedId === e.id ? "✓" : "🔗"}
+              </button>
             </div>
           ))}
         </div>

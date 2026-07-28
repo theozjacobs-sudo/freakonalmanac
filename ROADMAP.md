@@ -81,3 +81,7 @@ the show's real research workflow. The `freshness` field already flags them
   multi-search, typo-tolerant, conversation-aware. (2026-07-28)
 - Chat formatting: answers render **bold** / *italics* / lists in the
   bubbles (lightweight renderer, no markdown headings/tables). (2026-07-28)
+- Shareable links: reviewer tokens are stripped from the address bar after
+  login (copied URLs never leak identity); every Browse row/card has a 🔗
+  that copies a clean `/browse?entry=<id>` permalink, which opens as a
+  spotlighted card for the recipient. (2026-07-28)
