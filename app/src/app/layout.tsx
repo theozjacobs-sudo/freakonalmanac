@@ -20,6 +20,7 @@ const nav = [
   { href: "/chat", label: "Chat" },
   { href: "/stats", label: "Stats" },
   { href: "/today", label: "Today" },
+  { href: "/admin", label: "Team" },
 ];
 
 export default function RootLayout({

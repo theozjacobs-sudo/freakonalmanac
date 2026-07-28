@@ -33,16 +33,22 @@ create index if not exists entries_entry_type_idx on entries (entry_type);
 -- reviewers: the three humans. Token is the whole auth story (private links).
 -- ---------------------------------------------------------------------------
 create table if not exists reviewers (
-  id    serial primary key,
-  name  text not null,
-  token text not null unique
+  id       serial primary key,
+  name     text not null,
+  token    text not null unique,
+  is_admin boolean not null default false
 );
+
+-- Migration for databases created before is_admin existed (safe to re-run).
+alter table reviewers add column if not exists is_admin boolean not null default false;
 
 insert into reviewers (name, token) values
   ('Theo',    'theo-3de9b622'),
   ('Zack',    'zack-f8d088fe'),
   ('Stephen', 'stephen-a37c359d')
 on conflict (token) do nothing;
+
+update reviewers set is_admin = true where token = 'theo-3de9b622';
 
 -- ---------------------------------------------------------------------------
 -- decisions: one keep/reject per (entry, reviewer, round).

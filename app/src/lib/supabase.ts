@@ -58,6 +58,7 @@ export interface Reviewer {
   id: number;
   name: string;
   token: string;
+  is_admin?: boolean;
 }
 
 export async function getReviewerByToken(
@@ -67,7 +68,7 @@ export async function getReviewerByToken(
   if (!token) return null;
   const { data, error } = await sb
     .from("reviewers")
-    .select("id,name,token")
+    .select("id,name,token,is_admin")
     .eq("token", token)
     .maybeSingle();
   if (error) throw new Error(error.message);
