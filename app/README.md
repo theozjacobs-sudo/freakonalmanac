@@ -36,8 +36,14 @@ SUPABASE_SERVICE_ROLE_KEY=<service role key>
 ```
 
 The service-role key is used **only** in API routes and server components.
-Never prefix it with `NEXT_PUBLIC_`. `ANTHROPIC_API_KEY` is a placeholder for
-the upcoming "chat with the archive" feature; leave it empty for now.
+Never prefix it with `NEXT_PUBLIC_`. For the `/chat` page, also set:
+
+```
+ANTHROPIC_API_KEY=<anthropic api key>
+```
+
+It too is server-side only (used by `/api/chat`). Without it, `/chat` shows a
+friendly setup notice; everything else keeps working.
 
 ### 3. Seed entries
 
@@ -53,6 +59,31 @@ Idempotent — rows upsert on `id` (`<episode.id>-<slugified-headword>`), so
 re-running with the full 10,000-entry JSON later just adds/updates rows and
 never touches decisions.
 
+### 3b. Seed transcript passages (for /chat)
+
+The `/chat` page searches the `passages` table (~144k speaker-labeled
+transcript passages). Two steps, run from the **repo root** on a machine that
+can reach Supabase:
+
+```bash
+# 1. Regenerate the passage export (needs raw/*.xml in the repo)
+python3 scripts/parse_wxr.py && python3 scripts/export_passages.py
+# -> data/passages.jsonl (~95 MB, git-ignored)
+
+# 2. Load it into Supabase (chunks of 1,000, with progress output)
+cd app
+SUPABASE_URL=... SUPABASE_SERVICE_ROLE_KEY=... \
+  node scripts/seed-passages.mjs --truncate
+```
+
+`--truncate` clears the table first (the table has a serial PK, so re-running
+without it would duplicate rows). A custom JSONL path can be passed as the
+last argument.
+
+If you ran `supabase/schema.sql` before the chat feature landed, re-run the
+`search_passages` function block from it (it's `create or replace` — the whole
+file is also safe to re-run) so archive chat gets ranked full-text search.
+
 ### 4. Run locally
 
 ```bash
@@ -63,8 +94,9 @@ npm run dev   # http://localhost:3000
 
 1. Push this repo to GitHub.
 2. Vercel → New Project → import the repo → set **Root Directory** to `app/`.
-3. Add `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` as environment
-   variables (server-side; they are not exposed to the browser).
+3. Add `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`, and `ANTHROPIC_API_KEY`
+   as environment variables (server-side; they are not exposed to the
+   browser).
 4. Deploy.
 
 ## Reviewer links
@@ -94,6 +126,14 @@ Rotate a token by updating its row in `reviewers` and sending a fresh link.
 - **/today** — Fact of the Day: a deterministic UTC-date-seeded pick from
   entries kept by at least one reviewer (falls back to the whole pool until
   reviewing starts).
+- **/chat** — grounded chat over the archive (reviewer link required), with
+  three modes: **Archive** (full-text search over all transcript passages;
+  answers cite episode + speaker and come only from retrieved passages),
+  **Entries** (the AI editor — curated/ranked lists from the entry pool, with
+  type + show filters), and **Episode** (chat about a single episode's full
+  transcript — open it via the "💬 chat about this episode" link on any
+  entry card). Uses Claude (`claude-opus-5`) server-side with streaming;
+  requires `ANTHROPIC_API_KEY` and a seeded `passages` table.
 
 ## Settings
 

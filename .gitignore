@@ -1,8 +1,10 @@
 # Regenerable build artifacts (rebuild with the scripts noted below)
 # data/episodes/     -> python3 scripts/parse_wxr.py
 # data/search_index.pkl -> python3 scripts/build_index.py
+# data/passages.jsonl -> python3 scripts/export_passages.py
 data/episodes/
 data/search_index.pkl
+data/passages.jsonl
 __pycache__/
 *.pyc
 .venv/

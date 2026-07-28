@@ -17,6 +17,7 @@ export const viewport: Viewport = {
 const nav = [
   { href: "/review", label: "Review" },
   { href: "/browse", label: "Browse" },
+  { href: "/chat", label: "Chat" },
   { href: "/stats", label: "Stats" },
   { href: "/today", label: "Today" },
 ];

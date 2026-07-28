@@ -94,6 +94,33 @@ create table if not exists passages (
 
 create index if not exists passages_fts_idx on passages using gin (fts);
 
+-- Ranked full-text search over passages for /chat (archive mode).
+-- websearch_to_tsquery handles raw user questions safely; results are the
+-- top `match_count` passages by ts_rank. Safe to re-run (create or replace).
+create or replace function search_passages(query text, match_count int default 12)
+returns table (
+  id            int,
+  episode_id    text,
+  speaker       text,
+  content       text,
+  episode_title text,
+  "show"        text,
+  "date"        text,
+  url           text,
+  rank          real
+)
+language sql
+stable
+as $$
+  select p.id, p.episode_id, p.speaker, p.content, p.episode_title,
+         p.show, p.date, p.url,
+         ts_rank(p.fts, websearch_to_tsquery('english', query)) as rank
+  from passages p
+  where p.fts @@ websearch_to_tsquery('english', query)
+  order by rank desc
+  limit least(greatest(match_count, 1), 50);
+$$;
+
 -- ---------------------------------------------------------------------------
 -- Row Level Security: on for every table, with service-role-only policies.
 -- The Next.js app uses the service role key server-side, which bypasses RLS;

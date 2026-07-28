@@ -1,6 +1,9 @@
 "use client";
 
+import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import type { Entry } from "@/lib/types";
+import { resolveToken } from "@/lib/token";
 import { FreshnessPill, TypePill } from "./pills";
 
 /**
@@ -14,6 +17,16 @@ export default function EntryCardBody({
   entry: Entry;
   large?: boolean;
 }) {
+  const searchParams = useSearchParams();
+  // resolveToken is SSR-safe (all window access is inside try/catch), and
+  // these cards only mount after a client-side fetch anyway.
+  const token = resolveToken(searchParams);
+  const chatHref = entry.episode_id
+    ? `/chat?mode=episode&episode=${encodeURIComponent(entry.episode_id)}${
+        token ? `&r=${encodeURIComponent(token)}` : ""
+      }`
+    : null;
+
   return (
     <div className="flex h-full flex-col gap-3">
       <div className="flex items-start justify-between gap-3">
@@ -79,6 +92,17 @@ export default function EntryCardBody({
           <span className="ml-auto font-mono text-[0.72rem] text-good" title="Quote verified in transcript">
             ✓ verified
           </span>
+        )}
+        {chatHref && (
+          <Link
+            href={chatHref}
+            className="w-full font-mono text-[0.72rem] text-accent no-underline opacity-80 hover:opacity-100"
+            onClick={(e) => e.stopPropagation()}
+            onPointerDown={(e) => e.stopPropagation()}
+            title="Open a grounded chat about this episode's transcript"
+          >
+            💬 chat about this episode
+          </Link>
         )}
       </div>
     </div>

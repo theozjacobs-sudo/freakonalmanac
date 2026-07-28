@@ -60,6 +60,28 @@ export interface OverlapCounts {
   rejected_by_all: number;
 }
 
+export type ChatMode = "archive" | "entries" | "episode";
+
+/** One episode referenced by a chat answer (or the episode being discussed). */
+export interface ChatSource {
+  episode_id: string | null;
+  episode_title: string | null;
+  show: string | null;
+  date: string | null;
+  url: string | null;
+}
+
+/**
+ * First line of every /api/chat POST response body (JSON), followed by "\n"
+ * and then the streamed answer text.
+ */
+export interface ChatMeta {
+  mode: ChatMode;
+  sources: ChatSource[];
+  candidate_count?: number;
+  episode?: ChatSource;
+}
+
 export interface StatsResponse {
   total_entries: number;
   reviewers: ReviewerStats[];
