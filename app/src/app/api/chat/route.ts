@@ -283,13 +283,29 @@ export async function POST(req: NextRequest) {
  * Ranked FTS via the `search_passages` SQL function (websearch_to_tsquery +
  * ts_rank, see supabase/schema.sql). Falls back to an unranked PostgREST
  * `fts=wfts(...)` filter if the function hasn't been created yet.
+ *
+ * websearch queries AND every non-stopword together, so one typo or filler
+ * word ("what facts can you give mea bout horses") returns nothing. When the
+ * strict pass comes up empty, retry with the meaningful keywords OR'd
+ * together — ts_rank still floats the best matches up.
  */
 async function searchPassages(
   sb: ReturnType<typeof getSupabase>,
   question: string
 ): Promise<PassageRow[]> {
+  const strict = await runPassageQuery(sb, question);
+  if (strict.length > 0) return strict;
+  const relaxed = relaxedQuery(question);
+  if (!relaxed || relaxed === question) return strict;
+  return runPassageQuery(sb, relaxed);
+}
+
+async function runPassageQuery(
+  sb: ReturnType<typeof getSupabase>,
+  query: string
+): Promise<PassageRow[]> {
   const rpc = await sb.rpc("search_passages", {
-    query: question,
+    query,
     match_count: ARCHIVE_MATCHES,
   });
   if (!rpc.error) return (rpc.data ?? []) as PassageRow[];
@@ -297,10 +313,38 @@ async function searchPassages(
   const fallback = await sb
     .from("passages")
     .select(PASSAGE_COLS)
-    .textSearch("fts", question, { type: "websearch", config: "english" })
+    .textSearch("fts", query, { type: "websearch", config: "english" })
     .limit(ARCHIVE_MATCHES);
   if (fallback.error) throw new Error(fallback.error.message);
   return (fallback.data ?? []) as PassageRow[];
+}
+
+/** Words that ask the question rather than carry its subject. */
+const QUERY_NOISE = new Set([
+  "the", "a", "an", "and", "or", "but", "of", "in", "on", "at", "to", "for",
+  "with", "about", "bout", "as", "by", "from", "into", "over", "under", "is",
+  "are", "was", "were", "be", "been", "being", "do", "does", "did", "done",
+  "have", "has", "had", "having", "will", "would", "can", "could", "should",
+  "shall", "may", "might", "must", "what", "which", "who", "whom", "whose",
+  "when", "where", "why", "how", "this", "that", "these", "those", "there",
+  "here", "i", "we", "you", "he", "she", "it", "they", "them", "me", "my",
+  "our", "your", "their", "his", "her", "its", "us", "not", "no", "yes",
+  "so", "than", "too", "very", "just", "any", "some", "all", "more", "most",
+  "other", "please", "tell", "give", "show", "find", "list", "know", "said",
+  "say", "says", "talk", "talked", "talking", "discussed", "discuss",
+  "mention", "mentioned", "fact", "facts", "things", "stuff", "anything",
+  "something", "ever", "episode", "episodes", "podcast", "archive", "guest",
+  "guests", "mea",
+]);
+
+function relaxedQuery(question: string): string | null {
+  const words = question
+    .toLowerCase()
+    .replace(/[^a-z0-9\s'-]/g, " ")
+    .split(/\s+/)
+    .filter((w) => w.length > 2 && !QUERY_NOISE.has(w));
+  const uniq = Array.from(new Set(words)).slice(0, 8);
+  return uniq.length > 0 ? uniq.join(" or ") : null;
 }
 
 /**
