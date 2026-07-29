@@ -109,8 +109,14 @@ create index if not exists passages_fts_idx on passages using gin (fts);
 
 -- Ranked full-text search over passages for /chat (archive mode).
 -- websearch_to_tsquery handles raw user questions safely; results are the
--- top `match_count` passages by ts_rank. Safe to re-run (create or replace).
-create or replace function search_passages(query text, match_count int default 12)
+-- top `match_count` passages by ts_rank, optionally restricted to one show.
+-- The old 2-arg signature is dropped so the RPC call resolves unambiguously.
+drop function if exists search_passages(text, int);
+create or replace function search_passages(
+  query text,
+  match_count int default 12,
+  p_show text default null
+)
 returns table (
   id            int,
   episode_id    text,
@@ -130,6 +136,7 @@ as $$
          ts_rank(p.fts, websearch_to_tsquery('english', query)) as rank
   from passages p
   where p.fts @@ websearch_to_tsquery('english', query)
+    and (p_show is null or p.show = p_show)
   order by rank desc
   limit least(greatest(match_count, 1), 50);
 $$;
@@ -147,10 +154,13 @@ alter table entries add column if not exists fts tsvector
 
 create index if not exists entries_fts_idx on entries using gin (fts);
 
+-- Multi-type filtering; the old single-type signature is dropped so the RPC
+-- call resolves unambiguously.
+drop function if exists search_entries(text, int, text, text);
 create or replace function search_entries(
   query text,
   match_count int default 20,
-  p_entry_type text default null,
+  p_entry_types text[] default null,
   p_show text default null
 )
 returns setof entries
@@ -160,7 +170,7 @@ as $$
   select e.*
   from entries e
   where e.fts @@ websearch_to_tsquery('english', query)
-    and (p_entry_type is null or e.entry_type = p_entry_type)
+    and (p_entry_types is null or e.entry_type = any(p_entry_types))
     and (p_show is null or e.episode_show = p_show)
   order by ts_rank(e.fts, websearch_to_tsquery('english', query)) desc
   limit least(greatest(match_count, 1), 50);

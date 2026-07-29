@@ -13,12 +13,19 @@ import type { Entry, QueueResponse } from "@/lib/types";
 export const dynamic = "force-dynamic";
 
 /**
- * GET /api/queue?r=<token>&limit=20
+ * GET /api/queue?r=<token>&limit=20[&types=concept,figure][&show=<name>]
  *
  * Returns the next batch of entries this reviewer has not yet decided in
- * round 1, plus progress counts. BLIND by design: nothing in this payload
- * reflects any other reviewer's decisions.
+ * round 1, plus progress counts. `types`/`show` narrow the deck (and the
+ * progress counts) to matching entries; split-mode assignment is computed
+ * before filtering, so filters never reshuffle who owns which entry.
+ * BLIND by design: nothing in this payload reflects any other reviewer's
+ * decisions.
  */
+
+const VALID_TYPES = new Set([
+  "concept", "figure", "fact", "person", "place", "story",
+]);
 export async function GET(req: NextRequest) {
   try {
     const sb = getSupabase();
@@ -31,14 +38,27 @@ export async function GET(req: NextRequest) {
     const reviewer = await getReviewerByToken(sb, token);
     if (!reviewer) return jsonError(401, "invalid_token");
 
+    const typesParam = (req.nextUrl.searchParams.get("types") ?? "")
+      .split(",")
+      .map((t) => t.trim())
+      .filter((t) => VALID_TYPES.has(t));
+    const showParam = (req.nextUrl.searchParams.get("show") ?? "").trim();
+
     const mode = await getAssignmentMode(sb);
 
-    // All entry ids, ordered — cheap even at 10k rows (ids only).
-    const allIds = (
-      await fetchAll<{ id: string }>((from, to) =>
-        sb.from("entries").select("id").order("id").range(from, to)
-      )
-    ).map((r) => r.id);
+    // All entries with just enough metadata to filter — still cheap.
+    const all = await fetchAll<{
+      id: string;
+      entry_type: string;
+      episode_show: string | null;
+    }>((from, to) =>
+      sb
+        .from("entries")
+        .select("id,entry_type,episode_show")
+        .order("id")
+        .range(from, to)
+    );
+    const allIds = all.map((r) => r.id);
 
     // Scope for this reviewer.
     let scopeIds = allIds;
@@ -57,6 +77,18 @@ export async function GET(req: NextRequest) {
       if (myIndex >= 0 && n > 0) {
         scopeIds = allIds.filter((id) => assignedReviewerIndex(id, n) === myIndex);
       }
+    }
+
+    // Deck filters (after split assignment, so ownership never reshuffles).
+    if (typesParam.length > 0 || showParam) {
+      const meta = new Map(all.map((r) => [r.id, r]));
+      scopeIds = scopeIds.filter((id) => {
+        const m = meta.get(id);
+        if (!m) return false;
+        if (typesParam.length > 0 && !typesParam.includes(m.entry_type)) return false;
+        if (showParam && m.episode_show !== showParam) return false;
+        return true;
+      });
     }
 
     // Shuffle the deck: deterministic per reviewer (hash of token + id), so

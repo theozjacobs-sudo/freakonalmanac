@@ -212,10 +212,22 @@ export async function POST(req: NextRequest) {
       mode?: string;
       messages?: unknown;
       entry_type?: string;
+      entry_types?: unknown;
       show?: string;
       episode_id?: string;
     } | null;
     if (!body) return jsonError(400, "invalid_json");
+
+    const VALID_TYPES = new Set([
+      "concept", "figure", "fact", "person", "place", "story",
+    ]);
+    let pinnedTypes: string[] | null = Array.isArray(body.entry_types)
+      ? body.entry_types.map(String).filter((t) => VALID_TYPES.has(t))
+      : body.entry_type && VALID_TYPES.has(body.entry_type)
+        ? [body.entry_type]
+        : null;
+    if (pinnedTypes && pinnedTypes.length === 0) pinnedTypes = null;
+    const pinnedShow = (body.show ?? "").trim() || null;
 
     const mode = body.mode as ChatMode;
     if (mode !== "archive" && mode !== "entries" && mode !== "episode")
@@ -234,9 +246,9 @@ export async function POST(req: NextRequest) {
         emit({ type: "meta", mode });
         const collected: PassageRow[] = [];
         await runAgenticChat({
-          system: archiveAgentSystemPrompt(),
+          system: archiveAgentSystemPrompt(pinnedShow),
           messages: history,
-          tools: [makeSearchTool(sb, collected)],
+          tools: [makeSearchTool(sb, collected, pinnedShow)],
           maxToolRounds: MAX_SEARCH_ROUNDS,
           onText: (text) => emit({ type: "delta", text }),
           onToolCall: (_name, input) =>
@@ -251,14 +263,12 @@ export async function POST(req: NextRequest) {
 
     // ---- entries: the agentic AI editor over the full pool ---------------
     if (mode === "entries") {
-      const pinnedType = body.entry_type?.trim() || null;
-      const pinnedShow = body.show?.trim() || null;
       return ndjsonResponse(async (emit) => {
         emit({ type: "meta", mode });
         await runAgenticChat({
-          system: entriesAgentSystemPrompt(pinnedType, pinnedShow),
+          system: entriesAgentSystemPrompt(pinnedTypes, pinnedShow),
           messages: history,
-          tools: makeEntryTools(sb, pinnedType, pinnedShow),
+          tools: makeEntryTools(sb, pinnedTypes, pinnedShow),
           maxToolRounds: MAX_SEARCH_ROUNDS,
           maxTokens: 3000,
           onText: (text) => emit({ type: "delta", text }),
@@ -309,7 +319,8 @@ export async function POST(req: NextRequest) {
  */
 function makeSearchTool(
   sb: ReturnType<typeof getSupabase>,
-  collected: PassageRow[]
+  collected: PassageRow[],
+  pinnedShow: string | null = null
 ): AgentTool {
   return {
     name: "search_archive",
@@ -329,12 +340,12 @@ function makeSearchTool(
       const q = String(input.query ?? "").slice(0, 200).trim();
       if (!q) return "Empty query — provide keywords.";
 
-      let rows = await runPassageQuery(sb, q);
+      let rows = await runPassageQuery(sb, q, pinnedShow);
       let note = "";
       if (rows.length === 0) {
         const relaxed = relaxedQuery(q);
         if (relaxed && relaxed !== q) {
-          rows = await runPassageQuery(sb, relaxed);
+          rows = await runPassageQuery(sb, relaxed, pinnedShow);
           if (rows.length > 0)
             note = `(No exact matches for "${q}"; showing OR-relaxed matches for: ${relaxed})\n\n`;
         }
@@ -359,21 +370,25 @@ function makeSearchTool(
 
 async function runPassageQuery(
   sb: ReturnType<typeof getSupabase>,
-  query: string
+  query: string,
+  show: string | null = null
 ): Promise<PassageRow[]> {
-  const rpc = await sb.rpc("search_passages", {
-    query,
-    match_count: SEARCH_MATCHES,
-  });
+  // Only pass p_show when set, so the call still resolves against a
+  // database that hasn't run the newer schema (2-arg function).
+  const args: Record<string, unknown> = { query, match_count: SEARCH_MATCHES };
+  if (show) args.p_show = show;
+  const rpc = await sb.rpc("search_passages", args);
   if (!rpc.error) return (rpc.data ?? []) as PassageRow[];
 
-  const fallback = await sb
+  let fallback = sb
     .from("passages")
     .select(PASSAGE_COLS)
     .textSearch("fts", query, { type: "websearch", config: "english" })
     .limit(SEARCH_MATCHES);
-  if (fallback.error) throw new Error(fallback.error.message);
-  return (fallback.data ?? []) as PassageRow[];
+  if (show) fallback = fallback.eq("show", show);
+  const fb = await fallback;
+  if (fb.error) throw new Error(fb.error.message);
+  return (fb.data ?? []) as PassageRow[];
 }
 
 /** Words that ask the question rather than carry its subject. */
@@ -427,9 +442,14 @@ function formatEntry(e: EntryRow): string {
 
 function makeEntryTools(
   sb: ReturnType<typeof getSupabase>,
-  pinnedType: string | null,
+  pinnedTypes: string[] | null,
   pinnedShow: string | null
 ): AgentTool[] {
+  // Pinned filters win; otherwise the model may narrow by type itself.
+  const effectiveTypes = (input: Record<string, unknown>): string[] | null => {
+    if (pinnedTypes) return pinnedTypes;
+    return input.entry_type ? [String(input.entry_type)] : null;
+  };
   const searchTool: AgentTool = {
     name: "search_entries",
     description:
@@ -449,19 +469,18 @@ function makeEntryTools(
     run: async (input) => {
       const q = String(input.query ?? "").slice(0, 200).trim();
       if (!q) return "Empty query — provide keywords.";
-      const type = pinnedType ?? (input.entry_type ? String(input.entry_type) : null);
+      const types = effectiveTypes(input);
 
-      const rpc = await sb.rpc("search_entries", {
-        query: q,
-        match_count: ENTRY_MATCHES,
-        p_entry_type: type,
-        p_show: pinnedShow,
-      });
+      const args: Record<string, unknown> = { query: q, match_count: ENTRY_MATCHES };
+      if (types) args.p_entry_types = types;
+      if (pinnedShow) args.p_show = pinnedShow;
+      const rpc = await sb.rpc("search_entries", args);
       let rows: EntryRow[];
       if (!rpc.error) {
         rows = (rpc.data ?? []) as EntryRow[];
       } else {
-        // Schema function not created yet — degrade to substring matching.
+        // Schema function not created/updated yet — degrade to substring
+        // matching via PostgREST, which supports every filter directly.
         const pat = `%${q.replace(/[,()%]/g, " ").trim()}%`;
         let query = sb
           .from("entries")
@@ -470,7 +489,7 @@ function makeEntryTools(
             `headword.ilike.${pat},claim.ilike.${pat},quote.ilike.${pat},category.ilike.${pat}`
           )
           .limit(ENTRY_MATCHES);
-        if (type) query = query.eq("entry_type", type);
+        if (types) query = query.in("entry_type", types);
         if (pinnedShow) query = query.eq("episode_show", pinnedShow);
         const fb = await query;
         if (fb.error) throw new Error(fb.error.message);
@@ -503,7 +522,7 @@ function makeEntryTools(
       },
     },
     run: async (input) => {
-      const type = pinnedType ?? (input.entry_type ? String(input.entry_type) : null);
+      const types = effectiveTypes(input);
       const category = input.category ? String(input.category).slice(0, 80) : null;
       const offset = Math.max(0, Number(input.offset ?? 0) || 0);
 
@@ -512,7 +531,7 @@ function makeEntryTools(
         .select(ENTRY_COLS, { count: "exact" })
         .order("id")
         .range(offset, offset + ENTRY_PAGE - 1);
-      if (type) query = query.eq("entry_type", type);
+      if (types) query = query.in("entry_type", types);
       if (category)
         query = query.ilike("category", `%${category.replace(/[,()%]/g, " ").trim()}%`);
       if (pinnedShow) query = query.eq("episode_show", pinnedShow);
@@ -577,10 +596,14 @@ function describeEntryToolCall(
 
 const HOUSE_RULES = `You are part of Fact Finder HQ, the internal tool Stephen Dubner's team uses to mine the Freakonomics Radio archive for an almanac book. Your users are the book's editors. Write conversational text with light formatting: **bold** for headwords, episode titles, and the numbers that matter; *italics* sparingly for emphasis; hyphen or numbered lists when listing. No markdown headings, tables, or links. Keep answers focused and quote short phrases verbatim when it helps.`;
 
-function archiveAgentSystemPrompt(): string {
+function archiveAgentSystemPrompt(pinnedShow: string | null = null): string {
   return `${HOUSE_RULES}
 
-MODE: Archive research agent. You answer questions about what has been said across ~1,600 episodes by searching the transcripts yourself with the search_archive tool.
+MODE: Archive research agent. You answer questions about what has been said across ~1,600 episodes by searching the transcripts yourself with the search_archive tool.${
+    pinnedShow
+      ? `\n\nThe editor has pinned a show filter: every search is already restricted to "${pinnedShow}" episodes. Mention this scope if it matters to the answer.`
+      : ""
+  }
 
 How to work:
 - ALWAYS search before answering — your memory does not count as evidence.
@@ -593,11 +616,11 @@ How to work:
 }
 
 function entriesAgentSystemPrompt(
-  pinnedType: string | null,
+  pinnedTypes: string[] | null,
   pinnedShow: string | null
 ): string {
   const pinned = [
-    pinnedType ? `entry type = ${pinnedType}` : null,
+    pinnedTypes ? `entry types = ${pinnedTypes.join(" or ")}` : null,
     pinnedShow ? `show = ${pinnedShow}` : null,
   ]
     .filter(Boolean)

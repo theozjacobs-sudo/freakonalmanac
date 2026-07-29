@@ -7,6 +7,8 @@ import { resolveToken } from "@/lib/token";
 import EntryCardBody from "@/components/EntryCardBody";
 import NoTokenNotice from "@/components/NoTokenNotice";
 import SetupNotice from "@/components/SetupNotice";
+import TypePillFilter from "@/components/TypePillFilter";
+import { SHOWS } from "@/lib/filters";
 
 /**
  * The blind swipe deck.
@@ -20,6 +22,24 @@ import SetupNotice from "@/components/SetupNotice";
 const SWIPE_THRESHOLD = 90; // px past which release commits
 const FETCH_LOW_WATER = 6; // refill buffer when fewer than this remain
 const BATCH = 20;
+const FILTERS_KEY = "ff_deck_filters";
+
+function loadFilters(): { types: string[]; show: string } {
+  if (typeof window === "undefined") return { types: [], show: "all" };
+  try {
+    const raw = window.localStorage.getItem(FILTERS_KEY);
+    if (raw) {
+      const parsed = JSON.parse(raw) as { types?: string[]; show?: string };
+      return {
+        types: Array.isArray(parsed.types) ? parsed.types : [],
+        show: typeof parsed.show === "string" ? parsed.show : "all",
+      };
+    }
+  } catch {
+    /* fresh defaults */
+  }
+  return { types: [], show: "all" };
+}
 
 type Phase = "loading" | "no-token" | "bad-token" | "unconfigured" | "error" | "ready";
 
@@ -38,6 +58,11 @@ export default function ReviewClient() {
   const [done, setDone] = useState(0);
   const [history, setHistory] = useState<HistoryItem[]>([]);
   const [errorMsg, setErrorMsg] = useState("");
+
+  // Deck filters (persisted): empty types = all types; "all" = all shows.
+  const [typesF, setTypesF] = useState<string[]>(() => loadFilters().types);
+  const [showF, setShowF] = useState<string>(() => loadFilters().show);
+  const filtersActive = typesF.length > 0 || showF !== "all";
 
   // Everything the pointer/animation logic needs without re-rendering.
   const [drag, setDrag] = useState({ dx: 0, dy: 0, dragging: false });
@@ -62,10 +87,12 @@ export default function ReviewClient() {
       if (fetchingRef.current) return;
       fetchingRef.current = true;
       try {
-        const res = await fetch(
-          `/api/queue?r=${encodeURIComponent(tok)}&limit=${BATCH}`,
-          { cache: "no-store" }
-        );
+        const qs = new URLSearchParams({ r: tok, limit: String(BATCH) });
+        if (typesF.length > 0) qs.set("types", typesF.join(","));
+        if (showF !== "all") qs.set("show", showF);
+        const res = await fetch(`/api/queue?${qs.toString()}`, {
+          cache: "no-store",
+        });
         if (res.status === 401) {
           setPhase("bad-token");
           return;
@@ -94,8 +121,23 @@ export default function ReviewClient() {
         fetchingRef.current = false;
       }
     },
-    []
+    [typesF, showF]
   );
+
+  // Filter changes rebuild the deck: persist, clear, refetch (the initial
+  // fetch effect below re-fires because fetchQueue's identity changed).
+  useEffect(() => {
+    try {
+      window.localStorage.setItem(
+        FILTERS_KEY,
+        JSON.stringify({ types: typesF, show: showF })
+      );
+    } catch {
+      /* ignore */
+    }
+    setQueue([]);
+    setHistory([]);
+  }, [typesF, showF]);
 
   useEffect(() => {
     if (token) void fetchQueue(token, true);
@@ -251,6 +293,24 @@ export default function ReviewClient() {
 
   return (
     <div className="flex flex-col pb-8 pt-4 sm:pt-6">
+      {/* deck filters */}
+      <div className="mb-3 flex flex-wrap items-center gap-2">
+        <TypePillFilter selected={typesF} onChange={setTypesF} />
+        <select
+          value={showF}
+          onChange={(e) => setShowF(e.target.value)}
+          className="ml-auto rounded-lg border border-hair bg-surface px-2.5 py-1.5 text-xs text-ink"
+          aria-label="Filter deck by show"
+        >
+          <option value="all">All shows</option>
+          {SHOWS.map((s) => (
+            <option key={s} value={s}>
+              {s}
+            </option>
+          ))}
+        </select>
+      </div>
+
       {/* progress line */}
       <div className="mb-3 flex items-baseline justify-between gap-3">
         <p className="font-mono text-xs tabular-nums text-muted">
@@ -271,9 +331,21 @@ export default function ReviewClient() {
           <p className="text-3xl">🎉</p>
           <h2 className="mt-2 font-serif text-2xl font-bold text-ink">Deck cleared</h2>
           <p className="mt-2 text-sm text-muted">
-            You&rsquo;ve reviewed everything currently assigned to you. New entries
-            will show up here as they&rsquo;re mined.
+            {filtersActive
+              ? "You've reviewed everything assigned to you that matches these filters — clear or change them to keep going."
+              : "You've reviewed everything currently assigned to you. New entries will show up here as they're mined."}
           </p>
+          {filtersActive && (
+            <button
+              onClick={() => {
+                setTypesF([]);
+                setShowF("all");
+              }}
+              className="mt-4 rounded-lg border border-hair bg-surface-2 px-4 py-2 font-mono text-xs uppercase tracking-[0.1em] text-muted hover:text-ink"
+            >
+              Clear filters
+            </button>
+          )}
         </div>
       ) : (
         <div

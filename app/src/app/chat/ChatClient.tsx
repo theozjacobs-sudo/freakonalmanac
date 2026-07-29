@@ -6,6 +6,8 @@ import type { ChatEvent, ChatMode, ChatSource } from "@/lib/types";
 import { resolveToken } from "@/lib/token";
 import NoTokenNotice from "@/components/NoTokenNotice";
 import MarkdownLite from "@/components/MarkdownLite";
+import TypePillFilter from "@/components/TypePillFilter";
+import { SHOWS } from "@/lib/filters";
 
 /**
  * Grounded chat over the archive, in three modes:
@@ -20,18 +22,6 @@ import MarkdownLite from "@/components/MarkdownLite";
  * activity, streamed answer text, and cited episodes — rendered as they
  * arrive.
  */
-
-const ENTRY_TYPES = ["concept", "figure", "fact", "person", "place", "story"];
-const SHOWS = [
-  "Freakonomics Radio",
-  "No Stupid Questions",
-  "People I (Mostly) Admire",
-  "The Economics of Everyday Things",
-  "Freakonomics, M.D.",
-  "The Freakonomics Radio Book Club",
-  "Off Leash",
-  "Sudhir Breaks the Internet",
-];
 
 const MODES: { id: ChatMode; label: string; hint: string }[] = [
   {
@@ -84,7 +74,7 @@ export default function ChatClient() {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [input, setInput] = useState("");
   const [streaming, setStreaming] = useState(false);
-  const [entryTypeF, setEntryTypeF] = useState("all");
+  const [entryTypesF, setEntryTypesF] = useState<string[]>([]);
   const [showF, setShowF] = useState("all");
 
   const scrollRef = useRef<HTMLDivElement | null>(null);
@@ -174,8 +164,9 @@ export default function ChatClient() {
           token,
           mode,
           messages: history.map(({ role, content }) => ({ role, content })),
-          entry_type: mode === "entries" && entryTypeF !== "all" ? entryTypeF : undefined,
-          show: mode === "entries" && showF !== "all" ? showF : undefined,
+          entry_types:
+            mode === "entries" && entryTypesF.length > 0 ? entryTypesF : undefined,
+          show: mode !== "episode" && showF !== "all" ? showF : undefined,
           episode_id: mode === "episode" ? episodeId : undefined,
         }),
       });
@@ -254,7 +245,7 @@ export default function ChatClient() {
       setStreaming(false);
       abortRef.current = null;
     }
-  }, [input, token, streaming, mode, episodeId, messages, entryTypeF, showF]);
+  }, [input, token, streaming, mode, episodeId, messages, entryTypesF, showF]);
 
   // ---- render --------------------------------------------------------------
   if (phase === "no-token") return <NoTokenNotice />;
@@ -333,34 +324,22 @@ export default function ChatClient() {
         </div>
 
         {mode === "entries" && (
-          <>
-            <select
-              value={entryTypeF}
-              onChange={(e) => setEntryTypeF(e.target.value)}
-              className="rounded-lg border border-hair bg-surface px-2.5 py-1.5 text-sm text-ink"
-              aria-label="Filter entries by type"
-            >
-              <option value="all">All types</option>
-              {ENTRY_TYPES.map((t) => (
-                <option key={t} value={t}>
-                  {t}
-                </option>
-              ))}
-            </select>
-            <select
-              value={showF}
-              onChange={(e) => setShowF(e.target.value)}
-              className="rounded-lg border border-hair bg-surface px-2.5 py-1.5 text-sm text-ink"
-              aria-label="Filter entries by show"
-            >
-              <option value="all">All shows</option>
-              {SHOWS.map((s) => (
-                <option key={s} value={s}>
-                  {s}
-                </option>
-              ))}
-            </select>
-          </>
+          <TypePillFilter selected={entryTypesF} onChange={setEntryTypesF} />
+        )}
+        {mode !== "episode" && (
+          <select
+            value={showF}
+            onChange={(e) => setShowF(e.target.value)}
+            className="rounded-lg border border-hair bg-surface px-2.5 py-1.5 text-sm text-ink"
+            aria-label="Filter by show"
+          >
+            <option value="all">All shows</option>
+            {SHOWS.map((s) => (
+              <option key={s} value={s}>
+                {s}
+              </option>
+            ))}
+          </select>
         )}
       </div>
 

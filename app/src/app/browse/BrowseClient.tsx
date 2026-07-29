@@ -6,6 +6,7 @@ import type { BrowseEntry } from "@/lib/types";
 import { resolveToken } from "@/lib/token";
 import EntryCardBody from "@/components/EntryCardBody";
 import SetupNotice from "@/components/SetupNotice";
+import TypePillFilter from "@/components/TypePillFilter";
 import { DecisionChip, FreshnessPill, TypePill } from "@/components/pills";
 
 /**
@@ -23,7 +24,6 @@ type SortKey =
   | "freshness"
   | "my_decision";
 
-const ENTRY_TYPES = ["concept", "figure", "fact", "person", "place", "story"];
 const FRESHNESS = ["current", "aging", "check", "evergreen", "durable"];
 
 const CSV_COLUMNS: { key: keyof BrowseEntry; label: string }[] = [
@@ -61,7 +61,7 @@ export default function BrowseClient() {
   const [view, setView] = useState<"table" | "cards">("table");
 
   const [q, setQ] = useState("");
-  const [typeF, setTypeF] = useState("all");
+  const [typesF, setTypesF] = useState<string[]>([]);
   const [showF, setShowF] = useState("all");
   const [freshF, setFreshF] = useState("all");
   const [decisionF, setDecisionF] = useState("all");
@@ -103,7 +103,7 @@ export default function BrowseClient() {
     if (!entries) return [];
     const needle = q.trim().toLowerCase();
     let rows = entries.filter((e) => {
-      if (typeF !== "all" && e.entry_type !== typeF) return false;
+      if (typesF.length > 0 && !typesF.includes(e.entry_type)) return false;
       if (showF !== "all" && e.episode_show !== showF) return false;
       if (freshF !== "all" && e.freshness !== freshF) return false;
       if (decisionF === "undecided" && e.my_decision !== null) return false;
@@ -129,7 +129,7 @@ export default function BrowseClient() {
       return cmp !== 0 ? cmp * sortDir : a.headword.localeCompare(b.headword);
     });
     return rows;
-  }, [entries, q, typeF, showF, freshF, decisionF, sortKey, sortDir]);
+  }, [entries, q, typesF, showF, freshF, decisionF, sortKey, sortDir]);
 
   const toggleSort = (key: SortKey) => {
     if (key === sortKey) setSortDir((d) => (d === 1 ? -1 : 1));
@@ -232,12 +232,7 @@ export default function BrowseClient() {
             className="min-w-[180px] flex-1 rounded-lg border border-hair bg-surface px-3 py-2 text-sm text-ink placeholder:text-faint"
             aria-label="Search entries"
           />
-          <select value={typeF} onChange={(e) => setTypeF(e.target.value)} className={selectCls} aria-label="Filter by type">
-            <option value="all">All types</option>
-            {ENTRY_TYPES.map((t) => (
-              <option key={t} value={t}>{t}</option>
-            ))}
-          </select>
+          <TypePillFilter selected={typesF} onChange={setTypesF} />
           <select value={showF} onChange={(e) => setShowF(e.target.value)} className={selectCls} aria-label="Filter by show">
             <option value="all">All shows</option>
             {shows.map((s) => (
